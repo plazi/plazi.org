@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Plazi</title>
-    <link>https://plazi.github.io/plazi.org/resources/</link>
+    <link>https://test2.plazi.org/resources/</link>
     <description>Recent content in Resources on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 18:54:17 +0200</lastBuildDate><atom:link href="https://plazi.github.io/plazi.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 18:54:17 +0200</lastBuildDate><atom:link href="https://test2.plazi.org/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Schemas and Ontologies</title>
-      <link>https://plazi.github.io/plazi.org/resources/schemas-and-ontologies/</link>
+      <link>https://test2.plazi.org/resources/schemas-and-ontologies/</link>
       <pubDate>Sun, 13 Jun 2021 18:54:18 +0200</pubDate>
       
-      <guid>https://plazi.github.io/plazi.org/resources/schemas-and-ontologies/</guid>
+      <guid>https://test2.plazi.org/resources/schemas-and-ontologies/</guid>
       <description>TaxPub, TaxonX and Treatment Ontology.</description>
     </item>
     
     <item>
       <title>TreatmentBank</title>
-      <link>https://plazi.github.io/plazi.org/resources/treatmentbank/</link>
+      <link>https://test2.plazi.org/resources/treatmentbank/</link>
       <pubDate>Sun, 13 Jun 2021 18:54:18 +0200</pubDate>
       
-      <guid>https://plazi.github.io/plazi.org/resources/treatmentbank/</guid>
+      <guid>https://test2.plazi.org/resources/treatmentbank/</guid>
       <description>Scientists describe and communicate the discovery of new biological species with taxonomic treatments that are bound to the names used to refer to these taxa. Often they are very rich in content and increasingly linked to external resources. TreatmentBank is a resource that stores and provides access to the treatements and data therein.</description>
     </item>
     
