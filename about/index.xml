@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Plazi on Plazi</title>
-    <link>https://plazi.punkish.org/about/</link>
+    <link>https://plazi.github.io/plazi.org/about/</link>
     <description>Recent content in About Plazi on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 18:54:17 +0200</lastBuildDate><atom:link href="https://plazi.punkish.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 18:54:17 +0200</lastBuildDate><atom:link href="https://plazi.github.io/plazi.org/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uses of Data</title>
-      <link>https://plazi.punkish.org/about/uses-of-data/</link>
+      <link>https://plazi.github.io/plazi.org/about/uses-of-data/</link>
       <pubDate>Sat, 12 Jun 2021 12:37:18 +0200</pubDate>
       
-      <guid>https://plazi.punkish.org/about/uses-of-data/</guid>
+      <guid>https://plazi.github.io/plazi.org/about/uses-of-data/</guid>
       <description>&lt;h2&gt;Publications&lt;/h2&gt;&lt;h3&gt;on-going&lt;/h3&gt;&lt;a href=&#39;https://www.gbif.org/resource/search?contentType=literature&amp;publishingOrganizationKey=7ce8aef0-9e92-11dc-8738-b8a03c50a862&#39;&gt;Publications using GBIF datasets including Plazi mediated datasets&lt;/a&gt;&lt;h3&gt;2017&lt;/h3&gt;Hugo W, Hobern D, Kõljalg U, Ó Tuama É, Saarenma H 2017. Global</description>
     </item>
     
     <item>
       <title>Plazi Members</title>
-      <link>https://plazi.punkish.org/about/members/</link>
+      <link>https://plazi.github.io/plazi.org/about/members/</link>
       <pubDate>Sat, 12 Jun 2021 12:27:18 +0200</pubDate>
       
-      <guid>https://plazi.punkish.org/about/members/</guid>
+      <guid>https://plazi.github.io/plazi.org/about/members/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Donat Agosti&lt;/li&gt;
 &lt;li&gt;Klemens Böhm&lt;/li&gt;

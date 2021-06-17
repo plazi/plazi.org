@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Activities on Plazi</title>
-    <link>https://plazi.punkish.org/activities/</link>
+    <link>https://plazi.github.io/plazi.org/activities/</link>
     <description>Recent content in Activities on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 18:54:17 +0200</lastBuildDate><atom:link href="https://plazi.punkish.org/activities/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 18:54:17 +0200</lastBuildDate><atom:link href="https://plazi.github.io/plazi.org/activities/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://plazi.punkish.org/activities/bouchout-declaration/</link>
+      <link>https://plazi.github.io/plazi.org/activities/bouchout-declaration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://plazi.punkish.org/activities/bouchout-declaration/</guid>
+      <guid>https://plazi.github.io/plazi.org/activities/bouchout-declaration/</guid>
       <description>The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available. It offers members of the biodiversity community a way to demonstrate their commitment to open science.
 As signatories, we encourage an overarching approach to Open Biodiversity Knowledge Management which is based on the following fundamental principles:
 The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description>
