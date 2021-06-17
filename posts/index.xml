@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Plazi</title>
+    <link>https://plazi.punkish.org/posts/</link>
+    <description>Recent content in News on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.punkish.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BHL and Plazi partnership</title>
+      <link>https://plazi.punkish.org/posts/bhl-and-plazi-partnership/</link>
+      <pubDate>Tue, 15 Jun 2021 17:38:24 +0200</pubDate>
+      
+      <guid>https://plazi.punkish.org/posts/bhl-and-plazi-partnership/</guid>
+      <description>Today BHL announced a &lt;a href=&#34;https://drive.google.com/file/d/15QbYAuOyGkpS68YWlfpj0rdsZrl_oTWA/view&#34;&gt;partnership&lt;/a&gt; with Plazi BLR</description>
+    </item>
+    
+    <item>
+      <title>The digital age and the tragedy of not knowing what we know about biodiversity</title>
+      <link>https://plazi.punkish.org/posts/the-digital-age-and-the-tragedy-of-not-knowing-what-we-know-about-biodiversity/</link>
+      <pubDate>Sun, 13 Jun 2021 19:19:24 +0200</pubDate>
+      
+      <guid>https://plazi.punkish.org/posts/the-digital-age-and-the-tragedy-of-not-knowing-what-we-know-about-biodiversity/</guid>
+      <description>One of the big challenges in biology - how many species are on planet Earth,
+where do they live and what do they do -  is increasingly relevant in the age of
+the biodiversity crisis. In the digital age this turns awkward, because it
+becomes obvious that we do not even know what we know about biodiversity. Whilst
+the libraries have been the undisputed source of knowledge in the analogue age,
+having hard copies in libraries does not serve the needs anymore.</description>
+    </item>
+    
+    <item>
+      <title>materialCitation as a new class submitted to TDWG Darwin Core standard</title>
+      <link>https://plazi.punkish.org/posts/materialcitation-as-a-new-class-submitted-to-tdwg-darwin-core-standard/</link>
+      <pubDate>Mon, 12 Apr 2021 10:37:18 +0200</pubDate>
+      
+      <guid>https://plazi.punkish.org/posts/materialcitation-as-a-new-class-submitted-to-tdwg-darwin-core-standard/</guid>
+      <description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.
+As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description>
+    </item>
+    
+    <item>
+      <title>A new GBIF Plazi data issue feedback loop</title>
+      <link>https://plazi.punkish.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</link>
+      <pubDate>Thu, 18 Feb 2021 10:16:00 +0100</pubDate>
+      
+      <guid>https://plazi.punkish.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</guid>
+      <description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
+The grand challenge are an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description>
+    </item>
+    
+  </channel>
+</rss>

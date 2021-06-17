@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>A new GBIF Plazi data issue feedback loop - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
+The grand challenge are an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+	<style>
+		#mapid { height: 180px; }
+	</style>
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">News</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/resources/">
+				
+				<span class="menu__text">Resources</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				
+				<span class="menu__text">Projects</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/activities/">
+				
+				<span class="menu__text">Activities</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/partners/">
+				
+				<span class="menu__text">Partners</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/api-and-tools/">
+				
+				<span class="menu__text">API and Tools</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">A new GBIF Plazi data issue feedback loop</h1><div class="meta__item-author">
+                    <svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Puneet Kishor</span>
+                </div>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-02-18T10:16:00&#43;01:00">February 18, 2021</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+			<p>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.</p><p>The grand challenge are an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</p><p>This clearly can not be done by an individual institution, despite a rapidly developing technology. It needs collaboration and a strategy. With its rapidly growing corpus of liberated taxonomic treatments and technology, Plazi hopes to inspire others to join this endeavour. Whilst the greatest interest and richness in the data lies in the details - who collected when where what species - this can only be achieved, if its context is liberated, that is accessible as <a href="https://www.go-fair.org/fair-principles/">FAIR</a> taxonomic treatments.</p><p>Our current strategy is to make one million<strong> taxonomic  </strong>treatments openly accessible, including taxonomic names, and by leveraging treatment citations, build the catalogue of life with each name linked to the scientific argument and data. We are well on its <a href="http://plazi.org/">way</a>.</p><p>To tackle this, tools and infrastructures are developed, if necessary. They allow converting PDF documents into a text and multimedia stream that can be further processed by adding tags enhancing single words to entire sections with a meaning (semantic enhancement) so humans and machines can understand its content. This is quite a technical challenge.</p><p>Materials citations attract great attention. They reference specimens in various formats used in the research process leading to the research results - in the biodiversity world - the published taxonomic treatments. However, they are a collateral in the current production. We try to discover them, make them accessible via the Global Biodiversity Information Facility <a href="https://gbif.org/">(GBIF)</a> as occurrences. We routinely quality control holotype citations whether they are properly extracted, and let the others pass, unless dedicated resources are available.</p><p>We believe that, despite this raw form, we provide a services by drawing attention to specimens in collections and species that are not recorded in GBIF, and that this will eventually lead to better data. It will raise the awareness of authors and publishers of the value to publish specimen data in a standardized way, as proposed by <a href="https://doi.org/10.5852/ejt.2019.586">EJT</a> and <a href="https://zookeys.pensoft.net/about">Pensoft</a>.</p><p>We also believe that together with your input, we can make the material citations fitter for more uses.</p><p>The launch of the new feedback button in GBIF reflects the commitment by GBIF and Plazi to care about the data. It allows a user to send a request for a review of specific data to Plazi. Its care team will respond in a very short time and notify the result, once the issue has been resolved, including the update of the record in GBIF. At the same time, these requests will be collected to analyse the reason for the issues and develop respective measures to mitigate them. With the users input we can improve our production to provide fitter data.</p><p>Liberating data is a great challenge from building technologies, operations to funding on the one hand, and on the other hopefully contributes more to a new way scientists publish their research results.</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			Plazi &copy; 2021 Plazi. Published under CC0 Public Domain Dedication
+			
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
