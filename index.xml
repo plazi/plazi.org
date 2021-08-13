@@ -1,176 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Plazi</title>
-    <link>https://test2.plazi.org/</link>
-    <description>Recent content in Home on Plazi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://test2.plazi.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BHL and Plazi partnership</title>
-      <link>https://test2.plazi.org/posts/bhl-and-plazi-partnership/</link>
-      <pubDate>Tue, 15 Jun 2021 17:38:24 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/posts/bhl-and-plazi-partnership/</guid>
-      <description>Today BHL announced a &lt;a href=&#34;https://drive.google.com/file/d/15QbYAuOyGkpS68YWlfpj0rdsZrl_oTWA/view&#34;&gt;partnership&lt;/a&gt; with Plazi BLR</description>
-    </item>
-    
-    <item>
-      <title>Partners</title>
-      <link>https://test2.plazi.org/partners/</link>
-      <pubDate>Mon, 14 Jun 2021 19:02:17 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/partners/</guid>
-      <description>&lt;p&gt;Wikidata
-Plazi [https://www.wikidata.org/wiki/Q7203726] initiated in Wikidata
-[https://www.wikidata.org/wiki/Wikidata:Main_Page] accesss to treatments
-[https://www.wikidata.org/wiki/Property:P1992] and data included therein, and
-through this provides access to all the treatments hold in TreatmentBank.&lt;/p&gt;
-&lt;p&gt;read more [http://plazi.org/cooperation/projects/wikidata/]&lt;/p&gt;
-&lt;p&gt;Zenodo
-Zenodo and Plazi collaborate in developing the Biodiversity Literature
-Repository
-[http://plazi.org/cooperation/resources/biblio&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The digital age and the tragedy of not knowing what we know about biodiversity</title>
-      <link>https://test2.plazi.org/posts/the-digital-age-and-the-tragedy-of-not-knowing-what-we-know-about-biodiversity/</link>
-      <pubDate>Sun, 13 Jun 2021 19:19:24 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/posts/the-digital-age-and-the-tragedy-of-not-knowing-what-we-know-about-biodiversity/</guid>
-      <description>One of the big challenges in biology - how many species are on planet Earth,
-where do they live and what do they do -  is increasingly relevant in the age of
-the biodiversity crisis. In the digital age this turns awkward, because it
-becomes obvious that we do not even know what we know about biodiversity. Whilst
-the libraries have been the undisputed source of knowledge in the analogue age,
-having hard copies in libraries does not serve the needs anymore.</description>
-    </item>
-    
-    <item>
-      <title>Contribute</title>
-      <link>https://test2.plazi.org/contribute/</link>
-      <pubDate>Sun, 13 Jun 2021 18:54:20 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/contribute/</guid>
-      <description>&lt;p&gt;Help us in our mission to liberate dagta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Contribute reviews via writing a blog post&lt;/li&gt;
-&lt;li&gt;Contribute good vibes via telling your friends about us&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thanks for checking us out!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy</title>
-      <link>https://test2.plazi.org/privacy/</link>
-      <pubDate>Sun, 13 Jun 2021 18:54:19 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/privacy/</guid>
-      <description>&lt;p&gt;This privacy policy sets out how Plazi uses and protects any information that
-you give Plazi” when you use this website.&lt;/p&gt;
-&lt;p&gt;Plazi is committed to ensuring that your privacy is protected. Should we ask you
-to provide certain information by which you can be identified when using this
-website, then you can be assured that it will only be used in accordance with
-this privacy statement.&lt;/p&gt;
-&lt;p&gt;Plazi may change this policy from time to time by updating this page. You should
-check this page from time to time t&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://test2.plazi.org/contact/</link>
-      <pubDate>Sun, 13 Jun 2021 18:54:18 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/contact/</guid>
-      <description>For questions, suggestions, contributions, please contact us via email.</description>
-    </item>
-    
-    <item>
-      <title>Schemas and Ontologies</title>
-      <link>https://test2.plazi.org/resources/schemas-and-ontologies/</link>
-      <pubDate>Sun, 13 Jun 2021 18:54:18 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/resources/schemas-and-ontologies/</guid>
-      <description>TaxPub, TaxonX and Treatment Ontology.</description>
-    </item>
-    
-    <item>
-      <title>TreatmentBank</title>
-      <link>https://test2.plazi.org/resources/treatmentbank/</link>
-      <pubDate>Sun, 13 Jun 2021 18:54:18 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/resources/treatmentbank/</guid>
-      <description>Scientists describe and communicate the discovery of new biological species with taxonomic treatments that are bound to the names used to refer to these taxa. Often they are very rich in content and increasingly linked to external resources. TreatmentBank is a resource that stores and provides access to the treatements and data therein.</description>
-    </item>
-    
-    <item>
-      <title>API</title>
-      <link>https://test2.plazi.org/api-and-tools/api/</link>
-      <pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/api-and-tools/api/</guid>
-      <description>API</description>
-    </item>
-    
-    <item>
-      <title>Uses of Data</title>
-      <link>https://test2.plazi.org/about/uses-of-data/</link>
-      <pubDate>Sat, 12 Jun 2021 12:37:18 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/about/uses-of-data/</guid>
-      <description>&lt;h2&gt;Publications&lt;/h2&gt;&lt;h3&gt;on-going&lt;/h3&gt;&lt;a href=&#39;https://www.gbif.org/resource/search?contentType=literature&amp;publishingOrganizationKey=7ce8aef0-9e92-11dc-8738-b8a03c50a862&#39;&gt;Publications using GBIF datasets including Plazi mediated datasets&lt;/a&gt;&lt;h3&gt;2017&lt;/h3&gt;Hugo W, Hobern D, Kõljalg U, Ó Tuama É, Saarenma H 2017. Global</description>
-    </item>
-    
-    <item>
-      <title>Plazi Members</title>
-      <link>https://test2.plazi.org/about/members/</link>
-      <pubDate>Sat, 12 Jun 2021 12:27:18 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/about/members/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Donat Agosti&lt;/li&gt;
-&lt;li&gt;Klemens Böhm&lt;/li&gt;
-&lt;li&gt;Terry Catapano&lt;/li&gt;
-&lt;li&gt;Hong Cui&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>materialCitation as a new class submitted to TDWG Darwin Core standard</title>
-      <link>https://test2.plazi.org/posts/materialcitation-as-a-new-class-submitted-to-tdwg-darwin-core-standard/</link>
-      <pubDate>Mon, 12 Apr 2021 10:37:18 +0200</pubDate>
-      
-      <guid>https://test2.plazi.org/posts/materialcitation-as-a-new-class-submitted-to-tdwg-darwin-core-standard/</guid>
-      <description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.
-As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description>
-    </item>
-    
-    <item>
-      <title>A new GBIF Plazi data issue feedback loop</title>
-      <link>https://test2.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</link>
-      <pubDate>Thu, 18 Feb 2021 10:16:00 +0100</pubDate>
-      
-      <guid>https://test2.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</guid>
-      <description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
-The grand challenge are an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://test2.plazi.org/activities/bouchout-declaration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://test2.plazi.org/activities/bouchout-declaration/</guid>
-      <description>The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available. It offers members of the biodiversity community a way to demonstrate their commitment to open science.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Plazi</title><link>https://stage.plazi.org/</link><description>Recent content in Home on Plazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://stage.plazi.org/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post by Sebi</title><link>https://stage.plazi.org/posts/sebis-first-post/</link><pubDate>Wed, 04 Aug 2021 18:18:13 +0200</pubDate><guid>https://stage.plazi.org/posts/sebis-first-post/</guid><description>This is a test post with a header images. enjoy!</description></item><item><title>Arosa</title><link>https://stage.plazi.org/posts/arosa-village/</link><pubDate>Thu, 22 Jul 2021 18:18:13 +0200</pubDate><guid>https://stage.plazi.org/posts/arosa-village/</guid><description>This is a story about my unholiday. written by Donat.</description></item><item><title>BHL and Plazi partnership</title><link>https://stage.plazi.org/posts/bhl-and-plazi-partnership/</link><pubDate>Mon, 14 Jun 2021 19:02:17 +0200</pubDate><guid>https://stage.plazi.org/posts/bhl-and-plazi-partnership/</guid><description>BHL and Plazi have agreed to collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF. This includes the following steps:
+Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description></item><item><title>Partners</title><link>https://stage.plazi.org/partners/</link><pubDate>Mon, 14 Jun 2021 19:02:17 +0200</pubDate><guid>https://stage.plazi.org/partners/</guid><description>Zenodo Zenodo and Plazi collaborate in developing the Biodiversity Literature Repository as an open access repository to articles related to biodiversity.
+read more
+GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. Plazi provides occurrences liberated and extracted from the scientific literature, especially from treatments. The assignment of persistent identifiers to treatments allows to cite the source of the occurence taxon.
+read more
+Swiss Institute of Bioinformatics Plazi is a taxonomic treatment data provider for the Swiss Institute of Bionformatics Library System, Switzerland.</description></item><item><title>1 Million Treatments</title><link>https://stage.plazi.org/activities/1-million-treatments/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/activities/1-million-treatments/</guid><description>Over the next years, Plazi’s goal is to link 1 Million taxonomic name usages with their corresponding treatments. This will allow to bridge the gap from the general use of scientific names with the underlying taxonomic literature. It will provide a direct, citable link to the section in scientific articles that include the treatment and the implicit and explicit link to external resources.
+The treatments are a unique sources for objects (i.</description></item><item><title>Bouchout Declaration</title><link>https://stage.plazi.org/activities/bouchout-declaration/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/activities/bouchout-declaration/</guid><description>The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available. It offers members of the biodiversity community a way to demonstrate their commitment to open science.
 As signatories, we encourage an overarching approach to Open Biodiversity Knowledge Management which is based on the following fundamental principles:
-The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description>
-    </item>
-    
-  </channel>
-</rss>
+The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display - the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community - practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description></item><item><title>Golden Gate</title><link>https://stage.plazi.org/data-apis-tools/golden-gate/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/golden-gate/</guid><description>Golden Gate is a family of software including a server, an editor, a web-based editor, and web-services. Golden Gate uses the Image Markup File (IMF) format for data storage, archival and exchange.</description></item><item><title>Image Markup File (IMF)</title><link>https://stage.plazi.org/data-apis-tools/image-markup-file/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/image-markup-file/</guid><description>Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.
+IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.</description></item><item><title>Lectures</title><link>https://stage.plazi.org/activities/lectures/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/activities/lectures/</guid><description>Egloff W, Agosti D 2016. Legal and Ethical Reasons for Free and Open Biodiversity Information. XXV International Congress of Entomology (ICE 2016), Orlando, USA, 25-30 September, 2016 (Session 156 , Part 0672) doi: 10.5281/zenodo.165975
+Agosti, D 2016. Where do we come from, where do we go to? 20 years of Open Access to biodiversity knowledge. XXV International Congress of Entomology (ICE 2016), Orlando, USA, 25-30 September, 2016 (Session 647 , Part 4332).</description></item><item><title>Legal Issues</title><link>https://stage.plazi.org/activities/the-blue-list/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/activities/the-blue-list/</guid><description>Plazi is involved with its legal expertise in clarifying legal conditions for access and reuse of scientific information and developping principles on the legal interoperability of research data. In that persepctive, Plazi contributed to the following activities:
+Analysis of European copyright and database law referring to the open exchange of scientific information [1] for Pro-iBiosphere (2014) ; Elaboration of a data sharing policy and a data sharing agreement [2] for the EU BON project (2014); Elaboration of principles on the legal interoperability of research data by the RDA-CODATA Interest Group (2015/2016).</description></item><item><title>Ocellus</title><link>https://stage.plazi.org/data-apis-tools/ocellus/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/ocellus/</guid><description>Ocellus is a frontend to the Biodiversity Literature Repository (BLR) community with images on Zenodo, taxonomic treatments in TreatmentBank, and citations on RefBank. Ocellus depends on Zenodeo, a nodejs API that queries, analyzes and aggregates results from these various repositories via a single, unified interface.</description></item><item><title>Plazi Members</title><link>https://stage.plazi.org/about/members/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/about/members/</guid><description>Donat Agosti
+Taxonomic literature, systematics and conservation
+President Plazi
+Director Plazi GmbH
+Research Associate
+Naturhistorisches Museum, Bern
+Berne, Switzerland
+e-mail
+Klemens Böhm
+Member of Board (2008-)
+Professor
+Lehrstuhl für Systeme der Informationsverwaltung
+Karlsruher Institute of Technology
+Karlsruhe, GERMANY
+e-mail
+Terry Catapano
+Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
+Vice-President Plazi
+Columbia University
+New York, USA
+e-mail
+Hong Cui</description></item><item><title>Synospecies</title><link>https://stage.plazi.org/data-apis-tools/synospecies/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/synospecies/</guid><description>Synospecies is a tool developed by FactsMission AG to leverage the RDF data provided by Plazi. The RDF data of all treatments is stored in an AllegroGraph triple store allowing SPARQL queries over the data. Synospecies allows manually writing and submitting such queries in the advanced mode and send such queries in the background when using the easier interface.</description></item><item><title>The Blue List</title><link>https://stage.plazi.org/activities/legal-issues/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/activities/legal-issues/</guid><description>An impediment to open sharing of biological content is uncertainty as to whether and how intellectual property rights apply to biodiversity information. To clarify the situation, and in collaboration with the Global Names project, Plazi organized a workshop in Tempe, Arizona in April 2013 in which we brought together providers and users of taxonomic information, data managers, and Intellectual property Rights lawyers from Europe and the USA. The perspectives of interested parties were submitted via a SNARL (Scientific Names Attributes, Rights and Licensing) wiki.</description></item><item><title>Zenodeo</title><link>https://stage.plazi.org/data-apis-tools/zenodeo/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/zenodeo/</guid><description>Zenodeo is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.
+const search = function(e) { const q = document.getElementById('q') const search_results = document.getElementById('search_results') fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error('HTTP error, status = ' + response.status); } return response.json(); }) .then(function(response) { search_results.innerHTML = `Zenodeo search results ${JSON.stringify(response, null, 4)}` }) e.stopPropagation() e.preventDefault() } window.onload = function(e) { const searchBtn = document.getElementById('searchBtn') searchBtn.addEventListener('click', search) }()</description></item><item><title>Contact</title><link>https://stage.plazi.org/contact/</link><pubDate>Sun, 13 Jun 2021 19:16:45 +0200</pubDate><guid>https://stage.plazi.org/contact/</guid><description>For questions, suggestions, contributions, please contact us via email.</description></item><item><title>A new GBIF Plazi data issue feedback loop</title><link>https://stage.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</guid><description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
+The grand challenge is an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description></item><item><title>Biodiversity Literature Repository</title><link>https://stage.plazi.org/data-apis-tools/biolit-repo/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/biolit-repo/</guid><description>Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation. Its focus is on thematic corpora, such as particular taxonomic groups, eg.</description></item><item><title>BioWikiFarm</title><link>https://stage.plazi.org/data-apis-tools/biowikifarm/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/biowikifarm/</guid><description>Biowikifarm is a shared technical platform supporting a number of mediawiki installations used by a large number projects in biological research for open content publishing. The primary purpose of the shared platform is to be able to maintain the published data and information in a long term sustainable way, to work more efficiently and distribute administrative and maintenance work among several partners. Furthermore, the biowikifarm operates a shared media repository, enabling synergies in re-using media content.</description></item><item><title>Building the European Biodiversity Observation Network</title><link>https://stage.plazi.org/projects/ongoing/eu-bon/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/ongoing/eu-bon/</guid><description>EU BON (2012) stands for “Building the European Biodiversity Observation Network” and is an European research project, financed by the 7th EU framework programme for research and development (FP7). EU BON seeks ways to better integrate biodiversity information and implement into policy and decision-making of biodiversity monitoring and management in the EU.
+Plazi’s activities:
+Develop and provide access to biodiversity content from the published - scientific record develop data standards and exchange protocols develop the legal framework for data publishing and dissemination explore ways to involve citizen science to mobilize biodiversity data</description></item><item><title>Contribute</title><link>https://stage.plazi.org/about/contribute/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/about/contribute/</guid><description>Help us in our mission to liberate data
+Contribute reviews via writing a blog post Contribute good vibes via telling your friends about us Thanks for checking us out!</description></item><item><title>Feeds</title><link>https://stage.plazi.org/resources/feeds/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/resources/feeds/</guid><description>Plazi offers RSS feeds for extracted treatments and updates via Twitter
+Notification RSS-feed (html) RSS-feed (XML) Twitter Plazi Treatment Repo Plazi</description></item><item><title>LinkD</title><link>https://stage.plazi.org/projects/past/linkd/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/past/linkd/</guid><description>LinkD (pronounced &amp;lsquo;linked&amp;rsquo;) will unite European biodiversity scientists behind a common set of infrastructures and goals leveraging existing investment in biodiversity science infrastructures in support of the long-term community inspired vision of modelling the biosphere.
+Submitted to EU Horizon 2020, EINFRA-9-2015 | e-Infrastructures for Virtual Research Environments (VRE), January 2015. Participation: Partner</description></item><item><title>materialCitation as a new class submitted to TDWG Darwin Core standard</title><link>https://stage.plazi.org/posts/materialcitation-as-a-new-class-submitted-to-tdwg-darwin-core-standard/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/posts/materialcitation-as-a-new-class-submitted-to-tdwg-darwin-core-standard/</guid><description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.
+As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description></item><item><title>Privacy</title><link>https://stage.plazi.org/privacy/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/privacy/</guid><description>This privacy policy sets out how Plazi uses and protects any information that you give Plazi” when you use this website.
+Plazi is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.
+Plazi may change this policy from time to time by updating this page.</description></item><item><title>pro-iBiosphere</title><link>https://stage.plazi.org/projects/past/pro-ibiosphere/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/past/pro-ibiosphere/</guid><description>The aim of pro-iBiosphere is to prepare (= pro), through a coordination action, the ground for an integrative system (= sphere) for intelligent (= i) management of biodiversity (= bio) knowledge. Once it becomes operational, the European Open Biodiversity Knowledge Management System will play a major role in facilitating the synthesis of core biodiversity data by creating an authoritative framework including, discovery of new species, naming of specimens and species, identification tools, descriptions, and various other basic types of information.</description></item><item><title>RefBank</title><link>https://stage.plazi.org/data-apis-tools/refbank/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/refbank/</guid><description>RefBank is a website where you can search for bibliographic references. No registration is required (everyone can upload and edit). Results can be converted in different styles and formats. It serves as the “dirty bucket” of references and source for “clean buckets” such as the references in the Biodiversity Literature Repository</description></item><item><title>ReFindit</title><link>https://stage.plazi.org/data-apis-tools/refindit/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/refindit/</guid><description>ReFindit provides an easy search function, based on a simple interface, which also collates and sorts the results from the search engines for presentation to the user to read and with the option to refine the results presented or submit a new search.</description></item><item><title>Schemas and Ontologies</title><link>https://stage.plazi.org/resources/schema-and-ontologies/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/resources/schema-and-ontologies/</guid><description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. more
+TaxonX Taxonx is a XML schema for encoding legacy taxonomic literature in order to identify taxonomic treatments and lover level textual data such as scientific names, localities, morphological characters, and bibliographic citations.</description></item><item><title>Services</title><link>https://stage.plazi.org/resources/services/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/resources/services/</guid><description>Plazi offers services and consultancies in the areas of developing and maintaining schemas related to scientific literature, legal analyses and policies in area of scientific literature and data sharing, and brokering and providing data conversion. Publications and lectures are also available. For inquiries, please contact us via email.</description></item><item><title>The Bibliography of Life</title><link>https://stage.plazi.org/resources/bol/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/resources/bol/</guid><description>The Bibliography of Life (BoL) is a contribution towards building a reference bibliography for biodiversity with direct citable, open access to digital object of bibliographic references.
+Biodiversity Literature Repository Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation.</description></item><item><title>The digital age and the tragedy of not knowing what we know about biodiversity</title><link>https://stage.plazi.org/posts/the-digital-age-and-the-tragedy-of-not-knowing-what-we-know-about-biodiversity/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/posts/the-digital-age-and-the-tragedy-of-not-knowing-what-we-know-about-biodiversity/</guid><description>One of the big challenges in biology - how many species are on planet Earth, where do they live and what do they do - is increasingly relevant in the age of the biodiversity crisis. In the digital age this turns awkward, because it becomes obvious that we do not even know what we know about biodiversity. Whilst the libraries have been the undisputed source of knowledge in the analogue age, having hard copies in libraries does not serve the needs anymore.</description></item><item><title>The Story Behind Plazi</title><link>https://stage.plazi.org/about/the-story-behind-plazi/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/about/the-story-behind-plazi/</guid><description>Placidus Spescha was not only one of the first alpinists and naturalists but was also deeply committed to the ideals of the Enlightenment. He often ran afoul of his superiors who felt he neglected his priestly duties in favor of his scientific pursuits. Worse yet, he further angered the status quo through his sympathy and support of the French in the follow-up of the wars spurred by the French Revolution which brought invasions of French and Austrian troops into his home, Disentis in the Vorderrhein Tal in Switzerland.</description></item><item><title>TreatmentBank</title><link>https://stage.plazi.org/data-apis-tools/treatmentbank/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/treatmentbank/</guid><description>TreatmentBank is a resource that stores and provides access to the treatements and data therein.
+Latest Treatments const search = function(e) { const q = document.getElementById('q') const search_results = document.getElementById('search_results') //const tb = 'https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery=' + q.value fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error('HTTP error, status = ' + response.status); } return response.json(); }) .then(function(response) { let res = 'Treatments search results' response.</description></item><item><title>Wiki4R</title><link>https://stage.plazi.org/projects/past/wiki4r/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/past/wiki4r/</guid><description>Wiki4R will create an innovative virtual research environment (VRE) for Open Science at scale, engaging both professional researchers and citizen data scientists in new and potentially transformative forms of collaboration.
+It is based on the realizations that (1) the structured parts of the Web itself can be regarded as a VRE, (2) such environments depend on communities, (3) closed environments are limited in their capacity to nurture thriving communities.
+Wiki4R will therefore integrate Wikidata, the multilingual semantic backbone behind Wikipedia, into existing research processes to enable transdisciplinary research and reduce fragmentation of research in and outside Europe.</description></item><item><title>Statistics</title><link>https://stage.plazi.org/data-apis-tools/statistics/</link><pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/statistics/</guid><description>This is an analysis and mining tool for the data contained in TreatmentBank. Access is provided at article and treatment level. Documentation is available.
+The user can select fields and download Plazi treatment data in multiple formats. Selected fields turn from gray to green. Data on all materials (cited specimens) are available through the “Materials Citations Data” domain; these data are summarized by treatment in the “Materials Data” domain. Select the relevant operation (e.</description></item><item><title>TreatmentBank API</title><link>https://stage.plazi.org/data-apis-tools/treatmentbank-api/</link><pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/treatmentbank-api/</guid><description>What is a treatment? The Plazi TreatmentBank [1] deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository [2] at Zenodo/CERN.
+Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication) [3].</description></item><item><title>Visualization Tools</title><link>https://stage.plazi.org/data-apis-tools/visualization-tools/</link><pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate><guid>https://stage.plazi.org/data-apis-tools/visualization-tools/</guid><description>All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description></item><item><title>Uses of Data</title><link>https://stage.plazi.org/about/uses-of-data/</link><pubDate>Sat, 12 Jun 2021 12:37:18 +0200</pubDate><guid>https://stage.plazi.org/about/uses-of-data/</guid><description>Publications on-going Publications using GBIF datasets including Plazi mediated datasets
+2017 Hugo W, Hobern D, Kõljalg U, Ó Tuama É, Saarenma H 2017. Global Infrastructures for Biodiversity Data and Services. In: Walters M and Scholes RJ (eds.), The GEO Handbook on Biodiversity Observation Networks, doi: 10.1007/978-3-319-27288-7_11)
+2016 Alonso LA, Agosti D 2016. Ants. In: Larsen TH (ed.) 2016. Core Standardized Methods for Rapid Biological Field Assessment. Conservation International, Arlington, VA. pp.</description></item></channel></rss>

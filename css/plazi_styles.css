@@ -1,0 +1,49 @@
+/* custom plazi styles */
+#mapContainer {
+	border: 1px solid black;
+	padding: 5px;
+	/* margin-bottom: 20px; */
+}
+
+#mapid { height: 180px; }
+
+div.featured { 
+	float: left; 
+	padding: 20px; 
+	border: 1px solid; 
+	border-radius: 10px; 
+	margin: 10px; 
+	width: 200px; 
+	max-width: 200px; 
+	height: 200px;
+	cursor: pointer; 
+	font-weight: 800;
+	font-size: 15px;
+}
+
+div.featured p.summary { 
+	/* visibility: hidden; 
+	display: none;  */
+	font-weight: 200;
+	font-size: small;
+	color: lightgrey;
+}
+div.featured:hover { background-color: #9BC134; }
+p.summary a { 
+	/* visibility: visible; 
+	display: block;  */
+	color: lightgrey; 
+	font-weight: 200;
+}
+div.featured:hover p.summary a { 
+	/* visibility: visible; 
+	display: block;  */
+	color: #fff; 
+	text-decoration: none;
+}
+
+/* search form styles */
+label { float: left; width: calc(100% - 150px); }
+input.searchInput { width: 100%; padding: 10px; margin: none; background-color: white; }
+input.searchBtn { display: block; width: 150px; }
+details p { margin-left: 1rem; color: grey; }

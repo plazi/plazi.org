@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Plazi</title>
-    <link>https://test2.plazi.org/categories/</link>
-    <description>Recent content in Categories on Plazi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://test2.plazi.org/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Plazi</title><link>https://stage.plazi.org/categories/</link><description>Recent content in Categories on Plazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Aug 2021 18:18:13 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Holiday</title><link>https://stage.plazi.org/categories/holiday/</link><pubDate>Wed, 04 Aug 2021 18:18:13 +0200</pubDate><guid>https://stage.plazi.org/categories/holiday/</guid><description/></item><item><title>Nature</title><link>https://stage.plazi.org/categories/nature/</link><pubDate>Wed, 04 Aug 2021 18:18:13 +0200</pubDate><guid>https://stage.plazi.org/categories/nature/</guid><description/></item></channel></rss>

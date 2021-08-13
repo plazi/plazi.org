@@ -585,7 +585,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .main__content {
 	margin-bottom: 20px;
-	margin-bottom: 1.25rem;
+	margin-bottom: 3.25rem;
+	border-bottom: 1px dotted black;
 }
 
 .meta {
@@ -1083,7 +1084,7 @@ textarea {
 /* Search widget */
 .widget-search__form {
 	display: block;
-	padding: 5%;
+	padding: 20px;
 	margin: 0 auto;
 	background: #f5f5f5;
 }
@@ -1095,7 +1096,7 @@ textarea {
 .widget-search__field {
 	position: relative;
 	display: block;
-	width: 90%;
+	width: 100%;
 	padding: 8px;
 	margin: 0 auto;
 	font-size: 11px;
@@ -1106,6 +1107,7 @@ textarea {
 	outline-offset: -2px;
 	transition: none;
 	-webkit-appearance: none;
+	font-size: 20px;
 }
 
 .widget-search__field:active,
