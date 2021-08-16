@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GBIF on Plazi</title><link>https://stage.plazi.org/tags/gbif/</link><description>Recent content in GBIF on Plazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/gbif/index.xml" rel="self" type="application/rss+xml"/><item><title>A new GBIF Plazi data issue feedback loop</title><link>https://stage.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</guid><description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
-The grand challenge is an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GBIF on Plazi</title>
+    <link>https://stage.plazi.org/tags/gbif/</link>
+    <description>Recent content in GBIF on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/gbif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A new GBIF Plazi data issue feedback loop</title>
+      <link>https://stage.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/posts/a-new-gbif-plazi-data-issue-feedback-loop/</guid>
+      <description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
+The grand challenge is an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>about on Plazi</title><link>https://stage.plazi.org/tags/about/</link><description>Recent content in about on Plazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About Plazi</title><link>https://stage.plazi.org/about/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/about/</guid><description>Welcome Plazi is a not-for-profit organization based in Bern, Switzerland and was founded on March 13th 2008. The bylaws are available in English and German
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Plazi</title>
+    <link>https://stage.plazi.org/tags/about/</link>
+    <description>Recent content in about on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Plazi</title>
+      <link>https://stage.plazi.org/about/</link>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/about/</guid>
+      <description>Welcome Plazi is a not-for-profit organization based in Bern, Switzerland and was founded on March 13th 2008. The bylaws are available in English and German
 Plazi supports and promotes the development of persistent and openly accessible digital taxonomic literature. To this end Plazi:
-Maintains a digital taxonomic literature repository to enable archiving of taxonomic treatments. Enhances submitted taxonomic treatments by creating TaxonX and Taxpub XML versions. Participates in the development of new models for publishing taxonomic treatments in order to maximize interoperability with relevant cyberinfrastructure components (e.</description></item><item><title>Plazi Members</title><link>https://stage.plazi.org/about/members/</link><pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate><guid>https://stage.plazi.org/about/members/</guid><description>Donat Agosti
+ Maintains a digital taxonomic literature repository to enable archiving of taxonomic treatments. Enhances submitted taxonomic treatments by creating TaxonX and Taxpub XML versions. Participates in the development of new models for publishing taxonomic treatments in order to maximize interoperability with relevant cyberinfrastructure components (e.</description>
+    </item>
+    
+    <item>
+      <title>Plazi Members</title>
+      <link>https://stage.plazi.org/about/members/</link>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/about/members/</guid>
+      <description>Donat Agosti
 Taxonomic literature, systematics and conservation
 President Plazi
 Director Plazi GmbH
@@ -8,18 +32,40 @@ Research Associate
 Naturhistorisches Museum, Bern
 Berne, Switzerland
 e-mail
-Klemens Böhm
+  Klemens Böhm
 Member of Board (2008-)
 Professor
 Lehrstuhl für Systeme der Informationsverwaltung
 Karlsruher Institute of Technology
 Karlsruhe, GERMANY
 e-mail
-Terry Catapano
+  Terry Catapano
 Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
 Vice-President Plazi
 Columbia University
 New York, USA
 e-mail
-Hong Cui</description></item><item><title>Contribute</title><link>https://stage.plazi.org/about/contribute/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/about/contribute/</guid><description>Help us in our mission to liberate data
-Contribute reviews via writing a blog post Contribute good vibes via telling your friends about us Thanks for checking us out!</description></item><item><title>The Story Behind Plazi</title><link>https://stage.plazi.org/about/the-story-behind-plazi/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/about/the-story-behind-plazi/</guid><description>Placidus Spescha was not only one of the first alpinists and naturalists but was also deeply committed to the ideals of the Enlightenment. He often ran afoul of his superiors who felt he neglected his priestly duties in favor of his scientific pursuits. Worse yet, he further angered the status quo through his sympathy and support of the French in the follow-up of the wars spurred by the French Revolution which brought invasions of French and Austrian troops into his home, Disentis in the Vorderrhein Tal in Switzerland.</description></item></channel></rss>
+  Hong Cui</description>
+    </item>
+    
+    <item>
+      <title>Contribute</title>
+      <link>https://stage.plazi.org/about/contribute/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/about/contribute/</guid>
+      <description>Help us in our mission to liberate data
+ Contribute reviews via writing a blog post Contribute good vibes via telling your friends about us  Thanks for checking us out!</description>
+    </item>
+    
+    <item>
+      <title>The Story Behind Plazi</title>
+      <link>https://stage.plazi.org/about/the-story-behind-plazi/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/about/the-story-behind-plazi/</guid>
+      <description>Placidus Spescha was not only one of the first alpinists and naturalists but was also deeply committed to the ideals of the Enlightenment. He often ran afoul of his superiors who felt he neglected his priestly duties in favor of his scientific pursuits. Worse yet, he further angered the status quo through his sympathy and support of the French in the follow-up of the wars spurred by the French Revolution which brought invasions of French and Austrian troops into his home, Disentis in the Vorderrhein Tal in Switzerland.</description>
+    </item>
+    
+  </channel>
+</rss>

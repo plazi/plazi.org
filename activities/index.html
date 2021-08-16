@@ -1,22 +1,310 @@
-<!doctype html><html class=no-js lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>Activities - Plazi</title><script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script><meta name=description content="- Legal Issues
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Activities - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="- Legal Issues
 - Bouchout Declaration
 - Blue List
 - Lectures
 - Publications
 - 1 Million Treatments
-"><link rel=stylesheet href=/css/style.css><link rel=alternate type=application/rss+xml href=/activities/index.xml title=Plazi><link rel="shortcut icon" href=/img/favicon_io/favicon.ico><link rel=stylesheet href=https://unpkg.com/leaflet@1.7.1/dist/leaflet.css integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin><script src=https://unpkg.com/leaflet@1.7.1/dist/leaflet.js integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin></script><link rel=stylesheet href=/css/plazi_styles.css><link rel=stylesheet href=/css/newsletter-signup.css></head><body class=body><div class="container container--outer"><header class=header><div class="container header__container"><div class="logo logo--mixed"><a class=logo__link href=/ title=Plazi rel=home><div class="logo__item logo__imagebox"><img class=logo__img src=/img/logo-main.png alt=Plazi></div></a></div><nav class=menu><button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
-<span class=menu__btn-title tabindex=-1>Menu</span></button><ul class=menu__list><li class=menu__item><a class=menu__link href=/data-apis-tools/><span class=menu__text>Data, APIs and Tools</span></a></li><li class=menu__item><a class=menu__link href=/projects/><span class=menu__text>Projects</span></a></li><li class="menu__item menu__item--active"><a class=menu__link href=/activities/><span class=menu__text>Activities</span></a></li><li class=menu__item><a class=menu__link href=/partners/><span class=menu__text>Partners</span></a></li><li class=menu__item><a class=menu__link href=/resources/><span class=menu__text>Resources</span></a></li><li class=menu__item><a class=menu__link href=/about/><span class=menu__text>About</span></a></li></ul></nav></div></header><div class="wrapper flex"><div class=primary><main class="main list" role=main><header class=main__header><h1 class=main__title>Activities</h1></header><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/activities/1-million-treatments/ rel=bookmark>1 Million Treatments</a></h2></header><div class="content list__excerpt post__content clearfix">Plazi’s goal is to link 1 Million taxonomic name usages with their corresponding treatments</div></article><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/activities/bouchout-declaration/ rel=bookmark>Bouchout Declaration</a></h2></header><div class="content list__excerpt post__content clearfix">The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available</div></article><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/activities/lectures/ rel=bookmark>Lectures</a></h2></header><div class="content list__excerpt post__content clearfix">Plazi is involved with its legal expertise in clarifying legal conditions for access and reuse of scientific information and developping principles on the legal interoperability of research data</div></article><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/activities/the-blue-list/ rel=bookmark>Legal Issues</a></h2></header><div class="content list__excerpt post__content clearfix">Plazi is involved with its legal expertise in clarifying legal conditions for access and reuse of scientific information and developping principles on the legal interoperability of research data</div></article><article class="list__item post"><header class=list__header><h2 class="list__title post__title"><a href=/activities/legal-issues/ rel=bookmark>The Blue List</a></h2></header><div class="content list__excerpt post__content clearfix">The Blue List identifies those elements of scientific publications, databases, monographs, classifications, checklists etc. to which copyright does not apply, and can be re-used without permission</div></article></main></div><aside class="sidebar sidebar--left"><div class="widget-stats widget"><h4 class=widget__title>Stats</h4><div class=widget__content><ul><li><b>Articles:</b> <span id=DocArticleUuid></span></li><li><b>Treatments:</b> <span id=DocUuid></span></li><li><b>Occurrences:</b> <span id=DocCount></span></li><li><b>Observation Records (OR):</b> <span id=MatCitId></span></li><li><b>Geo-referenced ORs:</b> <span id=MatCitIdGeoRef></span></li></ul></div></div><script>const tbstats=[{src:'pubAndTreatmentCounts',tgt:['DocArticleUuid']},{src:'pubAndTreatmentCountsWithStubs',tgt:['DocUuid']},{src:'materialsCitationCount',tgt:['DocCount','MatCitId']},{src:'materialsCitationGeoRefCount',tgt:['MatCitIdGeoRef']}],tburl='https://tb.plazi.org/GgServer/srsStaticStats';tbstats.forEach(a=>{fetch(`${tburl}/${a.src}.json`,{mode:'cors'}).then(function(a){if(!a.ok)throw new Error('HTTP error, status = '+a.status);return a.json()}).then(function(b){a.tgt.forEach(a=>{let c=a;a==='MatCitIdGeoRef'&&(c='MatCitId'),document.getElementById(a).innerHTML=b[c]})})})</script><div class="widget-taglist widget"><h4 class=widget__title>Tags</h4><div class=widget__content><a class="widget-taglist__link widget__link btn" href=/tags/ title=Tags>Tags</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/about/ title=about>about</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/data-api-and-tools/ title="Data, API and Tools">Data, API and Tools</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/gbif/ title=GBIF>GBIF</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/golden-gate/ title="Golden Gate">Golden Gate</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/holiday/ title=holiday>holiday</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/more-holidays/ title="more holidays">more holidays</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/ongoing-projects/ title="ongoing projects">ongoing projects</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/partnerships/ title=partnerships>partnerships</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/past-projects/ title="past projects">past projects</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/projects/ title=projects>projects</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/publications/ title=publications>publications</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/switzerland/ title=Switzerland>Switzerland</a>
-<a class="widget-taglist__link widget__link btn" href=/tags/treatment-bank/ title="Treatment Bank">Treatment Bank</a></div></div><div class="widget-social widget"><h4 class="widget-social__title widget__title">Social</h4><div class="widget-social__content widget__content"><div class="widget-social__item widget__item"><a class="widget-social__link widget__link btn" title=Twitter rel="noopener noreferrer" href=https://twitter.com/plazi_ch target=_blank><svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5.0-78.8 35.3-78.8 78.8.0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3C20 26 16.1 39.6 16.1 54c0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1.0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4.0-12.6-.4-18.8-1.1C34.9 299 76.3 312 120.8 312c144.9.0 224.1-120 224.1-224.1.0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg><span>Twitter</span></a></div><div class="widget-social__item widget__item"><a class="widget-social__link widget__link btn" title=GitHub rel="noopener noreferrer" href=https://github.com/plazi target=_blank><svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0C85.9.0.0 85.8.0 191.7c0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2.0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8.0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7.0.0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4.0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5.0 25.6-.2 46.3-.2 52.6.0 5.1 3.5 11.1 13.2 9.2C329 348.2 384 276.4 384 191.7 384 85.8 298 0 192 0z"/></svg><span>GitHub</span></a></div><div class="widget-social__item widget__item"><a class="widget-social__link widget__link btn" title=Email href=mailto:info@plazi.org><svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16V16 0h-16H16 0zm347 16-139 92.5L69 32zM199 157.5l9 5.5 9-5.5L384 46v210H32V46z"/></svg><span>info@plazi.org</span></a></div><div class="widget-social__item widget__item"><a class="widget-social__link widget__link btn" title=Vimeo rel="noopener noreferrer" href=https://vimeo.com/plazi target=_blank><img src=/img/vimeo.png width=24 height=24 class=widget-social__link-icon>
-<span>Vimeo</span></a></div></div></div></aside></div><footer class=footer><div class="container footer__container flex"><div class=footer__links><a class=footer__link href=https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php>Supported in part by The Arcadia Fund</a> | <a class=footer__link href=/privacy/>Privacy</a> | <a class=footer__link href=/disclaimer/>Legal Disclaimer</a></div><div class=footer__copyright><span class=footer__copyright-credits>&copy; 2021 Plazi. Published under <a href=https://creativecommons.org/publicdomain/zero/1.0/ target=_blank>CC0 Public Domain Dedication</a></span></div></div></footer></div><script async defer src=/js/menu.js></script></body></html>
+">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/activities/index.xml" title="Plazi">
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/newsletter-signup.css">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/data-apis-tools/">
+				<span class="menu__text">Data, APIs and Tools</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				<span class="menu__text">Projects</span>
+			</a>
+		</li>
+		<li class="menu__item menu__item--active">
+			<a class="menu__link" href="/activities/">
+				<span class="menu__text">Activities</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/partners/">
+				<span class="menu__text">Partners</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/resources/">
+				<span class="menu__text">Resources</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				<span class="menu__text">About</span>
+			</a>
+		</li>
+	</ul>
+</nav>
+<!-- end: menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<!-- start: list.html -->
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">Activities</h1>
+	</header>
+
+<!-- start: summary.html -->
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/activities/1-million-treatments/" rel="bookmark">
+			1 Million Treatments
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Plazi’s goal is to link 1 Million taxonomic name usages with their corresponding treatments
+	</div>
+</article>
+<!-- end: summary.html -->
+
+
+
+<!-- start: summary.html -->
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/activities/bouchout-declaration/" rel="bookmark">
+			Bouchout Declaration
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available
+	</div>
+</article>
+<!-- end: summary.html -->
+
+
+
+<!-- start: summary.html -->
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/activities/lectures/" rel="bookmark">
+			Lectures
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Plazi is involved with its legal expertise in clarifying legal conditions for access and reuse of scientific information and developping principles on the legal interoperability of research data
+	</div>
+</article>
+<!-- end: summary.html -->
+
+
+
+<!-- start: summary.html -->
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/activities/the-blue-list/" rel="bookmark">
+			Legal Issues
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Plazi is involved with its legal expertise in clarifying legal conditions for access and reuse of scientific information and developping principles on the legal interoperability of research data
+	</div>
+</article>
+<!-- end: summary.html -->
+
+
+
+<!-- start: summary.html -->
+<article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/activities/legal-issues/" rel="bookmark">
+			The Blue List
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		The Blue List identifies those elements of scientific publications, databases, monographs, classifications, checklists etc. to which copyright does not apply, and can be re-used without permission
+	</div>
+</article>
+<!-- end: summary.html -->
+
+
+	
+</main>
+<!-- start: list.html -->
+
+
+			</div>
+			
+<aside class="sidebar sidebar--left">
+<!-- start: stats.html -->
+<div class="widget-stats widget">
+    <h4 class="widget__title">Stats</h4>
+    <div class="widget__content">
+        <ul>
+            <li><b>Articles:</b> <span id="DocArticleUuid"></span></li>
+            <li><b>Treatments:</b> <span id="DocUuid"></span></li>
+            <li><b>Occurrences:</b> <span id="DocCount"></span></li>
+            <li><b>Observation Records (OR):</b> <span id="MatCitId"></span></li>
+            <li><b>Geo-referenced ORs:</b> <span id="MatCitIdGeoRef"></span></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    const tbstats = [
+        { src: 'pubAndTreatmentCounts', tgt: [ 'DocArticleUuid' ] },
+        { src: 'pubAndTreatmentCountsWithStubs', tgt: [ 'DocUuid' ] },
+        { src: 'materialsCitationCount', tgt: [ 'DocCount', 'MatCitId' ] },
+        { src: 'materialsCitationGeoRefCount', tgt: [ 'MatCitIdGeoRef' ] }
+    ]
+
+    const tburl = 'https://tb.plazi.org/GgServer/srsStaticStats'
+    tbstats.forEach(t => {
+        fetch(`${tburl}/${t.src}.json`, {mode: 'cors'})
+            .then(function(response) {
+                if (!response.ok) {
+                    throw new Error('HTTP error, status = ' + response.status);
+                }
+                return response.json();
+            })
+            .then(function(response) {
+                t.tgt.forEach(tgt => {
+                    let resTgt = tgt
+                    if (tgt === 'MatCitIdGeoRef') {
+                        resTgt = 'MatCitId'
+                    }
+                    
+                    document.getElementById(tgt).innerHTML = response[resTgt]
+                })
+            })
+    })
+</script>
+<!-- end: stats.html -->
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/" title="Tags">Tags</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/about/" title="about">about</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/data-api-and-tools/" title="Data, API and Tools">Data, API and Tools</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gbif/" title="GBIF">GBIF</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/golden-gate/" title="Golden Gate">Golden Gate</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/holiday/" title="holiday">holiday</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/more-holidays/" title="more holidays">more holidays</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ongoing-projects/" title="ongoing projects">ongoing projects</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/partnerships/" title="partnerships">partnerships</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/past-projects/" title="past projects">past projects</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/projects/" title="projects">projects</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/publications/" title="publications">publications</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/switzerland/" title="Switzerland">Switzerland</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/treatment-bank/" title="Treatment Bank">Treatment Bank</a>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/plazi_ch" target="_blank">
+				<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/plazi" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:info@plazi.org">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+				<span>info@plazi.org</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Vimeo" rel="noopener noreferrer" href="https://vimeo.com/plazi" target="_blank">
+				<img src="/img/vimeo.png" width="24" height="24" class="widget-social__link-icon"> 
+				<span>Vimeo</span>
+			</a>
+		</div>
+		
+
+		
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2021 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

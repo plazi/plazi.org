@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>past projects on Plazi</title><link>https://stage.plazi.org/tags/past-projects/</link><description>Recent content in past projects on Plazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/past-projects/index.xml" rel="self" type="application/rss+xml"/><item><title>LinkD</title><link>https://stage.plazi.org/projects/past/linkd/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/past/linkd/</guid><description>LinkD (pronounced &amp;lsquo;linked&amp;rsquo;) will unite European biodiversity scientists behind a common set of infrastructures and goals leveraging existing investment in biodiversity science infrastructures in support of the long-term community inspired vision of modelling the biosphere.
-Submitted to EU Horizon 2020, EINFRA-9-2015 | e-Infrastructures for Virtual Research Environments (VRE), January 2015. Participation: Partner</description></item><item><title>pro-iBiosphere</title><link>https://stage.plazi.org/projects/past/pro-ibiosphere/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/past/pro-ibiosphere/</guid><description>The aim of pro-iBiosphere is to prepare (= pro), through a coordination action, the ground for an integrative system (= sphere) for intelligent (= i) management of biodiversity (= bio) knowledge. Once it becomes operational, the European Open Biodiversity Knowledge Management System will play a major role in facilitating the synthesis of core biodiversity data by creating an authoritative framework including, discovery of new species, naming of specimens and species, identification tools, descriptions, and various other basic types of information.</description></item><item><title>Wiki4R</title><link>https://stage.plazi.org/projects/past/wiki4r/</link><pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate><guid>https://stage.plazi.org/projects/past/wiki4r/</guid><description>Wiki4R will create an innovative virtual research environment (VRE) for Open Science at scale, engaging both professional researchers and citizen data scientists in new and potentially transformative forms of collaboration.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>past projects on Plazi</title>
+    <link>https://stage.plazi.org/tags/past-projects/</link>
+    <description>Recent content in past projects on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/past-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinkD</title>
+      <link>https://stage.plazi.org/projects/past/linkd/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/projects/past/linkd/</guid>
+      <description>LinkD (pronounced &amp;lsquo;linked&amp;rsquo;) will unite European biodiversity scientists behind a common set of infrastructures and goals leveraging existing investment in biodiversity science infrastructures in support of the long-term community inspired vision of modelling the biosphere.
+Submitted to EU Horizon 2020, EINFRA-9-2015 | e-Infrastructures for Virtual Research Environments (VRE), January 2015. Participation: Partner</description>
+    </item>
+    
+    <item>
+      <title>pro-iBiosphere</title>
+      <link>https://stage.plazi.org/projects/past/pro-ibiosphere/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/projects/past/pro-ibiosphere/</guid>
+      <description>The aim of pro-iBiosphere is to prepare (= pro), through a coordination action, the ground for an integrative system (= sphere) for intelligent (= i) management of biodiversity (= bio) knowledge. Once it becomes operational, the European Open Biodiversity Knowledge Management System will play a major role in facilitating the synthesis of core biodiversity data by creating an authoritative framework including, discovery of new species, naming of specimens and species, identification tools, descriptions, and various other basic types of information.</description>
+    </item>
+    
+    <item>
+      <title>Wiki4R</title>
+      <link>https://stage.plazi.org/projects/past/wiki4r/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/projects/past/wiki4r/</guid>
+      <description>Wiki4R will create an innovative virtual research environment (VRE) for Open Science at scale, engaging both professional researchers and citizen data scientists in new and potentially transformative forms of collaboration.
 It is based on the realizations that (1) the structured parts of the Web itself can be regarded as a VRE, (2) such environments depend on communities, (3) closed environments are limited in their capacity to nurture thriving communities.
-Wiki4R will therefore integrate Wikidata, the multilingual semantic backbone behind Wikipedia, into existing research processes to enable transdisciplinary research and reduce fragmentation of research in and outside Europe.</description></item></channel></rss>
+Wiki4R will therefore integrate Wikidata, the multilingual semantic backbone behind Wikipedia, into existing research processes to enable transdisciplinary research and reduce fragmentation of research in and outside Europe.</description>
+    </item>
+    
+  </channel>
+</rss>

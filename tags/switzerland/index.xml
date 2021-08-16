@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Switzerland on Plazi</title><link>https://stage.plazi.org/tags/switzerland/</link><description>Recent content in Switzerland on Plazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Aug 2021 18:18:13 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/switzerland/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post by Sebi</title><link>https://stage.plazi.org/posts/sebis-first-post/</link><pubDate>Wed, 04 Aug 2021 18:18:13 +0200</pubDate><guid>https://stage.plazi.org/posts/sebis-first-post/</guid><description>This is a test post with a header images. enjoy!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Switzerland on Plazi</title>
+    <link>https://stage.plazi.org/tags/switzerland/</link>
+    <description>Recent content in Switzerland on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Aug 2021 18:18:13 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/tags/switzerland/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post by Sebi</title>
+      <link>https://stage.plazi.org/posts/sebis-first-post/</link>
+      <pubDate>Wed, 04 Aug 2021 18:18:13 +0200</pubDate>
+      
+      <guid>https://stage.plazi.org/posts/sebis-first-post/</guid>
+      <description>This is a test post with a header images. Enjoy!</description>
+    </item>
+    
+  </channel>
+</rss>

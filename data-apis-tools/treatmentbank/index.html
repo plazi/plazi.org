@@ -1,10 +1,240 @@
-<!doctype html><html class=no-js lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>TreatmentBank - Plazi</title><script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script><meta name=description content="TreatmentBank is a resource that stores and provides access to the treatements and data therein."><link rel=stylesheet href=/css/style.css><link rel="shortcut icon" href=/img/favicon_io/favicon.ico><link rel=stylesheet href=https://unpkg.com/leaflet@1.7.1/dist/leaflet.css integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin><script src=https://unpkg.com/leaflet@1.7.1/dist/leaflet.js integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin></script><link rel=stylesheet href=/css/plazi_styles.css><link rel=stylesheet href=/css/newsletter-signup.css></head><body class=body><div class="container container--outer"><header class=header><div class="container header__container"><div class="logo logo--mixed"><a class=logo__link href=/ title=Plazi rel=home><div class="logo__item logo__imagebox"><img class=logo__img src=/img/logo-main.png alt=Plazi></div></a></div><nav class=menu><button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
-<span class=menu__btn-title tabindex=-1>Menu</span></button><ul class=menu__list><li class=menu__item><a class=menu__link href=/data-apis-tools/><span class=menu__text>Data, APIs and Tools</span></a></li><li class=menu__item><a class=menu__link href=/projects/><span class=menu__text>Projects</span></a></li><li class=menu__item><a class=menu__link href=/activities/><span class=menu__text>Activities</span></a></li><li class=menu__item><a class=menu__link href=/partners/><span class=menu__text>Partners</span></a></li><li class=menu__item><a class=menu__link href=/resources/><span class=menu__text>Resources</span></a></li><li class=menu__item><a class=menu__link href=/about/><span class=menu__text>About</span></a></li></ul></nav></div></header><div class="wrapper flex"><div class=primary><main class=main role=main><article class=post><header class=post__header><h1 class=post__title>TreatmentBank</h1><div class=meta__item-datetime><svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-06-13T19:16:15+02:00>June 13, 2021</time></div></header><div class="content post__content clearfix"><p><a href=https://treatmentbank.org>TreatmentBank</a> is a resource that stores and provides access to the treatements and data therein.</p><div id=mapContainer><div id=mapid></div>Latest Treatments</div><div class="widget-search widget"><form class=widget-search__form role=search method=get><label><input class=searchInput type=search placeholder="find treatments…" id=q name=q aria-label="find treatments…"></label>
-<input id=searchBtn class=searchBtn type=submit value=Search></form><div id=search_results></div></div><script>const search=function(a){const b=document.getElementById('q'),c=document.getElementById('search_results');fetch(`https://test.zenodeo.org/v3/treatments?q=${b.value}`).then(function(a){if(!a.ok)throw new Error('HTTP error, status = '+a.status);return a.json()}).then(function(b){let a='<h2>Treatments search results</h2>';b.item.records.forEach(b=>{a+=`<details>
-                        <summary>${b.treatmentTitle}</summary>
-                        <p>${b.articleTitle}, ${b.journalTitle}</p>
-                    </details>`}),c.innerHTML=a}),a.stopPropagation(),a.preventDefault()};fetch('https://tb.plazi.org/GgServer/srsStaticStats/latestMapPoints.json',{mode:'cors'}).then(function(a){if(!a.ok)throw new Error('HTTP error, status = '+a.status);return a.json()}).then(function(c){const a=c.data,d=[0,0],g='pk.eyJ1IjoiZmljaHQiLCJhIjoiY2locWQ3YTBtMDAxYnY1bHVvcGtsM2Y1MCJ9.C8NlGmZuX6W2YrvXTHULeQ',b=L.map('mapid').setView(d,2);L.tileLayer('https://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(b);const e='https://tb.plazi.org/GgServer/html/',f=L.icon({iconUrl:'/img/treatment.png',iconSize:[10,10],iconAnchor:[0,0],popupAnchor:[6,5]});for(let d=0,g=a.length;d<g;d++){const c=a[d],h=`<div class='TaxName'>
-                        <a href='${e}/${c.DocUuid}' target='_blank'>${c.TaxName}</a>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>TreatmentBank - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="TreatmentBank is a resource that stores and provides access to the treatements and data therein.">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/newsletter-signup.css">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/data-apis-tools/">
+				<span class="menu__text">Data, APIs and Tools</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				<span class="menu__text">Projects</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/activities/">
+				<span class="menu__text">Activities</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/partners/">
+				<span class="menu__text">Partners</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/resources/">
+				<span class="menu__text">Resources</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				<span class="menu__text">About</span>
+			</a>
+		</li>
+	</ul>
+</nav>
+<!-- end: menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">TreatmentBank</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-13T19:16:15&#43;02:00">June 13, 2021</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+			<p><a href="https://treatmentbank.org">TreatmentBank</a> is a resource that stores and provides access to the treatements and data therein.</p>
+
+
+<div id="mapContainer">
+    <div id="mapid"></div>
+    Latest Treatments
+</div>
+<div class="widget-search widget">
+	<!-- http://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&fullText.ftQuery= -->
+    <form class="widget-search__form" role="search" method="get" action="">
+        <label>
+            <input class="searchInput" type="search" placeholder="find treatments…" value="" id="q" name="q" aria-label="find treatments…">
+        </label>
+        <input id="searchBtn" class="searchBtn" type="submit" value="Search">
+    </form>
+    <div id="search_results"></div>
+</div>
+
+<script>
+    const search = function(e) {
+        const q = document.getElementById('q')
+        const search_results = document.getElementById('search_results')
+        //const tb = 'https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&fullText.ftQuery=' + q.value
+
+        fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`)
+            .then(function(response) {
+                if (!response.ok) {
+                    throw new Error('HTTP error, status = ' + response.status);
+                }
+
+                return response.json();
+            })
+            .then(function(response) {
+                let res = '<h2>Treatments search results</h2>'
+                response.item.records.forEach(r => {
+                    res += `<details>
+                        <summary>${r.treatmentTitle}</summary>
+                        <p>${r.articleTitle}, ${r.journalTitle}</p>
+                    </details>`
+                })
+
+                search_results.innerHTML = res
+            })
+
+        e.stopPropagation()
+        e.preventDefault()
+    }
+
+    fetch('https://tb.plazi.org/GgServer/srsStaticStats/latestMapPoints.json', {mode: 'cors'})
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error('HTTP error, status = ' + response.status);
+            }
+
+            return response.json();
+        })
+        .then(function(response) {
+            const points = response.data
+            const center = [0, 0]
+            const accessToken = 'pk.eyJ1IjoiZmljaHQiLCJhIjoiY2locWQ3YTBtMDAxYnY1bHVvcGtsM2Y1MCJ9.C8NlGmZuX6W2YrvXTHULeQ'
+            const mymap = L.map('mapid').setView(center, 2)
+
+            // initialize the baselayer
+            L.tileLayer('https://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(mymap)
+            const url = 'https://tb.plazi.org/GgServer/html/'
+            const icon = L.icon({ 
+                iconUrl: '/img/treatment.png', 
+                iconSize: [10, 10],
+                iconAnchor: [0, 0],
+                popupAnchor: [6, 5]
+            })
+            for (let i = 0, j = points.length; i < j; i++) {
+                const p = points[i]
+                //console.log(`writing: ${Number(p.MatCitLongitude)}, ${Number(p.MatCitLatitude)}`)
+                const popupHtml =  
+                    `<div class='TaxName'>
+                        <a href='${url}/${p.DocUuid}' target='_blank'>${p.TaxName}</a>
                     </div>
-                    <div class='BibDspTitle'>${c.BibDspTitleDsp}</div>
-                    <div class='BibOrigin'>${c.BibOrigin}</div>`;L.marker([Number(c.MatCitLongitude),Number(c.MatCitLatitude)],{icon:f}).bindPopup(h).addTo(b)}}),window.onload=function(b){const a=document.getElementById('searchBtn');a.addEventListener('click',search)}()</script><h2 id=what-is-a-treatment>What is a treatment?</h2><p>The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.</p><p>Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication). With other words, each scientific name has one to several treatments, depending whether there exists only an original description of a species, or whether there are subsequent re-descriptions. Similar to bibliographic references, treatments can be cited, and subsequent usages of names cite earlier treatments.</p><p>Treatments are a synthesis of the knowledge of a given species at a given time. They can be very rich in data, explicitly or implicitly, detailed or summarized, and include many references to external data sources, such as scientific names, collection codes, DNA-codes.</p><p>The data can be semantically enhanced, and linked. Treatments as parts of publication need be extracted. Most recently, treatments are tagged in electronic publications with the National Library of Medicine’s Journal Article Tag Suites (JATS) TaxPub extension. This allows automatic extraction. Still the majority of the ca. 2000 journals and books publishing treatments use the PDF format at best. Plazi has tools to extract treatments, enhance the embedded data and import it into its SRS- Treatment Search Portal for public online access.</p><p>The data, that is, treatments and observation data, can be viewed as HTML, XML, RDF, or can be harvested with the protocols provided below. The data is provided for harvesting as Darwin Core-Archives.</p><h2 id=what-is-treatmentbank>What is TreatmentBank?</h2><p>Scientists describe and communicate the discovery of new biological species with taxonomic treatments that are bound to the names used to refer to these taxa. Often they are very rich in content and increasingly linked to external resources. TreatmentBank is a resource that stores and provides access to the treatements and data therein.</p></div><footer class=post__footer><div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg><ul class=tags__list><li class=tags__item><a class="tags__link btn" href=/tags/treatment-bank/ rel=tag>Treatment Bank</a></li><li class=tags__item><a class="tags__link btn" href=/tags/data-api-and-tools/ rel=tag>Data, API and Tools</a></li></ul></div></footer></article></main></div></div><footer class=footer><div class="container footer__container flex"><div class=footer__links><a class=footer__link href=https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php>Supported in part by The Arcadia Fund</a> | <a class=footer__link href=/privacy/>Privacy</a> | <a class=footer__link href=/disclaimer/>Legal Disclaimer</a></div><div class=footer__copyright><span class=footer__copyright-credits>&copy; 2021 Plazi. Published under <a href=https://creativecommons.org/publicdomain/zero/1.0/ target=_blank>CC0 Public Domain Dedication</a></span></div></div></footer></div><script async defer src=/js/menu.js></script></body></html>
+                    <div class='BibDspTitle'>${p.BibDspTitleDsp}</div>
+                    <div class='BibOrigin'>${p.BibOrigin}</div>`
+                L.marker([Number(p.MatCitLongitude), Number(p.MatCitLatitude)], { icon: icon })
+                    .bindPopup(popupHtml)
+                    .addTo(mymap)
+            }
+        })
+
+    window.onload = function(e) {
+        const searchBtn = document.getElementById('searchBtn')
+        searchBtn.addEventListener('click', search)
+    }()
+</script>
+
+<h2 id="what-is-a-treatment">What is a treatment?</h2>
+<p>The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.</p>
+<p>Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication). With other words, each scientific name has one to several treatments, depending whether there exists only an original description of a species, or whether there are subsequent re-descriptions. Similar to bibliographic references, treatments can be cited, and subsequent usages of names cite earlier treatments.</p>
+<p>Treatments are a synthesis of the knowledge of a given species at a given time. They can be very rich in data, explicitly or implicitly, detailed or summarized, and include many references to external data sources, such as scientific names, collection codes, DNA-codes.</p>
+<p>The data can be semantically enhanced, and linked. Treatments as parts of publication need be extracted. Most recently, treatments are tagged in electronic publications with the National Library of Medicine’s Journal Article Tag Suites (JATS) TaxPub extension. This allows automatic extraction. Still the majority of the ca. 2000 journals and books publishing treatments use the PDF format at best. Plazi has tools to extract treatments, enhance the embedded data and import it into its SRS- Treatment Search Portal for public online access.</p>
+<p>The data, that is, treatments and observation data, can be viewed as HTML, XML, RDF, or can be harvested with the protocols provided below. The data is provided for harvesting as Darwin Core-Archives.</p>
+<h2 id="what-is-treatmentbank">What is TreatmentBank?</h2>
+<p>Scientists describe and communicate the discovery of new biological species with taxonomic treatments that are bound to the names used to refer to these taxa. Often they are very rich in content and increasingly linked to external resources. TreatmentBank is a resource that stores and provides access to the treatements and data therein.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/treatment-bank/" rel="tag">Treatment Bank</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/data-api-and-tools/" rel="tag">Data, API and Tools</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2021 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
