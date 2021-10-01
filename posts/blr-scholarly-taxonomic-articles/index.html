@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Why do we need BLR to store scholarly taxonomic articles? - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="When Jérôme Constant published yesterday his taxonomic article on eurybrachid planthopper insects in the European Journal of Taxonomy...">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/newsletter-signup.css">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/treatmentbank/">
+				<span class="menu__text">treatmentbank</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blr/">
+				<span class="menu__text">Biodiversity Literature Repository</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/services/">
+				<span class="menu__text">Services</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/how-to-participate/">
+				<span class="menu__text">How to Participate</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				<span class="menu__text">About</span>
+			</a>
+		</li>
+	</ul>
+</nav>
+<!-- end: menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Why do we need BLR to store scholarly taxonomic articles?</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2018-12-14T18:18:13&#43;02:00">December 14, 2018</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+			<p>When Jérôme Constant published yesterday his <a href="https://doi.org/10.5852/ejt.2018.486">taxonomic article</a> on eurybrachid planthopper insects in the <a href="http://www.europeanjournaloftaxonomy.eu/index.php/ejt/index">European Journal of Taxonomy</a>, its data became immediately accessible as FAIR and open access data in <a href="http://treatment.plazi.org/GgServer/summary/FFECFFA1FF9D4B16FFB3FF95FFB7FFC3">TreatmentBank</a> including <a href="http://treatment.plazi.org/id/26C5880F-0D15-409D-99C3-CA496382C6FE">taxonomic treatments</a>, and the <a href="http://biolitrepo.org/">Biodiversity Literature Repository</a> (BLR) as an article and figures.</p>
+<p>This data is also at the same moment reused by <a href="https://gbif.org/">GBIF</a> to describe the <a href="https://www.gbif.org/dataset/0e26b0d8-14bc-46b2-aac6-feed5d62b2d8">dataset</a> aka article, to list all its <a href="https://www.gbif.org/occurrence/search?dataset_key=0e26b0d8-14bc-46b2-aac6-feed5d62b2d8">material citations</a>, provide the taxonomic treatments for the included <a href="https://www.gbif.org/species/150668922">species</a>, which is especially valuable for those new to the sciences or an individual <a href="https://www.gbif.org/occurrence/1949872163">occurrence</a>. <a href="http://plazi.org/news/beitrag/expanded-access-to-images-in-the-biodiversity-literature-repository/b86d1880198c5c7315c2d38ae3a82820/">Ocellus</a> is using the <a href="https://ocellus.punkish.org/?q=olonia&amp;page=1">figures</a> to index journals and provide a novel access to them. All the bibliographic references have been added to <a href="http://refbank.org/">Refbank</a>. Some of the references in the article include a Digital Object Identifier <a href="https://www.doi.org/">DOI</a>, but most do not.</p>
+<p>In addition to providing access to data that has been made citable, findable and reusable, the <a href="https://zenodo.org/record/2270151">article deposit</a> in BLR provides related identifiers for all the data extracted. They all resolve to a respective digital copy, i.e. the figure, taxonomic treatment or article.</p>
+<p>Since there are only a limited number of articles for which a DOIs is included in the bibliographic reference, they do not resolve to the digital object, which in most cases is a PDF. This, despite the fact, that most of the authors have on their computers PDFs of all the articles they cite.</p>
+<p>Wouldn’t it be great if authors would make all the referenced articles accessible to everybody by creating a DOI for those that are not yet accessible? This would save a tremendous amount of time to any subsequent readers of their work, since they would not have to find, digitize, or copy the articles again. It would raise the number of taxonomic articles and <a href="https://www.wikidata.org/wiki/Q20644485">treatments</a> accessible for use in <a href="https://meta.wikimedia.org/wiki/WikiCite">Wikicite</a> and <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>. It would contribute towards building corpora of knowledge for taxa where all the published record is digital.</p>
+<p><a href="http://biolitrepo.org/">BLR</a> offers exactly such a service. It is part of <a href="https://zenodo.org/">Zenodo</a>, one of the world’s leading repositories, especially for long tail scientific results that have no other home. This includes data that is underused because they are cumbersome to access, such as the millions of scientific figures or the taxonomic treatments that go largely unnoticed. Zenodo is part of one of the largest science experiments at <a href="https://home.cern/">CERN</a> with a very powerful and sustainable IT infrastructure.</p>
+<p><a href="https://zenodo.org/">Zenodo</a> is not unique in the way it makes its deposits discoverable and citable. It is using <a href="https://datacite.org/">DataCite</a> data types and digital object identifiers (<a href="https://doi.org/">DOI</a>) that are a global standard and are becoming increasingly more discoverable through <a href="https://orcid.org/content/2018-org-id-meeting">collaboration</a> with <a href="https://crossref.org/">CrossRef</a> and <a href="https://orcid.org/">ORCID</a> discussed early in the coming year.</p>
+<p>Contributors to <a href="https://zenodo.org/">Zenodo</a> can upload records individually or in batches. Ideally though, access to scientific articles is provided by publishers, libraries or services like the <a href="http://biodiversitylibrary.org/">Biodiversity Heritage Library</a> or <a href="https://archive.org/">Archive.org</a> or national services. The challenge though is that an expected 10% of the legacy literature is so far digital, and that there is no active program under way scanning at a scale that will cover the remaining 90%. For that reason, alternatives like <a href="http://biolitrepo.org/">BLR</a> are decisive.</p>
+<p>Access to a PDF and a minting a DOI is not a unique value <a href="http://biolitrepo.org/">BLR</a> offers. This is the service providing a multitude of accesses points to the articles. It is the focus on dissemination, findability, citability of data within an article, and providing <a href="https://zenodo.org/record/2270151/export/json#.XBOmbXRKjAQ">copies</a> of the article in a machine readable formats providing all these links.</p>
+<p>Finally, having domain specific corpora of articles in one place will facilitate prioritizing the selection of journals for their processing to include their data too because the respective digital copies are at hand. This ongoing project and service is a contribution to open science supported by the <a href="http://plazi.org/news/beitrag/plazi-and-blr-receive-EUR11-million-from-arcadia-fund-to-open-up-new-biodiversity-data/07c5e7a6a610111d09ec06ab8135e041/">Arcadia Fund</a>, <a href="http://plazi.org/">Plazi</a> and <a href="https://zenodo.org/">Zenodo</a>.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/news/" rel="tag">news</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2021 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

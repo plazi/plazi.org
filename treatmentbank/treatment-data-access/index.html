@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Treatment Data Access - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Machine actionable access to TreatmentBank data">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/newsletter-signup.css">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/treatmentbank/">
+				<span class="menu__text">treatmentbank</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blr/">
+				<span class="menu__text">Biodiversity Literature Repository</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/services/">
+				<span class="menu__text">Services</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/how-to-participate/">
+				<span class="menu__text">How to Participate</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				<span class="menu__text">About</span>
+			</a>
+		</li>
+	</ul>
+</nav>
+<!-- end: menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Treatment Data Access</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-13T19:16:15&#43;02:00">June 13, 2021</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+			<ul>
+<li><a href="#access-to-plazi-treatments">Access to Plazi Treatments</a>
+<ul>
+<li><a href="#what-is-a-treatment">What is a treatment?</a></li>
+<li><a href="#what-is-a-darwincore-archive">What is a DarwinCore Archive?</a></li>
+<li><a href="#the-darwin-core-archive-used-by-plazi">The Darwin Core Archive used by Plazi</a></li>
+<li><a href="#treatment-data-representation-in-plazi">Treatment Data representation in Plazi</a></li>
+</ul>
+</li>
+<li><a href="#plazi-api">Plazi API</a>
+<ul>
+<li><a href="#obtaining-a-list-of-all-the-treatments-available-from-plazi">Obtaining a list of all the treatments available from Plazi</a></li>
+<li><a href="#http-get---rss">HTTP GET - RSS</a></li>
+<li><a href="#http-get---zip-archive">HTTP GET - ZIP Archive</a></li>
+<li><a href="#http-get---page-displaying-treatment">HTTP GET - Page displaying Treatment</a></li>
+<li><a href="#http-get---generic-xml">HTTP GET - generic XML</a></li>
+<li><a href="#http-get---taxonx">HTTP GET - TaxonX</a></li>
+</ul>
+</li>
+<li><a href="#list-of-plazis-available-dwc-archives-from-gbif-api">List of Plazi&rsquo;s available DwC-Archives from GBIF API</a>
+<ul>
+<li><a href="#http-get---json">HTTP GET - JSON</a></li>
+</ul>
+</li>
+<li><a href="#appendix-darwin-core-archive-content">Appendix: Darwin Core Archive Content</a></li>
+<li><a href="#further-reading">Further reading</a></li>
+<li><a href="#downloads">Downloads</a></li>
+<li><a href="#support-and-questions">Support and Questions</a></li>
+<li><a href="#version">Version</a></li>
+</ul>
+<h2 id="access-to-plazi-treatments">Access to Plazi Treatments</h2>
+<h3 id="what-is-a-treatment">What is a treatment?</h3>
+<p>The <a href="http://plazi.org/resources/treatmentbank/">Plazi TreatmentBank</a> deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at <a href="https://zenodo.org/collection/user-biosyslit">Zenodo/CERN</a>.</p>
+<p>Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication)<em><a href="http://www.ncbi.nlm.nih.gov/books/NBK47081/" title="Catapano T. 2010. TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions. Proceedings of the Journal Article Tag Suite Conference 2010">1</a></em>. With other words, each scientific name has one to several treatments, depending whether there exists only an original description of a species, or whether there are subsequent re-descriptions. Similar to bibliographic references, treatments can be cited, and subsequent usages of names cite earlier treatments.</p>
+<p>Treatments are a synthesis of the knowledge of a given species at a given time. They can be very rich in data, explicitly or implicitly, detailed or summarized, and include many references to external data sources, such as scientific names, collection codes, DNA-codes.</p>
+<p>The data can be semantically enhanced, and linked. Treatments as parts of publication need be extracted. Most recently, treatments are tagged in electronic publications with the National Library of Medicine’s Journal Article Tag Suites (JATS) TaxPub extension <em><a href="http://www.ncbi.nlm.nih.gov/books/NBK47081/" title="Catapano T. 2010. TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions. Proceedings of the Journal Article Tag Suite Conference 2010">1</a></em>. This allows automatic extraction. Still the majority of the ca. 2000 journals and books publishing treatments use the PDF format at best. Plazi has tools to extract treatments, enhance the embedded data and import it into its SRS- Treatment Search Portal for public online access.</p>
+<p>The data, that is, treatments and observation data, can be viewed as HTML, XML, RDF, or can be harvested with the protocols provided below. The data is provided for harvesting as Darwin Core-Archives.</p>
+<h3 id="what-is-a-darwincore-archive">What is a DarwinCore Archive?</h3>
+<p>The Darwin Core Archive format is a simple and extensible schema for sharing biodiversity data, especially catalogue data based on the ratified Darwin Core terms and the Darwin Core text guidelines [4]. Darwin Core is a standard for describing sample data in the Biodiversity Informatics community. It has been developed by the Global Biodiversity Information Facility (GBIF).. DarwinCore Archives use a table-based, &ldquo;spreadsheet-style&rdquo; format that is more comfortable and familiar to biologists. It uses plain text-files but it is tied to processes that support consistency and stability.</p>
+<p>Fig. <a href="https://code.google.com/p/gbif-ecat/wiki/DwCArchive">Schematic representation of a Darwin Core Archive and its components</a> <em><a href="https://code.google.com/p/gbif-ecat/wiki/DwCArchive" title="Darwin Core Archive">2</a></em></p>
+<p>The GBIF GNA format consists of a set of files where one (or more) files represents the &lsquo;core&rsquo; taxonomic data where a single row represents a single taxon reference. The DarwinCore Taxon class provides the majority of concepts supported in the format that enable taxonomic and nomenclatural semantics and syntax (classification, taxonomic and nomenclatural synonymy, status, etc.) to be expressed.</p>
+<p>Other files represent &ldquo;extensions&rdquo; to this core table and allow additional data elements to be linked to a taxon in the core table with a many to one relationship. The overall topology of one or more of these extensions to the core table is referred to as a &ldquo;star schema&rdquo; and provides a compromise between an overly simple flat-file representation of data and more complex multi-related files. In addition to these files, an additional descriptor file named “meta.xml” serves as a key to the other files. Collectively, these files can be further zipped into a single compressed archive file for portability. This compressed file is known as a Darwin Core Archive (DwCA) file <em><a href="https://code.google.com/p/gbif-ecat/wiki/DwCArchive" title="Darwin Core Archive">2</a></em>.</p>
+<h3 id="the-darwin-core-archive-used-by-plazi">The Darwin Core Archive used by Plazi</h3>
+<p>There is one archive per article stored in Plazi, containing the data from all the treatments in the article. Archives contain nine files:</p>
+<ul>
+<li><code>meta.xml</code>: description of columns in data files</li>
+<li><code>eml.xml</code>: archive meta data, i.e., bibliographic citation of article, etc.</li>
+<li><code>taxa.txt</code>: the archive core file, containing one row per taxon in the nomenclature section of a treatment, thus one or multiple rows per treatment, with any after the first for each treatment handling synonymizations.</li>
+<li><code>occurrences.txt</code>: occurrence data, containing one row per materials citation, with an ID reference to <code>taxa.txt</code></li>
+<li><code>description.txt</code>: description data, containing one row per descriptive treatment section, with an ID reference to <code>taxa.txt</code></li>
+<li><code>distribution.txt</code>: general distribution data, one row per distribution statement, with an ID reference to <code>taxa.txt</code></li>
+<li><code>media.txt</code>: full text treatments with HTML markup with additional meta data like a bibliographic citation, one row per treatment, with an ID reference to <code>taxa.txt</code></li>
+<li><code>references.txt</code>: bibliographic references to individual treatments, one row per treatment, with an ID reference to <code>taxa.txt</code></li>
+<li><code>vernaculars.txt</code>: vernacular names of treatment taxa, currently empty, as we do not have or mark this kind of data</li>
+</ul>
+<p>For a detailed description of the content of each file see <a href="#appendix-darwin-core-archive-content">Appendix: Darwin Core Archive Content</a></p>
+<h3 id="treatment-data-representation-in-plazi">Treatment Data representation in Plazi</h3>
+<p>The treatment data is stored in the Treatment Search Portal in native, generic XML included in tagged original publications. The tagged elements are (a) additionally stored in dedicated index structures to support search and (b) extracted and exported in several formats, including DwCA.</p>
+<p>A treatment document includes two main elements, the header including the metadata based on the Metadata Object Description Schema (MODS) and the body.</p>
+<pre><code>&lt;tax:taxonx&gt; &lt;tax:taxonxHeader&gt; &lt;tax:taxonxBody&gt;
+</code></pre><p>The data XML can be converted via XSLT into HTML, TaxonX XML (a schema developed to model biosystematics legacy literature), and RDF and HTML</p>
+<p><strong>HTML:</strong></p>
+<p><a href="http://treatment.plazi.org/id/31F96F41-E3E0-02BD-8898-5A4F3A20E45A"><code>http://treatment.plazi.org/id/31F96F41-E3E0-02BD-8898-5A4F3A20E45A</code></a></p>
+<p>(this is also the persistent httpURI used as identifier for treatments)</p>
+<p><strong>Plain XML:</strong></p>
+<p><a href="http://tb.plazi.org/GgServer/xslt/31F96F41E3E002BD88985A4F3A20E45A"><code>http://tb.plazi.org/GgServer/xslt/31F96F41E3E002BD88985A4F3A20E45A</code></a></p>
+<p><strong>TaxonX XML:</strong></p>
+<p><a href="http://tb.plazi.org/GgServer/taxonx/31F96F41E3E002BD88985A4F3A20E45A"><code>http://tb.plazi.org/GgServer/taxonx/31F96F41E3E002BD88985A4F3A20E45A</code></a></p>
+<p><strong>RDF:</strong></p>
+<p><a href="http://tb.plazi.org/GgServer/rdf/31F96F41E3E002BD88985A4F3A20E45A"><code>http://tb.plazi.org/GgServer/rdf/31F96F41E3E002BD88985A4F3A20E45A</code></a></p>
+<p>or</p>
+<p><a href="http://treatment.plazi.org/id/31F96F41-E3E0-02BD-8898-5A4F3A20E45A.rdf"><code>http://treatment.plazi.org/id/31F96F41-E3E0-02BD-8898-5A4F3A20E45A.rdf</code></a></p>
+<p>The terms used in TaxonX and RDF are either imported from existing schemas (such as Darwin Core for observation records, MODS for bibliographic data) or are, if not available, defined in schemas (TaxonX) or ontologies (RDF: in development)</p>
+<h2 id="plazi-api">Plazi API</h2>
+<p>Treatment data is open access and can be accessed via HTTP GET as described in detail below. The treatment data is provided in HTML, various XML flavors, and RDF.</p>
+<h3 id="obtaining-a-list-of-all-the-treatments-available-from-plazi">Obtaining a list of all the treatments available from Plazi</h3>
+<h3 id="http-get---rss">HTTP GET - RSS</h3>
+<p><a href="http://tb.plazi.org/GgServer/xml.rss.xml"><code>http://tb.plazi.org/GgServer/xml.rss.xml</code></a></p>
+<p>Response (RSS, in Atom XML, encoded in UTF-8)</p>
+<p><strong>Entries of interest</strong></p>
+<ul>
+<li>channel/item/link: the link to the XML treatment</li>
+<li>channel/item/title: the taxon name and authority</li>
+</ul>
+<p><strong>Accessing a particular DwC-Archive</strong></p>
+<h3 id="http-get---zip-archive">HTTP GET - ZIP Archive</h3>
+<p><a href="tb.plazi.org/GgServer/dwca/%3CdataSetUUID%3E.zip"><code>tb.plazi.org/GgServer/dwca/&lt;dataSetUUID&gt;.zip</code></a></p>
+<p>Replace &lt;dataSetUUID&gt; with any UUID from the GBIF-provided listing (see below). It is also possible to directly use the endpoint URL from that listing list.</p>
+<p>Example:</p>
+<p><a href="http://tb.plazi.org/GgServer/dwca/23A1465DDF212F7DA589F41341B83FCC.zip"><code>http://tb.plazi.org/GgServer/dwca/23A1465DDF212F7DA589F41341B83FCC.zip</code></a></p>
+<p>Response (ZIP Archive, containing XML and tab separated TXT files, all encoded in UTF-8)</p>
+<p>Entries of interest:</p>
+<ul>
+<li><code>eml.xml</code>: an XML file containing the meta data of the publication, in MODS format</li>
+<li><code>taxa.txt</code>: a tab separated TXT file listing the taxa and treatments the DwC-Archive contains, plus higher taxonomy; the Identifier column takes the form <code>&lt;treatmentUUID&gt;.taxon</code>, and the treatment UUID can be used to access the treatment on the Plazi servers (see below)</li>
+<li><code>occurrences.txt</code>: a tab separated TXT file containing occurrence data; the TaxonID column references the Identifier column in taxa.txt, the data column headers are DwC terms</li>
+<li><code>media.txt</code>: a tab separated TXT file containing HTML versions of the treatments; the TaxonID column references the Identifier column in <code>taxa.txt</code>, the HTML treatments are located in the Description column</li>
+<li><code>references.txt</code>:</li>
+</ul>
+<p><strong>A detailed description of contents can be found here</strong></p>
+<p><a href="http://github.com/plazi/Plazi-Communications/wiki/GBIF#darwin-core-archive"><code>http://github.com/plazi/Plazi-Communications/wiki/GBIF#darwin-core-archive</code></a></p>
+<p><strong>Accessing a particular treatment on the Plazi servers</strong></p>
+<h3 id="http-get---page-displaying-treatment">HTTP GET - Page displaying Treatment</h3>
+<p><a href="tb.plazi.org/GgServer/html/%3CtreatmentUUID%3E"><code>tb.plazi.org/GgServer/html/&lt;treatmentUUID&gt;</code></a>;</p>
+<p>Replace &lt;treatmentUUID&gt; with the actual treatment UUID from the taxa.txt file found in DwC-Archives</p>
+<p>Example:</p>
+<p><a href="http://tb.plazi.org/GgServer/html/8C4CE845A6DEE6FDFD1600A70D5BC71B"><code>http://tb.plazi.org/GgServer/html/8C4CE845A6DEE6FDFD1600A70D5BC71B</code></a></p>
+<p>Response (HTML, encoded in UTF-8): a web page displaying the treatment</p>
+<h3 id="http-get---generic-xml">HTTP GET - generic XML</h3>
+<p><a href="tb.plazi.org/GgServer/xml/%3CtreatmentUUID%3E"><code>tb.plazi.org/GgServer/xml/&lt;treatmentUUID&gt;</code></a>;</p>
+<p>Replace &lt;treatmentUUID&gt; with the actual treatment UUID from the taxa.txt file found in DwC-Archives</p>
+<p>Example:</p>
+<p><a href="http://tb.plazi.org/GgServer/xml/8C4CE845A6DEE6FDFD1600A70D5BC71B"><code>http://tb.plazi.org/GgServer/xml/8C4CE845A6DEE6FDFD1600A70D5BC71B</code></a></p>
+<p>Response (XML, encoded in UTF-8): the raw, generic XML version of the treatment, which all other representations are generated from</p>
+<h3 id="http-get---taxonx">HTTP GET - TaxonX</h3>
+<p><a href="tb.plazi.org/GgServer/taxonx/%3CtreatmentUUID%3E"><code>tb.plazi.org/GgServer/taxonx/&lt;treatmentUUID&gt;</code></a>;</p>
+<p>Replace &lt;treatmentUUID&gt; with the actual treatment UUID from the taxa.txt file found in DwC-Archives</p>
+<p>Example:</p>
+<p><a href="http://tb.plazi.org/GgServer/taxonx/8C4CE845A6DEE6FDFD1600A70D5BC71B"><code>http://tb.plazi.org/GgServer/taxonx/8C4CE845A6DEE6FDFD1600A70D5BC71B</code></a></p>
+<p>Response (XML, encoded in UTF-8): a TaxonX XML version of the treatment</p>
+<h2 id="list-of-plazis-available-dwc-archives-from-gbif-api">List of Plazi&rsquo;s available DwC-Archives from GBIF API</h2>
+<p>GBIF is a regular harvester of Plazi data and can be used as an alternative site.</p>
+<h3 id="http-get---json">HTTP GET - JSON</h3>
+<p><a href="api.gbif.org/v1/organization/7ce8aef0-9e92-11dc-8738-b8a03c50a862/publishedDataset;"><code>api.gbif.org/v1/organization/7ce8aef0-9e92-11dc-8738-b8a03c50a862/publishedDataset;</code></a></p>
+<p>Replace &lt;20k&gt; with any multiple of 20 (including 0) to page through the list. It is also possible to use a limit other than 20, with the offset then being a multiple of that other limit.</p>
+<p>Example (first 20 datasets):</p>
+<p><a href="http://api.gbif.org/v1/organization/7ce8aef0-9e92-11dc-8738-b8a03c50a862/publishedDataset?limit=20&amp;offset=0"><code>http://api.gbif.org/v1/organization/7ce8aef0-9e92-11dc-8738-b8a03c50a862/publishedDataset?limit=20&amp;offset=0</code></a></p>
+<p>Response (JSON)</p>
+<pre><code>{
+
+&quot;offset&quot;: 0,
+
+&quot;limit&quot;: 1, 
+
+&quot;endOfRecords&quot;: false, 
+
+&quot;count&quot;: 1129, 
+
+&quot;results&quot;: 
+
+[{ 
+
+&quot;key&quot;: &quot;3e8b196b-c482-47f1-9574-772141310c40&quot;, 
+
+&quot;installationKey&quot;: &quot;7ce8aef1-9e92-11dc-8740-b8a03c50a999&quot;, 
+
+&quot;publishingOrganizationKey&quot;: &quot;7ce8aef0-9e92-11dc-8738-b8a03c50a862&quot;, 
+
+&quot;external&quot;: false, &quot;numConstituents&quot;: 0, 
+
+&quot;type&quot;: &quot;CHECKLIST&quot;, 
+
+&quot;title&quot;: &quot;Revision of the ant genus Myrmoteras in the Malay Archipelago (Hymenoptera, Formicidae).&quot;, 
+
+&quot;description&quot;: &quot;UNAVAILABLE&quot;, 
+
+&quot;language&quot;: &quot;eng&quot;, 
+
+&quot;homepage&quot;: &quot;http://tb.plazi.org/GgServer/summary/23A1465DDF212F7DA589F41341B83FCC&quot;, 
+
+&quot;citation&quot;: { &quot;text&quot;: &quot;Plazi.org taxonomic treatments database: Revision of the ant genus Myrmoteras in the Malay Archipelago (Hymenoptera, Formicidae).&quot; }, 
+
+&quot;rights&quot;: &quot;No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. Taxonomic information exchange and copyright: the Plazi approach. BMC Research Notes 2009, 2:53 for further explanation.&quot;, 
+
+&quot;lockedForAutoUpdate&quot;: false, 
+
+&quot;createdBy&quot;: &quot;plazi&quot;, 
+
+&quot;modifiedBy&quot;: &quot;crawler.gbif.org&quot;, 
+
+&quot;created&quot;: &quot;2014-06-28T12:55:54.089+0000&quot;, 
+
+&quot;modified&quot;: &quot;2014-11-25T13:29:20.716+0000&quot;, 
+
+&quot;contacts&quot;: [...], 
+
+&quot;endpoints&quot;: [{ &quot;key&quot;: 45389, 
+
+&quot;type&quot;: &quot;DWC_ARCHIVE&quot;, 
+
+&quot;url&quot;: &quot;http://plazi.cs.umb.edu/GgServer/dwca/23A1465DDF212F7DA589F41341B83FCC.zip&quot;, 
+
+&quot;createdBy&quot;: &quot;plazi&quot;, 
+
+&quot;modifiedBy&quot;: &quot;plazi&quot;, 
+
+&quot;created&quot;: &quot;2014-06-28T12:55:54.604+0000&quot;, 
+
+&quot;modified&quot;: &quot;2014-06-28T12:55:54.604+0000&quot;, 
+
+&quot;machineTags&quot;: [] }], 
+
+&quot;machineTags&quot;: [...], &quot;tags&quot;: [], 
+
+&quot;identifiers&quot;: [{ &quot;key&quot;: 23594, 
+
+&quot;type&quot;: &quot;UUID&quot;, 
+
+&quot;identifier&quot;: &quot;23A1465DDF212F7DA589F41341B83FCC&quot;, 
+
+&quot;createdBy&quot;: &quot;plazi&quot;, 
+
+&quot;created&quot;: &quot;2014-06-28T12:55:54.334+0000&quot; }], 
+
+&quot;comments&quot;: [], 
+
+&quot;bibliographicCitations&quot;: [], 
+
+&quot;curatorialUnits&quot;: [], 
+
+&quot;taxonomicCoverages&quot;: [], 
+
+&quot;geographicCoverages&quot;: [], 
+
+&quot;temporalCoverages&quot;: [], 
+
+&quot;keywordCollections&quot;: [], 
+
+&quot;countryCoverage&quot;: [], 
+
+&quot;collections&quot;: [], 
+
+&quot;dataDescriptions&quot;: [] 
+
+}] 
+
+}
+</code></pre><p>Entries of interest:</p>
+<ul>
+<li><code>endOfRecords</code>: if false, increasing offset will return further datasets</li>
+<li><code>count</code>: total number of available Plazi datasets</li>
+<li><code>results.endpoints.url</code>: the URL of the DwC-Archive containing the data on</li>
+<li><code>results.identifiers.identifier</code>: the UUID of the dataset</li>
+<li><code>results.homepage</code>: the URL of an HTML page listing the taxonomic treatments whose data is contained in the DwC-Archive</li>
+</ul>
+<h2 id="appendix-darwin-core-archive-content">Appendix: Darwin Core Archive Content</h2>
+<p><strong>taxa.txt</strong></p>
+<ul>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment UUID + <code>.taxon</code> for taxon, treatment ID + <code>.syn</code> for new junior synonyms</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/namePublishedIn">http://rs.tdwg.org/dwc/terms/namePublishedIn</a>: reference string of original description</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/acceptedNameUsageID">http://rs.tdwg.org/dwc/terms/acceptedNameUsageID</a>: blank, except for new junior synonyms</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/parentNameUsageID">http://rs.tdwg.org/dwc/terms/parentNameUsageID</a>: blank</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/originalNameUsageID">http://rs.tdwg.org/dwc/terms/originalNameUsageID</a>: blank</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/kingdom">http://rs.tdwg.org/dwc/terms/kingdom</a>: taxon@kingdom</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/phylum">http://rs.tdwg.org/dwc/terms/phylum</a>: taxon@phylum</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/class">http://rs.tdwg.org/dwc/terms/class</a>: taxon@class</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/order">http://rs.tdwg.org/dwc/terms/order</a>: taxon@order</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/family">http://rs.tdwg.org/dwc/terms/family</a>: taxon@family</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/genus">http://rs.tdwg.org/dwc/terms/genus</a>: taxon@genus</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonRank">http://rs.tdwg.org/dwc/terms/taxonRank</a>: taxon@rank</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/scientificName">http://rs.tdwg.org/dwc/terms/scientificName</a>: taxon name</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonomicStatus">http://rs.tdwg.org/dwc/terms/taxonomicStatus</a>: blank except for new junior synonyms, where &ldquo;synonym&rdquo;, &ldquo;homotypicSynonym&rdquo; if we have a syntype</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus">http://rs.tdwg.org/dwc/terms/nomenclaturalStatus</a>: blank</li>
+<li><a href="http://purl.org/dc/terms/references">http://purl.org/dc/terms/references</a>: HTTP URI of treatment</li>
+</ul>
+<p><strong>occurrences.txt</strong></p>
+<ul>
+<li><a href="http://rs.tdwg.org/dwc/terms/occurrenceID">http://rs.tdwg.org/dwc/terms/occurrenceID</a>: treatment UUID + &ldquo;.mc.&rdquo; + materials citation ID</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment UUID + &ldquo;.taxon&rdquo;, referencing taxa.txt</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/catalogNumber">http://rs.tdwg.org/dwc/terms/catalogNumber</a>: mc@specimenCode (explode to one record per specimen code if possible)</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/collectionCode">http://rs.tdwg.org/dwc/terms/collectionCode</a>: mc@collectionCode (explode to one record per collection code if possible)</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/institutionCode">http://rs.tdwg.org/dwc/terms/institutionCode</a>: blank</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/typeStatus">http://rs.tdwg.org/dwc/terms/typeStatus</a>: mc@typeStatus (blank if none given)</li>
+<li><a href="http://rs.gbif.org/terms/1.0/verbatimLabel">http://rs.gbif.org/terms/1.0/verbatimLabel</a>: mc text</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/sex">http://rs.tdwg.org/dwc/terms/sex</a>: mc@sex (also other specimen types like &ldquo;queen&rdquo;, &ldquo;worker&rdquo;, etc.)</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/individualCount">http://rs.tdwg.org/dwc/terms/individualCount</a>: mc@specimenCount (explode things like &ldquo;5 workers, 2 females&rdquo; to one record per typified specimen count if possible)</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/eventDate">http://rs.tdwg.org/dwc/terms/eventDate</a>: mc@collectingDate</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/recordedBy">http://rs.tdwg.org/dwc/terms/recordedBy</a>: mc@collectorName</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/recordNumber">http://rs.tdwg.org/dwc/terms/recordNumber</a>: blank</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/decimalLatitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</a>: mc@latitude</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/decimalLongitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</a>: mc@longitude</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">http://rs.tdwg.org/dwc/terms/minimumElevationInMeters</a>: mc@elevation, or mc@elevationMin if given</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">http://rs.tdwg.org/dwc/terms/maximumElevationInMeters</a>: mc@elevationMax if given</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/country">http://rs.tdwg.org/dwc/terms/country</a>: mc@collectingCountry</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/stateProvince">http://rs.tdwg.org/dwc/terms/stateProvince</a>: mc@stateProvince or mc@collectingRegion</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/municipality">http://rs.tdwg.org/dwc/terms/municipality</a>: mc@collectingMunicipality</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/locality">http://rs.tdwg.org/dwc/terms/locality</a>: mc@location</li>
+<li><a href="http://purl.org/dc/terms/references">http://purl.org/dc/terms/references</a>: HTTP URI of treatment</li>
+</ul>
+<p><strong>description.txt</strong></p>
+<ul>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment UUID + <code>.taxon</code>, referencing taxa.txt</li>
+<li><a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a>: subSubSection@type</li>
+<li><a href="http://purl.org/dc/terms/description">http://purl.org/dc/terms/description</a>: subSubSection text</li>
+<li><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a>: blank (except if we have language detection (might be reusable from spell checker))</li>
+<li><a href="http://purl.org/dc/terms/source">http://purl.org/dc/terms/source</a>: <code>article citation</code></li>
+</ul>
+<p><strong>distribution.txt</strong></p>
+<ul>
+<li><a href="http://rs.tdwg.org/dwc/terms/locationID">http://rs.tdwg.org/dwc/terms/locationID</a>: treatment UUID + &ldquo;.&rdquo; + location UUID</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment UUID + <code>.taxon</code>, referencing taxa.txt</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/country">http://rs.tdwg.org/dwc/terms/country</a>: mc@collectinCountry</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/locality">http://rs.tdwg.org/dwc/terms/locality</a>: mc@location</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/occurrenceStatus">http://rs.tdwg.org/dwc/terms/occurrenceStatus</a>: mc@typeStatus</li>
+</ul>
+<p><strong>media.txt</strong></p>
+<ul>
+<li><a href="http://purl.org/dc/terms/identifier">http://purl.org/dc/terms/identifier</a>: treatment UUID + <code>.text</code></li>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment UUID + <code>.taxon</code>, referencing taxa.txt</li>
+<li><a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a>: <a href="purl.org/dc/dcmitype/Text"><code>purl.org/dc/dcmitype/Text</code></a></li>
+<li><a href="http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CVterm">http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CVterm</a>: &ldquo;<a href="http://rs.tdwg.org/ontology/voc/SPMInfoItems#GeneralDescription">http://rs.tdwg.org/ontology/voc/SPMInfoItems#GeneralDescription</a>&rdquo;</li>
+<li><a href="http://purl.org/dc/terms/format">http://purl.org/dc/terms/format</a>: <code>text/html</code></li>
+<li><a href="http://purl.org/dc/terms/title">http://purl.org/dc/terms/title</a>: taxon + author + year</li>
+<li><a href="http://purl.org/dc/terms/description">http://purl.org/dc/terms/description</a>: treatment HTML</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/additionalInformationURL">http://rs.tdwg.org/dwc/terms/additionalInformationURL</a>: treatment HTTP URI</li>
+<li><a href="http://ns.adobe.com/xap/1.0/rights/UsageTerms">http://ns.adobe.com/xap/1.0/rights/UsageTerms</a>: <code>Public Domain</code></li>
+<li><a href="http://purl.org/dc/terms/rights">http://purl.org/dc/terms/rights</a>:</li>
+</ul>
+<pre><code>No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. 
+Taxonomic information exchange and copyright: the Plazi approach. 
+BMC Research Notes 2009, 2:53 for further explanation.
+</code></pre><ul>
+<li><a href="http://ns.adobe.com/xap/1.0/rights/Owner">http://ns.adobe.com/xap/1.0/rights/Owner</a>: blank</li>
+<li><a href="http://purl.org/dc/terms/contributor">http://purl.org/dc/terms/contributor</a>: <code>((Pensoft|Zootaxa) via )?Plazi</code></li>
+<li><a href="http://purl.org/dc/terms/creator">http://purl.org/dc/terms/creator</a>: author list, semicolon separated</li>
+<li><a href="http://purl.org/dc/terms/bibliographicCitation">http://purl.org/dc/terms/bibliographicCitation</a>: bibliographic reference string</li>
+</ul>
+<p><strong>references.txt</strong></p>
+<ul>
+<li><a href="http://purl.org/dc/terms/identifier">http://purl.org/dc/terms/identifier</a>: treatment UUID + <code>.ref</code> for article (treatment) reference, cited treatment ID (from treatmentCitation@httpUri) + <code>.ref</code> for original description reference</li>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment ID + <code>.taxon</code>, referencing <code>taxa.txt</code></li>
+<li><a href="http://eol.org/schema/reference/publicationType">http://eol.org/schema/reference/publicationType</a>: bibRef@type</li>
+<li><a href="http://eol.org/schema/reference/full_reference">http://eol.org/schema/reference/full_reference</a>: reference text</li>
+<li><a href="http://eol.org/schema/reference/primaryTitle">http://eol.org/schema/reference/primaryTitle</a>: bibRef@title</li>
+<li><a href="http://purl.org/dc/terms/title">http://purl.org/dc/terms/title</a>: bibRef@journal or bibRef@volumeTitle</li>
+<li><a href="http://purl.org/ontology/bibo/pages">http://purl.org/ontology/bibo/pages</a>: blank</li>
+<li><a href="http://purl.org/ontology/bibo/pageStart">http://purl.org/ontology/bibo/pageStart</a>: treatment first page</li>
+<li><a href="http://purl.org/ontology/bibo/pageEnd">http://purl.org/ontology/bibo/pageEnd</a>: treatment last page</li>
+<li><a href="http://purl.org/ontology/bibo/journal">http://purl.org/ontology/bibo/journal</a>: bibRef@journal</li>
+<li><a href="http://purl.org/ontology/bibo/volume">http://purl.org/ontology/bibo/volume</a>: bibRef@part</li>
+<li><a href="http://purl.org/dc/terms/publisher">http://purl.org/dc/terms/publisher</a>: bibRef@publisher</li>
+<li><a href="http://purl.org/ontology/bibo/authorList">http://purl.org/ontology/bibo/authorList</a>: bibRef@author, semicolon separated</li>
+<li><a href="http://purl.org/ontology/bibo/editorList">http://purl.org/ontology/bibo/editorList</a>: bibRef@editor, semicolon separated</li>
+<li><a href="http://purl.org/dc/terms/created">http://purl.org/dc/terms/created</a>: bibRef@year</li>
+<li><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a>: blank</li>
+<li><a href="http://purl.org/ontology/bibo/uri">http://purl.org/ontology/bibo/uri</a>: bibRef@URL, if available</li>
+<li><a href="http://purl.org/ontology/bibo/doi">http://purl.org/ontology/bibo/doi</a>: bibRef@DOI, if available</li>
+</ul>
+<p><strong>vernaculars.txt</strong></p>
+<ul>
+<li><a href="http://rs.tdwg.org/dwc/terms/taxonID">http://rs.tdwg.org/dwc/terms/taxonID</a>: treatment UUID + <code>.taxon</code>, referencing taxa.txt</li>
+<li><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a>: <code>en</code></li>
+<li><a href="http://rs.tdwg.org/dwc/terms/vernacularName">http://rs.tdwg.org/dwc/terms/vernacularName</a>: vernacular name</li>
+</ul>
+<h2 id="further-reading">Further reading</h2>
+<p><a href="../../about/publications/">Plazi background documents</a></p>
+<h2 id="downloads">Downloads</h2>
+<p>Download the description as <a href="https://drive.google.com/file/d/0B_yrQwn4yBySUHdMcjZhMERlUlE/view?usp=sharing">PDF</a></p>
+<h2 id="support-and-questions">Support and Questions</h2>
+<p>For support and questions, please contact our <a href="mailto:info@plazi.org">support</a>.</p>
+<h2 id="version">Version</h2>
+<p>20150223</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/treatment-bank/" rel="tag">Treatment Bank</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2021 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

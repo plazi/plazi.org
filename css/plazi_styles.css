@@ -1,3 +1,13 @@
+:root {
+	--plazi-font-color: #4e565f;
+}
+
+body {
+	color: var(--plazi-font-color)
+}
+
+a { color: var(--plazi-font-color) }
+
 /* custom plazi styles */
 #mapContainer {
 	border: 1px solid black;
@@ -6,7 +16,11 @@
 }
 
 #mapid { height: 180px; }
-
+#searchBtn {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+}
 div.featured { 
 	float: left; 
 	padding: 20px; 
@@ -26,13 +40,13 @@ div.featured p.summary {
 	display: none;  */
 	font-weight: 200;
 	font-size: small;
-	color: lightgrey;
+	color:#444;
 }
 div.featured:hover { background-color: #9BC134; }
 p.summary a { 
 	/* visibility: visible; 
 	display: block;  */
-	color: lightgrey; 
+	color: #444; 
 	font-weight: 200;
 }
 div.featured:hover p.summary a { 
@@ -47,3 +61,12 @@ label { float: left; width: calc(100% - 150px); }
 input.searchInput { width: 100%; padding: 10px; margin: none; background-color: white; }
 input.searchBtn { display: block; width: 150px; }
 details p { margin-left: 1rem; color: grey; }
+
+/* tag customization */
+.btn {
+	background-color: grey;
+}
+
+.js .menu__list {
+	z-index: 10000
+}

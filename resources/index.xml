@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Plazi</title>
-    <link>https://stage.plazi.org/resources/</link>
+    <link>https://plazi.org/resources/</link>
     <description>Recent content in Resources on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://stage.plazi.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feeds</title>
-      <link>https://stage.plazi.org/resources/feeds/</link>
+      <link>https://plazi.org/resources/feeds/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://stage.plazi.org/resources/feeds/</guid>
+      <guid>https://plazi.org/resources/feeds/</guid>
       <description>Plazi offers RSS feeds for extracted treatments and updates via Twitter
  Notification  RSS-feed (html) RSS-feed (XML)   Twitter  Plazi Treatment Repo Plazi    </description>
     </item>
     
     <item>
       <title>Schemas and Ontologies</title>
-      <link>https://stage.plazi.org/resources/schema-and-ontologies/</link>
+      <link>https://plazi.org/resources/schema-and-ontologies/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://stage.plazi.org/resources/schema-and-ontologies/</guid>
+      <guid>https://plazi.org/resources/schema-and-ontologies/</guid>
       <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. more
 TaxonX Taxonx is a XML schema for encoding legacy taxonomic literature in order to identify taxonomic treatments and lover level textual data such as scientific names, localities, morphological characters, and bibliographic citations.</description>
     </item>
     
     <item>
       <title>Services</title>
-      <link>https://stage.plazi.org/resources/services/</link>
+      <link>https://plazi.org/resources/services/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://stage.plazi.org/resources/services/</guid>
+      <guid>https://plazi.org/resources/services/</guid>
       <description>Plazi offers services and consultancies in the areas of developing and maintaining schemas related to scientific literature, legal analyses and policies in area of scientific literature and data sharing, and brokering and providing data conversion. Publications and lectures are also available. For inquiries, please contact us via email.</description>
     </item>
     
     <item>
       <title>The Bibliography of Life</title>
-      <link>https://stage.plazi.org/resources/bol/</link>
+      <link>https://plazi.org/resources/bol/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://stage.plazi.org/resources/bol/</guid>
+      <guid>https://plazi.org/resources/bol/</guid>
       <description>The Bibliography of Life (BoL) is a contribution towards building a reference bibliography for biodiversity with direct citable, open access to digital object of bibliographic references.
 Biodiversity Literature Repository  Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation.</description>
     </item>

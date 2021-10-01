@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Plazi</title>
+    <link>https://plazi.org/services/</link>
+    <description>Recent content in Services on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biowikifarm</title>
+      <link>https://plazi.org/services/biowikifarm/</link>
+      <pubDate>Sat, 01 May 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/services/biowikifarm/</guid>
+      <description>biowikifarm.net is a shared technical platform supporting a number of mediawiki installations used by a large number projects in biological research for open content publishing. The primary purpose of the shared platform is to be able to maintain the published data and information in a long term sustainable way, to work more efficiently and distribute administrative and maintenance work among several partners. Furthermore, the biowikifarm operates a shared media repository, enabling synergies in re-using media content.</description>
+    </item>
+    
+    <item>
+      <title>Legal Issues</title>
+      <link>https://plazi.org/services/legal-issues-menu/</link>
+      <pubDate>Thu, 01 Apr 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/services/legal-issues-menu/</guid>
+      <description>Over the next years, Plazi’s goal is to link 1 Million taxonomic name usages with their corresponding treatments. This will allow to bridge the gap from the general use of scientific names with the underlying taxonomic literature. It will provide a direct, citable link to the section in scientific articles that include the treatment and the implicit and explicit link to external resources.
+The treatments are a unique sources for objects (i.</description>
+    </item>
+    
+    <item>
+      <title>Bouchout Declaration</title>
+      <link>https://plazi.org/services/bouchout-declaration/</link>
+      <pubDate>Mon, 01 Mar 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/services/bouchout-declaration/</guid>
+      <description>The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available. It offers members of the biodiversity community a way to demonstrate their commitment to open science.
+As signatories, we encourage an overarching approach to Open Biodiversity Knowledge Management which is based on the following fundamental principles:
+ The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display - the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community - practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description>
+    </item>
+    
+    <item>
+      <title>The Blue List</title>
+      <link>https://plazi.org/services/the-blue-list/</link>
+      <pubDate>Mon, 01 Feb 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/services/the-blue-list/</guid>
+      <description>An impediment to open sharing of biological content is uncertainty as to whether and how intellectual property rights apply to biodiversity information. To clarify the situation, and in collaboration with the Global Names project, Plazi organized a workshop in Tempe, Arizona in April 2013 in which we brought together providers and users of taxonomic information, data managers, and Intellectual property Rights lawyers from Europe and the USA. The perspectives of interested parties were submitted via a SNARL (Scientific Names Attributes, Rights and Licensing) wiki.</description>
+    </item>
+    
+    <item>
+      <title>Uses of Data</title>
+      <link>https://plazi.org/services/uses-of-data/</link>
+      <pubDate>Fri, 01 Jan 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/services/uses-of-data/</guid>
+      <description>Publications on-going Publications using GBIF datasets including Plazi mediated datasets
+2017 Hugo W, Hobern D, Kõljalg U, Ó Tuama É, Saarenma H 2017. Global Infrastructures for Biodiversity Data and Services. In: Walters M and Scholes RJ (eds.), The GEO Handbook on Biodiversity Observation Networks, doi: 10.1007/978-3-319-27288-7_11)
+2016 Alonso LA, Agosti D 2016. Ants. In: Larsen TH (ed.) 2016. Core Standardized Methods for Rapid Biological Field Assessment. Conservation International, Arlington, VA. pp.</description>
+    </item>
+    
+  </channel>
+</rss>

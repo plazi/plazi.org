@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Plazi</title>
+    <link>https://plazi.org/tags/event/</link>
+    <description>Recent content in Event on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jun 2021 21:03:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>October 18-22 2021: TDWG 2021 - Virtual Annual Conference</title>
+      <link>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</link>
+      <pubDate>Wed, 23 Jun 2021 21:03:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</guid>
+      <description>As we (TDWG) continue to connect people and biodiversity data globally by virtual means in these globally uncertain times, TDWG 2021 will be composed of symposia, workshops, contributed oral and poster presentations, demos, and discussions, as well as keynotes and social events. The Interest/Task Group working sessions will be held separately during the month following the virtual conference (November 2021).
+SYM18 Discovering known biodiversity: Digital accessible knowledge Session Type: Symposium (no unsolicited presentations considered)</description>
+    </item>
+    
+  </channel>
+</rss>

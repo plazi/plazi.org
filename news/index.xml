@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Plazi</title>
+    <link>https://plazi.org/news/</link>
+    <description>Recent content in News on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 18:18:13 +0200</lastBuildDate><atom:link href="https://plazi.org/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time for an interim review of Plazi’s Covid-19 related activities</title>
+      <link>https://plazi.org/news/beitrag/time-for-an-interim-review-of-plazis-covid-19-related-activities/3e26b3bc95a4b39f0a2a9d7fccee8b19/</link>
+      <pubDate>Fri, 17 Jul 2020 18:18:13 +0200</pubDate>
+      
+      <guid>https://plazi.org/news/beitrag/time-for-an-interim-review-of-plazis-covid-19-related-activities/3e26b3bc95a4b39f0a2a9d7fccee8b19/</guid>
+      <description>Three months ago we started with Pensoft an effort (see also press release) to contribute to a better understanding of the SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) aka corona virus that led to the global COVID-19 pandemic, and in the followup joined the CETAF-Covid-19 task force. With the end of the three months long taskforce we present here our view. A multimedia presentation by the knowledge base task force sub group has been streamed on July 17.</description>
+    </item>
+    
+  </channel>
+</rss>
