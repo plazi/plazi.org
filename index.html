@@ -25,7 +25,7 @@
 		crossorigin=""></script>
 
 	<link rel="stylesheet" href="/css/plazi_styles.css">
-	<link rel="stylesheet" href="/css/newsletter-signup.css">
+	
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -151,7 +151,6 @@
         })
         for (let i = 0, j = points.length; i < j; i++) {
             const p = points[i]
-            console.log(`${p.TaxName}: ${Number(p.MatCitLongitude)}, ${Number(p.MatCitLatitude)}`)
             const popupHtml =  
                 `<div class='TaxName'>
                     <a href='${url}/${p.DocUuid}' target='_blank'>${p.TaxName}</a>

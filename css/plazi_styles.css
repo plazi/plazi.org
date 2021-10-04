@@ -18,7 +18,7 @@ a { color: var(--plazi-font-color) }
 #mapid { height: 180px; }
 #searchBtn {
 	font-weight: 700;
-	font-size: 18px;
+	/* font-size: 18px; */
 	text-transform: uppercase;
 }
 div.featured { 
@@ -42,7 +42,12 @@ div.featured p.summary {
 	font-size: small;
 	color:#444;
 }
-div.featured:hover { background-color: #9BC134; }
+div.featured:hover { 
+	background-color: #9BC134; 
+}
+div.featured:hover a {
+	color: var(--plazi-font-color);
+}
 p.summary a { 
 	/* visibility: visible; 
 	display: block;  */
