@@ -129,9 +129,9 @@ IMF can be created, opened with the open source editor GoldenGate, from where th
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/treatmentbank/schemas-and-ontologies/</guid>
-      <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics.
-TaxPub is maintained at https://github.com/plazi/TaxPub and is described in detall in the article &amp;ldquo;TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions&amp;rdquo; (See also TaxPub Documentation).
-Currently, the following journals use TaxPub:</description>
+      <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions (See also TaxPub Documentation).
+Currently, the following journals use TaxPub:
+ Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution  TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
     </item>
     
     <item>
@@ -149,8 +149,8 @@ Currently, the following journals use TaxPub:</description>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/treatmentbank/what-treatment/</guid>
-      <description>The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.
-Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication).</description>
+      <description>The Plazi TreatmentBank deals with scientific, published, biosystematic literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of more than 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.
+Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication. In other words, each scientific name has one or more treatments, depending on whether there exists only an original description of a species, or there are subsequent re-descriptions.</description>
     </item>
     
     <item>
@@ -482,7 +482,7 @@ The grand challenge is an estimated 500 Million published pages of scholarly bio
       <pubDate>Fri, 01 Jan 2021 19:16:15 +0200</pubDate>
       
       <guid>https://plazi.org/about/the-story-behind-plazi/</guid>
-      <description>Placidus Spescha was not only one of the first alpinists and naturalists but was also deeply committed to the ideals of the Enlightenment. He often ran afoul of his superiors who felt he neglected his priestly duties in favor of his scientific pursuits. Worse yet, he further angered the status quo through his sympathy and support of the French in the follow-up of the wars spurred by the French Revolution which brought invasions of French and Austrian troops into his home, Disentis in the Vorderrhein Tal in Switzerland.</description>
+      <description>Placidus Spescha was not only one of the first alpinists and naturalists but was also deeply committed to the ideals of the Enlightenment. He often ran afoul of his superiors who felt he neglected his priestly duties in favor of his scientific pursuits. Worse yet, he further upset the status quo through his sympathy and support of the French in the follow-up of the wars spurred by the French Revolution which brought invading French and Austrian troops into his home, Disentis, in the Vorderrhein Tal in Switzerland.</description>
     </item>
     
     <item>
