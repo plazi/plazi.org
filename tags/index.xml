@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 12:07:00 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 21:03:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>event</title>
+      <link>https://plazi.org/tags/event/</link>
+      <pubDate>Mon, 11 Oct 2021 21:03:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/event/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>news</title>
       <link>https://plazi.org/tags/news/</link>
@@ -46,18 +55,9 @@
     <item>
       <title>About</title>
       <link>https://plazi.org/tags/about/</link>
-      <pubDate>Sun, 01 Aug 2021 19:16:15 +0200</pubDate>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/tags/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Event</title>
-      <link>https://plazi.org/tags/event/</link>
-      <pubDate>Wed, 23 Jun 2021 21:03:04 +0200</pubDate>
-      
-      <guid>https://plazi.org/tags/event/</guid>
       <description></description>
     </item>
     
