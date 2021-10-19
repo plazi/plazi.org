@@ -13,7 +13,7 @@
       <pubDate>Mon, 23 Aug 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/blr/</guid>
-      <description>The Biodiversity Literature Repository (BLR) is a research infrastructure (RI) comprising the BLR Community on Zenodo at the European Center for Nuclear Research (CERN), and services to search and retrieve the data (Ocellus, Zenodeo API, BLR website). BLR’s focus is on biodiversity data liberated from scholarly publications, and it uses custom metadata linking to external vocabularies covering the needs of the biodiversity community. This includes taxonomic treatment or figures as well as the deposit of the original article annotated with metadata describing the data contained in the articles itself, as well as related identifiers for figures and and treatments therein.</description>
+      <description>The Biodiversity Literature Repository (BLR) is a research infrastructure (RI) comprising the BLR Community on Zenodo at the European Center for Nuclear Research (CERN), and services to search and retrieve the data such as Ocellus, Zenodeo API, and the BLR website. BLR’s focus is on biodiversity data liberated from scholarly publications, and it uses custom metadata linking to external vocabularies covering the needs of the biodiversity community. This includes taxonomic treatments and figures as well as the original article annotated with metadata describing the data contained in the article including the related identifiers for figures and treatments therein.</description>
     </item>
     
   </channel>

@@ -8,23 +8,43 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Oct 14-15, 2021. (Re)discovering known biodiversity imprisoned in scientific publications</title>
-      <link>https://plazi.org/posts/rediscovering-known-biodiversity/</link>
-      <pubDate>Mon, 11 Oct 2021 21:03:04 +0200</pubDate>
+      <title>MaterialCitation accepted as a new TDWG Darwin Core standard</title>
+      <link>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</link>
+      <pubDate>Mon, 18 Oct 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/rediscovering-known-biodiversity/</guid>
-      <description>October 14-15, 2021: Southern African Society for Systematic Biology Webinar and workshop (Re)discovering known biodiversity imprisoned in scientific publications
-Scholarly knowledge about biodiversity is documented in hundreds of millions of pages of scientific literature. This includes original descriptions of all species on earth, and the chain of taxonomic treatments that might follow them, linked by citation. These treatments include statements about species distribution, behavior, life forms, ecology, conservation status, and changes to species limits through splitting or synonymy.</description>
+      <guid>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</guid>
+      <description>On August 25, the new term request by Plazi for a new term for “a reference to or citation of one, a part of, or multiple specimens in scholarly publications” went through the public review process and resulted in the ratified term and in the Quick Reference Guide.
+The original term name materialCitation has been changed to follow Darwin Core convention of using upper camel case for Class names.</description>
+    </item>
+    
+    <item>
+      <title>Oct 18-22, 2021. TDWG 2021 — Virtual Annual Conference</title>
+      <link>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</link>
+      <pubDate>Sun, 17 Oct 2021 21:03:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</guid>
+      <description>As we continue to connect people and biodiversity data globally by virtual means in these globally uncertain times, TDWG 2021 will be composed of symposia, workshops, contributed oral and poster presentations, demos, and discussions, as well as keynotes and social events. The Interest/Task Group working sessions will be held separately during the month following the virtual conference (November 2021). TDWG Symposia and TDWG Schedule
+Oct 20, 8:30 CET SYM18 Discovering known biodiversity: Digital accessible knowledge Session Type: Symposium (no unsolicited presentations considered)</description>
     </item>
     
     <item>
       <title>Oct 21, 2021. 17th Int&#39;l Conference on Digital Preservation, Beijing, China</title>
       <link>https://plazi.org/posts/digital-preservation-conference/</link>
-      <pubDate>Mon, 11 Oct 2021 21:03:04 +0200</pubDate>
+      <pubDate>Fri, 15 Oct 2021 21:03:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/digital-preservation-conference/</guid>
       <description>October 21, 2021: Beijing, China Plazi together with Data Futures, MNHN France, SIB Switzerland and CERN Switzerland will present the lecture &amp;ldquo;Progress with improving preservation and reuse of scientific research data.
 Abstract: We report progress towards automatically transforming existing analyses of scientific literature into annotations based on W3C&amp;rsquo;s Web Annotation Data Model (WADM). Case studies are presented from the life sciences, and social sciences and humanities, in which these developments have led to the creation of new unrestricted data services for the research community.</description>
+    </item>
+    
+    <item>
+      <title>26 Jun–1 Jul, 2022. 2nd World Biodiversity Forum</title>
+      <link>https://plazi.org/posts/world-biodiversity-forum-2022/</link>
+      <pubDate>Tue, 12 Oct 2021 21:03:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/world-biodiversity-forum-2022/</guid>
+      <description>Plazi will present its groundbreaking approach to the &amp;ldquo;liberation&amp;rdquo; of data from taxonomic treatments within scholarly publications at the World Biodiversity Forum.
+Reliable and accessible data is essential for understanding biodiversity, its status, trends and pressures, and thus responding with informed policies and action. The FAIR data management principles to make data Findable, Accessible, Interoperable and Re-usable, are increasingly referenced and required by funding agencies and institutions; however, implementation remains deficient at many levels.</description>
     </item>
     
     <item>
@@ -34,36 +54,6 @@ Abstract: We report progress towards automatically transforming existing analyse
       
       <guid>https://plazi.org/posts/hindsight-is-20x20000/</guid>
       <description>Three years ago we set off on a journey, guided by a philosophy that scientific data trapped in scholarly articles should be free, powered by the creativity and hardwork of a small team scattered around the globe, and supported by Arcadia Fund that decided to invest in our vision. Earlier this month we completed that journey, by all measures, a success. We liberated more data than we set out to liberate, we ended up with more partners than we started with, and we empowered more publications and publishers than three years ago.</description>
-    </item>
-    
-    <item>
-      <title>The Plazi Newsletter</title>
-      <link>https://plazi.org/posts/sebis-first-newsletter/</link>
-      <pubDate>Tue, 10 Aug 2021 09:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/sebis-first-newsletter/</guid>
-      <description>“Platypus” by Charles-Alexandre Lesueur released in Zoosystema, 43(21)   The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania. The platypus is the sole living representative of its family (Ornithorhynchidae) and genus (Ornithorhynchus), though a number of related species appear in the fossil record.
- Together with the four species of echidna, it is one of the five extant species of monotremes, the only mammals that lay eggs instead of giving birth to live young; they are all native to Australasia.</description>
-    </item>
-    
-    <item>
-      <title>Time to find out what we know</title>
-      <link>https://plazi.org/posts/sebis-second-newsletter-extended/</link>
-      <pubDate>Tue, 10 Aug 2021 09:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/sebis-second-newsletter-extended/</guid>
-      <description>Introduction Expand your knowledge by interlinking it to create a network of knowledge. In this months newsletter, we help you to find out how you enhance your publications, we present news from Plazi and show our latest publications and upcoming events.
-Species of the Month  “Echiniscus Pardalis” by Peter Degma &amp; Ralph Oliver Schill released on Zoosystema, 2015.   The Echiniscus Pardalis is a new species of Tardigrada, it was collected on two moss samples in the Parco Naturale delle Alpi Marittime in northwestern Italy.</description>
-    </item>
-    
-    <item>
-      <title>Oct 18-22, 2021. TDWG 2021 — Virtual Annual Conference</title>
-      <link>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</link>
-      <pubDate>Wed, 23 Jun 2021 21:03:04 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</guid>
-      <description>October 18-22, 2021: Virtual Conference As we (TDWG) continue to connect people and biodiversity data globally by virtual means in these globally uncertain times, TDWG 2021 will be composed of symposia, workshops, contributed oral and poster presentations, demos, and discussions, as well as keynotes and social events. The Interest/Task Group working sessions will be held separately during the month following the virtual conference (November 2021).
-SYM18 Discovering known biodiversity: Digital accessible knowledge Session Type: Symposium (no unsolicited presentations considered)</description>
     </item>
     
     <item>
@@ -388,10 +378,10 @@ email
     
     <item>
       <title>materialCitation as a new class submitted to TDWG Darwin Core standard</title>
-      <link>https://plazi.org/posts/materialcitation/</link>
+      <link>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</link>
       <pubDate>Mon, 12 Apr 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/materialcitation/</guid>
+      <guid>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</guid>
       <description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.
 As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description>
     </item>
@@ -435,8 +425,9 @@ As signatories, we encourage an overarching approach to Open Biodiversity Knowle
       
       <guid>https://plazi.org/about/projects/</guid>
       <description>Ongoing Projects 
-Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH) - a single knowledge portal to interlinked and machine-readable FAIR data (Findable, Accessible, Interoperable and Reusable) using unique stable identifiers on specimens, genomics, observations, taxonomy and publications. more https://bicikl-project.eu/
-Past Projects Arcadia The Arcadia Fund supported a three-year project to liberate 300,000 taxonomic treatments, build together with Zenodo and Pensoft the Biodiversity Literature Repository (BLR) at Zenodo/CERN, and develop within TreatmentBank tools and services to liberate data and make them accessible.</description>
+Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH) — a single knowledge portal to interlinked and machine-readable FAIR data (Findable, Accessible, Interoperable and Reusable) using unique stable identifiers on specimens, genomics, observations, taxonomy and publications. more https://bicikl-project.eu/
+Past Projects Arcadia 
+The Arcadia Fund supported a three-year project to liberate 300,000 taxonomic treatments, build together with Zenodo and Pensoft the Biodiversity Literature Repository (BLR) at Zenodo/CERN, and develop within TreatmentBank tools and services to liberate data and make them accessible.</description>
     </item>
     
     <item>

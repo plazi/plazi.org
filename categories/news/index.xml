@@ -6,7 +6,17 @@
     <description>Recent content in news on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 12:07:00 +0200</lastBuildDate><atom:link href="https://plazi.org/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Oct 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MaterialCitation accepted as a new TDWG Darwin Core standard</title>
+      <link>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</link>
+      <pubDate>Mon, 18 Oct 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</guid>
+      <description>On August 25, the new term request by Plazi for a new term for “a reference to or citation of one, a part of, or multiple specimens in scholarly publications” went through the public review process and resulted in the ratified term and in the Quick Reference Guide.
+The original term name materialCitation has been changed to follow Darwin Core convention of using upper camel case for Class names.</description>
+    </item>
+    
     <item>
       <title>Hindsight is 20x20000</title>
       <link>https://plazi.org/posts/hindsight-is-20x20000/</link>
@@ -37,10 +47,10 @@
     
     <item>
       <title>materialCitation as a new class submitted to TDWG Darwin Core standard</title>
-      <link>https://plazi.org/posts/materialcitation/</link>
+      <link>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</link>
       <pubDate>Mon, 12 Apr 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/materialcitation/</guid>
+      <guid>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</guid>
       <description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.
 As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description>
     </item>

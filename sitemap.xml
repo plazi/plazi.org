@@ -3,40 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://plazi.org/categories/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
+    <lastmod>2021-10-19T18:15:47+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/event/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/categories/event/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/posts/rediscovering-known-biodiversity/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/posts/digital-preservation-conference/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/posts/hindsight-is-20x20000/</loc>
-    <lastmod>2021-10-01T20:26:37+02:00</lastmod>
+    <loc>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</loc>
+    <lastmod>2021-10-19T17:28:53+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/news/</loc>
-    <lastmod>2021-10-01T20:26:37+02:00</lastmod>
+    <lastmod>2021-10-19T17:28:53+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/categories/news/</loc>
+    <lastmod>2021-10-19T17:28:53+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2021-10-19T18:15:47+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/event/</loc>
+    <lastmod>2021-10-19T18:15:47+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</loc>
+    <lastmod>2021-10-19T16:36:25+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/categories/event/</loc>
+    <lastmod>2021-10-19T18:15:47+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/digital-preservation-conference/</loc>
+    <lastmod>2021-10-19T18:15:47+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/world-biodiversity-forum-2022/</loc>
+    <lastmod>2021-10-19T18:15:47+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/hindsight-is-20x20000/</loc>
     <lastmod>2021-10-01T20:26:37+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/how-to-participate/</loc>
     <lastmod>2021-09-30T17:29:01+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/blr/</loc>
-    <lastmod>2021-10-06T11:19:03+02:00</lastmod>
+    <lastmod>2021-10-19T13:50:40+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/blr/</loc>
-    <lastmod>2021-10-06T11:19:03+02:00</lastmod>
+    <lastmod>2021-10-19T13:50:40+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/treatment-bank/</loc>
     <lastmod>2021-10-06T11:44:00+02:00</lastmod>
@@ -44,23 +50,11 @@
     <loc>https://plazi.org/treatmentbank/</loc>
     <lastmod>2021-10-06T11:24:22+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/newsletter/</loc>
-    <lastmod>2021-09-02T15:36:24+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/posts/sebis-first-newsletter/</loc>
-    <lastmod>2021-09-02T15:36:24+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/posts/sebis-second-newsletter-extended/</loc>
-    <lastmod>2021-09-02T15:36:24+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</loc>
-    <lastmod>2021-10-14T10:15:04+02:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/posts/bhl-and-plazi-partnership/</loc>
     <lastmod>2021-09-28T11:39:20+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/about/</loc>
-    <lastmod>2021-10-12T08:34:39+02:00</lastmod>
+    <lastmod>2021-10-19T13:46:57+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/</loc>
     <lastmod>2021-10-06T18:47:45+02:00</lastmod>
@@ -122,6 +116,9 @@
     <loc>https://plazi.org/resources/feeds/</loc>
     <lastmod>2021-07-10T09:19:59+02:00</lastmod>
   </url><url>
+    <loc>https://plazi.org/tags/newsletter/</loc>
+    <lastmod>2021-09-02T15:36:24+02:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/privacy/</loc>
     <lastmod>2021-07-10T09:19:59+02:00</lastmod>
   </url><url>
@@ -173,8 +170,8 @@
     <loc>https://plazi.org/about/members/</loc>
     <lastmod>2021-10-01T17:19:46+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/posts/materialcitation/</loc>
-    <lastmod>2021-09-24T15:03:50+02:00</lastmod>
+    <loc>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</loc>
+    <lastmod>2021-10-19T17:28:53+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/legal-issues/</loc>
     <lastmod>2021-10-01T17:04:13+02:00</lastmod>
@@ -189,7 +186,7 @@
     <lastmod>2021-09-23T14:53:25+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/</loc>
-    <lastmod>2021-10-01T17:19:46+02:00</lastmod>
+    <lastmod>2021-10-19T13:46:57+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/data-issue-feedback-loop/</loc>
     <lastmod>2021-09-24T15:03:50+02:00</lastmod>

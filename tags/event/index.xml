@@ -6,21 +6,21 @@
     <description>Recent content in event on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Oct 2021 21:03:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Oct 2021 21:03:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Oct 14-15, 2021. (Re)discovering known biodiversity imprisoned in scientific publications</title>
-      <link>https://plazi.org/posts/rediscovering-known-biodiversity/</link>
-      <pubDate>Mon, 11 Oct 2021 21:03:04 +0200</pubDate>
+      <title>Oct 18-22, 2021. TDWG 2021 — Virtual Annual Conference</title>
+      <link>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</link>
+      <pubDate>Sun, 17 Oct 2021 21:03:04 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/rediscovering-known-biodiversity/</guid>
-      <description>October 14-15, 2021: Southern African Society for Systematic Biology Webinar and workshop (Re)discovering known biodiversity imprisoned in scientific publications
-Scholarly knowledge about biodiversity is documented in hundreds of millions of pages of scientific literature. This includes original descriptions of all species on earth, and the chain of taxonomic treatments that might follow them, linked by citation. These treatments include statements about species distribution, behavior, life forms, ecology, conservation status, and changes to species limits through splitting or synonymy.</description>
+      <guid>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</guid>
+      <description>As we continue to connect people and biodiversity data globally by virtual means in these globally uncertain times, TDWG 2021 will be composed of symposia, workshops, contributed oral and poster presentations, demos, and discussions, as well as keynotes and social events. The Interest/Task Group working sessions will be held separately during the month following the virtual conference (November 2021). TDWG Symposia and TDWG Schedule
+Oct 20, 8:30 CET SYM18 Discovering known biodiversity: Digital accessible knowledge Session Type: Symposium (no unsolicited presentations considered)</description>
     </item>
     
     <item>
       <title>Oct 21, 2021. 17th Int&#39;l Conference on Digital Preservation, Beijing, China</title>
       <link>https://plazi.org/posts/digital-preservation-conference/</link>
-      <pubDate>Mon, 11 Oct 2021 21:03:04 +0200</pubDate>
+      <pubDate>Fri, 15 Oct 2021 21:03:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/digital-preservation-conference/</guid>
       <description>October 21, 2021: Beijing, China Plazi together with Data Futures, MNHN France, SIB Switzerland and CERN Switzerland will present the lecture &amp;ldquo;Progress with improving preservation and reuse of scientific research data.
@@ -28,13 +28,13 @@ Abstract: We report progress towards automatically transforming existing analyse
     </item>
     
     <item>
-      <title>Oct 18-22, 2021. TDWG 2021 — Virtual Annual Conference</title>
-      <link>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</link>
-      <pubDate>Wed, 23 Jun 2021 21:03:04 +0200</pubDate>
+      <title>26 Jun–1 Jul, 2022. 2nd World Biodiversity Forum</title>
+      <link>https://plazi.org/posts/world-biodiversity-forum-2022/</link>
+      <pubDate>Tue, 12 Oct 2021 21:03:04 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</guid>
-      <description>October 18-22, 2021: Virtual Conference As we (TDWG) continue to connect people and biodiversity data globally by virtual means in these globally uncertain times, TDWG 2021 will be composed of symposia, workshops, contributed oral and poster presentations, demos, and discussions, as well as keynotes and social events. The Interest/Task Group working sessions will be held separately during the month following the virtual conference (November 2021).
-SYM18 Discovering known biodiversity: Digital accessible knowledge Session Type: Symposium (no unsolicited presentations considered)</description>
+      <guid>https://plazi.org/posts/world-biodiversity-forum-2022/</guid>
+      <description>Plazi will present its groundbreaking approach to the &amp;ldquo;liberation&amp;rdquo; of data from taxonomic treatments within scholarly publications at the World Biodiversity Forum.
+Reliable and accessible data is essential for understanding biodiversity, its status, trends and pressures, and thus responding with informed policies and action. The FAIR data management principles to make data Findable, Accessible, Interoperable and Re-usable, are increasingly referenced and required by funding agencies and institutions; however, implementation remains deficient at many levels.</description>
     </item>
     
   </channel>
