@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Liberating material citations as a first step to more better data - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="This is part of a series of posts explaining the data extracted and liberated by Plazi">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/treatmentbank/">
+				<span class="menu__text">treatmentbank</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blr/">
+				<span class="menu__text">Biodiversity Literature Repository</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/services/">
+				<span class="menu__text">Services</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/how-to-participate/">
+				<span class="menu__text">How to Participate</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				<span class="menu__text">About</span>
+			</a>
+		</li>
+	</ul>
+</nav>
+<!-- end: menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Liberating material citations as a first step to more better data</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-10-23T14:29:20&#43;02:00">October 23, 2021</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+			<p><em>Our colleague Prof. Roderick Page recently <a href="https://iphylo.blogspot.com/2021/10/problems-with-plazi-parsing-how.html">wrote about quality issues</a> with the data we are extracting from scientific literature and making available for anyone to use anywhere for any purpose. We are thankful for Rod&rsquo;s insightful and helpful criticism. In this post (and several others to come), we explain material citations and other data that we extract, address the data quality issues — why they exist, what we are doing about them — and why the extracted data are still important and useful despite the inherent errors.</em></p>
+
+
+<figure>
+    <img src="img/material-citations.jpg" alt="material citations on maps">
+    <figcaption>Displayed above are the material citations for which geo-coordinates have been included in the publication. Each dot on the map is linked to a material citation, the treatment and publications. This allows immediate access to check whether the liberated data is correct and to suggest improvements when necessary. A total of 1M material citations have been extracted of which 400,000 (160,000 with geo-coordinates) are available on GBIF. The difference in numbers is due to quality control (QC) required before data are transferred to GBIF. The above map is based on a <a href="https://iphylo.blogspot.com/2021/10/problems-with-plazi-parsing-how.html">graphic by Rod Page</a>. Our interpretation is released under CC0 Public Domain Dedication.</figcaption>
+</figure>
+
+<p>Material citations are one of the data types in taxonomic publications that spur a lot of interest and discussions. They cite the specimens used for the research, linked to a specific taxon, either by being included in a respective taxonomic treatment, table or supplementary materials. They represent the expert’s identification of the specimens, and because of that, are the best possible documentation of the identification of a specimen. This is unlike many digitized specimens from natural history collections that have not passed expert curation, peer-review and publication in scholarly articles, especially revisionary works. The person who identified them as well as the source of the citation can always be tracked with their respective links to the treatment. This kind of material citations are highly valued because of their richness of facts. These facts can include the collecting location, country, habitat, collecting methods, collector, collecting date, and specimen code. Because of this, they play an increasingly important role to answer questions such as who collected where, when, what, or which specimen has been reused.</p>
+<p>As pointed out in the Plazi symposium at the TDWG 2021 conference, the “key bits of information” produced by TreatmentBank, complementing named entities such as taxonomic names, are taxonomic treatments, treatment citations and figures that are extracted mainly from PDFs, made FAIR and thus made ready for human and machine consumption.</p>
+<p>Materials citations are a downstream product in Plazi’s workflow, especially the parsing of details, as part of the treatment and the source publication. We recognize their availability in this format as highly valuable for third party processing despite all their shortcomings, providing unique data especially for less known species, and in collections not yet digitized. While less than 100% accurate, they hopefully contribute to developing best practices on how to publish specimens in the future.</p>
+<p>The data quality problems with materials citations are a result of many reasons – for one, they cite one or more specimens in a highly variable way and are embedded in unstructured text. Additionally, OCR procedures, especially of PDFs scanned from historical publications, are prone to a relatively higher amount of errors. At the moment they are published for humans to read and understand, but certainly not for machine consumption.</p>
+<p>In spite of all these quality issues, we believe there is value in extracting and liberating materials citations. Open and FAIR data lend themselves to further refinement, or to <a href="https://plazi-tester.herokuapp.com/?uri=622F7788-F0A4-449D-814A-5B49CD20B228">build applications</a> to <a href="https://ejt.biodiversity.hasdai.org/records/yn2w0-y9v84">visualize annotations in text</a>, reuse them on maps, or display them as individual occurrences with rich metadata such as by GBIF, or be reused by other publications (Plazi mediated data is used in <a href="https://www.gbif.org/publisher/7ce8aef0-9e92-11dc-8738-b8a03c50a862">over 500 scientific papers</a>). For this, we need to not just improve the quality of the extracted data but make the data more structured and extractable to begin with. The recent collaboration between the European Journal of Taxonomy, Pensoft Publishers and Plazi led to guidelines on how best to publish material citations.</p>
+<p>Treatments and material citations of up to 80,000 species are the only source of information about these taxa in the Global Biodiversity Facility (GBIF), indicating the important role of research publications to understanding the long tail of little known species.</p>
+<p>Quality control and feedback mechanisms help improve material citations. We believe that 1 million liberated and usable material citations is an important first step despite the errors inherent in the test mining process. Material citations are part of a treatment, and thus the taxonomic identification is not an issue. The omnipresent link to the treatment and article and TreatmentBank allows curating individual material citations. We continue to work on QC issues and evolve this process to accommodate large scale, algorithmical curation. Ongoing developments to label the granularity of markup and quality control, together with increasing involvement of users, will make material citations fit for more use cases.</p>
+<p>No machine translation, especially that of printed literature meant for human-consumption, is going to be 100% accurate. But the scale of potentially valuable data trapped in articles necessitates machine translation as the only viable way to liberate this data and make it available for secondary use. This will and does result in data that are not 100% accurate. Just like any other un- or partially-reviewed source, the material citations should be verified before further use, especially for further research, by comparing against the original text. To facilitate this, the material citations are submitted to an initial quality control stage on TreatmentBank, and we provide links back to the original text making data verification easy. Providing millions of facts in an easily searchable form allows for valuable analysis and synthesis over a vast quantity of research previously impossible. Making the data available results in an inevitable compromise in accuracy but not making it would result in a 100% inaccuracy by way of a complete gap in knowledge about them.</p>
+<p>We continue to make investments in data QC that will lead to better quality, but we need crowdsourced human-curation from all interested users. In keeping with the spirit of open source that there are fewer bugs when many more eyes are looking at it, this trade-off between data availability and accuracy is hopefully temporary. Increased data availability will lead to increased use which will hopefully lead to increased reporting of inaccuracy that we will fix. The overall result will be beneficial to everyone.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/data-quality/" rel="tag">data quality</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2021 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

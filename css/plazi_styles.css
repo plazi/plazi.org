@@ -1,5 +1,7 @@
 :root {
 	--plazi-font-color: #4e565f;
+	--plazi-highlight-color: #9BC134;
+	--plazi-background-color: grey;
 }
 
 body {
@@ -40,10 +42,10 @@ div.featured p.summary {
 	display: none;  */
 	font-weight: 200;
 	font-size: small;
-	color:#444;
+	color: var(--plazi-font-color);
 }
 div.featured:hover { 
-	background-color: #9BC134; 
+	background-color: var(--plazi-background-color); 
 }
 div.featured:hover a {
 	color: var(--plazi-font-color);
@@ -65,11 +67,11 @@ div.featured:hover p.summary a {
 label { float: left; width: calc(100% - 150px); }
 input.searchInput { width: 100%; padding: 10px; margin: none; background-color: white; }
 input.searchBtn { display: block; width: 150px; }
-details p { margin-left: 1rem; color: grey; }
+details p { margin-left: 1rem; color: var(--plazi-font-color); }
 
 /* tag customization */
 .btn {
-	background-color: grey;
+	background-color: var(--plazi-font-color);
 }
 
 .js .menu__list {
@@ -78,4 +80,28 @@ details p { margin-left: 1rem; color: grey; }
 
 h3 {
 	color: var(--plazi-font-color);
+}
+
+/* breadcrumbs */
+ol.nav {
+	list-style: none;
+	clear: both;
+}
+ol.nav li {
+	float: left;
+	margin-right: 5px;
+}
+ol.nav li:after {
+	content: '→';
+}
+ol.nav li:last-of-type:after {
+	content: '';
+}
+ol.nav li.active > a {
+	color: var(--plazi-highlight-color);
+}
+/* end breadcrumbs */
+
+figcaption {
+	font-size: 80%;
 }

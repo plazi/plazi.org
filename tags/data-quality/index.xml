@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data quality on Plazi</title>
+    <link>https://plazi.org/tags/data-quality/</link>
+    <description>Recent content in data quality on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Oct 2021 14:29:20 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/data-quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liberating material citations as a first step to more better data</title>
+      <link>https://plazi.org/posts/2021/10/liberation-first-step-toward-quality/</link>
+      <pubDate>Sat, 23 Oct 2021 14:29:20 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2021/10/liberation-first-step-toward-quality/</guid>
+      <description>Our colleague Prof. Roderick Page recently wrote about quality issues with the data we are extracting from scientific literature and making available for anyone to use anywhere for any purpose. We are thankful for Rod&amp;rsquo;s insightful and helpful criticism. In this post (and several others to come), we explain material citations and other data that we extract, address the data quality issues — why they exist, what we are doing about them — and why the extracted data are still important and useful despite the inherent errors.</description>
+    </item>
+    
+  </channel>
+</rss>

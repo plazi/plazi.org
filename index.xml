@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Liberating material citations as a first step to more better data</title>
+      <link>https://plazi.org/posts/2021/10/liberation-first-step-toward-quality/</link>
+      <pubDate>Sat, 23 Oct 2021 14:29:20 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2021/10/liberation-first-step-toward-quality/</guid>
+      <description>Our colleague Prof. Roderick Page recently wrote about quality issues with the data we are extracting from scientific literature and making available for anyone to use anywhere for any purpose. We are thankful for Rod&amp;rsquo;s insightful and helpful criticism. In this post (and several others to come), we explain material citations and other data that we extract, address the data quality issues — why they exist, what we are doing about them — and why the extracted data are still important and useful despite the inherent errors.</description>
+    </item>
+    
+    <item>
       <title>MaterialCitation accepted as a new TDWG Darwin Core standard</title>
       <link>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</link>
       <pubDate>Mon, 18 Oct 2021 19:16:15 +0200</pubDate>
@@ -171,16 +180,6 @@ Treatments are well-defined parts of articles that describe the particular usage
       <guid>https://plazi.org/treatment-example/</guid>
       <description>Dashboard Here  Taxonomy Distribution Map Specimens Downloads Version History  Kronestedt, Torbjörn &amp;amp; Marusik, Yuri M., 2011, Studies on species of Holarctic Pardosa groups (Araneae, Lycosidae). VII. The Pardosa tesquorum group, Zootaxa 3131, pp. 1-34: 25-28
    scientific name Pardosa zyuzini     status sp. nov.   publication ID http://doi.org/10.5281/zenodo.399649   persistent identifier http://treatment.plazi.org/id/730087F2-1E00-FF81-FF61-FC34FDA561A5   treatment provided by Plazi (2016-04-12 02:05:59, last updated by Leidenlab19 2019-12-06 14:06:18)    Treatment Pardosa zyuzini sp.</description>
-    </item>
-    
-    <item>
-      <title>Anteater: The Plazi Newsletter</title>
-      <link>https://plazi.org/posts/_a-newsletter/</link>
-      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/_a-newsletter/</guid>
-      <description>“Giant Anteater” by Petr Kratochvil released CCO Public Domain Dedication   Anteater is a common name for the four extant mammal species of the suborder Vermilingua (meaning &amp;ldquo;worm tongue&amp;rdquo;) commonly known for eating ants and termites. The individual species have other names in English and other languages. Together with the sloths, they are within the order Pilosa.
-  Wikipedia contributors. (2021, June 26). Anteater. In Wikipedia, The Free Encyclopedia.</description>
     </item>
     
     <item>

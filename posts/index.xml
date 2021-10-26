@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Plazi</title>
+    <title>Posts on Plazi</title>
     <link>https://plazi.org/posts/</link>
-    <description>Recent content in News on Plazi</description>
+    <description>Recent content in Posts on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -64,16 +64,6 @@ Reliable and accessible data is essential for understanding biodiversity, its st
       <guid>https://plazi.org/posts/bhl-and-plazi-partnership/</guid>
       <description>BHL and Plazi have agreed to collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF. This includes the following steps:
  Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
-    </item>
-    
-    <item>
-      <title>Anteater: The Plazi Newsletter</title>
-      <link>https://plazi.org/posts/_a-newsletter/</link>
-      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/_a-newsletter/</guid>
-      <description>“Giant Anteater” by Petr Kratochvil released CCO Public Domain Dedication   Anteater is a common name for the four extant mammal species of the suborder Vermilingua (meaning &amp;ldquo;worm tongue&amp;rdquo;) commonly known for eating ants and termites. The individual species have other names in English and other languages. Together with the sloths, they are within the order Pilosa.
-  Wikipedia contributors. (2021, June 26). Anteater. In Wikipedia, The Free Encyclopedia.</description>
     </item>
     
     <item>
