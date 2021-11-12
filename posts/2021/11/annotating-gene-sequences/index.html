@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Annotating genes sequences with data from herbarium sheets and publications - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="a report on a workshop on updating accession with specimen-data from publications">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/treatmentbank/">
+				<span class="menu__text">treatmentbank</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blr/">
+				<span class="menu__text">Biodiversity Literature Repository</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/services/">
+				<span class="menu__text">Services</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/how-to-participate/">
+				<span class="menu__text">How to Participate</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				<span class="menu__text">About</span>
+			</a>
+		</li>
+	</ul>
+</nav>
+<!-- end: menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Annotating genes sequences with data from herbarium sheets and publications</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-11-11T21:40:51&#43;01:00">November 11, 2021</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+			
+
+<figure>
+  <img src="img/table.jpg">
+  <figcaption>
+  A snapshot of the table showing the GenBank accession numbers and localities for the 507 individuals representing 61 species of Cladocera and 19 of Copepoda used in this study. <a href="https://doi.org/10.11646/zootaxa.1839.1.1" target="_blank">DOI: https://doi.org/10.11646/zootaxa.1839.1.1</a>. Full table in <a href="https://tb.plazi.org/GgServer/tables/DF5F662FDF03FF92C1D7FF03FCA45EB2?format=HTML" target="_blank">HTML</a> and <a href="https://tb.plazi.org/GgServer/tables/DF5F662FDF03FF92C1D7FF03FCA45EB2?format=JSON" target="_blank">JSON</a> formats.
+  </figcaption>
+</figure>
+
+<blockquote>
+<p>Linking molecular data to taxonomic names and their extensive taxonomic treatments represents a fundamental component in biodiversity assessment. Voucher specimens for sequenced data can be the key nodes to make these connections.<br>
+— <a href="https://github.com/elixir-europe/bioHackathon-projects-2021/tree/main/projects/15">Project 15, Biohackathon 2021</a></p>
+</blockquote>
+<p>Taxonomic treatments are research results related to a taxon published in a standard way as sections of a publication. Ideally, and in the context of reproducible science, all the data or identifiers to the data are available. For taxonomic publications “all the data” include material citations to the specimens used and genomic data generated as basis for the analysis. Thus a curated link is provided in a publication between a species, more precisely a taxonomic name providing the expert identification of a specimen, the specimen itself represented by its material citation, and one or more DNA sequences. Furthermore, the taxonomic name can be linked to the cited treatment, opening up further data about the species. The treatment includes other data such as traits that can be used to annotate gene sequences.</p>
+<p>In an ideal world, the linking within the treatment can be used to either start from a specimen or a gene sequence to discover more information about it such as its geographical range, the source specimen, or its location in the phylogenetic tree.</p>
+<p>This would require these relationships to be explicitly expressed in the publication, or at least available for machine-processing — how else could we process millions of printed pages? The natural candidates for expressing this relationship are either the material citation that includes the data about one specimen or tables that include all these data in one well organized location.</p>
+<p>The reality however is that an increasing number of tables are produced listing the specimen and its gene accession numbers or the specimen code or geographic location information. This would be reasonable if tables were not hard to extract, especially if they span multiple pages, and then to provide the rows as material citations representing the links between specimen and genes.</p>
+<p>The other reality is that many of these tables are published as supplementary material in the form of MS-Excel or MS-Word formatted documents, without identifiers and thus can not be automatically discovered, extracted and analyzed programmatically. Of course, the publications that are behind paywalls do not even allow reuse of the data without institutional access or upfront payment</p>
+<p>In this hackathon, we focused on the most promising source for specimens– and genes– related data to find and extract tables, and check them for quality. We analysed 14,000 tables already extracted by TreatmentBank to develop a quality control mechanism for determining the correctness of the extracted tables, and are now continuing to develop a more refined mechanism to represent the quality of extraction.</p>
+<p>This work is based on TreatmentBank’s algorithm to extract tables, even tables that may span multiple pages, and deliver them in different formats such as JATS.</p>
+<p>The results are very promising. We continue to work to make tables first-class digital citizens and extract the respective data as citable units, ultimately accessible in GBIF as material citations that express the relationship of genomic data with specimen and literature-based data. With this, we will be able to close the gap between specimens, genes and literature and provide an expert-curated link between them.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags//" rel="tag"></a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/pub_releases/2018-06/pp-pab061418.php">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2021 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
