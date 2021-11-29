@@ -360,7 +360,8 @@ Treatments are well defined parts of articles that define the particular usage o
       <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
       
       <guid>https://plazi.org/about/publications/</guid>
-      <description>2021   Miller JA, Agosti D, Guidoti M, Rivera Quiroz FA. 2021. Linking and the Role of the Material Citation. Biodiversity Information Science and Standards 5: e75543. doi: 10.3897/biss.5.75543
+      <description>2021
+  Miller JA, Agosti D, Guidoti M, Rivera Quiroz FA. 2021. Linking and the Role of the Material Citation. Biodiversity Information Science and Standards 5: e75543. doi: 10.3897/biss.5.75543
   Agosti D, Egloff W. 2021. Herausfinden, was wir schon wissen. Gfbs Newsletter, 39, 24–31. doi: 10.5281/zenodo.5168465
   Guidoti M, Sokolowicz C, Simoes F, Gonçalves V, Ruschel T, Alvares DJ, Agosti D 2021. TreatmentBank: Plazi&amp;rsquo;s strategies and its implementation to most efficiently liberate data from scholarly publications.</description>
     </item>
@@ -396,21 +397,19 @@ Director Plazi GmbH
 Research Associate
 Naturhistorisches Museum, Bern
 Berne, Switzerland
-email
-  Klemens Böhm
+agosti@plazi.org  Klemens Böhm
 Member of Board (2008-)
 Professor
 Lehrstuhl für Systeme der Informationsverwaltung
 Karlsruher Institute of Technology
 Karlsruhe, GERMANY
-email
-  Terry Catapano
+boehm@kit.edu  Terry Catapano
 Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
 Vice-President Plazi
 Columbia University
 New York, USA
-email
-  Hong Cui</description>
+catapano@plazi.org  Hong Cui
+Natural language processing, character modeling</description>
     </item>
     
     <item>
@@ -453,18 +452,6 @@ GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. 
       <description>The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available. It offers members of the biodiversity community a way to demonstrate their commitment to open science.
 As signatories, we encourage an overarching approach to Open Biodiversity Knowledge Management which is based on the following fundamental principles:
  The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display - the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community - practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://plazi.org/about/projects/</link>
-      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/about/projects/</guid>
-      <description>Ongoing Projects 
-Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH) — a single knowledge portal to interlinked and machine-readable FAIR data (Findable, Accessible, Interoperable and Reusable) using unique stable identifiers on specimens, genomics, observations, taxonomy and publications. more https://bicikl-project.eu/
-Past Projects Arcadia 
-The Arcadia Fund supported a three-year project to liberate 300,000 taxonomic treatments, build together with Zenodo and Pensoft the Biodiversity Literature Repository (BLR) at Zenodo/CERN, and develop within TreatmentBank tools and services to liberate data and make them accessible.</description>
     </item>
     
     <item>

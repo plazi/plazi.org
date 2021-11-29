@@ -105,3 +105,29 @@ ol.nav li.active > a {
 figcaption {
 	font-size: 80%;
 }
+
+ul.members {
+	list-style: none;
+	column-count: 3;
+}
+li.member {
+	margin: 1rem 1.5rem;
+	width: 250px;
+	float: left;
+}
+
+details > summary {
+	font-weight: 800;
+}
+
+li.project {
+	clear: both;
+	margin-bottom: 2rem;
+}
+
+li.project img {
+	width: 200px;
+	float: left;
+	margin-right: 1rem;
+	border: 1px solid;
+}

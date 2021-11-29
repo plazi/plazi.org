@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>current project on Plazi</title>
+    <link>https://plazi.org/tags/current-project/</link>
+    <description>Recent content in current project on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/current-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BiCIKL</title>
+      <link>https://plazi.org/about/projects/bicikl/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/projects/bicikl/</guid>
+      <description>Funding Agency: EU Comission
+PI: Pensoft Publishers, Sofia, Bulgaria
+Dates: May 2021–April 30, 2024
+Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH) — a single knowledge portal to interlinked and machine-readable FAIR data (Findable, Accessible, Interoperable and Reusable) using unique stable identifiers on specimens, genomics, observations, taxonomy and publications. more</description>
+    </item>
+    
+    <item>
+      <title>eBioDiv</title>
+      <link>https://plazi.org/about/projects/ebiodiv/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/projects/ebiodiv/</guid>
+      <description>Funding Agency: Swissuniversities
+PI: Swiss Insitute of Bioinformatics/Haute École spécialisée de Suisse occidentale, Geneva
+Dates: September 2021–August 2023
+The Earth’s scholarly knowledge about species diversity (biodiversity) is included in a corpus of several hundred million pages of publications spanning over 250 years, with an arbitrary starting point of 1753 for plants and 1758 for animals. Each year an estimated 19,000 animal and plant species and a multiple of augmentations of data are added to the already approximately known 1.</description>
+    </item>
+    
+    <item>
+      <title>MétoTaxa</title>
+      <link>https://plazi.org/about/projects/metotaxa/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/projects/metotaxa/</guid>
+      <description>Funding Agency: Fondation Nationale de Science Ouverte, France
+PI: Muséum national d&amp;rsquo;histoire naturelle, Paris
+Dates: May 2021–April 2022
+Bien que les résultats obtenus par la rétro-conversion soient satisfaisants, notre volonté est de produire des publications structurées conformes aux standards informatiques de la biodiversité et dans le respect des règles FAIR d’Open Science.
+Pour y parvenir, le projet déposé ici vise à mettre en relation les différents partenaires pour adapter la chaîne de production Métopes (partenaire 1) aux besoins spécifiques de la discipline taxonomique.</description>
+    </item>
+    
+    <item>
+      <title>NIH-R21 Viral Spillover</title>
+      <link>https://plazi.org/about/projects/nih-r21/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/projects/nih-r21/</guid>
+      <description>Funding Agency: National Institutes of Health, USA
+PI: Arizona State University, Tempe, Arizona, USA
+Dates: June 2021-May 2023
+The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk. The transmission or ‘spillover’ of wildlife viruses to humans is a critical threat to global health, with major outbreaks of viral pathogens, including filoviruses, paramyxoviruses, and coronaviruses, originating in wild mammals.</description>
+    </item>
+    
+  </channel>
+</rss>

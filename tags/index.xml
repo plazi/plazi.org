@@ -89,11 +89,38 @@
     </item>
     
     <item>
+      <title>publications</title>
+      <link>https://plazi.org/tags/publications/</link>
+      <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Legal Issues</title>
       <link>https://plazi.org/tags/legal-issues/</link>
       <pubDate>Thu, 01 Apr 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/tags/legal-issues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>current project</title>
+      <link>https://plazi.org/tags/current-project/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/current-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>past project</title>
+      <link>https://plazi.org/tags/past-project/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/past-project/</guid>
       <description></description>
     </item>
     
