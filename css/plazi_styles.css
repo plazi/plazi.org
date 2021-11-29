@@ -120,9 +120,14 @@ details > summary {
 	font-weight: 800;
 }
 
+ul.projects {
+	list-style: none;
+}
+
 li.project {
 	clear: both;
 	margin-bottom: 2rem;
+	margin-left: -40px;
 }
 
 li.project img {
