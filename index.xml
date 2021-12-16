@@ -104,6 +104,15 @@ Reliable and accessible data is essential for understanding biodiversity, its st
     </item>
     
     <item>
+      <title>Digital Accessible Knowledge</title>
+      <link>https://plazi.org/about/digital-accessible-knowledge/</link>
+      <pubDate>Thu, 01 Jul 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/digital-accessible-knowledge/</guid>
+      <description>Digital Accessible Knowledge, in the context of Plazi, describes data fit for use to understand the global biodiversity, to create a list of all known species on planet Earth, data that is machine-actionable and ready for use by anybody, anyhwere at any time.</description>
+    </item>
+    
+    <item>
       <title>BHL and Plazi partnership</title>
       <link>https://plazi.org/posts/bhl-and-plazi-partnership/</link>
       <pubDate>Mon, 14 Jun 2021 19:02:17 +0200</pubDate>
@@ -288,15 +297,6 @@ TaxonX Taxonx is a XML schema for encoding legacy taxonomic literature in order 
     </item>
     
     <item>
-      <title>Services</title>
-      <link>https://plazi.org/resources/services/</link>
-      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/resources/services/</guid>
-      <description>Plazi offers services and consultancies in the areas of developing and maintaining schemas related to scientific literature, legal analyses and policies in area of scientific literature and data sharing, and brokering and providing data conversion. Publications and lectures are also available. For inquiries, please contact us via email.</description>
-    </item>
-    
-    <item>
       <title>The Bibliography of Life</title>
       <link>https://plazi.org/resources/bol/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
@@ -352,17 +352,6 @@ Treatments are well defined parts of articles that define the particular usage o
       
       <guid>https://plazi.org/data-apis-tools/visualization-tools/</guid>
       <description>All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://plazi.org/about/publications/</link>
-      <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
-      
-      <guid>https://plazi.org/about/publications/</guid>
-      <description>2021
-  Agosti D, Cornwell P, Bénichou L, Gonzalez J, Herren M, Ruch P 2021. Progress with improving preservation and reuse of scientific research data. iPRES 2021 - 17th International Conference on Digital Preservation, October 19-22, 2021, Beijing, China. manuscript
-  Waterhouse RM, Adam-Blondon AF, Agosti D et al. Recommendations for connecting molecular sequence and biodiversity research infrastructures through ELIXIR [version 1; peer review: awaiting peer review].</description>
     </item>
     
     <item>
@@ -470,6 +459,15 @@ The grand challenge is an estimated 500 Million published pages of scholarly bio
       
       <guid>https://plazi.org/services/the-blue-list/</guid>
       <description>An impediment to open sharing of biological content is uncertainty as to whether and how intellectual property rights apply to biodiversity information. To clarify the situation, and in collaboration with the Global Names project, Plazi organized a workshop in Tempe, Arizona in April 2013 in which we brought together providers and users of taxonomic information, data managers, and Intellectual property Rights lawyers from Europe and the USA. The perspectives of interested parties were submitted via a SNARL (Scientific Names Attributes, Rights and Licensing) wiki.</description>
+    </item>
+    
+    <item>
+      <title>Lectures</title>
+      <link>https://plazi.org/about/lectures/</link>
+      <pubDate>Mon, 01 Feb 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/lectures/</guid>
+      <description>Lectures by Plazi team members are available at BLR and SlideShare.</description>
     </item>
     
     <item>

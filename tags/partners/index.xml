@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partners on Plazi</title>
+    <link>https://plazi.org/tags/partners/</link>
+    <description>Recent content in Partners on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Apr 2021 19:02:17 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/partners/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Partners</title>
+      <link>https://plazi.org/about/partners/</link>
+      <pubDate>Thu, 01 Apr 2021 19:02:17 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/partners/</guid>
+      <description>Zenodo Zenodo, Plazi and Pensoft collaborate in developing the Biodiversity Literature Repository as an open access repository to articles and liberated open FAIR data including figures and taxonomic treatments related to biodiversity. A customized access is provided for all its content via the BLR website and to images via Ocellus.
+read more
+GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. Plazi provides occurrences liberated and extracted from the scientific literature, especially from treatments.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,14 +6,23 @@
     <description>Recent content in About on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Accessible Knowledge</title>
+      <link>https://plazi.org/about/digital-accessible-knowledge/</link>
+      <pubDate>Thu, 01 Jul 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/digital-accessible-knowledge/</guid>
+      <description>Digital Accessible Knowledge, in the context of Plazi, describes data fit for use to understand the global biodiversity, to create a list of all known species on planet Earth, data that is machine-actionable and ready for use by anybody, anyhwere at any time.</description>
+    </item>
+    
     <item>
       <title>About Plazi</title>
       <link>https://plazi.org/about/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/about/</guid>
-      <description>Plazi&amp;rsquo;s Goal Plazi supports and promotes the development of persistent and openly accessible digital taxonomic literature. To this end Plazi:
+      <description>Plazi supports and promotes the development of persistent and openly accessible digital taxonomic literature. To this end Plazi:
  Maintains a digital taxonomic literature repository to enable archiving of taxonomic treatments. Enhances submitted taxonomic treatments by creating TaxonX and Taxpub XML versions. Participates in the development of new models for publishing taxonomic treatments in order to maximize interoperability with relevant cyberinfrastructure components (e.g., name servers, biodiversity resources, etc…) Advocates and educates about the vital importance of maintaining free and open access to scientific discourse and data  Plazi is a not-for-profit organization based in Bern, Switzerland and was founded on March 13th 2008.</description>
     </item>
     
@@ -57,14 +66,12 @@ GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. 
     </item>
     
     <item>
-      <title>Ongoing and past projects</title>
-      <link>https://plazi.org/about/projects/</link>
-      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+      <title>Lectures</title>
+      <link>https://plazi.org/about/lectures/</link>
+      <pubDate>Mon, 01 Feb 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://plazi.org/about/projects/</guid>
-      <description>Current Projects BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more
- NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk. more
- eBioDiv (Swissuniversities) The e-BiodDiv will provide a service for Swiss biodiversity scientists to access and disseminate their research data about species in legacy and prospective publications, and provide access to data about their collections, scientists and specimens.</description>
+      <guid>https://plazi.org/about/lectures/</guid>
+      <description>Lectures by Plazi team members are available at BLR and SlideShare.</description>
     </item>
     
     <item>

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>projects on Plazi</title>
+    <title>Projects on Plazi</title>
     <link>https://plazi.org/tags/projects/</link>
-    <description>Recent content in projects on Plazi</description>
+    <description>Recent content in Projects on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Services</title>
-      <link>https://plazi.org/resources/services/</link>
-      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      <title>Ongoing and past projects</title>
+      <link>https://plazi.org/about/projects/</link>
+      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://plazi.org/resources/services/</guid>
-      <description>Plazi offers services and consultancies in the areas of developing and maintaining schemas related to scientific literature, legal analyses and policies in area of scientific literature and data sharing, and brokering and providing data conversion. Publications and lectures are also available. For inquiries, please contact us via email.</description>
+      <guid>https://plazi.org/about/projects/</guid>
+      <description>Current Projects BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more
+ NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk. more
+ eBioDiv (Swissuniversities) The e-BiodDiv will provide a service for Swiss biodiversity scientists to access and disseminate their research data about species in legacy and prospective publications, and provide access to data about their collections, scientists and specimens.</description>
     </item>
     
   </channel>

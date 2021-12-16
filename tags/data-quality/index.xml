@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data quality on Plazi</title>
+    <title>Data Quality on Plazi</title>
     <link>https://plazi.org/tags/data-quality/</link>
-    <description>Recent content in data quality on Plazi</description>
+    <description>Recent content in Data Quality on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Oct 2021 14:29:20 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/data-quality/index.xml" rel="self" type="application/rss+xml" />

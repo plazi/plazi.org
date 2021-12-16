@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Members on Plazi</title>
+    <link>https://plazi.org/tags/members/</link>
+    <description>Recent content in Members on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 May 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plazi Members</title>
+      <link>https://plazi.org/about/members/</link>
+      <pubDate>Sat, 01 May 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/members/</guid>
+      <description>Donat Agosti
+Taxonomic literature, systematics and conservation
+President Plazi
+Director Plazi GmbH
+Research Associate
+Naturhistorisches Museum, Bern
+Berne, Switzerland
+agosti@plazi.org  Klemens Böhm
+Member of Board (2008-)
+Professor
+Lehrstuhl für Systeme der Informationsverwaltung
+Karlsruher Institute of Technology
+Karlsruhe, GERMANY
+boehm@kit.edu  Terry Catapano
+Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
+Vice-President Plazi
+Columbia University
+New York, USA
+catapano@plazi.org  Hong Cui
+Natural language processing, character modeling</description>
+    </item>
+    
+  </channel>
+</rss>

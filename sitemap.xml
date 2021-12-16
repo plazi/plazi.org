@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://plazi.org/posts/2021/11/annotating-gene-sequences/</loc>
-    <lastmod>2021-11-12T09:54:22+01:00</lastmod>
+    <lastmod>2021-12-16T15:57:39+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/bicikl/</loc>
+    <lastmod>2021-12-16T15:57:39+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2021-12-16T15:57:39+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2021/11/behind-new-species-swiss-made/</loc>
     <lastmod>2021-11-05T11:26:26+01:00</lastmod>
@@ -14,9 +20,6 @@
     <loc>https://plazi.org/posts/2021/11/biohackathon-europe/</loc>
     <lastmod>2021-11-02T10:58:48+01:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/</loc>
-    <lastmod>2021-12-13T16:02:07+01:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/posts/2021/11/sssday-2021/</loc>
     <lastmod>2021-11-02T10:58:48+01:00</lastmod>
   </url><url>
@@ -24,10 +27,10 @@
     <lastmod>2021-11-02T10:58:48+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/data-quality/</loc>
-    <lastmod>2021-11-05T13:00:38+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2021/10/liberation-first-step-toward-quality/</loc>
-    <lastmod>2021-11-05T13:00:38+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/categories/</loc>
     <lastmod>2021-10-19T18:15:47+02:00</lastmod>
@@ -74,14 +77,20 @@
     <loc>https://plazi.org/treatmentbank/</loc>
     <lastmod>2021-10-06T11:24:22+02:00</lastmod>
   </url><url>
+    <loc>https://plazi.org/tags/about/</loc>
+    <lastmod>2021-12-16T12:06:15+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/dak/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/digital-accessible-knowledge/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/posts/bhl-and-plazi-partnership/</loc>
     <lastmod>2021-09-28T11:39:20+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/about/</loc>
-    <lastmod>2021-11-29T14:05:12+01:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/about/</loc>
-    <lastmod>2021-11-26T10:45:50+01:00</lastmod>
+    <lastmod>2021-12-16T12:06:15+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/treatmentbank/data-and-statistics/</loc>
     <lastmod>2021-09-28T08:25:33+02:00</lastmod>
@@ -110,8 +119,11 @@
     <loc>https://plazi.org/treatmentbank/schemas-and-ontologies/</loc>
     <lastmod>2021-10-06T11:44:00+02:00</lastmod>
   </url><url>
+    <loc>https://plazi.org/tags/services/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/services/</loc>
-    <lastmod>2021-11-28T19:26:34+01:00</lastmod>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/data-apis-tools/synospecies/</loc>
     <lastmod>2021-08-21T10:47:23+02:00</lastmod>
@@ -140,9 +152,6 @@
     <loc>https://plazi.org/privacy/</loc>
     <lastmod>2021-07-10T09:19:59+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/projects/</loc>
-    <lastmod>2021-07-10T09:19:59+02:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/data-apis-tools/refbank/</loc>
     <lastmod>2021-07-14T17:23:46+02:00</lastmod>
   </url><url>
@@ -153,9 +162,6 @@
     <lastmod>2021-07-10T09:19:59+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/resources/schema-and-ontologies/</loc>
-    <lastmod>2021-07-10T09:19:59+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/resources/services/</loc>
     <lastmod>2021-07-10T09:19:59+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/resources/bol/</loc>
@@ -176,11 +182,47 @@
     <loc>https://plazi.org/data-apis-tools/visualization-tools/</loc>
     <lastmod>2021-07-14T17:23:46+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/about/publications/</loc>
-    <lastmod>2021-12-13T16:02:07+01:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/tags/publications/</loc>
-    <lastmod>2021-12-13T16:02:07+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2011/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2012/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2013/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2014/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2015/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2016/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2017/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2018/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2019/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2020/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2021/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/publications/2010-and-earlier/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/not-knowing-what-we-know/</loc>
     <lastmod>2021-09-24T15:03:50+02:00</lastmod>
@@ -188,8 +230,11 @@
     <loc>https://plazi.org/services/biowikifarm/</loc>
     <lastmod>2021-09-09T17:42:07+02:00</lastmod>
   </url><url>
+    <loc>https://plazi.org/tags/members/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/about/members/</loc>
-    <lastmod>2021-11-19T16:50:06+01:00</lastmod>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</loc>
     <lastmod>2021-10-19T17:28:53+02:00</lastmod>
@@ -200,41 +245,59 @@
     <loc>https://plazi.org/services/legal-issues-menu/</loc>
     <lastmod>2021-09-09T17:42:07+02:00</lastmod>
   </url><url>
+    <loc>https://plazi.org/tags/partners/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/about/partners/</loc>
-    <lastmod>2021-10-06T18:34:53+02:00</lastmod>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/services/bouchout-declaration/</loc>
     <lastmod>2021-09-23T14:53:25+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/arcadia/</loc>
-    <lastmod>2021-11-28T19:05:16+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/bicikl/</loc>
-    <lastmod>2021-11-29T12:35:45+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/current-project/</loc>
-    <lastmod>2021-11-29T12:37:06+01:00</lastmod>
+    <loc>https://plazi.org/tags/current-projects/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/ebiodiv/</loc>
-    <lastmod>2021-11-29T12:37:06+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/projects/eubon/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/metotaxa/</loc>
-    <lastmod>2021-11-29T12:35:11+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/nih-r21/</loc>
-    <lastmod>2021-11-29T12:36:25+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/projects/</loc>
-    <lastmod>2021-11-29T14:05:12+01:00</lastmod>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/past-project/</loc>
-    <lastmod>2021-11-28T19:05:16+01:00</lastmod>
+    <loc>https://plazi.org/tags/past-projects/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/projects/pro-ibiosphere/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/projects/</loc>
+    <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/data-issue-feedback-loop/</loc>
     <lastmod>2021-09-24T15:03:50+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/services/the-blue-list/</loc>
     <lastmod>2021-09-09T17:42:07+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/lectures/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/about/lectures/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/services/uses-of-data/</loc>
     <lastmod>2021-10-01T17:04:13+02:00</lastmod>

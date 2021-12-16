@@ -8,14 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Publications</title>
-      <link>https://plazi.org/about/publications/</link>
-      <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
+      <title>Digital Accessible Knowledge</title>
+      <link>https://plazi.org/about/digital-accessible-knowledge/</link>
+      <pubDate>Thu, 01 Jul 2021 19:16:15 +0200</pubDate>
       
-      <guid>https://plazi.org/about/publications/</guid>
-      <description>2021
-  Agosti D, Cornwell P, Bénichou L, Gonzalez J, Herren M, Ruch P 2021. Progress with improving preservation and reuse of scientific research data. iPRES 2021 - 17th International Conference on Digital Preservation, October 19-22, 2021, Beijing, China. manuscript
-  Waterhouse RM, Adam-Blondon AF, Agosti D et al. Recommendations for connecting molecular sequence and biodiversity research infrastructures through ELIXIR [version 1; peer review: awaiting peer review].</description>
+      <guid>https://plazi.org/about/digital-accessible-knowledge/</guid>
+      <description>Digital Accessible Knowledge, in the context of Plazi, describes data fit for use to understand the global biodiversity, to create a list of all known species on planet Earth, data that is machine-actionable and ready for use by anybody, anyhwere at any time.</description>
     </item>
     
     <item>
@@ -55,6 +53,15 @@ Natural language processing, character modeling</description>
       <description>Zenodo Zenodo, Plazi and Pensoft collaborate in developing the Biodiversity Literature Repository as an open access repository to articles and liberated open FAIR data including figures and taxonomic treatments related to biodiversity. A customized access is provided for all its content via the BLR website and to images via Ocellus.
 read more
 GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. Plazi provides occurrences liberated and extracted from the scientific literature, especially from treatments.</description>
+    </item>
+    
+    <item>
+      <title>Lectures</title>
+      <link>https://plazi.org/about/lectures/</link>
+      <pubDate>Mon, 01 Feb 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/about/lectures/</guid>
+      <description>Lectures by Plazi team members are available at BLR and SlideShare.</description>
     </item>
     
     <item>
