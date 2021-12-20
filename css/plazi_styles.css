@@ -136,3 +136,11 @@ li.project img {
 	margin-right: 1rem;
 	border: 1px solid;
 }
+
+.tags {
+	border-radius: 5px;
+}
+
+.pastEvent {
+	color: lightgrey;
+}
