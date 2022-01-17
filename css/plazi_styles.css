@@ -144,3 +144,24 @@ li.project img {
 .pastEvent {
 	color: lightgrey;
 }
+table{
+	border: none;
+	border-collapse:collapse;
+	margin:2rem 0;
+	text-align:left;
+	width:100%;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	background-color:#9BC134;
+}
+td, th {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: none;
+	border-left: none;
+	padding: 5px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
