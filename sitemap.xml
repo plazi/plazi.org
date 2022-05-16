@@ -2,32 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</loc>
+    <lastmod>2022-05-16T13:51:50+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/categories/</loc>
+    <lastmod>2022-05-16T13:51:50+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/news/</loc>
+    <lastmod>2022-05-16T13:51:50+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/categories/news/</loc>
+    <lastmod>2022-05-16T13:51:50+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2022-05-16T13:51:50+02:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2022-01-29T10:48:38+01:00</lastmod>
+    <lastmod>2022-05-16T13:22:34+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/01/schweizer-hymenopterologen-tagung/</loc>
     <lastmod>2022-01-29T10:48:38+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/</loc>
-    <lastmod>2022-05-15T19:05:52+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/01/world-biodiversity-forum/</loc>
     <lastmod>2022-01-29T09:19:23+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/01/spnhc/</loc>
-    <lastmod>2022-01-28T21:48:52+01:00</lastmod>
+    <lastmod>2022-05-16T13:20:28+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/01/empowering-biodiversity/</loc>
-    <lastmod>2022-01-28T21:46:59+01:00</lastmod>
+    <lastmod>2022-05-16T13:22:34+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/</loc>
     <lastmod>2022-01-16T12:03:06+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/01/access-to-data-in-press-releases/</loc>
     <lastmod>2022-01-17T18:09:21+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/news/</loc>
-    <lastmod>2022-05-09T10:16:09+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2021/12/new-species-2021/</loc>
     <lastmod>2021-12-24T15:39:50+01:00</lastmod>
@@ -59,14 +68,8 @@
     <loc>https://plazi.org/posts/2021/10/liberation-first-step-toward-quality/</loc>
     <lastmod>2021-12-16T12:02:37+01:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/categories/</loc>
-    <lastmod>2022-05-09T10:16:09+02:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</loc>
     <lastmod>2021-10-19T17:28:53+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/categories/news/</loc>
-    <lastmod>2022-05-09T10:16:09+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/tdwg-2021-virtual-annual-conference/</loc>
     <lastmod>2022-01-28T18:32:38+01:00</lastmod>
@@ -318,7 +321,7 @@
     <lastmod>2021-09-24T15:03:50+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/arcadia-fund/</loc>
-    <lastmod>2021-09-24T15:03:50+02:00</lastmod>
+    <lastmod>2022-05-16T13:49:47+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/news/beitrag/10-years-of-plazi-on-expedition-to-discover-the-known-biodiversity/2136104073c3aabdebe6c5067d767a52/</loc>
     <lastmod>2022-05-09T10:16:09+02:00</lastmod>
