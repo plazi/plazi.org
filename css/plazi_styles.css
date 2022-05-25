@@ -162,3 +162,13 @@ td, th {
 }
 tr:nth-child(even){background-color: #f2f2f2;}
 tr:hover {background-color: #ddd;}
+ul.event-details {
+	list-style: none;
+}
+li.conference {
+	font-weight: 800;
+}
+li.location {
+	font-style: italic;
+	font-family: serif;
+}
