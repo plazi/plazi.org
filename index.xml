@@ -13,12 +13,8 @@
       <pubDate>Mon, 23 May 2022 20:45:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/2022/05/blr-open-by-design/</guid>
-      <description>Conference: SciDataCon—IDW 2022
-Location: Seoul, S Korea &amp;amp; Virtual
-Date and Time: 7-8:30 AM UTC, June 6, 2022
-Session: Data Collaborations Across Boundaries
-Abstract: The Open Definition version 2.1 prescribes four conditions for openness of a work &amp;ndash;
- it must be published under an open license or be in the public domain, it must be accessible easily and at no more than the cost of reproduction, preferably be downloadable via the internet it must be readily readable by a computer, and it must be available in an open format.</description>
+      <description>The Open Definition version 2.1 prescribes four conditions for openness of a work &amp;ndash;
+ it must be published under an open license or be in the public domain, it must be accessible easily and at no more than the cost of reproduction, preferably be downloadable via the internet it must be readily readable by a computer, and it must be available in an open format.  It is clear that openness is not just a matter of sticking an open license.</description>
     </item>
     
     <item>
@@ -66,8 +62,7 @@ The goal of taxonomic literature is to describe taxonomic diversity as a result 
       <pubDate>Thu, 27 Jan 2022 21:45:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/2022/01/empowering-biodiversity/</guid>
-      <description>Donat Agosti will provide a keynote lecture Discovering known biodiversity at the Empowering Biodiversity Research conference.
-Abstract: We will take you on a journey into the world of biodiversity data standards and tools and will inform you on the latest developments in the world of Biodiversity Informatics, both internationally and locally. What is the state of the art in initiatives like GBIF, LifeWatch and DiSSCo, etc and how can we let them work for us?</description>
+      <description>We will take you on a journey into the world of biodiversity data standards and tools and will inform you on the latest developments in the world of Biodiversity Informatics, both internationally and locally. What is the state of the art in initiatives like GBIF, LifeWatch and DiSSCo, etc and how can we let them work for us? We have invited some very interesting international speakers and will inform you on the progress made by these projects in Belgium.</description>
     </item>
     
     <item>
@@ -161,8 +156,7 @@ Oct 20, 8:30PM CET SYM18 Discovering known biodiversity: Digital accessible know
       <pubDate>Fri, 15 Oct 2021 21:03:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/digital-preservation-conference/</guid>
-      <description>October 21, 2021: Beijing, China Plazi together with Data Futures, MNHN France, SIB Switzerland and CERN Switzerland will present the lecture &amp;ldquo;Progress with improving preservation and reuse of scientific research data.
-Abstract: We report progress towards automatically transforming existing analyses of scientific literature into annotations based on W3C&amp;rsquo;s Web Annotation Data Model (WADM). Case studies are presented from the life sciences, and social sciences and humanities, in which these developments have led to the creation of new unrestricted data services for the research community.</description>
+      <description>We report progress towards automatically transforming existing analyses of scientific literature into annotations based on W3C&amp;rsquo;s Web Annotation Data Model (WADM). Case studies are presented from the life sciences, and social sciences and humanities, in which these developments have led to the creation of new unrestricted data services for the research community. We discuss the cross- domain potential of annotation infrastructure for releasing scientific facts reported in research literature from copyright restrictions, and demonstrate the utility of common standards-based preservation and discovery methods in disparate activities.</description>
     </item>
     
     <item>

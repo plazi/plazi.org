@@ -168,3 +168,12 @@ ul.event-details {
 	border: 1px solid lightgrey;
 	padding: 1rem;
 }
+table.event th {
+	text-align: right;
+}
+table.event th,
+table.event td {
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	background-color: white;
+}
