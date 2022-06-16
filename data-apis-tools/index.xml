@@ -50,8 +50,7 @@ IMF can be created, opened with the open source editor GoldenGate, from where th
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/data-apis-tools/zenodeo/</guid>
-      <description>Zenodeo is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.
-      const search = function(e) { const q = document.getElementById(&#39;q&#39;) const search_results = document.getElementById(&#39;search_results&#39;) fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error(&#39;HTTP error, status = &#39; + response.status); } return response.json(); }) .then(function(response) { search_results.innerHTML = `Zenodeo search results ${JSON.stringify(response, null, 4)}` }) e.stopPropagation() e.preventDefault() } window.onload = function(e) { const searchBtn = document.getElementById(&#39;searchBtn&#39;) searchBtn.addEventListener(&#39;click&#39;, search) }()  </description>
+      <description>Zenodeo is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.</description>
     </item>
     
     <item>
@@ -97,7 +96,7 @@ IMF can be created, opened with the open source editor GoldenGate, from where th
       
       <guid>https://plazi.org/data-apis-tools/treatmentbank/</guid>
       <description>TreatmentBank is a resource that stores and provides access to the treatements and data therein.
- Latest Treatments        const search = function(e) { const q = document.getElementById(&#39;q&#39;) const search_results = document.getElementById(&#39;search_results&#39;) //const tb = &#39;https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery=&#39; + q.value fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error(&#39;HTTP error, status = &#39; + response.status); } return response.json(); }) .then(function(response) { let res = &#39;Treatments search results&#39; response.</description>
+Latest Treatments What is a treatment? The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.</description>
     </item>
     
     <item>

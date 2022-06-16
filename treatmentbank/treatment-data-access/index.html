@@ -137,7 +137,7 @@
 <h3 id="treatment-data-representation-in-plazi">Treatment Data representation in Plazi</h3>
 <p>The treatment data is stored in the Treatment Search Portal in native, generic XML included in tagged original publications. The tagged elements are (a) additionally stored in dedicated index structures to support search and (b) extracted and exported in several formats, including DwCA.</p>
 <p>A treatment document includes two main elements, the header including the metadata based on the Metadata Object Description Schema (MODS) and the body.</p>
-<pre><code>&lt;tax:taxonx&gt; &lt;tax:taxonxHeader&gt; &lt;tax:taxonxBody&gt;
+<pre tabindex="0"><code>&lt;tax:taxonx&gt; &lt;tax:taxonxHeader&gt; &lt;tax:taxonxBody&gt;
 </code></pre><p>The data XML can be converted via XSLT into HTML, TaxonX XML (a schema developed to model biosystematics legacy literature), and RDF and HTML</p>
 <p><strong>HTML:</strong></p>
 <p><a href="http://treatment.plazi.org/id/31F96F41-E3E0-02BD-8898-5A4F3A20E45A"><code>http://treatment.plazi.org/id/31F96F41-E3E0-02BD-8898-5A4F3A20E45A</code></a></p>
@@ -206,61 +206,61 @@
 <p>Example (first 20 datasets):</p>
 <p><a href="http://api.gbif.org/v1/organization/7ce8aef0-9e92-11dc-8738-b8a03c50a862/publishedDataset?limit=20&amp;offset=0"><code>http://api.gbif.org/v1/organization/7ce8aef0-9e92-11dc-8738-b8a03c50a862/publishedDataset?limit=20&amp;offset=0</code></a></p>
 <p>Response (JSON)</p>
-<pre><code>{
-    &quot;offset&quot;: 0,
-    &quot;limit&quot;: 1,
-    &quot;endOfRecords&quot;: false,
-    &quot;count&quot;: 1129,
-    &quot;results&quot;: [{
-        &quot;key&quot;: &quot;3e8b196b-c482-47f1-9574-772141310c40&quot;,
-        &quot;installationKey&quot;: &quot;7ce8aef1-9e92-11dc-8740-b8a03c50a999&quot;,
-        &quot;publishingOrganizationKey&quot;: &quot;7ce8aef0-9e92-11dc-8738-b8a03c50a862&quot;,
-        &quot;external&quot;: false,
-        &quot;numConstituents&quot;: 0,
-        &quot;type&quot;: &quot;CHECKLIST&quot;,
-        &quot;title&quot;: &quot;Revision of the ant genus Myrmoteras in the Malay Archipelago (Hymenoptera, Formicidae).&quot;,
-        &quot;description&quot;: &quot;UNAVAILABLE&quot;,
-        &quot;language&quot;: &quot;eng&quot;,
-        &quot;homepage&quot;: &quot;http://tb.plazi.org/GgServer/summary/23A1465DDF212F7DA589F41341B83FCC&quot;,
-        &quot;citation&quot;: {
-            &quot;text&quot;: &quot;Plazi.org taxonomic treatments database: Revision of the ant genus Myrmoteras in the Malay Archipelago (Hymenoptera, Formicidae).&quot;
+<pre tabindex="0"><code>{
+    &#34;offset&#34;: 0,
+    &#34;limit&#34;: 1,
+    &#34;endOfRecords&#34;: false,
+    &#34;count&#34;: 1129,
+    &#34;results&#34;: [{
+        &#34;key&#34;: &#34;3e8b196b-c482-47f1-9574-772141310c40&#34;,
+        &#34;installationKey&#34;: &#34;7ce8aef1-9e92-11dc-8740-b8a03c50a999&#34;,
+        &#34;publishingOrganizationKey&#34;: &#34;7ce8aef0-9e92-11dc-8738-b8a03c50a862&#34;,
+        &#34;external&#34;: false,
+        &#34;numConstituents&#34;: 0,
+        &#34;type&#34;: &#34;CHECKLIST&#34;,
+        &#34;title&#34;: &#34;Revision of the ant genus Myrmoteras in the Malay Archipelago (Hymenoptera, Formicidae).&#34;,
+        &#34;description&#34;: &#34;UNAVAILABLE&#34;,
+        &#34;language&#34;: &#34;eng&#34;,
+        &#34;homepage&#34;: &#34;http://tb.plazi.org/GgServer/summary/23A1465DDF212F7DA589F41341B83FCC&#34;,
+        &#34;citation&#34;: {
+            &#34;text&#34;: &#34;Plazi.org taxonomic treatments database: Revision of the ant genus Myrmoteras in the Malay Archipelago (Hymenoptera, Formicidae).&#34;
         },
-        &quot;rights&quot;: &quot;No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. Taxonomic information exchange and copyright: the Plazi approach. BMC Research Notes 2009, 2:53 for further explanation.&quot;,
-        &quot;lockedForAutoUpdate&quot;: false,
-        &quot;createdBy&quot;: &quot;plazi&quot;,
-        &quot;modifiedBy&quot;: &quot;crawler.gbif.org&quot;,
-        &quot;created&quot;: &quot;2014-06-28T12:55:54.089+0000&quot;,
-        &quot;modified&quot;: &quot;2014-11-25T13:29:20.716+0000&quot;,
-        &quot;contacts&quot;: […],
-        &quot;endpoints&quot;: [{
-            &quot;key&quot;: 45389,
-            &quot;type&quot;: &quot;DWC_ARCHIVE&quot;,
-            &quot;url&quot;: &quot;http://plazi.cs.umb.edu/GgServer/dwca/23A1465DDF212F7DA589F41341B83FCC.zip&quot;,
-            &quot;createdBy&quot;: &quot;plazi&quot;,
-            &quot;modifiedBy&quot;: &quot;plazi&quot;,
-            &quot;created&quot;: &quot;2014-06-28T12:55:54.604+0000&quot;,
-            &quot;modified&quot;: &quot;2014-06-28T12:55:54.604+0000&quot;,
-            &quot;machineTags&quot;: []
+        &#34;rights&#34;: &#34;No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. Taxonomic information exchange and copyright: the Plazi approach. BMC Research Notes 2009, 2:53 for further explanation.&#34;,
+        &#34;lockedForAutoUpdate&#34;: false,
+        &#34;createdBy&#34;: &#34;plazi&#34;,
+        &#34;modifiedBy&#34;: &#34;crawler.gbif.org&#34;,
+        &#34;created&#34;: &#34;2014-06-28T12:55:54.089+0000&#34;,
+        &#34;modified&#34;: &#34;2014-11-25T13:29:20.716+0000&#34;,
+        &#34;contacts&#34;: […],
+        &#34;endpoints&#34;: [{
+            &#34;key&#34;: 45389,
+            &#34;type&#34;: &#34;DWC_ARCHIVE&#34;,
+            &#34;url&#34;: &#34;http://plazi.cs.umb.edu/GgServer/dwca/23A1465DDF212F7DA589F41341B83FCC.zip&#34;,
+            &#34;createdBy&#34;: &#34;plazi&#34;,
+            &#34;modifiedBy&#34;: &#34;plazi&#34;,
+            &#34;created&#34;: &#34;2014-06-28T12:55:54.604+0000&#34;,
+            &#34;modified&#34;: &#34;2014-06-28T12:55:54.604+0000&#34;,
+            &#34;machineTags&#34;: []
         }],
-        &quot;machineTags&quot;: [...],
-        &quot;tags&quot;: [],
-        &quot;identifiers&quot;: [{
-            &quot;key&quot;: 23594,
-            &quot;type&quot;: &quot;UUID&quot;,
-            &quot;identifier&quot;: &quot;23A1465DDF212F7DA589F41341B83FCC&quot;,
-            &quot;createdBy&quot;: &quot;plazi&quot;,
-            &quot;created&quot;: &quot;2014-06-28T12:55:54.334+0000&quot;
+        &#34;machineTags&#34;: [...],
+        &#34;tags&#34;: [],
+        &#34;identifiers&#34;: [{
+            &#34;key&#34;: 23594,
+            &#34;type&#34;: &#34;UUID&#34;,
+            &#34;identifier&#34;: &#34;23A1465DDF212F7DA589F41341B83FCC&#34;,
+            &#34;createdBy&#34;: &#34;plazi&#34;,
+            &#34;created&#34;: &#34;2014-06-28T12:55:54.334+0000&#34;
         }],
-        &quot;comments&quot;: [],
-        &quot;bibliographicCitations&quot;: [],
-        &quot;curatorialUnits&quot;: [],
-        &quot;taxonomicCoverages&quot;: [],
-        &quot;geographicCoverages&quot;: [],
-        &quot;temporalCoverages&quot;: [],
-        &quot;keywordCollections&quot;: [],
-        &quot;countryCoverage&quot;: [],
-        &quot;collections&quot;: [],
-        &quot;dataDescriptions&quot;: []
+        &#34;comments&#34;: [],
+        &#34;bibliographicCitations&#34;: [],
+        &#34;curatorialUnits&#34;: [],
+        &#34;taxonomicCoverages&#34;: [],
+        &#34;geographicCoverages&#34;: [],
+        &#34;temporalCoverages&#34;: [],
+        &#34;keywordCollections&#34;: [],
+        &#34;countryCoverage&#34;: [],
+        &#34;collections&#34;: [],
+        &#34;dataDescriptions&#34;: []
     }]
 }
 </code></pre><p>Entries of interest:</p>
@@ -344,7 +344,7 @@
 <li><a href="http://ns.adobe.com/xap/1.0/rights/UsageTerms">http://ns.adobe.com/xap/1.0/rights/UsageTerms</a>: <code>Public Domain</code></li>
 <li><a href="http://purl.org/dc/terms/rights">http://purl.org/dc/terms/rights</a>:</li>
 </ul>
-<pre><code>No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. 
+<pre tabindex="0"><code>No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. 
 Taxonomic information exchange and copyright: the Plazi approach. 
 BMC Research Notes 2009, 2:53 for further explanation.
 </code></pre><ul>

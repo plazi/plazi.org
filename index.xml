@@ -14,7 +14,7 @@
       
       <guid>https://plazi.org/posts/2022/05/blr-open-by-design/</guid>
       <description>The Open Definition version 2.1 prescribes four conditions for openness of a work &amp;ndash;
- it must be published under an open license or be in the public domain, it must be accessible easily and at no more than the cost of reproduction, preferably be downloadable via the internet it must be readily readable by a computer, and it must be available in an open format.  It is clear that openness is not just a matter of sticking an open license.</description>
+it must be published under an open license or be in the public domain, it must be accessible easily and at no more than the cost of reproduction, preferably be downloadable via the internet it must be readily readable by a computer, and it must be available in an open format. It is clear that openness is not just a matter of sticking an open license.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <guid>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</guid>
       <description>The Swiss-based Plazi NGO has received a grant of EUR 1.5 million from Arcadia Fund – a charitable fund of Lisbet Rausing and Peter Baldwin – to further develop its Biodiversity Literature Repository (BLR) established in collaboration with Zenodo, the open science repository hosted and managed by the European Organization for Nuclear Research (CERN), and the open-access scholarly publisher and technology provider Pensoft.
 Source: Eurekalert
-  Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
+Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@ Source: Eurekalert
       <pubDate>Thu, 27 Jan 2022 21:55:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/2022/01/schweizer-hymenopterologen-tagung/</guid>
-      <description> Program Presentation  </description>
+      <description> Program Presentation </description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ The goal of taxonomic literature is to describe taxonomic diversity as a result 
       <pubDate>Thu, 11 Nov 2021 21:40:51 +0100</pubDate>
       
       <guid>https://plazi.org/posts/2021/11/annotating-gene-sequences/</guid>
-      <description>Figure 1: A snapshot of a published table showing the GenBank accession numbers and localities for the 507 individuals representing 61 species of Cladocera and 19 of Copepoda used in this study. DOI: https://doi.org/10.11646/zootaxa.1839.1.1     Figure 2: The same table as in Figure 1 extracted by TreatmentBank. Full table available in HTML and JSON formats.    Linking molecular data to taxonomic names and their extensive taxonomic treatments represents a fundamental component in biodiversity assessment.</description>
+      <description>Figure 1: A snapshot of a published table showing the GenBank accession numbers and localities for the 507 individuals representing 61 species of Cladocera and 19 of Copepoda used in this study. DOI: https://doi.org/10.11646/zootaxa.1839.1.1 Figure 2: The same table as in Figure 1 extracted by TreatmentBank. Full table available in HTML and JSON formats. Linking molecular data to taxonomic names and their extensive taxonomic treatments represents a fundamental component in biodiversity assessment.</description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@ The goal of taxonomic literature is to describe taxonomic diversity as a result 
       <pubDate>Fri, 05 Nov 2021 09:35:19 +0100</pubDate>
       
       <guid>https://plazi.org/posts/2021/11/behind-new-species-swiss-made/</guid>
-      <description>e-BioDiv: processing data liberation  At today’s meeting of the Swiss Systematics Society, the species of the year — a species discovered and described by a Swiss scientist — will be selected.
+      <description>e-BioDiv: processing data liberation At today’s meeting of the Swiss Systematics Society, the species of the year — a species discovered and described by a Swiss scientist — will be selected.
 Currently 89 species have been listed out of 31 publications, of which 69% are open access and 31% closed access, and the Revue Suisse de Zoologie is the most prolific journal. New species are hardly ever the only taxonomic treatment of a publication.</description>
     </item>
     
@@ -193,7 +193,7 @@ Oct 20, 8:30PM CET SYM18 Discovering known biodiversity: Digital accessible know
       
       <guid>https://plazi.org/posts/bhl-and-plazi-partnership/</guid>
       <description>BHL and Plazi have agreed to collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF. This includes the following steps:
- Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
+Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
     </item>
     
     <item>
@@ -252,7 +252,7 @@ IMF can be created, opened with the open source editor GoldenGate, from where th
       <guid>https://plazi.org/treatmentbank/schemas-and-ontologies/</guid>
       <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions (See also TaxPub Documentation).
 Currently, the following journals use TaxPub:
- Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution  TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
+Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
     </item>
     
     <item>
@@ -271,7 +271,7 @@ Currently, the following journals use TaxPub:
       
       <guid>https://plazi.org/treatmentbank/what-treatment/</guid>
       <description>The Plazi TreatmentBank deals with scientific, published, biosystematic literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of more than 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.
-Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication. In other words, each scientific name has one or more treatments, depending on whether there exists only an original description of a species, or there are subsequent re-descriptions.</description>
+Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication.</description>
     </item>
     
     <item>
@@ -280,8 +280,7 @@ Treatments are well-defined parts of articles that describe the particular usage
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/data-apis-tools/zenodeo/</guid>
-      <description>Zenodeo is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.
-      const search = function(e) { const q = document.getElementById(&#39;q&#39;) const search_results = document.getElementById(&#39;search_results&#39;) fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error(&#39;HTTP error, status = &#39; + response.status); } return response.json(); }) .then(function(response) { search_results.innerHTML = `Zenodeo search results ${JSON.stringify(response, null, 4)}` }) e.stopPropagation() e.preventDefault() } window.onload = function(e) { const searchBtn = document.getElementById(&#39;searchBtn&#39;) searchBtn.addEventListener(&#39;click&#39;, search) }()  </description>
+      <description>Zenodeo is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.</description>
     </item>
     
     <item>
@@ -299,8 +298,9 @@ Treatments are well-defined parts of articles that describe the particular usage
       <pubDate>Sun, 13 Jun 2021 19:16:45 +0200</pubDate>
       
       <guid>https://plazi.org/treatment-example/</guid>
-      <description>Dashboard Here  Taxonomy Distribution Map Specimens Downloads Version History  Kronestedt, Torbjörn &amp;amp; Marusik, Yuri M., 2011, Studies on species of Holarctic Pardosa groups (Araneae, Lycosidae). VII. The Pardosa tesquorum group, Zootaxa 3131, pp. 1-34: 25-28
-   scientific name Pardosa zyuzini     status sp. nov.   publication ID http://doi.org/10.5281/zenodo.399649   persistent identifier http://treatment.plazi.org/id/730087F2-1E00-FF81-FF61-FC34FDA561A5   treatment provided by Plazi (2016-04-12 02:05:59, last updated by Leidenlab19 2019-12-06 14:06:18)    Treatment Pardosa zyuzini sp.</description>
+      <description>Dashboard Here Taxonomy Distribution Map Specimens Downloads Version History Kronestedt, Torbjörn &amp;amp; Marusik, Yuri M., 2011, Studies on species of Holarctic Pardosa groups (Araneae, Lycosidae). VII. The Pardosa tesquorum group, Zootaxa 3131, pp. 1-34: 25-28
+scientific name Pardosa zyuzini status sp. nov. publication ID http://doi.org/10.5281/zenodo.399649 persistent identifier http://treatment.plazi.org/id/730087F2-1E00-FF81-FF61-FC34FDA561A5 treatment provided by Plazi (2016-04-12 02:05:59, last updated by Leidenlab19 2019-12-06 14:06:18) Treatment Pardosa zyuzini sp. nov.
+Figs 7 –8, 22–23, 28, 31, 94– 106, 116</description>
     </item>
     
     <item>
@@ -328,7 +328,7 @@ Treatments are well-defined parts of articles that describe the particular usage
       
       <guid>https://plazi.org/resources/feeds/</guid>
       <description>Plazi offers RSS feeds for extracted treatments and updates via Twitter
- Notification  RSS-feed (html) RSS-feed (XML)   Twitter  Plazi Treatment Repo Plazi    </description>
+Notification RSS-feed (html) RSS-feed (XML) Twitter Plazi Treatment Repo Plazi </description>
     </item>
     
     <item>
@@ -377,7 +377,7 @@ TaxonX Taxonx is a XML schema for encoding legacy taxonomic literature in order 
       
       <guid>https://plazi.org/resources/bol/</guid>
       <description>The Bibliography of Life (BoL) is a contribution towards building a reference bibliography for biodiversity with direct citable, open access to digital object of bibliographic references.
-Biodiversity Literature Repository  Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation.</description>
+Biodiversity Literature Repository Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation.</description>
     </item>
     
     <item>
@@ -386,7 +386,7 @@ Biodiversity Literature Repository  Biodiversity Literature Repository (BLR) is 
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       
       <guid>https://plazi.org/treatmentbank/treatment-data-access/</guid>
-      <description>Access to Plazi Treatments  What is a treatment? What is a DarwinCore Archive? The Darwin Core Archive used by Plazi Treatment Data representation in Plazi   Plazi API  Obtaining a list of all the treatments available from Plazi HTTP GET - RSS HTTP GET - ZIP Archive HTTP GET - Page displaying Treatment HTTP GET - generic XML HTTP GET - TaxonX   List of Plazi&amp;rsquo;s available DwC-Archives from GBIF API  HTTP GET - JSON   Appendix: Darwin Core Archive Content Further reading Downloads Support and Questions Version  Access to Plazi Treatments What is a treatment?</description>
+      <description>Access to Plazi Treatments What is a treatment? What is a DarwinCore Archive? The Darwin Core Archive used by Plazi Treatment Data representation in Plazi Plazi API Obtaining a list of all the treatments available from Plazi HTTP GET - RSS HTTP GET - ZIP Archive HTTP GET - Page displaying Treatment HTTP GET - generic XML HTTP GET - TaxonX List of Plazi&amp;rsquo;s available DwC-Archives from GBIF API HTTP GET - JSON Appendix: Darwin Core Archive Content Further reading Downloads Support and Questions Version Access to Plazi Treatments What is a treatment?</description>
     </item>
     
     <item>
@@ -396,7 +396,7 @@ Biodiversity Literature Repository  Biodiversity Literature Repository (BLR) is 
       
       <guid>https://plazi.org/data-apis-tools/treatmentbank/</guid>
       <description>TreatmentBank is a resource that stores and provides access to the treatements and data therein.
- Latest Treatments        const search = function(e) { const q = document.getElementById(&#39;q&#39;) const search_results = document.getElementById(&#39;search_results&#39;) //const tb = &#39;https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery=&#39; + q.value fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error(&#39;HTTP error, status = &#39; + response.status); } return response.json(); }) .then(function(response) { let res = &#39;Treatments search results&#39; response.</description>
+Latest Treatments What is a treatment? The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.</description>
     </item>
     
     <item>
@@ -435,7 +435,7 @@ Treatments are well defined parts of articles that define the particular usage o
       
       <guid>https://plazi.org/about/publications/</guid>
       <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.
-2022  Fawcett S, Agosti D, Cole SR, Wright CF 2022. Digital accessible knowledge: Mobilizing legacy data and the future of taxonomic publishing. Bulletin of the Society of Systematic Biologists 1(1): 1-12. doi Penev L, Koureas D, Groom Q, Lanfear J, Agosti D, Casino A, Miller J, Arvanitidis C, Cochrane G, Hobern D, Banki O, Addink W, Kõljalg U, Copas K, Mergen P, Güntsch A, Benichou L, Benito Gonzalez Lopez J, Ruch P, Martin CS, Barov B, Hristova K (2022) Biodiversity Community Integrated Knowledge Library (BiCIKL).</description>
+2022 Fawcett S, Agosti D, Cole SR, Wright CF 2022. Digital accessible knowledge: Mobilizing legacy data and the future of taxonomic publishing. Bulletin of the Society of Systematic Biologists 1(1): 1-12. doi Penev L, Koureas D, Groom Q, Lanfear J, Agosti D, Casino A, Miller J, Arvanitidis C, Cochrane G, Hobern D, Banki O, Addink W, Kõljalg U, Copas K, Mergen P, Güntsch A, Benichou L, Benito Gonzalez Lopez J, Ruch P, Martin CS, Barov B, Hristova K (2022) Biodiversity Community Integrated Knowledge Library (BiCIKL).</description>
     </item>
     
     <item>
@@ -469,18 +469,18 @@ Director Plazi GmbH
 Research Associate
 Naturhistorisches Museum, Bern
 Berne, Switzerland
-agosti@plazi.org  Klemens Böhm
+agosti@plazi.org Klemens Böhm
 Member of Board (2008-)
 Professor
 Lehrstuhl für Systeme der Informationsverwaltung
 Karlsruher Institute of Technology
 Karlsruhe, GERMANY
-boehm@kit.edu  Terry Catapano
+boehm@kit.edu Terry Catapano
 Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
 Vice-President Plazi
 Columbia University
 New York, USA
-catapano@plazi.org  Hong Cui
+catapano@plazi.org Hong Cui
 Natural language processing, character modeling</description>
     </item>
     
@@ -523,7 +523,7 @@ GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. 
       <guid>https://plazi.org/services/bouchout-declaration/</guid>
       <description>The purpose of the Bouchout Declaration is to help make digital data about our biodiversity openly available. It offers members of the biodiversity community a way to demonstrate their commitment to open science.
 As signatories, we encourage an overarching approach to Open Biodiversity Knowledge Management which is based on the following fundamental principles:
- The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display - the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community - practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description>
+The free and open use of digital resources about biodiversity and associated access services; Licenses or waivers that grant or allow all users a free, irrevocable, world-wide, right to copy, use, distribute, transmit and display - the work publicly as well as to build on the work and to make derivative works, subject to proper attribution consistent with community - practices, while recognizing that providers may develop commercial products with more restrictive licensing.</description>
     </item>
     
     <item>
@@ -533,7 +533,8 @@ As signatories, we encourage an overarching approach to Open Biodiversity Knowle
       
       <guid>https://plazi.org/about/projects/</guid>
       <description>Current Projects Arcadia 2022-2025 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
- BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more</description>
+BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more
+NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk.</description>
     </item>
     
     <item>
@@ -697,7 +698,7 @@ In the sciences, illustrations, including photographs, play a crucial role. They
       <pubDate>Mon, 22 Oct 2018 18:18:13 +0200</pubDate>
       
       <guid>https://plazi.org/posts/provenance/</guid>
-      <description>When an &amp;lsquo;ex banker&amp;rsquo; - Tim Robertson - meets an &amp;lsquo;ex taxonomist&amp;rsquo; - Donat Agosti - this can be very inspiring, especially when they discover that they share rather unexpectedly more than they ever expected. So, what is it?
+      <description>When an &amp;rsquo;ex banker&amp;rsquo; - Tim Robertson - meets an &amp;rsquo;ex taxonomist&amp;rsquo; - Donat Agosti - this can be very inspiring, especially when they discover that they share rather unexpectedly more than they ever expected. So, what is it?
 Both share data lineages. The banker has bank accounts that are created, mutated and that have at a given time a certain value. The taxonomist has species that are described, mutated and at a given time have a certain name.</description>
     </item>
     
@@ -771,7 +772,7 @@ Open Science is based on open data. Data per se is not copyrighted and thus free
       
       <guid>https://plazi.org/posts/happy-new-year-2018/</guid>
       <description>2017 has been a productive year at Plazi.
- 9,601 articles have been processed from 173 different journals resulting in 82,082 taxonomic treatments, 62,958 scientific figures uploaded to the Biodiversity Literature Repository (BLR), including 314,881 bibliographic references of which 37,120 have a digital object identifier (DOI). The 3,177 articles published in 2017 that we mined for data included one new family, 330 new genera and 5,145 new species, and a total of 30,091 taxonomic treatments.</description>
+9,601 articles have been processed from 173 different journals resulting in 82,082 taxonomic treatments, 62,958 scientific figures uploaded to the Biodiversity Literature Repository (BLR), including 314,881 bibliographic references of which 37,120 have a digital object identifier (DOI). The 3,177 articles published in 2017 that we mined for data included one new family, 330 new genera and 5,145 new species, and a total of 30,091 taxonomic treatments.</description>
     </item>
     
   </channel>

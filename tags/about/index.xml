@@ -23,7 +23,7 @@
       
       <guid>https://plazi.org/about/</guid>
       <description>Plazi supports and promotes the development of persistent and openly accessible digital taxonomic literature. To this end Plazi:
- Maintains a digital taxonomic literature repository to enable archiving of taxonomic treatments. Enhances submitted taxonomic treatments by creating TaxonX and Taxpub XML versions. Participates in the development of new models for publishing taxonomic treatments in order to maximize interoperability with relevant cyberinfrastructure components (e.g., name servers, biodiversity resources, etc…) Advocates and educates about the vital importance of maintaining free and open access to scientific discourse and data  Plazi is a not-for-profit organization based in Bern, Switzerland and was founded on March 13th 2008.</description>
+Maintains a digital taxonomic literature repository to enable archiving of taxonomic treatments. Enhances submitted taxonomic treatments by creating TaxonX and Taxpub XML versions. Participates in the development of new models for publishing taxonomic treatments in order to maximize interoperability with relevant cyberinfrastructure components (e.g., name servers, biodiversity resources, etc…) Advocates and educates about the vital importance of maintaining free and open access to scientific discourse and data Plazi is a not-for-profit organization based in Bern, Switzerland and was founded on March 13th 2008.</description>
     </item>
     
     <item>
@@ -39,18 +39,18 @@ Director Plazi GmbH
 Research Associate
 Naturhistorisches Museum, Bern
 Berne, Switzerland
-agosti@plazi.org  Klemens Böhm
+agosti@plazi.org Klemens Böhm
 Member of Board (2008-)
 Professor
 Lehrstuhl für Systeme der Informationsverwaltung
 Karlsruher Institute of Technology
 Karlsruhe, GERMANY
-boehm@kit.edu  Terry Catapano
+boehm@kit.edu Terry Catapano
 Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
 Vice-President Plazi
 Columbia University
 New York, USA
-catapano@plazi.org  Hong Cui
+catapano@plazi.org Hong Cui
 Natural language processing, character modeling</description>
     </item>
     

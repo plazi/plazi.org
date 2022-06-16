@@ -13,8 +13,7 @@
       <pubDate>Mon, 23 Aug 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/treatmentbank/</guid>
-      <description>--      const search = function(e) { const q = document.getElementById(&#39;q&#39;) const search_results = document.getElementById(&#39;search_results&#39;) //const tb = &#39;https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery=&#39; + q.value fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error(&#39;HTTP error, status = &#39; + response.status); } return response.json(); }) .then(function(response) { let res = &#39;Treatments search results&#39; response.item.records.forEach(r = { res += ` ${r.treatmentTitle} ${r.articleTitle}, ${r.journalTitle}
-` }) search_results.innerHTML = res }) e.stopPropagation() e.preventDefault() } window.</description>
+      <description>TreatmentBank (TB) is a service provided by the Swiss Plazi GmbH to liberate data from scholarly publications, and convert, enhance, link, store, and disseminate it as Findable, Accessible, Interoperable and Reusable (FAIR) data. These data include taxonomic treatments, treatment citations, figures, tables, material citations and bibliographic reference. The data extraction processes can be highly automated to process entire journal back-issues as well as current publications. A quality control (QC) process as well as manual checks produce data fit to become reference deposits of treatments in Biodiversity Literature Repository (BLR), as well as daily uploads of treatment articles data sets to the Global Biodiversity Information Facility (GBIF), with persistent identifiers minted in BLR.</description>
     </item>
     
     <item>
@@ -45,7 +44,7 @@ Select fields, explore and download Plazi treatment and article data and statist
       <guid>https://plazi.org/treatmentbank/schemas-and-ontologies/</guid>
       <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions (See also TaxPub Documentation).
 Currently, the following journals use TaxPub:
- Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution  TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
+Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
     </item>
     
     <item>
@@ -55,7 +54,7 @@ Currently, the following journals use TaxPub:
       
       <guid>https://plazi.org/treatmentbank/what-treatment/</guid>
       <description>The Plazi TreatmentBank deals with scientific, published, biosystematic literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of more than 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.
-Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication. In other words, each scientific name has one or more treatments, depending on whether there exists only an original description of a species, or there are subsequent re-descriptions.</description>
+Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication.</description>
     </item>
     
     <item>
@@ -64,7 +63,7 @@ Treatments are well-defined parts of articles that describe the particular usage
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       
       <guid>https://plazi.org/treatmentbank/treatment-data-access/</guid>
-      <description>Access to Plazi Treatments  What is a treatment? What is a DarwinCore Archive? The Darwin Core Archive used by Plazi Treatment Data representation in Plazi   Plazi API  Obtaining a list of all the treatments available from Plazi HTTP GET - RSS HTTP GET - ZIP Archive HTTP GET - Page displaying Treatment HTTP GET - generic XML HTTP GET - TaxonX   List of Plazi&amp;rsquo;s available DwC-Archives from GBIF API  HTTP GET - JSON   Appendix: Darwin Core Archive Content Further reading Downloads Support and Questions Version  Access to Plazi Treatments What is a treatment?</description>
+      <description>Access to Plazi Treatments What is a treatment? What is a DarwinCore Archive? The Darwin Core Archive used by Plazi Treatment Data representation in Plazi Plazi API Obtaining a list of all the treatments available from Plazi HTTP GET - RSS HTTP GET - ZIP Archive HTTP GET - Page displaying Treatment HTTP GET - generic XML HTTP GET - TaxonX List of Plazi&amp;rsquo;s available DwC-Archives from GBIF API HTTP GET - JSON Appendix: Darwin Core Archive Content Further reading Downloads Support and Questions Version Access to Plazi Treatments What is a treatment?</description>
     </item>
     
     <item>
@@ -74,7 +73,7 @@ Treatments are well-defined parts of articles that describe the particular usage
       
       <guid>https://plazi.org/data-apis-tools/treatmentbank/</guid>
       <description>TreatmentBank is a resource that stores and provides access to the treatements and data therein.
- Latest Treatments        const search = function(e) { const q = document.getElementById(&#39;q&#39;) const search_results = document.getElementById(&#39;search_results&#39;) //const tb = &#39;https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery=&#39; + q.value fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`) .then(function(response) { if (!response.ok) { throw new Error(&#39;HTTP error, status = &#39; + response.status); } return response.json(); }) .then(function(response) { let res = &#39;Treatments search results&#39; response.</description>
+Latest Treatments What is a treatment? The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.</description>
     </item>
     
     <item>

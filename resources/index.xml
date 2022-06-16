@@ -14,7 +14,7 @@
       
       <guid>https://plazi.org/resources/feeds/</guid>
       <description>Plazi offers RSS feeds for extracted treatments and updates via Twitter
- Notification  RSS-feed (html) RSS-feed (XML)   Twitter  Plazi Treatment Repo Plazi    </description>
+Notification RSS-feed (html) RSS-feed (XML) Twitter Plazi Treatment Repo Plazi </description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@ TaxonX Taxonx is a XML schema for encoding legacy taxonomic literature in order 
       
       <guid>https://plazi.org/resources/bol/</guid>
       <description>The Bibliography of Life (BoL) is a contribution towards building a reference bibliography for biodiversity with direct citable, open access to digital object of bibliographic references.
-Biodiversity Literature Repository  Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation.</description>
+Biodiversity Literature Repository Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation.</description>
     </item>
     
   </channel>

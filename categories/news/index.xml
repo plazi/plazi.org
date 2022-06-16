@@ -15,7 +15,7 @@
       <guid>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</guid>
       <description>The Swiss-based Plazi NGO has received a grant of EUR 1.5 million from Arcadia Fund – a charitable fund of Lisbet Rausing and Peter Baldwin – to further develop its Biodiversity Literature Repository (BLR) established in collaboration with Zenodo, the open science repository hosted and managed by the European Organization for Nuclear Research (CERN), and the open-access scholarly publisher and technology provider Pensoft.
 Source: Eurekalert
-  Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
+Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@ The original term name materialCitation has been changed to follow Darwin Core c
       
       <guid>https://plazi.org/posts/bhl-and-plazi-partnership/</guid>
       <description>BHL and Plazi have agreed to collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF. This includes the following steps:
- Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
+Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
     </item>
     
     <item>
@@ -189,7 +189,7 @@ In the sciences, illustrations, including photographs, play a crucial role. They
       <pubDate>Mon, 22 Oct 2018 18:18:13 +0200</pubDate>
       
       <guid>https://plazi.org/posts/provenance/</guid>
-      <description>When an &amp;lsquo;ex banker&amp;rsquo; - Tim Robertson - meets an &amp;lsquo;ex taxonomist&amp;rsquo; - Donat Agosti - this can be very inspiring, especially when they discover that they share rather unexpectedly more than they ever expected. So, what is it?
+      <description>When an &amp;rsquo;ex banker&amp;rsquo; - Tim Robertson - meets an &amp;rsquo;ex taxonomist&amp;rsquo; - Donat Agosti - this can be very inspiring, especially when they discover that they share rather unexpectedly more than they ever expected. So, what is it?
 Both share data lineages. The banker has bank accounts that are created, mutated and that have at a given time a certain value. The taxonomist has species that are described, mutated and at a given time have a certain name.</description>
     </item>
     
@@ -263,7 +263,7 @@ Open Science is based on open data. Data per se is not copyrighted and thus free
       
       <guid>https://plazi.org/posts/happy-new-year-2018/</guid>
       <description>2017 has been a productive year at Plazi.
- 9,601 articles have been processed from 173 different journals resulting in 82,082 taxonomic treatments, 62,958 scientific figures uploaded to the Biodiversity Literature Repository (BLR), including 314,881 bibliographic references of which 37,120 have a digital object identifier (DOI). The 3,177 articles published in 2017 that we mined for data included one new family, 330 new genera and 5,145 new species, and a total of 30,091 taxonomic treatments.</description>
+9,601 articles have been processed from 173 different journals resulting in 82,082 taxonomic treatments, 62,958 scientific figures uploaded to the Biodiversity Literature Repository (BLR), including 314,881 bibliographic references of which 37,120 have a digital object identifier (DOI). The 3,177 articles published in 2017 that we mined for data included one new family, 330 new genera and 5,145 new species, and a total of 30,091 taxonomic treatments.</description>
     </item>
     
   </channel>
