@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>What do we not know – quantifying data gaps and biases in knowledge of bat co-roosting</title>
+      <link>https://plazi.org/posts/2022/08/what-we-dont-know/</link>
+      <pubDate>Fri, 05 Aug 2022 13:48:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2022/08/what-we-dont-know/</guid>
+      <description>Improved understanding of co-habitation of roosts by multiple species of bats is essential for estimating the risks of zoonotic disease transmission. However, ecological data on roosting environments, species richness, bat-bat interactions, viral infections, and other species interactions are scattered throughout the literature, making them difficult to study on a global scale. The research scope for most roost studies has been narrow, focusing on roost type, bat abundance, and locality data while failing to investigate interspecific roosting interactions.</description>
+    </item>
+    
+    <item>
       <title>The Biodiversity Literature Repository — Open By Design</title>
       <link>https://plazi.org/posts/2022/05/blr-open-by-design/</link>
       <pubDate>Mon, 23 May 2022 20:45:04 +0200</pubDate>
@@ -436,7 +445,7 @@ Treatments are well defined parts of articles that define the particular usage o
       
       <guid>https://plazi.org/about/publications/</guid>
       <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.
-2022 Fawcett S, Agosti D, Cole SR, Wright CF 2022. Digital accessible knowledge: Mobilizing legacy data and the future of taxonomic publishing. Bulletin of the Society of Systematic Biologists 1(1): 1-12. doi Penev L, Koureas D, Groom Q, Lanfear J, Agosti D, Casino A, Miller J, Arvanitidis C, Cochrane G, Hobern D, Banki O, Addink W, Kõljalg U, Copas K, Mergen P, Güntsch A, Benichou L, Benito Gonzalez Lopez J, Ruch P, Martin CS, Barov B, Hristova K (2022) Biodiversity Community Integrated Knowledge Library (BiCIKL).</description>
+2022 Agosti D, Ruch P, Benito Gonzalez Lopez J, Penev L (2022) Enabling Published Taxonomic Data to be used to Address the Biodiversity Crisis: Biodiversity Literature Repository and TreatmentBank. Biodiversity Information Science and Standards 6: e91167. doi Fawcett S, Agosti D, Cole SR, Wright CF 2022.</description>
     </item>
     
     <item>
