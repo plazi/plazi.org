@@ -8,24 +8,34 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>400 Years of Botanical Collections – Implications for Present-Day Research</title>
-      <link>https://plazi.org/posts/2022/08/400-years-of-botanical-collections/</link>
-      <pubDate>Fri, 05 Aug 2022 13:48:04 +0200</pubDate>
+      <title>Taxonomic Treatments as Open FAIR Digital Objects</title>
+      <link>https://plazi.org/posts/2022/08/fair-digital-objects/</link>
+      <pubDate>Thu, 18 Aug 2022 13:11:04 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/2022/08/400-years-of-botanical-collections/</guid>
+      <guid>https://plazi.org/posts/2022/08/fair-digital-objects/</guid>
       <description>Abstract
-Bauhin’s pioneering Flora of Basel „Catalogus Plantarum circa Basileam sponte nascentium“ exactly 400 years ago is a precursor to the artificially identified beginning of taxonomic publishing with Linnaeus Systema plantarum … 1753. Indeed, botanical publishing existed far before Linnaeus’, however his contribution has not only been the Latin Binomen, but the highly structured way he published the taxonomic treatments for each species, and to cite previous works. In the digital age, this kind of structuring of the information and the existing implicit citation links allows building the biodiversity knowledge graph, opening up the entire corpus of taxonomic treatments imprisoned in publications by providing it in a format that can be found and reused, cited and linked to data referenced in the publications.</description>
+coming soon</description>
     </item>
     
     <item>
       <title>400 Years of Botanical Collections – Implications for Present-Day Research</title>
       <link>https://plazi.org/posts/2022/08/divisive-power/</link>
-      <pubDate>Fri, 05 Aug 2022 13:48:04 +0200</pubDate>
+      <pubDate>Thu, 18 Aug 2022 12:48:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/2022/08/divisive-power/</guid>
       <description>Abstract
 Divisive Power of Citizenship, one of our Institute’s SNSF-funded project, concludes this year with its closing international conference on 22/23 September 2022 in Basel, Switzerland. This event will offer a broad platform for debate about citizenship in a global context, addressing scholars working in the fields of Global History, Asian Studies, International Law and Digital Humanities, at a time of terrifying topicality.
 The central themes of discussion will be expat communities in Asia, and civil internment camps during the Second World War in Asia, which have been rarely studied until now.</description>
+    </item>
+    
+    <item>
+      <title>400 Years of Botanical Collections – Implications for Present-Day Research</title>
+      <link>https://plazi.org/posts/2022/08/400-years-of-botanical-collections/</link>
+      <pubDate>Thu, 18 Aug 2022 12:45:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2022/08/400-years-of-botanical-collections/</guid>
+      <description>Abstract
+Bauhin’s pioneering Flora of Basel „Catalogus Plantarum circa Basileam sponte nascentium“ exactly 400 years ago is a precursor to the artificially identified beginning of taxonomic publishing with Linnaeus Systema plantarum … 1753. Indeed, botanical publishing existed far before Linnaeus’, however his contribution has not only been the Latin Binomen, but the highly structured way he published the taxonomic treatments for each species, and to cite previous works. In the digital age, this kind of structuring of the information and the existing implicit citation links allows building the biodiversity knowledge graph, opening up the entire corpus of taxonomic treatments imprisoned in publications by providing it in a format that can be found and reused, cited and linked to data referenced in the publications.</description>
     </item>
     
     <item>
