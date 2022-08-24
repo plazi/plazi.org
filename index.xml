@@ -14,11 +14,11 @@
       
       <guid>https://plazi.org/posts/2022/08/fair-digital-objects/</guid>
       <description>Abstract
-coming soon</description>
+Taxonomy is the science of charting and describing the worlds biodiversity. Organisms are grouped into taxa which are given a given rank building the taxonomic hierarchy. The taxa are described in taxonomic treatments, well defined sections of scientific publications (Catapano 2019). They include a nomenclatural section and one or more sections including descriptions, material citations referring to studied specimens, or notes ecology and behavior. In case the treatment does not describe a new discovered taxon, previous treatments are cited in the form of treatment citations.</description>
     </item>
     
     <item>
-      <title>400 Years of Botanical Collections – Implications for Present-Day Research</title>
+      <title>Publishing Copyright-Free Taxonomic Treatments as New Resources for Biodiversity Research</title>
       <link>https://plazi.org/posts/2022/08/divisive-power/</link>
       <pubDate>Thu, 18 Aug 2022 12:48:04 +0200</pubDate>
       
@@ -297,6 +297,15 @@ Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift Inter
     </item>
     
     <item>
+      <title>Source Code</title>
+      <link>https://plazi.org/source-code/</link>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/source-code/</guid>
+      <description> TreatmentBank GoldenGATE Imagine TaxPub Ocellus Zenodeo Synospecies </description>
+    </item>
+    
+    <item>
       <title>Synospecies</title>
       <link>https://plazi.org/data-apis-tools/synospecies/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
@@ -360,6 +369,24 @@ Figs 7 –8, 22–23, 28, 31, 94– 106, 116</description>
       
       <guid>https://plazi.org/data-apis-tools/biowikifarm/</guid>
       <description>Biowikifarm is a shared technical platform supporting a number of mediawiki installations used by a large number projects in biological research for open content publishing. The primary purpose of the shared platform is to be able to maintain the published data and information in a long term sustainable way, to work more efficiently and distribute administrative and maintenance work among several partners. Furthermore, the biowikifarm operates a shared media repository, enabling synergies in re-using media content.</description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://plazi.org/disclaimer/</link>
+      <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
+      
+      <guid>https://plazi.org/disclaimer/</guid>
+      <description>The website plazi.org is provided by:
+Donat Agosti
+Specialist for taxonomic literature
+President Plazi
+Director Plazi GmbH
+Email: info@plazi.org
+Limitation of liability for internal content
+The content of our website has been compiled with meticulous care and to the best of our knowledge. However, we cannot assume any liability for the up-to-dateness, completeness or accuracy of any of the pages.
+Limitation of liability for external links
+Our website contains links to the websites of third parties (“external links”).</description>
     </item>
     
     <item>
@@ -476,7 +503,7 @@ Treatments are well defined parts of articles that define the particular usage o
       
       <guid>https://plazi.org/about/publications/</guid>
       <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.
-2022 Agosti D, Ruch P, Benito Gonzalez Lopez J, Penev L (2022) Enabling Published Taxonomic Data to be used to Address the Biodiversity Crisis: Biodiversity Literature Repository and TreatmentBank. Biodiversity Information Science and Standards 6: e91167. doi Fawcett S, Agosti D, Cole SR, Wright CF 2022.</description>
+2022 Gmür R, Agosti D, Sautter G (2022) Synospecies, a Linked Data Application to Explore Taxonomic Names. Biodiversity Information Science and Standards 6: e93707. doi: 10.3897/biss.6.93707 Agosti D, Benichou L, Penev L, Hyam R (2022) A Possible Workflow from New and Legacy Publications to keep the World Flora Online up to date with New Species and Augmenting Taxonomic Treatments.</description>
     </item>
     
     <item>

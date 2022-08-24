@@ -98,11 +98,29 @@
     </item>
     
     <item>
+      <title>repos</title>
+      <link>https://plazi.org/tags/repos/</link>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/repos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Services</title>
       <link>https://plazi.org/tags/services/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/tags/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>source code</title>
+      <link>https://plazi.org/tags/source-code/</link>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/source-code/</guid>
       <description></description>
     </item>
     
