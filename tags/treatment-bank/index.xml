@@ -42,7 +42,7 @@ Select fields, explore and download Plazi treatment and article data and statist
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       
       <guid>https://plazi.org/treatmentbank/schemas-and-ontologies/</guid>
-      <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions (See also TaxPub Documentation).
+      <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions. See also TaxPub Documentation.
 Currently, the following journals use TaxPub:
 Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
     </item>
