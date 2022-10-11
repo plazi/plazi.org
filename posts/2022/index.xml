@@ -8,39 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Jan 2022 11:54:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Possible Workflow from New and Legacy Publications</title>
-      <link>https://plazi.org/posts/2022/10/workflow-from-new-and-legacy-publications/</link>
+      <title>TDWG 2022</title>
+      <link>https://plazi.org/posts/2022/10/tdwg2022/</link>
       <pubDate>Mon, 10 Oct 2022 12:57:04 +0200</pubDate>
       
-      <guid>https://plazi.org/posts/2022/10/workflow-from-new-and-legacy-publications/</guid>
-      <description>Abstract: Thousands of new species are discovered each year, and new results are published to add to the knowledge of existing species. A growing number of these are immediately accessible through the Biodiversity Literature Repository (BLR) and reused by Global Biodiversity Information Facility (GBIF), bringing the number of treatments covering plant species to over 25,000 treatments. This includes the findable, accessible, interoperable, and resuable (FAIR) treatments and related figures, and in many cases the material citation of the holotype, and links to the collection, specimen and gene sequences attribured to the codes.</description>
-    </item>
-    
-    <item>
-      <title>Enabling Published Taxonomic Data to Address the Biodiversity Crisis</title>
-      <link>https://plazi.org/posts/2022/10/taxonomic-data-to-address-biodiversity-crisis/</link>
-      <pubDate>Mon, 10 Oct 2022 12:57:04 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/2022/10/taxonomic-data-to-address-biodiversity-crisis/</guid>
-      <description>Abstract: To understand the loss of species, a benchmark is needed, e.g. the status of biodiversity in 1992 when the Convention on Biological Diversity recognized biodiversity crisis to compare to its status in the successive year. Though we are far from knowning how many species there are on planet Earth, we keep track of their descriptions and number through the information kept in our libraries. Each species discovered is represented therein by at least one taxononic treatment.</description>
-    </item>
-    
-    <item>
-      <title>Synospecies, a Linked Data Application to Explore Taxonomic Names</title>
-      <link>https://plazi.org/posts/2022/10/synospecies-a-linked-data-dpplication/</link>
-      <pubDate>Mon, 10 Oct 2022 12:57:04 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/2022/10/synospecies-a-linked-data-dpplication/</guid>
-      <description>Abstract: Synospecies is a linked data application to explore changes in taxonomic names (Gmür and Agosti 2021). The underlying source of truth for the establishment of taxa, the assignment and re-assignment of names, are taxonomic treatments. Taxonomic treatments are sections of publications documenting the features or distribution of taxa in ways adhering to highly formalized conventions, and published in scientific journals, which shape our understanding of global biodiversity (Catapano 2010). Plazi, a not-for-profit organization dedicated to liberating knowledge, extracts the relevant information from these treatments and makes it publicly available in digital form.</description>
-    </item>
-    
-    <item>
-      <title>The legal landscape of data licensing in publishing</title>
-      <link>https://plazi.org/posts/2022/10/legal-landscape-of-data-licensing/</link>
-      <pubDate>Mon, 10 Oct 2022 12:57:04 +0200</pubDate>
-      
-      <guid>https://plazi.org/posts/2022/10/legal-landscape-of-data-licensing/</guid>
-      <description>Abstract: A key question for biodiversity research and applied conservation, which both rely on large, dynamic and multifaceted biodiversity datasets, is how to free biodiversity data to be able to reuse them. The goal of the workshop is to arrive at a better overview of legal rules governing data publication, and empower participants to use appropriate licenses and language that will allow data to be reused. Currently, most small publishers express concerns related to copyright and are uncertain if they are allowed to share data contained within a published paper without a clear statement from the author.</description>
+      <guid>https://plazi.org/posts/2022/10/tdwg2022/</guid>
+      <description>Enabling Published Taxonomic Data to Address the Biodiversity Crisis The use-case of Biodiversity Literature Repository and TreatmentBank
+Date and Time: Oct 17, 2022, 2:00 PM
+Abstract: To understand the loss of species, a benchmark is needed, e.g. the status of biodiversity in 1992 when the Convention on Biological Diversity recognized biodiversity crisis to compare to its status in the successive year. Though we are far from knowning how many species there are on planet Earth, we keep track of their descriptions and number through the information kept in our libraries.</description>
     </item>
     
     <item>
