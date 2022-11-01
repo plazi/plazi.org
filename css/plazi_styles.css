@@ -125,8 +125,9 @@ ul.projects {
 }
 li.project {
 	clear: both;
-    margin-top: 2rem;
 	margin-left: -40px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 li.project img {
 	width: 200px;
