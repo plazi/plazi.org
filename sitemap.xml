@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plazi.org/posts/2023/01/dissco-futures/</loc>
+    <lastmod>2023-01-20T20:21:07+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2022-10-11T16:31:58+02:00</lastmod>
+    <lastmod>2023-01-20T20:21:07+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/</loc>
-    <lastmod>2023-01-16T12:01:20+01:00</lastmod>
+    <lastmod>2023-01-20T20:21:07+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/10/tdwg2022/</loc>
     <lastmod>2022-10-11T16:31:58+02:00</lastmod>
