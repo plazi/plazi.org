@@ -178,3 +178,7 @@ table.event td {
 	border-bottom: 1px solid lightgrey;
 	background-color: white;
 }
+.widget-twitter {
+	height: 400px;
+	overflow-y: auto;
+}
