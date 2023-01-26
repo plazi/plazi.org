@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Training on Plazi</title>
+    <link>https://plazi.org/tags/training/</link>
+    <description>Recent content in Training on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2023 16:18:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training course</title>
+      <link>https://plazi.org/posts/2023/01/training-biodiv-digital-media/</link>
+      <pubDate>Thu, 26 Jan 2023 16:18:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/01/training-biodiv-digital-media/</guid>
+      <description>This hands-on and interactive training will give students and professionals of natural history institutions an opportunity to get informed about and practice the liberation and reuse of taxonomic data using digital platforms and repositories. Applicants need to register online</description>
+    </item>
+    
+  </channel>
+</rss>
