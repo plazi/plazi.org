@@ -108,10 +108,11 @@ figcaption {
 
 ul.members {
 	list-style: none;
-	column-count: 3;
+	column-count: 1;
 }
 li.member {
-	margin: 1rem 1.5rem;
+	/* margin: 1rem 1.5rem; */
+	margin: 1rem 0;
 	width: 250px;
 	float: left;
 }
@@ -181,4 +182,11 @@ table.event td {
 .widget-twitter {
 	height: 400px;
 	overflow-y: auto;
+}
+
+/* Larger than tablet */
+@media (min-width: 800px) {
+    ul.members {
+		column-count: 3;
+	}
 }

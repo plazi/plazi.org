@@ -6,7 +6,16 @@
     <description>Recent content in news on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 May 2022 13:25:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Feb 2023 22:14:49 +0100</lastBuildDate><atom:link href="https://plazi.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expanding the biodiversity knowledge graph</title>
+      <link>https://plazi.org/posts/2023/02/expanding-the-biodiv-knowledge-graph/</link>
+      <pubDate>Fri, 24 Feb 2023 22:14:49 +0100</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/02/expanding-the-biodiv-knowledge-graph/</guid>
+      <description>Discovery of species is based on specimens and communicated through taxonomic treatments described in and presented as parts of scientific publications. In an ideal world, this would allow us to ask questions such as “what is known about this specimen?” or “what does a gene sequence of a cited physical specimen look like?”, and the results would appear immediately on our computer screens in a format suitable for further analysis.</description>
+    </item>
+    
     <item>
       <title>Arcadia Fund supports Plazi in its endeavor to rediscover known biodiversity</title>
       <link>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</link>

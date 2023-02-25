@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Expanding the biodiversity knowledge graph - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Expanding the biodiversity knowledge graph by linking specimens to their material citations">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Plazi" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+				</div>
+		</a>
+</div>
+		
+<!-- start: layouts/partials/menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+			<li class="menu__item">
+				<a class="menu__link" href="/treatmentbank/"><span class="menu__text">treatmentbank</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/blr/"><span class="menu__text">Biodiversity Literature Repository</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/services/"><span class="menu__text">Services</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/how-to-participate/"><span class="menu__text">How to Participate</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/about/"><span class="menu__text">About</span></a>
+			</li>
+	</ul>
+</nav>
+<!-- end: layouts/partials/menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Expanding the biodiversity knowledge graph</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-02-24T22:14:49&#43;01:00">February 24, 2023</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+				<p>Discovery of species is based on specimens and communicated through taxonomic treatments described in and presented as parts of scientific publications. In an ideal world, this would allow us to ask questions such as “what is known about this specimen?” or “what does a gene sequence of a cited physical specimen look like?”, and the results would appear immediately on our computer screens in a format suitable for further analysis.</p>
+<p>This ideal world of instant insights into biodiversity data is still not here yet, but we have made big steps towards it. Through international initiatives such as <a href="https://www.dissco.eu/">DiSSCo</a> and <a href="https://www.idigbio.org/">iDigBio</a>, and national ones such as <a href="https://swisscollnet.scnat.ch/de">SwissCollNet</a>, tens of millions of specimens are being digitized. These digital specimens are aggregated through the <a href="https://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a> along with data from other genomic and citizen science projects. In fact, these various sources often refer to the same specimens, thus enriching our knowledge of them.</p>
+<p><a href="http://plazi.org/posts/materialcitation-submitted-as-a-new-term/">Material citations</a> are the citation of a specimen in a taxonomic publication, and point to the source of what the scientist discovered through the combined analysis of the specimen and its congeners. Though this relationship of a material citation to its specimen looks simple, it is complex from a technical point of view. The links can be predicted only to some degree of accuracy, for example by a <a href="https://www.gbif.org/news/4U1dz8LygQvqIywiRIRpAU/new-data-clustering-feature-aims-to-improve-data-quality-and-reveal-cross-dataset-connections">clustering algorithm</a> from GBIF or via a matching algorithm used by Plazi. In either case, they provide a unique starting point for further curation.</p>
+<p>A major issue in digitization is how and what data are collected, and the reliability and quality of the conversion process. Since most of the data is not digitized originally with the intention of linking one data point to another, it is algorithmically not simple to create matches. In other words, human curation is required to accept or reject a proposed match. For this reason, a matching service has been developed allowing users to curate the links. Once a link is accepted, an identifier of the linked specimen can be inserted into the material citations, thereby expanding the knowledge graph one link at a time.</p>
+
+
+<figure>
+    <img src="img/matching-interface.png" width="960">
+    <figcaption>
+    <p>Matching service user interface. The proposed match is between a material citation and possible specimens in GBIF. Each field provides a matching score with green the highest, as well as an overall score.</p>
+    </figcaption>
+</figure>
+
+<p>Plazi in collaboration with <a href="https://candy.text-analytics.ch/SIBiLS/">SIBiLS</a> and <a href="https://www.mobilise-action.eu/2023/01/24/plazi-mobilise-online-training-school-ts-announcement-27-28-feb-2023/">COST Mobilise</a> will conduct <a href="/posts/2023/01/training-biodiv-digital-media/">a training course to interested persons on 27-28 February, 2023</a> to learn the underlying concepts used in digitizing taxonomic publications and occurrences in GBIF, operating the matching service, and how to decide whether a match is acceptable or not.</p>
+<p>This digitization service, development of the learning materials and the training course is a collaboration between <a href="https://candy.text-analytics.ch/SIBiLS/">SIBiLS</a>, Plazi and the <a href="https://www.nmbe.ch/en">Natural History Museum of Bern</a>, Switzerland, supported by Swissuniversities <a href="https://ebiodiv.org/">eBioDiv</a> project, the <a href="http://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/">Arcadia Fund</a> and Horizon Europe funded <a href="https://bicikl-project.eu/">BiCIKL</a> and <a href="https://www.mobilise-action.eu/">COST Mobilise action</a> projects.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/news/" rel="tag">News</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/news-releases/952793">Supported in part by The Arcadia Fund</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2023 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

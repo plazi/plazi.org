@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2023-01-26T16:22:12+01:00</lastmod>
+    <loc>https://plazi.org/posts/2023/02/expanding-the-biodiv-knowledge-graph/</loc>
+    <lastmod>2023-02-25T13:36:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/news/</loc>
+    <lastmod>2023-02-25T13:36:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/</loc>
-    <lastmod>2023-02-03T13:41:45+01:00</lastmod>
+    <lastmod>2023-02-25T13:36:37+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/events/</loc>
+    <lastmod>2023-01-26T16:22:12+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/training/</loc>
     <lastmod>2023-01-26T16:22:12+01:00</lastmod>
@@ -44,9 +50,6 @@
     <loc>https://plazi.org/categories/</loc>
     <lastmod>2022-05-18T11:28:29+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/news/</loc>
-    <lastmod>2022-09-22T13:17:22+02:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/categories/news/</loc>
     <lastmod>2022-05-18T11:28:29+02:00</lastmod>
   </url><url>
@@ -63,7 +66,7 @@
     <lastmod>2022-06-02T23:20:11+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/about/</loc>
-    <lastmod>2023-01-23T14:33:29+01:00</lastmod>
+    <lastmod>2023-02-15T20:35:34+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/mission/</loc>
     <lastmod>2023-01-23T14:33:29+01:00</lastmod>
@@ -78,7 +81,7 @@
     <lastmod>2022-01-16T12:03:06+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/01/access-to-data-in-press-releases/</loc>
-    <lastmod>2022-01-17T18:09:21+01:00</lastmod>
+    <lastmod>2023-02-25T13:35:03+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2021/12/new-species-2021/</loc>
     <lastmod>2021-12-24T15:39:50+01:00</lastmod>
@@ -273,10 +276,10 @@
     <lastmod>2021-09-09T17:42:07+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/members/</loc>
-    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+    <lastmod>2023-02-15T20:35:34+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/members/</loc>
-    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
+    <lastmod>2023-02-15T20:35:34+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</loc>
     <lastmod>2021-10-19T17:28:53+02:00</lastmod>
