@@ -2,26 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plazi.org/tags/ebiodiv/</loc>
+    <lastmod>2023-03-01T19:22:18+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/events/</loc>
+    <lastmod>2023-03-01T19:22:18+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2023-03-01T19:28:45+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/training/</loc>
+    <lastmod>2023-03-01T19:28:45+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2023/03/linking-specimens-with-literature/</loc>
+    <lastmod>2023-03-01T19:22:18+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/posts/2023/02/expanding-the-biodiv-knowledge-graph/</loc>
     <lastmod>2023-02-25T13:36:37+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/news/</loc>
-    <lastmod>2023-02-25T13:36:37+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/</loc>
-    <lastmod>2023-02-25T13:36:37+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2023-01-26T16:22:12+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/training/</loc>
-    <lastmod>2023-01-26T16:22:12+01:00</lastmod>
+    <lastmod>2023-03-01T19:28:45+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2023/01/training-biodiv-digital-media/</loc>
     <lastmod>2023-01-26T16:22:12+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2023/01/dissco-futures/</loc>
     <lastmod>2023-01-20T20:21:07+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2023/03/specimen-material-citation-matching-service-training-course/</loc>
+    <lastmod>2023-03-01T19:28:45+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2022/10/tdwg2022/</loc>
     <lastmod>2022-10-11T16:31:58+02:00</lastmod>

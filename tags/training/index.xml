@@ -6,7 +6,16 @@
     <description>Recent content in Training on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jan 2023 16:18:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 16:18:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Training Course</title>
+      <link>https://plazi.org/posts/2023/03/linking-specimens-with-literature/</link>
+      <pubDate>Wed, 01 Mar 2023 16:18:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/03/linking-specimens-with-literature/</guid>
+      <description>eBioDiv is a Swissuniversities funded project by a consortium of HES-SO/SIB (Swiss Institute of Bioinformatics), Plazi, and the Natural History Museum of Bern (NMBE) with the goal to build a knowledge infrastructure to bring data in taxonomic literature together with physical specimens digitalized through projects funded by SwissCollNet. The linking is based on that fact that specimen, the basis of taxonomic works, are cited formally in the publications as material citations.</description>
+    </item>
+    
     <item>
       <title>Training course</title>
       <link>https://plazi.org/posts/2023/01/training-biodiv-digital-media/</link>
@@ -14,6 +23,16 @@
       
       <guid>https://plazi.org/posts/2023/01/training-biodiv-digital-media/</guid>
       <description>This hands-on and interactive training will give students and professionals of natural history institutions an opportunity to get informed about and practice the liberation and reuse of taxonomic data using digital platforms and repositories. Applicants need to register online</description>
+    </item>
+    
+    <item>
+      <title>Specimen - material citation matching service training course</title>
+      <link>https://plazi.org/posts/2023/03/specimen-material-citation-matching-service-training-course/</link>
+      <pubDate>Tue, 03 Jan 2023 12:14:49 +0100</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/03/specimen-material-citation-matching-service-training-course/</guid>
+      <description>Participants in the training course
+Plazi’s first online two day training course “Biodiversity and Digital Media: linking material citations in publications to specimens” organized by Julia Giora and Jonas Castro has successfully ended. The Training school happened online from the 27th to the 28th of February 2023. It is part of a series of training courses in which Plazi expects to teach interested parties how to use data preparation tools to become a data liberator.</description>
     </item>
     
   </channel>
