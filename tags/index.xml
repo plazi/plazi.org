@@ -26,11 +26,11 @@
     </item>
     
     <item>
-      <title>Training</title>
-      <link>https://plazi.org/tags/training/</link>
+      <title>Lecture</title>
+      <link>https://plazi.org/tags/lecture/</link>
       <pubDate>Wed, 01 Mar 2023 16:18:04 +0200</pubDate>
       
-      <guid>https://plazi.org/tags/training/</guid>
+      <guid>https://plazi.org/tags/lecture/</guid>
       <description></description>
     </item>
     
@@ -40,6 +40,15 @@
       <pubDate>Wed, 01 Mar 2023 12:14:49 +0100</pubDate>
       
       <guid>https://plazi.org/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://plazi.org/tags/training/</link>
+      <pubDate>Wed, 01 Mar 2023 12:14:49 +0100</pubDate>
+      
+      <guid>https://plazi.org/tags/training/</guid>
       <description></description>
     </item>
     
