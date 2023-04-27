@@ -1,0 +1,106 @@
+/* div */
+.search-box {
+    --search-width: 700px;
+    box-sizing: unset;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    transform: translate(0%, -50%);
+/*     background: white; */
+    border: 1px solid var(--plazi-green);
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    z-index: 20000 !important;
+  }
+  /* input */
+  .search-input {
+    outline: none !important;
+    border: none !important;
+    background: none;
+    width: 0 !important;
+    padding: 0;
+    color: var(--plazi-font-color);
+    float: left;
+    font-size: 16px;
+    transition: .3s;
+    line-height: 40px;
+  }
+  .search-input::placeholder {
+    color: var(--plazi-font-color);
+  }
+  /* icon */
+  .search-btn {
+    color: #fff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    /* border: 1px solid grey; */
+    background: var(--plazi-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s;
+    background: #fff url(/img/search.svg) .7rem .7rem no-repeat;
+    background-size: 1rem;
+  }
+  .search-input:focus,
+  .search-input:not(:placeholder-shown) {
+    width: var(--search-width) !important;
+    padding: 0 6px;
+  }
+  .search-box:hover > .search-input {
+    width: var(--search-width) !important;
+    padding: 0 6px;
+  }
+  .search-box:hover > .search-btn,
+  .search-input:focus + .search-btn,
+  .search-input:not(:placeholder-shown) + .search-btn {
+    background: #fff url(/img/search.svg) .7rem .7rem no-repeat;
+    background-size: 1rem;
+  }
+
+#searchResults { 
+    visibility: inherit; 
+    display: inline-block; 
+    width: var(--search-width) !important; 
+    background-color: white;
+    position: absolute;
+    top: 61px;
+    right: 28px;
+    border: 0px solid var(--plazi-green);
+    border-top: none;
+}
+#searchResults li { 
+    list-style: none; 
+    margin-left: 0em;
+    border-left: 1px solid var(--plazi-green);
+    border-right: 1px solid var(--plazi-green);
+    border-bottom: 1px dotted #000;
+}
+#searchResults h2.title { 
+    font-size: 1.1em; 
+    font-weight: 600; 
+    margin-bottom: 0px; 
+    display: inline-block;
+}
+#searchResults a { 
+    text-decoration: none !important; 
+    padding: 10px; 
+    display: inline-block; 
+}
+#searchResults a:hover, a:focus { 
+    outline: 0; 
+    background-color: #666; 
+    color: #fff; 
+}
+
+mark {
+    background-color: yellow;
+    padding: 2px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #666;
+}

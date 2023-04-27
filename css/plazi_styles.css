@@ -2,6 +2,7 @@
 	--plazi-font-color: #4e565f;
 	--plazi-highlight-color: #9BC134;
 	--plazi-background-color: grey;
+	--plazi-green: #9BC134;
 }
 
 body {
@@ -50,6 +51,7 @@ div.featured:hover {
 div.featured:hover a {
 	color: var(--plazi-font-color);
 }
+div.featured:hover { background-color: var(--plazi-green); }
 p.summary a { 
 	/* visibility: visible; 
 	display: block;  */
@@ -190,3 +192,16 @@ table.event td {
 		column-count: 3;
 	}
 }
+
+/* Media Queries */
+@media screen and (max-width: 1475px) {}
+
+@media screen and (max-width: 900px) {
+	div.search-box {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 620px) {}

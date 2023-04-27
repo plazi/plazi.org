@@ -23,7 +23,7 @@
 		crossorigin=""></script>
 
 	<link rel="stylesheet" href="/css/plazi_styles.css">
-	
+	<link rel="stylesheet" href="/css/expanding-search.css">
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -31,12 +31,24 @@
 	<div class="container header__container">
 		
 	<div class="logo logo--mixed">
-		<a class="logo__link" href="/" title="Plazi" rel="home">
+		
 			<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+					<a class="logo__link" href="/" title="Plazi" rel="home">
+						<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+					</a>
 				</div>
-		</a>
-</div>
+		
+
+		
+		<div class="search-box">
+			<input id="searchInput" type="text" class="search-input" placeholder="search…">
+			<a class="search-btn" href="#">
+			  
+			  
+			</a>
+			<ul id="searchResults"></ul>
+		</div>
+	</div>
 		
 <!-- start: layouts/partials/menu.html -->
 <nav class="menu">
@@ -124,6 +136,10 @@
 	</div>
 </footer>
 	</div>
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/minisearch@6.0.1/dist/umd/index.min.js"></script>
+	<script src="/js/search-mini.js"></script>
 
 <script async defer src="/js/menu.js"></script>
 </body>
