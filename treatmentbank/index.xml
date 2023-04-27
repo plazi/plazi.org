@@ -57,5 +57,14 @@ Treatments are well-defined parts of articles that describe the particular usage
       <description>Access to Plazi Treatments What is a treatment? What is a DarwinCore Archive? The Darwin Core Archive used by Plazi Treatment Data representation in Plazi Plazi API Obtaining a list of all the treatments available from Plazi HTTP GET - RSS HTTP GET - ZIP Archive HTTP GET - Page displaying Treatment HTTP GET - generic XML HTTP GET - TaxonX List of Plazi&amp;rsquo;s available DwC-Archives from GBIF API HTTP GET - JSON Appendix: Darwin Core Archive Content Further reading Downloads Support and Questions Version Access to Plazi Treatments What is a treatment?</description>
     </item>
     
+    <item>
+      <title>Visualization Tools</title>
+      <link>https://plazi.org/treatmentbank/visualization-tools/</link>
+      <pubDate>Mon, 26 Apr 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/treatmentbank/visualization-tools/</guid>
+      <description>Data Visualization Tools All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
+    </item>
+    
   </channel>
 </rss>

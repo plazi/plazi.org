@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization on Plazi</title>
+    <link>https://plazi.org/tags/data-visualization/</link>
+    <description>Recent content in Data Visualization on Plazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Apr 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualization Tools</title>
+      <link>https://plazi.org/treatmentbank/visualization-tools/</link>
+      <pubDate>Mon, 26 Apr 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/treatmentbank/visualization-tools/</guid>
+      <description>Data Visualization Tools All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -105,5 +105,14 @@ Treatments are well defined parts of articles that define the particular usage o
       <description>All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
     </item>
     
+    <item>
+      <title>Visualization Tools</title>
+      <link>https://plazi.org/treatmentbank/visualization-tools/</link>
+      <pubDate>Mon, 26 Apr 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/treatmentbank/visualization-tools/</guid>
+      <description>Data Visualization Tools All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
+    </item>
+    
   </channel>
 </rss>

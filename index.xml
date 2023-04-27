@@ -639,6 +639,15 @@ Natural language processing, character modeling</description>
     </item>
     
     <item>
+      <title>Visualization Tools</title>
+      <link>https://plazi.org/treatmentbank/visualization-tools/</link>
+      <pubDate>Mon, 26 Apr 2021 19:17:05 +0200</pubDate>
+      
+      <guid>https://plazi.org/treatmentbank/visualization-tools/</guid>
+      <description>Data Visualization Tools All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
+    </item>
+    
+    <item>
       <title>materialCitation as a new class submitted to TDWG Darwin Core standard</title>
       <link>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</link>
       <pubDate>Mon, 12 Apr 2021 19:16:15 +0200</pubDate>
