@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.100.1" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Plazi</title>
+	<title>TDWG - Plazi</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 
 	<link rel="stylesheet" href="/css/style.css">
 	
-	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Plazi">
+	<link rel="alternate" type="application/rss+xml" href="/tags/tdwg/index.xml" title="Plazi">
 
 	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
 		
@@ -82,325 +81,96 @@
 		<div class="wrapper flex">
 			<div class="primary">
 			
+<ol class="nav navbar-nav">
+    
+    
+        
+    
+        
+    
+    <li>
+        <a href="https://plazi.org/">Home</a>
+    </li>
 
+    
+    <li>
+        <a href="https://plazi.org/tags/">Tags</a>
+    </li>
+
+    
+    <li class="active">
+        <a href="https://plazi.org/tags/tdwg/">TDWG</a>
+    </li>
+
+</ol>
+<br style="clear:both" />
+
+
+<!-- start: tags/list.html -->
 <main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">TDWG</h1>
+	</header>
+
 	
-<!-- start: map.html -->
-<div id="mapContainer">
-    <div id="mapid"></div>
-    
-    <a href="https://tb.plazi.org/GgServer/static/newToday.html" id="searchBtn" target="_blank">latest treatments</a>
-    
-</div>
-<div id="search_results"></div>
 
-<script>
-    const search = function(e) {
-        const search_results = document.getElementById('search_results')
-
-        fetch('https://tb.plazi.org/GgServer/srsStats/stats?outputFields=doc.type+doc.uuid+doc.name+doc.uploadDate+bib.author+bib.title+tax.name&groupingFields=doc.type+doc.uuid+doc.name+doc.uploadDate+bib.author+bib.title+tax.name&FP-doc.uploadDate=%222021-07-16%22&format=JSON')
-            .then(function(response) {
-                if (!response.ok) {
-                    throw new Error('HTTP error, status = ' + response.status)
-                }
-
-                return response.json()
-            })
-            .then(function(response) {
-                const data = response.data
-                let res = '<h2>Latest Treatments</h2>'
-                data.forEach(r => {
-                    res += '<details><summary>' + r.TaxName + '</summary><p>' + r.BibTitle + ', ' + r.BibAuthor + '</p></details>'
-                })
-
-                search_results.innerHTML = res
-            })
-
-        e.stopPropagation()
-        e.preventDefault()
-    }
-
-    
-    
-    
-    
-        
-    fetch('https://tb.plazi.org/GgServer/srsStaticStats/latestMapPoints.json', {mode: 'cors'})
-        .then(function(response) {
-            if (!response.ok) {
-                throw new Error('HTTP error, status = ' + response.status);
-            }
-
-            return response.json();
-        })
-        .then(function(response) {
-        const points = response.data
-        const center = [0, 0]
-        
-        const mymap = L.map('mapid').setView(center, 2)
-
-        
-        
-        const mapurl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-        L.tileLayer(mapurl, {
-            maxZoom: 18,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(mymap);
-
-        const url = 'https://tb.plazi.org/GgServer/html/';
-
-        const icon = L.icon({ 
-            iconUrl: '/img/treatment.png', 
-            iconSize: [10, 10],
-            iconAnchor: [0, 0],
-            popupAnchor: [6, 5]
-        });
-
-        for (let i = 0, j = points.length; i < j; i++) {
-            const p = points[i]
-            const popupHtml =  
-                `<div class='TaxName'>
-                    <a href='${url}/${p.DocUuid}' target='_blank'>${p.TaxName}</a>
-                </div>
-                <div class='BibDspTitle'>${p.BibDspTitleDsp}</div>
-                <div class='BibOrigin'>${p.BibOrigin}</div>`
-            L.marker([Number(p.MatCitLatitude), Number(p.MatCitLongitude), ], { icon: icon })
-                .bindPopup(popupHtml)
-                .addTo(mymap)
-        }
-    })
-</script>
-<!-- end: map.html -->
-
-	<p></p>
 	
 	
-	<div id="summary_container">
-	<!-- start index.html: list of post summaries for home page -->
+		<!-- start: tags/summary.html -->
+
+<!-- start: summary.html (default) -->
+<article class="list__item post">
+
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2023/05/extending-the-biodiv-knowledge-graph/" rel="bookmark">Publishing: Extending the biodiversity knowledge graph</a>
+		</h2>
+		<div class="meta__item-datetime">
+			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-05-02T17:34:04&#43;02:00">May 02, 2023</time>
+		</div>
+
+		
+
+	</header>
+
+	<div class="content list__excerpt post__content clearfix">
+		The state and recent developments of biodiversity publishing, linking and providing increased access to data <a href="/posts/2023/05/extending-the-biodiv-knowledge-graph/" rel="bookmark">more</a>
+	</div>
+</article>
+<!-- end: summary.html (default) -->
+
+<!-- start: summary.html (default) -->
+<article class="list__item post">
+
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/2023/05/toolbox-to-link-biodiv-data/" rel="bookmark">The BiCIKL toolbox to link biodiversity data</a>
+		</h2>
+		<div class="meta__item-datetime">
+			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-05-02T17:34:04&#43;02:00">May 02, 2023</time>
+		</div>
+
+		
+
+	</header>
+
+	<div class="content list__excerpt post__content clearfix">
+		We will demonstrate tools and infrastructure from the BiCIKL project to find and establish links between entities <a href="/posts/2023/05/toolbox-to-link-biodiv-data/" rel="bookmark">more</a>
+	</div>
+</article>
+<!-- end: summary.html (default) -->
+
+		<!-- end: tags/summary.html -->
 	
-<!-- start: summary.html (default) -->
-<article class="list__item post">
 
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/bhl-and-plazi-partnership/" rel="bookmark">BHL and Plazi partnership</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-14T19:02:17&#43;02:00">Jun 14, 2021</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		BHL and Plazi will collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF... <a href="/posts/bhl-and-plazi-partnership/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/not-knowing-what-we-know/" rel="bookmark">The digital age and the tragedy of not knowing what we know about biodiversity</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-05-11T19:16:15&#43;02:00">May 11, 2021</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		One of the big challenges in biology - how many species are on planet Earth, where do they live and what do they do - is increasingly relevant... <a href="/posts/not-knowing-what-we-know/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/materialcitation-submitted-as-a-new-term/" rel="bookmark">materialCitation as a new class submitted to TDWG Darwin Core standard</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-04-12T19:16:15&#43;02:00">Apr 12, 2021</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		Plazi submitted a new term “materialCitation” for dicussion for an eventual inclusion in the TDWG Darwin Core standard... <a href="/posts/materialcitation-submitted-as-a-new-term/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/data-issue-feedback-loop/" rel="bookmark">A new GBIF Plazi data issue feedback loop</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-02-12T19:16:15&#43;02:00">Feb 12, 2021</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		The launch of the new feedback button in GBIF reflects the commitment by GBIF and Plazi to care about the data... <a href="/posts/data-issue-feedback-loop/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/clickup-supporting-plazi/" rel="bookmark">ClickUp supporting Plazi with task management system </a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-08-31T18:18:13&#43;02:00">Aug 31, 2020</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		Managing collaborations involving multiple locations, time zones and complementing operations is challenging... <a href="/posts/clickup-supporting-plazi/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/news/beitrag/time-for-an-interim-review-of-plazis-covid-19-related-activities/3e26b3bc95a4b39f0a2a9d7fccee8b19/" rel="bookmark">Time for an interim review of Plazi’s Covid-19 related activities</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-07-17T18:18:13&#43;02:00">Jul 17, 2020</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		Three months ago we started with Pensoft an effort (see also press release) to contribute to a better understanding of the SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) aka corona virus that led to the global... <a href="/news/beitrag/time-for-an-interim-review-of-plazis-covid-19-related-activities/3e26b3bc95a4b39f0a2a9d7fccee8b19/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/linnaeus-systema-naturae/" rel="bookmark">The taxonomic treatments from Linnaeus’ Systema Naturae, 1758, 10th edition, liberated</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-06-29T18:18:13&#43;02:00">Jun 29, 2020</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		A milestone in the development of modern biology was the introduction of the standardization resulting from comparative and... <a href="/posts/linnaeus-systema-naturae/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/agreement-between-plazi-and-prolitteris/" rel="bookmark">Extended collective licence agreement between Plazi and ProLitteris: Plazi adopts to revised copyright law in Switzerland</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-06-08T18:18:13&#43;02:00">Jun 08, 2020</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		On the 1st of April, 2020, a new copyright law was enacted in Switzerland. Amongst other revision points, it declares an extension of the protection of... <a href="/posts/agreement-between-plazi-and-prolitteris/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/coronavirus-hosts/" rel="bookmark">Plazi and Pensoft launch an initiative to provide access to scholarly published data about Coronavirus hosts</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-04-03T18:18:13&#43;02:00">Apr 03, 2020</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		The COVID-19 pandemic presumably started with the escape of the Coronavirus from its bat host to humans... <a href="/posts/coronavirus-hosts/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-<!-- start: summary.html (default) -->
-<article class="list__item post">
-
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/open-science-charting-biodiversity/" rel="bookmark">On the Role of Open Science in Charting Biodiversity</a>
-		</h2>
-		<div class="meta__item-datetime">
-			<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-03-05T18:18:13&#43;02:00">Mar 05, 2020</time>
-		</div>
-
-		
-
-	</header>
-
-	<div class="content list__excerpt post__content clearfix">
-		Following discussions on Taxacom list server on the value on Open Science, here some points to consider... <a href="/posts/open-science-charting-biodiversity/" rel="bookmark">more</a>
-	</div>
-</article>
-<!-- end: summary.html (default) -->
-
-	<!-- end: list of post summaries for home page -->
-	</div>
 </main>
 
+<!-- end: tags/list.html -->
 
-<div class="pagination">
-	<a class="pagination__item pagination__item--prev btn" href="/">«</a>
-	<span class="pagination__item pagination__item--current">2/4</span>
-	<a class="pagination__item pagination__item--next btn" href="/page/3/">»</a>
-</div>
 
 			</div>
-			<aside class="sidebar">
+			
+<aside class="sidebar sidebar--left">
 <!-- start: layouts/partials/widgets/stats.html -->
 <div class="widget-stats widget">
     <h4 class="widget__title">Stats</h4>

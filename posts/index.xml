@@ -8,6 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publishing: Extending the biodiversity knowledge graph</title>
+      <link>https://plazi.org/posts/2023/05/extending-the-biodiv-knowledge-graph/</link>
+      <pubDate>Tue, 02 May 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/05/extending-the-biodiv-knowledge-graph/</guid>
+      <description>A goal of natural history institutions is contributing to the understanding of biodiversity and disseminating this knowledge by becoming scientific publishers. Through this, they joined the growing field of scholarly publishing established in 1665 by the Journal des sçavans to publish work from the sciences. One of the characteristics of scientific publishing is to cite previous works and thus linking existing knowledge with new discoveries. To provide access to the growing corpus of publications, libraries began to index individual works.</description>
+    </item>
+    
+    <item>
+      <title>The BiCIKL toolbox to link biodiversity data</title>
+      <link>https://plazi.org/posts/2023/05/toolbox-to-link-biodiv-data/</link>
+      <pubDate>Tue, 02 May 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/05/toolbox-to-link-biodiv-data/</guid>
+      <description>We will demonstrate tools and infrastructure from the BiCIKL project to find and establish links between entities. These include:
+Infrastructure to create and manage machine actionable persistent identifiers (PIDs) for digital specimens. This allows the creation and annotation of digital specimens as new actionable objects on the internet, which provide a surrogate for physical specimens. OpenBiodiv is a linked open data (LOD) knowledge graph extracted from the biodiversity literature. OpenBiodiv can discover hidden links, e.</description>
+    </item>
+    
+    <item>
       <title>eBioDiv: linking specimens with literature, or to what is known about a specimen</title>
       <link>https://plazi.org/posts/2023/03/linking-specimens-with-literature/</link>
       <pubDate>Wed, 01 Mar 2023 16:18:04 +0200</pubDate>

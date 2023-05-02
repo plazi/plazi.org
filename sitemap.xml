@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plazi.org/tags/bicikl/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/events/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/lecture/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2023/05/extending-the-biodiv-knowledge-graph/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/tdwg/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2023/05/toolbox-to-link-biodiv-data/</loc>
+    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/tags/ebiodiv/</loc>
     <lastmod>2023-03-02T11:25:29+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2023/03/linking-specimens-with-literature/</loc>
     <lastmod>2023-03-02T11:25:29+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2023-03-02T11:25:29+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/lecture/</loc>
-    <lastmod>2023-03-02T11:25:29+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/</loc>
-    <lastmod>2023-05-02T10:40:19+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/news/</loc>
     <lastmod>2023-03-07T16:04:10+01:00</lastmod>
@@ -102,9 +114,6 @@
     <lastmod>2021-12-23T16:10:26+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2021/11/annotating-gene-sequences/</loc>
-    <lastmod>2021-12-23T16:10:26+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/bicikl/</loc>
     <lastmod>2021-12-23T16:10:26+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2021/11/behind-new-species-swiss-made/</loc>
