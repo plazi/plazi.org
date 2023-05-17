@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 May 2023 17:34:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 18:18:13 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>news</title>
+      <link>https://plazi.org/tags/news/</link>
+      <pubDate>Tue, 16 May 2023 18:18:13 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://plazi.org/tags/training/</link>
+      <pubDate>Tue, 16 May 2023 18:18:13 +0200</pubDate>
+      
+      <guid>https://plazi.org/tags/training/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>BiCIKL</title>
       <link>https://plazi.org/tags/bicikl/</link>
@@ -49,24 +67,6 @@
       <pubDate>Wed, 01 Mar 2023 16:18:04 +0200</pubDate>
       
       <guid>https://plazi.org/tags/ebiodiv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>https://plazi.org/tags/news/</link>
-      <pubDate>Wed, 01 Mar 2023 12:14:49 +0100</pubDate>
-      
-      <guid>https://plazi.org/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Training</title>
-      <link>https://plazi.org/tags/training/</link>
-      <pubDate>Wed, 01 Mar 2023 12:14:49 +0100</pubDate>
-      
-      <guid>https://plazi.org/tags/training/</guid>
       <description></description>
     </item>
     
