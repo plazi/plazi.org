@@ -8,12 +8,41 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Engaging the community in FAIR taxonomic data liberation: an overview of training resources at Plazi</title>
+      <link>https://plazi.org/posts/2023/05/engaging-the-community-in-fair-data-liberation/</link>
+      <pubDate>Thu, 25 May 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/05/engaging-the-community-in-fair-data-liberation/</guid>
+      <description>Presenter: Julia Giora
+Since 2008, swiss-based not-for-profit organization Plazi has been supporting and promoting the development of persistent and openly accessible digital taxonomic literature. To achieve this goal, Plazi makes use of in-house softwares for data mining and extraction from taxonomic publications, along with other partner institution tools and platforms, to liberate data on animals, plants, fungi, and more. In its mission to make taxonomic data FAIRly available to the community, Plazi has developed sets of training material and courses, which enables taxonomists, collection curators, students, technicians and others to participate in the process of taxonomic data liberation.</description>
+    </item>
+    
+    <item>
+      <title>Matching material citations to occurrences: extending the biodiversity knowledge graph</title>
+      <link>https://plazi.org/posts/2023/05/matching-material-citations-to-occurrences/</link>
+      <pubDate>Thu, 25 May 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/05/matching-material-citations-to-occurrences/</guid>
+      <description>Presenter: Donat Agosti
+Scholarly publications are the channel to communicate research findings based on the analysis of specimens and their traits. In an open science world, the link to the specimens together with the description of the methods involved should enable us to reproduce the results. Increasingly, taxonomic publications provide a section with structured or even semantically enhanced tables, including persistent digital identifiers of the specimens. These publications can be processed, reformatted as datasets of material citations that can be reused, for example by the Global Biodiversity Information Facility (GBIF).</description>
+    </item>
+    
+    <item>
       <title>Text Mining and Biodiversity Research Infrastructure</title>
       <link>https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/</link>
       <pubDate>Wed, 24 May 2023 17:34:04 +0200</pubDate>
       
       <guid>https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/</guid>
       <description>The scientific knowledge on biodiversity is imprisoned in a daily growing corpus of hundred millions of pages of scientific publications. This knowledge is needed to better understand the dynamics and dimensions of the global biodiversity crisis, to understand the impact of climate change on the distribution of species or to understand the viral spillover from animals to humans. This knowledge is very difficult to access because it is unstructured, in printed formats, including portable data format (PDF), which are difficult to machine operate, or closed access.</description>
+    </item>
+    
+    <item>
+      <title>The new value of scientific publications in the digital age</title>
+      <link>https://plazi.org/posts/2023/05/new-value-of-scientific-pubs/</link>
+      <pubDate>Wed, 24 May 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/05/new-value-of-scientific-pubs/</guid>
+      <description>Scientific publications are the means by which scientific knowledge is communicated. In botany as well as all biological sciences, each new species discovered is based on at least one publication including a protologue conformant to the International Code of Nomenclature for algae, fungi, and plants. A protologue is based on a standard vocabulary, including a material citation of the type specimen and its hosting institution, generally a figure with the diagnostic characters and a discussion of related species.</description>
     </item>
     
     <item>
