@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Text Mining and Biodiversity Research Infrastructure - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="we will introduce the “biodiversity PMC” built and maintained by SIBiLS, Zenodo and Plazi, making use of the recently reviewed copyright law in Switzerland">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/expanding-search.css">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		
+			<div class="logo__item logo__imagebox">
+					<a class="logo__link" href="/" title="Plazi" rel="home">
+						<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+					</a>
+				</div>
+		
+
+		
+		<div class="search-box">
+			<input id="searchInput" type="text" class="search-input" placeholder="search…">
+			<a class="search-btn" href="#">
+			  
+			  
+			</a>
+			<ul id="searchResults"></ul>
+		</div>
+	</div>
+		
+<!-- start: layouts/partials/menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+			<li class="menu__item">
+				<a class="menu__link" href="/treatmentbank/"><span class="menu__text">treatmentbank</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/blr/"><span class="menu__text">Biodiversity Literature Repository</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/services/"><span class="menu__text">Services</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/how-to-participate/"><span class="menu__text">How to Participate</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/about/"><span class="menu__text">About</span></a>
+			</li>
+	</ul>
+</nav>
+<!-- end: layouts/partials/menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Text Mining and Biodiversity Research Infrastructure</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-05-24T17:34:04&#43;02:00">May 24, 2023</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+				<table class="event">
+    <tbody>
+        <tr>
+            <th width="150px">Conference:</th>
+            <td><a href="https://www.swisstext.org/programme/">SwissText 2023</a></td>
+        </tr>
+        <tr>
+            <th>Location:</th>
+            <td>Espa. de l’Europe 11, Neuchatel, Switzerland</td>
+        </tr>
+
+        
+        
+        
+        <tr>
+            <th>Date and Time:</th>
+            <td> Jun 12, 2023</td>
+        </tr>
+
+        
+        <tr>
+            <th>Session:</th>
+            <td><a href="https://biodiversity.text-analytics.ch/">Text Mining and Biodiversity Research Infrastructure</a></td>
+        </tr>
+        
+
+        
+        <tr>
+            <th>Description:</th>
+            <td><i>we will introduce the “biodiversity PMC” built and maintained by SIBiLS, Zenodo and Plazi, making use of the recently reviewed copyright law in Switzerland</i></td>
+        </tr>
+        
+    </tbody>
+</table>
+
+<p><p>The scientific knowledge on biodiversity is imprisoned in a daily growing corpus of hundred millions of pages of scientific publications. This knowledge is needed to better understand the dynamics and dimensions of the global biodiversity crisis, to understand the impact of climate change on the distribution of species or to understand the viral spillover from animals to humans. This knowledge is very difficult to access because it is unstructured, in printed formats, including portable data format (PDF), which are difficult to machine operate, or closed access. The power of access to millions of machine actionable articles in <a href="https://www.ncbi.nlm.nih.gov/pmc">PMC</a>, including millions of supplementary data files, or tens of millions of abstracts in PubMed and tools to annotate and mine and discover new facts is obvious. These tools could be used for TDM and annotations of biodiversity literature - but the PMC/PubMed equivalent has not been available for publications in the biodiversity domain, hence the need for a BiodiversityPMC!</p>
+<p>In this workshop we will introduce the fledgling “biodiversity PMC” built and maintained by <a href="https://sibils.text-analytics.ch/">SIBiLS</a>, <a href="https://zenodo.org/">Zenodo</a> and <a href="https://plazi.org/">Plazi</a>, making use of the recently reviewed copyright law in Switzerland. Legal, institutional, technical aspects from processing to long term storage and accessing and annotating of the data will be discussed. This will be complemented by the research questions driving this effort from discovering known biodiversity, to extracting traits to study the impact of climate change to annotating biotic interactions to understand viral spillover to build question/answer systems.</p>
+</p>
+			
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/events/" rel="tag">Events</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/news-releases/952793">Supported in part by Arcadia</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2023 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/minisearch@6.0.1/dist/umd/index.min.js"></script>
+	<script src="/js/search-mini.js"></script>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

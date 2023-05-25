@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plazi.org/tags/events/</loc>
+    <lastmod>2023-05-25T11:49:26+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2023-05-25T11:49:26+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/</loc>
+    <lastmod>2023-05-25T11:49:26+02:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/categories/</loc>
     <lastmod>2023-05-17T16:31:21+02:00</lastmod>
   </url><url>
@@ -14,16 +23,10 @@
     <loc>https://plazi.org/categories/news/</loc>
     <lastmod>2023-05-17T16:31:21+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/</loc>
-    <lastmod>2023-05-17T16:31:21+02:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/tags/training/</loc>
     <lastmod>2023-05-17T16:31:21+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/bicikl/</loc>
-    <lastmod>2023-05-02T17:47:29+02:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/events/</loc>
     <lastmod>2023-05-02T17:47:29+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/lecture/</loc>

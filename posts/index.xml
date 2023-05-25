@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Text Mining and Biodiversity Research Infrastructure</title>
+      <link>https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/</link>
+      <pubDate>Wed, 24 May 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/05/text-mining-and-biodiv-ri/</guid>
+      <description>The scientific knowledge on biodiversity is imprisoned in a daily growing corpus of hundred millions of pages of scientific publications. This knowledge is needed to better understand the dynamics and dimensions of the global biodiversity crisis, to understand the impact of climate change on the distribution of species or to understand the viral spillover from animals to humans. This knowledge is very difficult to access because it is unstructured, in printed formats, including portable data format (PDF), which are difficult to machine operate, or closed access.</description>
+    </item>
+    
+    <item>
       <title>Enabling South African scientists to convert taxonomic publications into digitally accessible knowledge</title>
       <link>https://plazi.org/posts/2023/05/training-s-african-scientists/</link>
       <pubDate>Tue, 16 May 2023 18:18:13 +0200</pubDate>
