@@ -16,14 +16,5 @@
       <description>Plazi offers services and consultancies in the areas of developing and maintaining schemas related to scientific literature, legal analyses and policies in area of scientific literature and data sharing, and brokering and providing data conversion. Publications and lectures are also available. For inquiries, please contact us via email.</description>
     </item>
     
-    <item>
-      <title>Biowikifarm</title>
-      <link>https://plazi.org/services/biowikifarm/</link>
-      <pubDate>Sat, 01 May 2021 19:17:05 +0200</pubDate>
-      
-      <guid>https://plazi.org/services/biowikifarm/</guid>
-      <description>biowikifarm.net is a shared technical platform supporting a number of mediawiki installations used by a large number projects in biological research for open content publishing. The primary purpose of the shared platform is to be able to maintain the published data and information in a long term sustainable way, to work more efficiently and distribute administrative and maintenance work among several partners. Furthermore, the biowikifarm operates a shared media repository, enabling synergies in re-using media content.</description>
-    </item>
-    
   </channel>
 </rss>
