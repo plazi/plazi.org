@@ -131,12 +131,22 @@ li.project {
 	margin-left: -40px;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+/* 	border-bottom: 1px dotted grey; */
 }
 li.project img {
 	width: 200px;
-	float: left;
+/* 	float: left; */
 	margin-right: 1rem;
-	border: 1px solid;
+	margin-bottom: 2rem;
+	padding: 15px;
+/* 	border: 1px solid silver; */
+}
+li.project h3 {
+	font-size: 18px;
+	background-color: #f5f5f5;
+	color: #444;
+	padding: 10px;
+	border-top: 1px solid darkgrey;
 }
 .tags {
 	border-radius: 5px;
@@ -184,6 +194,25 @@ table.event td {
 .widget-twitter {
 	height: 400px;
 	overflow-y: auto;
+}
+
+/* styles for 'searching-by-biomes' */
+div.fig-container {
+	text-align: center; 
+	display: flex;
+}
+
+div.fig-container figure {
+	float: left; 
+	padding: 5px;
+}
+
+div.fig-container figure img {
+	border: 1px solid grey;
+}
+
+cite {
+	font-style: italic;
 }
 
 /* Larger than tablet */

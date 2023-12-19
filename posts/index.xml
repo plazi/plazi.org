@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Searching by ecoregions and biomes</title>
+      <link>https://plazi.org/posts/2023/12/searching-by-ecoregions/</link>
+      <pubDate>Fri, 15 Dec 2023 17:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2023/12/searching-by-ecoregions/</guid>
+      <description>Many of the material citations extracted by Plazi contain geo-coordinates which opens up the way to searching for them by various geographic features along with the non-geographic attributes such as taxa. It is now possible to search for images that are a part of the treatments by ecoregions, biomes and realms.
+Ecoregions, biomes and realms from Olson, et. al.
+The World Wildlife Fund (WWF) defines terrestrial ecoregions as follows:
+Terrestrial Ecoregions of the World (TEOW) is a biogeographic regionalization of the Earth&amp;rsquo;s terrestrial biodiversity.</description>
+    </item>
+    
+    <item>
       <title>Harmonizing taxonomic resources is necessary for novel insights into bat roosting dataset</title>
       <link>https://plazi.org/posts/2023/05/harmonizing-taxonomic-resources/</link>
       <pubDate>Tue, 30 May 2023 09:34:04 +0200</pubDate>
