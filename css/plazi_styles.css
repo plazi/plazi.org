@@ -196,6 +196,26 @@ table.event td {
 	overflow-y: auto;
 }
 
+/* Util classes */
+.text-plazi-green {
+    color: var(--plazi-green);
+}
+
+/* Basic Grid */
+.row {
+	display: flex;
+	flex-direction: column;
+}
+.col {
+	flex: 1;
+}
+
+@media (min-width: 768px) {
+	.row {
+		flex-direction: row;
+	}
+}
+
 /* styles for 'searching-by-biomes' */
 div.fig-container {
 	text-align: center; 

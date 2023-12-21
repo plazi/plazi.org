@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>15 years of discovering known biodiversity - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Plazi’s 15th anniversary is the occasion to look back on the many achievements, but much more to look into the future on how to make biodiversity knowledge a first class citizen.">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+		
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/expanding-search.css">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		
+			<div class="logo__item logo__imagebox">
+					<a class="logo__link" href="/" title="Plazi" rel="home">
+						<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+					</a>
+				</div>
+		
+
+		
+		<div class="search-box">
+			<input id="searchInput" type="text" class="search-input" placeholder="search…">
+			<a class="search-btn" href="#">
+			  
+			  
+			</a>
+			<ul id="searchResults"></ul>
+		</div>
+	</div>
+		
+<!-- start: layouts/partials/menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+			<li class="menu__item">
+				<a class="menu__link" href="/treatmentbank/"><span class="menu__text">treatmentbank</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/blr/"><span class="menu__text">Biodiversity Literature Repository</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/services/"><span class="menu__text">Services</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/how-to-participate/"><span class="menu__text">How to Participate</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/about/"><span class="menu__text">About</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/15-years/"><span class="menu__text">15 Years</span></a>
+			</li>
+	</ul>
+</nav>
+<!-- end: layouts/partials/menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">15 years of discovering known biodiversity</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-12-20T13:00:00&#43;02:00">December 20, 2023</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+				
+
+
+<script src="script.js" defer></script>
+<style>
+/* Section: Plazi’s Mission */
+.plazis-mission-container {
+  flex-direction: column-reverse;
+}
+/* md */
+@media (min-width: 768px) {
+  .plazis-mission-container {
+    flex-direction: row;
+  }
+}
+/* Chart: Taxonomic Treatments */
+.taxonomic-treatments-chart-container {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.taxonomic-treatments-chart {
+  aspect-ratio: 1/1;
+  height: fit-content;
+  width: 60%;
+  background-color: #f2f2f2;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.taxonomic-treatments-chart-inner {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.taxonomic-treatments-chart-inner span {
+  color: var(--plazi-green);
+  font-size: 60px;
+  text-align: center;
+  line-height: 1.25;
+}
+.taxonomic-treatments-chart-inner p {
+  color: #2c3036;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+/* md */
+@media (min-width: 768px) {
+  .taxonomic-treatments-chart-container {
+    max-width: 40%;
+    margin-bottom: 0rem;
+  }
+  .taxonomic-treatments-chart {
+    width: 100%;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .taxonomic-treatments-chart-container {
+    max-width: 25%;
+  }
+}
+</style>
+
+
+
+
+<div class="powerbi-report-container">
+  <iframe
+       
+      title="Treatments running total in Year of Publication"
+      
+      src="https://app.powerbi.com/view?r=eyJrIjoiYzM1MDI4Y2EtODM0Yy00YjM2LTg3NmQtYTVkZmUxMTZjNGY2IiwidCI6ImQ0OTJhOGMwLWVkMzEtNGY1Yy04YmI4LTdiZjYwYmJiZTU0MiJ9&amp;pageName=ReportSectiona11581588c3d4a84a03b"
+      frameborder="0"
+      allowfullscreen="false"
+      scrolling="no"
+      class="powerbi-report"
+      style="aspect-ratio: 1080 / 561"
+  ></iframe>
+</div>
+
+<style>
+  .powerbi-report {
+    width: 100%;
+
+     
+    --logoBar-height: 36px;
+    --statusBar-height: 24px;
+    --border-height: 1px;
+    --hidden-area-height: calc(
+      (var(--logoBar-height) + var(--statusBar-height)) + var(--border-height)
+    );
+    overflow-y: hidden;
+    margin-bottom: calc(-1 * var(--hidden-area-height));
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% calc(100% - var(--hidden-area-height)),
+      0% calc(100% - var(--hidden-area-height))
+    );
+  }
+</style>
+
+<p>1992 was a seminal point in the fight for biodiversity. The Rio Earth Summit put the loss of biodiversity on the top of the political agenda after pressure from scientists. With this the ball was back with the scientists to provide scientific evidence and the tools to measure the loss of diversity from genes to species to ecosystems. Required is a standardized report documenting change that can ultimately be used in the political dialogue, balancing the many interests covering the environment. An example off is offered by the assessments of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES).</p>
+<p>30 years later, the state of biodiversity continues to be severe. Of an estimated 8 million (multicell) plant and animal species, around 1 million are threatened with extinction, and over 10% of genetic diversity of plants and animals may have been lost over the past 150 years<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Over half of the world&rsquo;s GDP (about $58 trillion) is significantly reliant on nature and biodiversity. The World Economic Forum ranks the biodiversity crisis as a top 10 global economic risk, highlighting the urgent need for action.</p>
+<p>This is happening while we still don&rsquo;t know how many species there are on Earth. In fact, we not only do not know how many species live on Earth. We even do not know how many we know, nor what we know about those we know. Most of the content in our daily expanding corpus, now estimated at 500 million pages, consisting of valuable information, is hidden in printed publications in our libraries or behind paywalls.</p>
+<h2 id="things-that-have-changed">Things that have changed</h2>
+<p>A lot, however, has also been achieved since 1992 that gives us hope. The progress is particularly heartening during the last ten years since the launch of the <a href="https://www.bouchoutdeclaration.org/">Bouchout Declaration on Open Biodiversity Knowledge Management</a>.</p>
+<ul>
+<li>Funders like EU-research, Swiss Science Foundation and the Arcadia Fund require open access to data generated through their programs.</li>
+<li>Large open access based research infrastructures like the <a href="https://www.dissco.eu/">Distributed System of Scientific Collections</a> (DiSSCo) provide digital access to their physical specimens.</li>
+<li>Global infrastructures like the Global Biodiversity Information Facility (GBIF) aggregate over one billion occurrences under an open license.</li>
+</ul>
+<p>A lot of progress has also been achieved with regards to the tools for measuring biodiversity. DNA based sampling is becoming the dominating method for sampling species, and citizen science networks such as the <a href="https://www.birds.cornell.edu/home/">Cornell Lab of Ornithology</a> and <a href="https://www.inaturalist.org/">iNaturalist</a> provide a huge number of observations adding up to 5 million species names. Remote sensing now covers every corner of the world with data down to a few meters resolution, adding environmental information to each observation.</p>
+<h2 id="organize-our-knowledge-and-make-it-accessible">Organize our knowledge and make it accessible</h2>
+<p>When we collect information about plants or animals, we organize it by adding a unique identifier, using two main methods:</p>
+<ul>
+<li>Either giving them a <em>taxonomic name</em> in the form of a Latin binominal scientific name (if identifiable) as a unique ID.</li>
+<li>Or by adding a numeric code. This is applied especially for those species recognized by molecular methods that don’t have a taxonomic name yet.</li>
+</ul>
+<p>While the numeric codes work well in the digital world, the scientific names can be problematic.</p>
+<p>Specimens are identified as belonging to a particular species, whereas the <em>taxonomic name</em> serves as the gateway to all the published knowledge about it.</p>
+<p>However, taxonomic names are a bit tricky to use in the modern, digital world of information. The name might mean different things to different experts, it can change over time with new research, it needs experts&rsquo; knowledge to decipher the taxonomic name and to find the knowledge. It is currently not easy for machines to explore the data behind the name. You might only find a citation of a publication, but not the actual data.</p>
+<h2 id="plazis-mission">Plazi’s Mission</h2>
+
+
+
+<div class="row plazis-mission-container">
+
+<div class="col">
+
+
+<p>The goal of Plazi is to bridge this gap by promoting open access to taxonomic data hidden in scientific publications. Plazi converts taxonomic publications into digital, accessible knowledge: Understandable by humans and machines at any time, any place – for everybody.</p>
+<p>Plazi develops tools and services that can find, convert, and store data from these publications and make them easy to use. We also support the creation of clear and consistent vocabularies, explore new ways of publishing, and provide resources to help converting scientific papers into a more accessible format. Ultimately, we want to build a global network of resources related to biodiversity, connecting information about species in a way that is easy to understand and use.</p>
+
+
+
+</div>
+
+<div class="col taxonomic-treatments-chart-container">
+  <div class="taxonomic-treatments-chart">
+    <div class="taxonomic-treatments-chart-inner">
+      <span id="bubbleTotalTaxonomicTreatments">850K</span>
+      <p>Taxonomic Treatments</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<h2 id="what-we-have-achieved">What we have achieved</h2>
+<p>Over the last 15 years, Plazi built two research Infrastructures (Treatmantbank, Biodiversity Literature Repository together with Zenodo) recognized by the European Union, is spearheading the building of the biodiversity PMC together with SIBiLS and Pensoft, catalyzed access to data in publications to over 60 journals, liberated
+
+<strong id="totalTaxonomicTreatments" class="text-plazi-green">850,000</strong>
+taxonomic treatments from
+
+<strong id="totalTaxa" class="text-plazi-green">620,000</strong>
+taxa<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>,
+
+<strong id="totalMaterialsCitations" class="text-plazi-green">1,450,000</strong>
+material citations.</p>
+<p>
+
+
+<figure>
+  
+  
+  <div class="powerbi-report-container">
+    <iframe
+         
+        title="Material Citations locations"
+        
+        src="https://app.powerbi.com/view?r=eyJrIjoiYzM1MDI4Y2EtODM0Yy00YjM2LTg3NmQtYTVkZmUxMTZjNGY2IiwidCI6ImQ0OTJhOGMwLWVkMzEtNGY1Yy04YmI4LTdiZjYwYmJiZTU0MiJ9&amp;pageName=ReportSectiona11581588c3d4a84a03b&amp;pageName=ReportSection506dfcf6989977977cde"
+        frameborder="0"
+        allowfullscreen="false"
+        scrolling="no"
+        class="powerbi-report"
+        style="aspect-ratio: 704 / 480"
+    ></iframe>
+  </div>
+  
+  <style>
+    .powerbi-report {
+      width: 100%;
+  
+       
+      --logoBar-height: 36px;
+      --statusBar-height: 24px;
+      --border-height: 1px;
+      --hidden-area-height: calc(
+        (var(--logoBar-height) + var(--statusBar-height)) + var(--border-height)
+      );
+      overflow-y: hidden;
+      margin-bottom: calc(-1 * var(--hidden-area-height));
+      clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% calc(100% - var(--hidden-area-height)),
+        0% calc(100% - var(--hidden-area-height))
+      );
+    }
+  </style>
+
+  <figcaption>
+
+The geographic distribution of the collecting locations of material citations extracted from publications.
+
+
+  </figcaption>
+</figure>
+</p>
+<p>Scientists around the world are contributing to the goal of building a baseline dataset of the species we know, what we know about them and identify them, to their behavior, biotic interactions or distribution. Plazi contributes online learning resources and trainings to grow the community and get scientists involved to contribute to open up data.</p>
+<p>Plazi has been committed to one goal since its foundation in 2008: Providing open access to this knowledge, developing and maintaining infrastructure together with other partners, and promoting access for example through the co-organization of the Bouchout Declaration on Open Biodiversity Knowledge Management which will celebrate in 2024 its tenth anniversary.</p>
+<p>Over EUR 3 millions have been raised, including a generous support by the Arcadia Fund, to build and maintain this infrastructure.</p>
+<h2 id="next-steps-what-needs-to-be-done">Next steps: What needs to be done</h2>
+<p>With 15 years of activity - a long life for what started as a project - Plazi has shown what can be achieved towards open access to biodiversity knowledge.</p>
+<p>What is now needed is to expand this activity to convince funders, publishers, editors and authors to create digital accessible knowledge as part of their ongoing publishing activity. On the other hand, we need scaling up building tools to convert the huge corpus of legacy publication, and infrastructures to provide continuous access to and power to mine its content.</p>
+<p>This enormously rich digital accessible knowledge will allow its use beyond biodiversity, for example by its seamless integration with biomedical knowledge to understand possible viral spillovers. It will contribute to building the reference catalog of life needed to link all knowledge about life. Finally, it will democratize science by providing equal, unlimited access to data that is mainly collected in the South and housed in the North, and allow using artificial intelligence to mine and create new insides and wealth.</p>
+
+
+<section class="box">
+  The <a href="https://biolitrepo.org/">Biodiversity Literature Repository</a> at Zenodo, CERN, serves as a sustainable repository for data and annotations derived from publications. The <a href="https://biss.pensoft.net/article/111647/">BiodiversityPMC</a> combines publications from the life sciences with those from the fields of biodiversity and nature conservation. The data is used by the <a href="https://www.gbif.org/">Global Biodiversity Information Facility</a> (GBIF) to link observations with the research results derived from them. The data flows into the <a href="https://www.checklistbank.org/">checklist bank</a> to expand the <a href="https://www.catalogueoflife.org/about/catalogueoflife.html">Catalogue of Life</a>. <a href="https://plazi.org/treatmentbank/">TreatmentBank</a> and new publication workflows generate a constant stream of new semantically enhanced publications and legacy data. All these institutions, products and platforms - and more - work with data from Plazi, among others. Plazi is well connected in this network that has formed around these endeavors over the past years and has established itself as a central data broker.
+</section>
+
+<style>
+  .box {
+    margin: 1.25rem -20px;
+    padding: 25px;
+    background-color: var(--plazi-green);
+  }
+
+  @media (min-width: 900px) {
+    .box {
+      margin: 1.25rem -25px;
+    }
+  }
+
+  .box a {
+    color: var(--plazi-font-color);
+  }
+
+  .box a:hover {
+    color: #000000;
+  }
+
+  .box p:last-of-type {
+    margin-bottom: 0;
+  }
+</style>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.science.org/doi/10.1126/sciadv.adh2458">Earth beyond six of nine planetary boundaries</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>A &ldquo;taxa&rdquo; (plural of &ldquo;taxon&rdquo;) refers to a group of one or more organisms that are classified together as a unit in biological taxonomy.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/news-releases/952793">Supported in part by Arcadia</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2023 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/minisearch@6.0.1/dist/umd/index.min.js"></script>
+	<script src="/js/search-mini.js"></script>
+
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
