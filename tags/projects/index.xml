@@ -6,17 +6,14 @@
     <description>Recent content in Projects on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Mar 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 19:16:15 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ongoing and past projects</title>
       <link>https://plazi.org/about/projects/</link>
       <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/projects/</guid>
-      <description>Current Projects Arcadia 2022-2025 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
-BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more
-NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk.</description>
+      <description>Current Projects Arcadia 2022-2025 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.&#xA;BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more&#xA;NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk.</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,44 +6,35 @@
     <description>Recent content in 2021 November on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/2021/11/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 18:18:43 +0000</lastBuildDate>
+    <atom:link href="https://plazi.org/posts/2021/11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Annotating genes sequences with data from herbarium sheets and publications</title>
       <link>https://plazi.org/posts/2021/11/annotating-gene-sequences/</link>
       <pubDate>Thu, 11 Nov 2021 21:40:51 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2021/11/annotating-gene-sequences/</guid>
       <description>Figure 1: A snapshot of a published table showing the GenBank accession numbers and localities for the 507 individuals representing 61 species of Cladocera and 19 of Copepoda used in this study. DOI: https://doi.org/10.11646/zootaxa.1839.1.1 Figure 2: The same table as in Figure 1 extracted by TreatmentBank. Full table available in HTML and JSON formats. Linking molecular data to taxonomic names and their extensive taxonomic treatments represents a fundamental component in biodiversity assessment.</description>
     </item>
-    
     <item>
       <title>Behind New Species Swiss-Made</title>
       <link>https://plazi.org/posts/2021/11/behind-new-species-swiss-made/</link>
       <pubDate>Fri, 05 Nov 2021 09:35:19 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2021/11/behind-new-species-swiss-made/</guid>
-      <description>e-BioDiv: processing data liberation At today’s meeting of the Swiss Systematics Society, the species of the year — a species discovered and described by a Swiss scientist — will be selected.
-Currently 89 species have been listed out of 31 publications, of which 69% are open access and 31% closed access, and the Revue Suisse de Zoologie is the most prolific journal. New species are hardly ever the only taxonomic treatment of a publication.</description>
+      <description>e-BioDiv: processing data liberation At today’s meeting of the Swiss Systematics Society, the species of the year — a species discovered and described by a Swiss scientist — will be selected.&#xA;Currently 89 species have been listed out of 31 publications, of which 69% are open access and 31% closed access, and the Revue Suisse de Zoologie is the most prolific journal. New species are hardly ever the only taxonomic treatment of a publication.</description>
     </item>
-    
     <item>
       <title>Biohackthon Europe</title>
       <link>https://plazi.org/posts/2021/11/biohackathon-europe/</link>
       <pubDate>Mon, 01 Nov 2021 21:07:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2021/11/biohackathon-europe/</guid>
       <description>Plazi will participate in the Biohackthon Europe. Each November ELIXIR organizes BioHackathon Europe, which brings together bioinformaticians from around the world. The event takes place in different locations around Europe. The BioHackathon offers an intense week of hacking, with over 160 international participants who work on diverse and exciting projects. The week starts with a half-day symposium to introduce these projects, and is followed by five days of hacking with one sole aim: coding to address problems in bioinformatics.</description>
     </item>
-    
     <item>
       <title>SSSDay Q&amp;A</title>
       <link>https://plazi.org/posts/2021/11/sssday-2021/</link>
       <pubDate>Mon, 01 Nov 2021 21:03:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2021/11/sssday-2021/</guid>
-      <description>Plazi will participate in the SSSDay organised by the Swiss Systematics Society (SSS) to answer questions regarding the Swiss universities funded eBiodiv project and the EU Horizon 2020 funded BiCIKL project. The event is hosted by the Musée de Zoologie Lausanne.
-Schedule</description>
+      <description>Plazi will participate in the SSSDay organised by the Swiss Systematics Society (SSS) to answer questions regarding the Swiss universities funded eBiodiv project and the EU Horizon 2020 funded BiCIKL project. The event is hosted by the Musée de Zoologie Lausanne.&#xA;Schedule</description>
     </item>
-    
   </channel>
 </rss>

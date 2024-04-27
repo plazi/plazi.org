@@ -6,113 +6,70 @@
     <description>Recent content in About Plazi on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plazi Mission</title>
       <link>https://plazi.org/about/mission/</link>
       <pubDate>Thu, 20 Jan 2022 11:59:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/mission/</guid>
-      <description>Plazi is a non-profit organisation founded in 2008 to promote the free accessibility of scientific data, in particular taxonomic treatments and images.
-What are taxonomic treatments? A taxonomic treatment is the scientific description of a biological species, i.e. an animal species, a plant species, a fungus or a bacterium. If, for example, an unknown animal species is discovered today, a single individual of this species is selected, the so-called holotype. The species is then given a name that has not been used before and formed according to predefined rules, it is described scientifically and the description is published.</description>
+      <description>Plazi is a non-profit organisation founded in 2008 to promote the free accessibility of scientific data, in particular taxonomic treatments and images.&#xA;What are taxonomic treatments? A taxonomic treatment is the scientific description of a biological species, i.e. an animal species, a plant species, a fungus or a bacterium. If, for example, an unknown animal species is discovered today, a single individual of this species is selected, the so-called holotype. The species is then given a name that has not been used before and formed according to predefined rules, it is described scientifically and the description is published.</description>
     </item>
-    
     <item>
       <title>Was macht Plazi?</title>
       <link>https://plazi.org/about/mission-de/</link>
       <pubDate>Thu, 20 Jan 2022 11:59:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/mission-de/</guid>
-      <description>Plazi ist eine 2008 gegründete Non-Profit-Organisation, die sich für die freie Zugänglichkeit wissenschaftlicher Daten, insbesondere taxonomischer Treatments und Bilder, einsetzt.
-Was sind taxonomische Treatments? Ein taxonomisches Treatment ist die wissenschaftliche Beschreibung einer biologischen Art, also einer Tierart, einer Pflanzenart, eines Pilzes oder eines Bakteriums. Wird heute beispielsweise eine noch nicht bekannte Tierart entdeckt, so wird ein einzelnes Individuum dieser Art ausgewählt , der sogenannte Holotype. Die Art wird dann mit einem bisher nicht verwendeten, nach vorgegebenen Regeln gebildeten Namen bezeichnet, sie wird wissenschaftlich beschrieben und die Beschreibung publiziert.</description>
+      <description>Plazi ist eine 2008 gegründete Non-Profit-Organisation, die sich für die freie Zugänglichkeit wissenschaftlicher Daten, insbesondere taxonomischer Treatments und Bilder, einsetzt.&#xA;Was sind taxonomische Treatments? Ein taxonomisches Treatment ist die wissenschaftliche Beschreibung einer biologischen Art, also einer Tierart, einer Pflanzenart, eines Pilzes oder eines Bakteriums. Wird heute beispielsweise eine noch nicht bekannte Tierart entdeckt, so wird ein einzelnes Individuum dieser Art ausgewählt , der sogenannte Holotype. Die Art wird dann mit einem bisher nicht verwendeten, nach vorgegebenen Regeln gebildeten Namen bezeichnet, sie wird wissenschaftlich beschrieben und die Beschreibung publiziert.</description>
     </item>
-    
     <item>
       <title>Digital Accessible Knowledge</title>
       <link>https://plazi.org/about/digital-accessible-knowledge/</link>
       <pubDate>Thu, 01 Jul 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/digital-accessible-knowledge/</guid>
       <description>Digital Accessible Knowledge, in the context of Plazi, describes data fit for use to understand the global biodiversity, to create a list of all known species on planet Earth, data that is machine-actionable and ready for use by anybody, anyhwere at any time.</description>
     </item>
-    
     <item>
       <title>Publications</title>
       <link>https://plazi.org/about/publications/</link>
       <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/publications/</guid>
-      <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.
-2023 Agosti D, Penev L, Ruch P, Benichou L, Ioannidis-Pantopikos A (2023) The Ecosystem of Linked Biodiversity Publications: General Picture of Tools and Services Created by Plazi, Pensoft, MNHN, CETAF, Zenodo, and SIBiLS. Biodiversity Information Science and Standards 7: e110681. https://doi.org/10.3897/biss.7.110681 Benichou L, Agosti D, Egloff W, Hermann E, Kageyama M, Mergen P, Rinaldo C, Buschbom J (2023) Joint statement by CETAF, SPNHC and BHL on DATA within scientific publications: clarification of [non]copyrightability.</description>
+      <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.&#xA;2023 Agosti D, Penev L, Ruch P, Benichou L, Ioannidis-Pantopikos A (2023) The Ecosystem of Linked Biodiversity Publications: General Picture of Tools and Services Created by Plazi, Pensoft, MNHN, CETAF, Zenodo, and SIBiLS. Biodiversity Information Science and Standards 7: e110681. https://doi.org/10.3897/biss.7.110681 Benichou L, Agosti D, Egloff W, Hermann E, Kageyama M, Mergen P, Rinaldo C, Buschbom J (2023) Joint statement by CETAF, SPNHC and BHL on DATA within scientific publications: clarification of [non]copyrightability.</description>
     </item>
-    
     <item>
       <title>Plazi Members</title>
       <link>https://plazi.org/about/members/</link>
       <pubDate>Sat, 01 May 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/about/members/</guid>
-      <description>Donat Agosti
-Taxonomic literature, systematics and conservation
-President Plazi
-Director Plazi GmbH
-Research Associate
-Naturhistorisches Museum, Bern
-Berne, Switzerland
-agosti@plazi.org Klemens Böhm
-Member of Board (2008-)
-Professor
-Lehrstuhl für Systeme der Informationsverwaltung
-Karlsruher Institute of Technology
-Karlsruhe, GERMANY
-boehm@kit.edu Terry Catapano
-Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
-Vice-President Plazi
-Columbia University
-New York, USA
-catapano@plazi.org Hong Cui
-Natural language processing, character modeling</description>
+      <description>Donat Agosti&#xA;Taxonomic literature, systematics and conservation&#xA;President Plazi&#xA;Director Plazi GmbH&#xA;Research Associate&#xA;Naturhistorisches Museum, Bern&#xA;Berne, Switzerland&#xA;agosti@plazi.org Klemens Böhm&#xA;Member of Board (2008-)&#xA;Professor&#xA;Lehrstuhl für Systeme der Informationsverwaltung&#xA;Karlsruher Institute of Technology&#xA;Karlsruhe, GERMANY&#xA;boehm@kit.edu Terry Catapano&#xA;Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD&#xA;Vice-President Plazi&#xA;Columbia University&#xA;New York, USA&#xA;catapano@plazi.org Hong Cui&#xA;Natural language processing, character modeling</description>
     </item>
-    
     <item>
       <title>Partners</title>
       <link>https://plazi.org/about/partners/</link>
       <pubDate>Thu, 01 Apr 2021 19:02:17 +0200</pubDate>
-      
       <guid>https://plazi.org/about/partners/</guid>
-      <description>Zenodo Zenodo, Plazi and Pensoft collaborate in developing the Biodiversity Literature Repository as an open access repository to articles and liberated open FAIR data including figures and taxonomic treatments related to biodiversity. A customized access is provided for all its content via the BLR website and to images via Ocellus.
-read more
-GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. Plazi provides occurrences liberated and extracted from the scientific literature, especially from treatments.</description>
+      <description>Zenodo Zenodo, Plazi and Pensoft collaborate in developing the Biodiversity Literature Repository as an open access repository to articles and liberated open FAIR data including figures and taxonomic treatments related to biodiversity. A customized access is provided for all its content via the BLR website and to images via Ocellus.&#xA;read more&#xA;GBIF Plazi joined GBIF 2001 and is since 2015 an associate participant of GBIF. Plazi provides occurrences liberated and extracted from the scientific literature, especially from treatments.</description>
     </item>
-    
     <item>
       <title>Ongoing and past projects</title>
       <link>https://plazi.org/about/projects/</link>
       <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/projects/</guid>
-      <description>Current Projects Arcadia 2022-2025 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
-BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more
-NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk.</description>
+      <description>Current Projects Arcadia 2022-2025 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.&#xA;BiCIKL (EU) Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). more&#xA;NIH-R21 Viral Spillover (NIH) The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk.</description>
     </item>
-    
     <item>
       <title>Lectures</title>
       <link>https://plazi.org/about/lectures/</link>
       <pubDate>Mon, 01 Feb 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/lectures/</guid>
       <description>Lectures by Plazi team members are available at BLR and SlideShare.</description>
     </item>
-    
     <item>
       <title>The Story behind Plazi</title>
       <link>https://plazi.org/about/the-story-behind-plazi/</link>
       <pubDate>Fri, 01 Jan 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/the-story-behind-plazi/</guid>
       <description>Placidus a Spescha was not only one of the first alpinists and naturalists but was also deeply committed to the ideals of the Enlightenment. He often ran afoul of his superiors who felt he neglected his priestly duties in favor of his scientific pursuits. Worse yet, he further upset the status quo through his sympathy and support of the French in the follow-up of the wars spurred by the French Revolution which brought invading French and Austrian troops into his home, Disentis, in the Vorderrhein Tal in Switzerland.</description>
     </item>
-    
   </channel>
 </rss>

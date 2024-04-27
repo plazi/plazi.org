@@ -6,65 +6,49 @@
     <description>Recent content in TreatmentBank on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Aug 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/treatmentbank/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Aug 2021 19:17:05 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/treatmentbank/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data and Statistics</title>
       <link>https://plazi.org/treatmentbank/data-and-statistics/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/treatmentbank/data-and-statistics/</guid>
-      <description>Treatment Statistics and Article Statistics Introduction
-This is an analysis and mining tool for the data contained in TreatmentBank. Access is provided at article and treatment level.
-Select fields, explore and download Plazi treatment and article data and statistics in multiple formats. Selected fields turn from gray to green. Data on all materials (cited specimens) are available through the “Materials Citations Data” domain; these data are summarized by treatment in the “Materials Data” domain.</description>
+      <description>Treatment Statistics and Article Statistics Introduction&#xA;This is an analysis and mining tool for the data contained in TreatmentBank. Access is provided at article and treatment level.&#xA;Select fields, explore and download Plazi treatment and article data and statistics in multiple formats. Selected fields turn from gray to green. Data on all materials (cited specimens) are available through the “Materials Citations Data” domain; these data are summarized by treatment in the “Materials Data” domain.</description>
     </item>
-    
     <item>
       <title>Desktop data mining and extraction</title>
       <link>https://plazi.org/treatmentbank/desktop-data-mining/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/treatmentbank/desktop-data-mining/</guid>
       <description>GoldenGATE editor versions The GoldenGATE Document Editor is a visual editor for marking up documents in XML. It is designed to do most of the markup automatically; manual work is reduced to correcting the output of automated components. For these corrections, there are many specialized dialogs and document views, which display the required information in a concise fashion and provide high-level assistance to the user. In addition, the editor provides assistance for editing and marking up documents manually.</description>
     </item>
-    
     <item>
       <title>Schemas and Ontologies</title>
       <link>https://plazi.org/treatmentbank/schemas-and-ontologies/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/treatmentbank/schemas-and-ontologies/</guid>
-      <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions. See also TaxPub Documentation.
-Currently, the following journals use TaxPub:
-Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
+      <description>TaxPub TaxPub is an extension to the U.S. National Library of Medicine/National Center for Biotechnology Information Journal Article XML Document Type Definition (DTD) providing domain-specific markup for taxonomic information in articles published in the area of biological systematics. TaxPub is described in detall in the article TaxPub: An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions. See also TaxPub Documentation.&#xA;Currently, the following journals use TaxPub:&#xA;Biodiversity Data Journal Cytogenetics Deutsche Entomologische Zeitschrift International Journal of Myriapodology Journal of Hymenoptera Research Mycokeys Nature Conservation Neobiota Nota Lepidopterologica Phytokeys Subterranean Biology Zookeys Zoosystematics and Evolution TaxonX Taxonx is a XML schema for encoding taxonomic literature in order to</description>
     </item>
-    
     <item>
       <title>What is a Treatment?</title>
       <link>https://plazi.org/treatmentbank/what-treatment/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/treatmentbank/what-treatment/</guid>
-      <description>The Plazi TreatmentBank deals with scientific, published, biosystematic literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of more than 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.
-Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication.</description>
+      <description>The Plazi TreatmentBank deals with scientific, published, biosystematic literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of more than 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.&#xA;Treatments are well-defined parts of articles that describe the particular usage of a scientific name by an author at the time of the publication.</description>
     </item>
-    
     <item>
       <title>Treatment Data Access</title>
       <link>https://plazi.org/treatmentbank/treatment-data-access/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/treatmentbank/treatment-data-access/</guid>
       <description>Access to Plazi Treatments What is a treatment? What is a DarwinCore Archive? The Darwin Core Archive used by Plazi Treatment Data representation in Plazi Plazi API Obtaining a list of all the treatments available from Plazi HTTP GET - RSS HTTP GET - ZIP Archive HTTP GET - Page displaying Treatment HTTP GET - generic XML HTTP GET - TaxonX List of Plazi&amp;rsquo;s available DwC-Archives from GBIF API HTTP GET - JSON Appendix: Darwin Core Archive Content Further reading Downloads Support and Questions Version Access to Plazi Treatments What is a treatment?</description>
     </item>
-    
     <item>
       <title>Visualization Tools</title>
       <link>https://plazi.org/treatmentbank/visualization-tools/</link>
       <pubDate>Mon, 26 Apr 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/treatmentbank/visualization-tools/</guid>
       <description>Data Visualization Tools All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
     </item>
-    
   </channel>
 </rss>

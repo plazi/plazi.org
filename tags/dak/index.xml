@@ -6,15 +6,14 @@
     <description>Recent content in DAK on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/dak/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 19:16:15 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/dak/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Accessible Knowledge</title>
       <link>https://plazi.org/about/digital-accessible-knowledge/</link>
       <pubDate>Thu, 01 Jul 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/digital-accessible-knowledge/</guid>
       <description>Digital Accessible Knowledge, in the context of Plazi, describes data fit for use to understand the global biodiversity, to create a list of all known species on planet Earth, data that is machine-actionable and ready for use by anybody, anyhwere at any time.</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,16 +6,14 @@
     <description>Recent content in Publications on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jun 2021 19:16:15 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 19:16:15 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>https://plazi.org/about/publications/</link>
       <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/about/publications/</guid>
-      <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.
-2023 Agosti D, Penev L, Ruch P, Benichou L, Ioannidis-Pantopikos A (2023) The Ecosystem of Linked Biodiversity Publications: General Picture of Tools and Services Created by Plazi, Pensoft, MNHN, CETAF, Zenodo, and SIBiLS. Biodiversity Information Science and Standards 7: e110681. https://doi.org/10.3897/biss.7.110681 Benichou L, Agosti D, Egloff W, Hermann E, Kageyama M, Mergen P, Rinaldo C, Buschbom J (2023) Joint statement by CETAF, SPNHC and BHL on DATA within scientific publications: clarification of [non]copyrightability.</description>
+      <description>All our publications are published under open licenses. If you are unable to locate a copy, please contact us and we will be happy to send it to you.&#xA;2023 Agosti D, Penev L, Ruch P, Benichou L, Ioannidis-Pantopikos A (2023) The Ecosystem of Linked Biodiversity Publications: General Picture of Tools and Services Created by Plazi, Pensoft, MNHN, CETAF, Zenodo, and SIBiLS. Biodiversity Information Science and Standards 7: e110681. https://doi.org/10.3897/biss.7.110681 Benichou L, Agosti D, Egloff W, Hermann E, Kageyama M, Mergen P, Rinaldo C, Buschbom J (2023) Joint statement by CETAF, SPNHC and BHL on DATA within scientific publications: clarification of [non]copyrightability.</description>
     </item>
-    
   </channel>
 </rss>

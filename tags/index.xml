@@ -6,240 +6,189 @@
     <description>Recent content in Tags on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Apr 2024 09:34:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Apr 2024 09:34:04 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Events</title>
       <link>https://plazi.org/tags/events/</link>
       <pubDate>Fri, 26 Apr 2024 09:34:04 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/events/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>news</title>
       <link>https://plazi.org/tags/news/</link>
       <pubDate>Fri, 15 Dec 2023 17:34:04 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/news/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Training</title>
       <link>https://plazi.org/tags/training/</link>
       <pubDate>Tue, 16 May 2023 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/training/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BiCIKL</title>
       <link>https://plazi.org/tags/bicikl/</link>
       <pubDate>Tue, 02 May 2023 17:34:04 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/bicikl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lecture</title>
       <link>https://plazi.org/tags/lecture/</link>
       <pubDate>Tue, 02 May 2023 17:34:04 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/lecture/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TDWG</title>
       <link>https://plazi.org/tags/tdwg/</link>
       <pubDate>Tue, 02 May 2023 17:34:04 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/tdwg/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>eBioDiv</title>
       <link>https://plazi.org/tags/ebiodiv/</link>
       <pubDate>Wed, 01 Mar 2023 16:18:04 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/ebiodiv/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://plazi.org/tags/about/</link>
       <pubDate>Thu, 20 Jan 2022 11:59:15 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/about/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mission</title>
       <link>https://plazi.org/tags/mission/</link>
       <pubDate>Thu, 20 Jan 2022 11:59:15 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/mission/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data Quality</title>
       <link>https://plazi.org/tags/data-quality/</link>
       <pubDate>Sat, 23 Oct 2021 14:29:20 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/data-quality/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BLR</title>
       <link>https://plazi.org/tags/blr/</link>
       <pubDate>Mon, 23 Aug 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/blr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Treatment Bank</title>
       <link>https://plazi.org/tags/treatment-bank/</link>
       <pubDate>Mon, 23 Aug 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/treatment-bank/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DAK</title>
       <link>https://plazi.org/tags/dak/</link>
       <pubDate>Thu, 01 Jul 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/dak/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data, API and Tools</title>
       <link>https://plazi.org/tags/data-api-and-tools/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/data-api-and-tools/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Golden Gate</title>
       <link>https://plazi.org/tags/golden-gate/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/golden-gate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>repos</title>
       <link>https://plazi.org/tags/repos/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/repos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Services</title>
       <link>https://plazi.org/tags/services/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/services/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>source code</title>
       <link>https://plazi.org/tags/source-code/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/source-code/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Publications</title>
       <link>https://plazi.org/tags/publications/</link>
       <pubDate>Tue, 01 Jun 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/publications/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Members</title>
       <link>https://plazi.org/tags/members/</link>
       <pubDate>Sat, 01 May 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/members/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data Visualization</title>
       <link>https://plazi.org/tags/data-visualization/</link>
       <pubDate>Mon, 26 Apr 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/data-visualization/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Legal Issues</title>
       <link>https://plazi.org/tags/legal-issues/</link>
       <pubDate>Thu, 01 Apr 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/legal-issues/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Partners</title>
       <link>https://plazi.org/tags/partners/</link>
       <pubDate>Thu, 01 Apr 2021 19:02:17 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/partners/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Projects</title>
       <link>https://plazi.org/tags/projects/</link>
       <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/projects/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Blue List</title>
       <link>https://plazi.org/tags/blue-list/</link>
       <pubDate>Mon, 01 Feb 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/blue-list/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lectures</title>
       <link>https://plazi.org/tags/lectures/</link>
       <pubDate>Mon, 01 Feb 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/tags/lectures/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

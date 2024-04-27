@@ -6,34 +6,14 @@
     <description>Recent content in Members on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/members/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 19:17:05 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/members/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plazi Members</title>
       <link>https://plazi.org/about/members/</link>
       <pubDate>Sat, 01 May 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/about/members/</guid>
-      <description>Donat Agosti
-Taxonomic literature, systematics and conservation
-President Plazi
-Director Plazi GmbH
-Research Associate
-Naturhistorisches Museum, Bern
-Berne, Switzerland
-agosti@plazi.org Klemens Böhm
-Member of Board (2008-)
-Professor
-Lehrstuhl für Systeme der Informationsverwaltung
-Karlsruher Institute of Technology
-Karlsruhe, GERMANY
-boehm@kit.edu Terry Catapano
-Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD
-Vice-President Plazi
-Columbia University
-New York, USA
-catapano@plazi.org Hong Cui
-Natural language processing, character modeling</description>
+      <description>Donat Agosti&#xA;Taxonomic literature, systematics and conservation&#xA;President Plazi&#xA;Director Plazi GmbH&#xA;Research Associate&#xA;Naturhistorisches Museum, Bern&#xA;Berne, Switzerland&#xA;agosti@plazi.org Klemens Böhm&#xA;Member of Board (2008-)&#xA;Professor&#xA;Lehrstuhl für Systeme der Informationsverwaltung&#xA;Karlsruher Institute of Technology&#xA;Karlsruhe, GERMANY&#xA;boehm@kit.edu Terry Catapano&#xA;Lead developer of TaxonX XML schema and Taxpub Extension of the NLM/NCBI JATS DTD&#xA;Vice-President Plazi&#xA;Columbia University&#xA;New York, USA&#xA;catapano@plazi.org Hong Cui&#xA;Natural language processing, character modeling</description>
     </item>
-    
   </channel>
 </rss>

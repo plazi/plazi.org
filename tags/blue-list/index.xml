@@ -6,15 +6,14 @@
     <description>Recent content in Blue List on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Feb 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/blue-list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Feb 2021 19:17:05 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/blue-list/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Blue List</title>
       <link>https://plazi.org/services/the-blue-list/</link>
       <pubDate>Mon, 01 Feb 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/services/the-blue-list/</guid>
       <description>An impediment to open sharing of biological content is uncertainty as to whether and how intellectual property rights apply to biodiversity information. To clarify the situation, and in collaboration with the Global Names project, Plazi organized a workshop in Tempe, Arizona in April 2013 in which we brought together providers and users of taxonomic information, data managers, and Intellectual property Rights lawyers from Europe and the USA. The perspectives of interested parties were submitted via a SNARL (Scientific Names Attributes, Rights and Licensing) wiki.</description>
     </item>
-    
   </channel>
 </rss>

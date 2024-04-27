@@ -6,25 +6,21 @@
     <description>Recent content in Golden Gate on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/golden-gate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 19:17:05 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/golden-gate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golden Gate</title>
       <link>https://plazi.org/data-apis-tools/golden-gate/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/data-apis-tools/golden-gate/</guid>
       <description>Golden Gate is a family of software including a server, an editor, a web-based editor, and web-services. Golden Gate uses the Image Markup File (IMF) format for data storage, archival and exchange.</description>
     </item>
-    
     <item>
       <title>Image Markup File (IMF)</title>
       <link>https://plazi.org/data-apis-tools/image-markup-file/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      
       <guid>https://plazi.org/data-apis-tools/image-markup-file/</guid>
-      <description>Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.
-IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.</description>
+      <description>Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.&#xA;IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.</description>
     </item>
-    
   </channel>
 </rss>

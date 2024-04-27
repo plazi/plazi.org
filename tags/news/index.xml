@@ -6,334 +6,238 @@
     <description>Recent content in news on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 17:34:04 +0200</lastBuildDate><atom:link href="https://plazi.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Dec 2023 17:34:04 +0200</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Searching by ecoregions and biomes</title>
       <link>https://plazi.org/posts/2023/12/searching-by-ecoregions/</link>
       <pubDate>Fri, 15 Dec 2023 17:34:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2023/12/searching-by-ecoregions/</guid>
-      <description>Many of the material citations extracted by Plazi contain geo-coordinates which opens up the way to searching for them by various geographic features along with the non-geographic attributes such as taxa. It is now possible to search for images that are a part of the treatments by ecoregions, biomes and realms.
-Ecoregions, biomes and realms from Olson, et. al.
-The World Wildlife Fund (WWF) defines terrestrial ecoregions as follows:
-Terrestrial Ecoregions of the World (TEOW) is a biogeographic regionalization of the Earth&amp;rsquo;s terrestrial biodiversity.</description>
+      <description>Many of the material citations extracted by Plazi contain geo-coordinates which opens up the way to searching for them by various geographic features along with the non-geographic attributes such as taxa. It is now possible to search for images that are a part of the treatments by ecoregions, biomes and realms.&#xA;Ecoregions, biomes and realms from Olson, et. al.&#xA;The World Wildlife Fund (WWF) defines terrestrial ecoregions as follows:&#xA;Terrestrial Ecoregions of the World (TEOW) is a biogeographic regionalization of the Earth&amp;rsquo;s terrestrial biodiversity.</description>
     </item>
-    
     <item>
       <title>Enabling South African scientists to convert taxonomic publications into digitally accessible knowledge</title>
       <link>https://plazi.org/posts/2023/05/training-s-african-scientists/</link>
       <pubDate>Tue, 16 May 2023 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2023/05/training-s-african-scientists/</guid>
-      <description>Group photo of the participants
-Plazi and SANBI (South African National Biodiversity Institute) conducted a training Course in Pretoria April 18 to 21, 2023, to teach local scientists how to facilitate the access and reuse of scholarly published taxonomic data by themselves as well as the scientific community at large.
-The course had the participation of 21 researchers, curators, technicians, and Postgraduate students from different South Africa&amp;rsquo;s biodiversity institutions and Nigeria.</description>
+      <description>Group photo of the participants&#xA;Plazi and SANBI (South African National Biodiversity Institute) conducted a training Course in Pretoria April 18 to 21, 2023, to teach local scientists how to facilitate the access and reuse of scholarly published taxonomic data by themselves as well as the scientific community at large.&#xA;The course had the participation of 21 researchers, curators, technicians, and Postgraduate students from different South Africa&amp;rsquo;s biodiversity institutions and Nigeria.</description>
     </item>
-    
     <item>
       <title>Specimen - material citation matching service training course</title>
       <link>https://plazi.org/posts/2023/03/specimen-material-citation-matching-service-training-course/</link>
       <pubDate>Wed, 01 Mar 2023 12:14:49 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2023/03/specimen-material-citation-matching-service-training-course/</guid>
-      <description>Participants in the training course
-Plazi’s first online two day training course “Biodiversity and Digital Media: linking material citations in publications to specimens” organized by Julia Giora and Jonas Castro has successfully ended. The Training school happened online from the 27th to the 28th of February 2023. It is part of a series of training courses in which Plazi expects to teach interested parties how to use data preparation tools to become a data liberator.</description>
+      <description>Participants in the training course&#xA;Plazi’s first online two day training course “Biodiversity and Digital Media: linking material citations in publications to specimens” organized by Julia Giora and Jonas Castro has successfully ended. The Training school happened online from the 27th to the 28th of February 2023. It is part of a series of training courses in which Plazi expects to teach interested parties how to use data preparation tools to become a data liberator.</description>
     </item>
-    
     <item>
       <title>Expanding the biodiversity knowledge graph</title>
       <link>https://plazi.org/posts/2023/02/expanding-the-biodiv-knowledge-graph/</link>
       <pubDate>Fri, 24 Feb 2023 22:14:49 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2023/02/expanding-the-biodiv-knowledge-graph/</guid>
       <description>Discovery of species is based on specimens and communicated through taxonomic treatments described in and presented as parts of scientific publications. In an ideal world, this would allow us to ask questions such as “what is known about this specimen?” or “what does a gene sequence of a cited physical specimen look like?”, and the results would appear immediately on our computer screens in a format suitable for further analysis.</description>
     </item>
-    
     <item>
       <title>Arcadia supports Plazi in its endeavor to rediscover known biodiversity</title>
       <link>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</link>
       <pubDate>Mon, 16 May 2022 13:25:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</guid>
-      <description>The Swiss-based Plazi NGO has received a grant of EUR 1.5 million from Arcadia – a charitable fund of Lisbet Rausing and Peter Baldwin – to further develop its Biodiversity Literature Repository (BLR) established in collaboration with Zenodo, the open science repository hosted and managed by the European Organization for Nuclear Research (CERN), and the open-access scholarly publisher and technology provider Pensoft.
-Source: Eurekalert
-Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
+      <description>The Swiss-based Plazi NGO has received a grant of EUR 1.5 million from Arcadia – a charitable fund of Lisbet Rausing and Peter Baldwin – to further develop its Biodiversity Literature Repository (BLR) established in collaboration with Zenodo, the open science repository hosted and managed by the European Organization for Nuclear Research (CERN), and the open-access scholarly publisher and technology provider Pensoft.&#xA;Source: Eurekalert&#xA;Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
     </item>
-    
     <item>
       <title>Access to taxonomic treatments mentioned in press releases</title>
       <link>https://plazi.org/posts/2022/01/access-to-data-in-press-releases/</link>
       <pubDate>Fri, 14 Jan 2022 12:14:49 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2022/01/access-to-data-in-press-releases/</guid>
       <description>At year-end, it is common to review the past year’s highlights as we (Plazi) too did, highlighting a few of the almost 9000 species discovered in 2021. A few of the world&amp;rsquo;s leading taxonomic institutions did so as well with their recent discoveries. Since we are interested in not just finding about the species discovered but also learning more in detail about them, we decided to test how easy it was to locate their original taxonomic treatments in the scientific papers that described the species mentioned in the press releases.</description>
     </item>
-    
     <item>
       <title>New Species of 2021</title>
       <link>https://plazi.org/posts/2021/12/new-species-2021/</link>
       <pubDate>Wed, 22 Dec 2021 21:40:51 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2021/12/new-species-2021/</guid>
       <description>In 2021 Plazi provided access to the taxonomic treatments and figures of 8848 new species, 647 new genera and 27 new families discovered as part of 11391 changes in taxonomic status in 2021, published in 4420 articles from 95 journals. Here we present a small selection of 12 spectacular species with links to their complete taxonomic treatment. Since we can only protect what we know, we want people to have free access to taxonomic data, always and everywhere.</description>
     </item>
-    
     <item>
       <title>MaterialCitation accepted as a new TDWG Darwin Core standard</title>
       <link>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</link>
       <pubDate>Mon, 18 Oct 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/materialcitation-accepted-as-a-new-term/</guid>
-      <description>On August 25, the new term request by Plazi for a new term for “a reference to or citation of one, a part of, or multiple specimens in scholarly publications” went through the public review process and resulted in the ratified term and in the Quick Reference Guide.
-The original term name materialCitation has been changed to follow Darwin Core convention of using upper camel case for Class names.</description>
+      <description>On August 25, the new term request by Plazi for a new term for “a reference to or citation of one, a part of, or multiple specimens in scholarly publications” went through the public review process and resulted in the ratified term and in the Quick Reference Guide.&#xA;The original term name materialCitation has been changed to follow Darwin Core convention of using upper camel case for Class names.</description>
     </item>
-    
     <item>
       <title>Hindsight is 20x20000</title>
       <link>https://plazi.org/posts/hindsight-is-20x20000/</link>
       <pubDate>Thu, 30 Sep 2021 12:07:00 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/hindsight-is-20x20000/</guid>
       <description>Three years ago we set off on a journey, guided by a philosophy that scientific data trapped in scholarly articles should be free, powered by the creativity and hardwork of a small team scattered around the globe, and supported by Arcadia that decided to invest in our vision. Earlier this month we completed that journey, by all measures, a success. We liberated more data than we set out to liberate, we ended up with more partners than we started with, and we empowered more publications and publishers than three years ago.</description>
     </item>
-    
     <item>
       <title>BHL and Plazi partnership</title>
       <link>https://plazi.org/posts/bhl-and-plazi-partnership/</link>
       <pubDate>Mon, 14 Jun 2021 19:02:17 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/bhl-and-plazi-partnership/</guid>
-      <description>BHL and Plazi have agreed to collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF. This includes the following steps:
-Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
+      <description>BHL and Plazi have agreed to collaborate to create a workflow from existing literature to liberate digital accessible data to its reuse in GBIF. This includes the following steps:&#xA;Find, digitize, and provide access to biodiversity-related documents with basic metadata and scanned images for each and every page Text recognition that allows efficient conversion and processing downstream Provide access at publication level, including standard, citable URLs from the scholarly communication ecosystem (e.</description>
     </item>
-    
     <item>
       <title>The digital age and the tragedy of not knowing what we know about biodiversity</title>
       <link>https://plazi.org/posts/not-knowing-what-we-know/</link>
       <pubDate>Tue, 11 May 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/not-knowing-what-we-know/</guid>
       <description>One of the big challenges in biology - how many species are on planet Earth, where do they live and what do they do - is increasingly relevant in the age of the biodiversity crisis. In the digital age this turns awkward, because it becomes obvious that we do not even know what we know about biodiversity. Whilst the libraries have been the undisputed source of knowledge in the analogue age, having hard copies in libraries does not serve the needs anymore.</description>
     </item>
-    
     <item>
       <title>materialCitation as a new class submitted to TDWG Darwin Core standard</title>
       <link>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</link>
       <pubDate>Mon, 12 Apr 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</guid>
-      <description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.
-As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description>
+      <description>Specimens are a critical basis for taxonomic research. They are cited in taxonomic treatments and other works. Increasingly these material citations are extracted from publications and submitted as part of data sets to GBIF and reused in studies.&#xA;As of today, GBIF includes 33,393 datasets derived from taxonomic publications and 415,858 material citations which are labeled as occurrences. 335 publications reuse this data. An estimate of 45,000 species are only represented in GBIF through material citations from publications, mainly covering new species that are extracted from the literature just after the publishing time.</description>
     </item>
-    
     <item>
       <title>A new GBIF Plazi data issue feedback loop</title>
       <link>https://plazi.org/posts/data-issue-feedback-loop/</link>
       <pubDate>Fri, 12 Feb 2021 19:16:15 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/data-issue-feedback-loop/</guid>
-      <description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.
-The grand challenge is an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description>
+      <description>Plazi’s goal is to discover known biodiversity, and make it widely available using the tools available in the digital age. This means liberating data hidden in libraries, and more recently, and increasingly hidden in the PDF-prison, paywalls and unstructured text.&#xA;The grand challenge is an estimated 500 Million published pages of scholarly biodiversity related publications, and 17,000 annually new discovered and described species with a multiple of annotations on already known species.</description>
     </item>
-    
     <item>
       <title>ClickUp supporting Plazi with task management system </title>
       <link>https://plazi.org/posts/clickup-supporting-plazi/</link>
       <pubDate>Mon, 31 Aug 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/clickup-supporting-plazi/</guid>
       <description>Managing collaborations involving multiple locations, time zones and complementing operations is challenging. As an example, Plazi liberates data from scholarly publications by making it, in collaboration with Zenodo at CERN, findable, citable reusable for anybody, anywhere, at any time. This process happens in multiple locations in Europe, Brazil and North America. The increasingly automated processes are based on agile programming. The maintenance and improvement of high quality data requires an additional amount of time critical interactions.</description>
     </item>
-    
     <item>
       <title>Time for an interim review of Plazi’s Covid-19 related activities</title>
       <link>https://plazi.org/news/beitrag/time-for-an-interim-review-of-plazis-covid-19-related-activities/3e26b3bc95a4b39f0a2a9d7fccee8b19/</link>
       <pubDate>Fri, 17 Jul 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/news/beitrag/time-for-an-interim-review-of-plazis-covid-19-related-activities/3e26b3bc95a4b39f0a2a9d7fccee8b19/</guid>
       <description>Three months ago we started with Pensoft an effort (see also press release) to contribute to a better understanding of the SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) aka corona virus that led to the global COVID-19 pandemic, and in the followup joined the CETAF-Covid-19 task force. With the end of the three months long taskforce we present here our view. A multimedia presentation by the knowledge base task force sub group has been streamed on July 17.</description>
     </item>
-    
     <item>
       <title>The taxonomic treatments from Linnaeus’ Systema Naturae, 1758, 10th edition, liberated</title>
       <link>https://plazi.org/posts/linnaeus-systema-naturae/</link>
       <pubDate>Mon, 29 Jun 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/linnaeus-systema-naturae/</guid>
-      <description>Taxonomic treatment. The taxonomic treatment is a well defined part of a publication about a particular taxon, in this case of the honey bee Apis mellifera, described by Linnaeus 1758 on page 576-577. It is based on the implicitly cited specimens in his reference collection.
-A milestone in the development of modern biology was the introduction of the standardization resulting from comparative and reference works. This led to a rapidly growing corpus of knowledge by learning from, referencing of, and building on previous work, today known as the data life cycle.</description>
+      <description>Taxonomic treatment. The taxonomic treatment is a well defined part of a publication about a particular taxon, in this case of the honey bee Apis mellifera, described by Linnaeus 1758 on page 576-577. It is based on the implicitly cited specimens in his reference collection.&#xA;A milestone in the development of modern biology was the introduction of the standardization resulting from comparative and reference works. This led to a rapidly growing corpus of knowledge by learning from, referencing of, and building on previous work, today known as the data life cycle.</description>
     </item>
-    
     <item>
       <title>Extended collective licence agreement between Plazi and ProLitteris: Plazi adopts to revised copyright law in Switzerland</title>
       <link>https://plazi.org/posts/agreement-between-plazi-and-prolitteris/</link>
       <pubDate>Mon, 08 Jun 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/agreement-between-plazi-and-prolitteris/</guid>
       <description>On the 1st of April, 2020, a new copyright law was enacted in Switzerland. Amongst other revision points, it declares an extension of the protection of photographs by applying the notion of work to non-individual photographs, provides for a new copyright exception for the use of copyrighted works for purposes of scientific research, and introduces extended collective licenses as a new instrument for collective copyright regulation. As the Plazi workflow is organised and ruled by Swiss copyright law, Plazi had to adapt to these legal amendments.</description>
     </item>
-    
     <item>
       <title>Plazi and Pensoft launch an initiative to provide access to scholarly published data about Coronavirus hosts</title>
       <link>https://plazi.org/posts/coronavirus-hosts/</link>
       <pubDate>Fri, 03 Apr 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/coronavirus-hosts/</guid>
-      <description>Read the Eurekalert! and Knoweldge Speak release.
-The COVID-19 pandemic presumably started with the escape of the Coronavirus from its bat host to humans. To understand the original host, it is important to have access to relevant scientific knowledge about these organisms. The scientific results from charting the world’s biodiversity reside in a vast corpus, which is often “imprisoned” by paywalls, copyright laws or trapped in formats unfavorable to text and data mining.</description>
+      <description>Read the Eurekalert! and Knoweldge Speak release.&#xA;The COVID-19 pandemic presumably started with the escape of the Coronavirus from its bat host to humans. To understand the original host, it is important to have access to relevant scientific knowledge about these organisms. The scientific results from charting the world’s biodiversity reside in a vast corpus, which is often “imprisoned” by paywalls, copyright laws or trapped in formats unfavorable to text and data mining.</description>
     </item>
-    
     <item>
       <title>On the Role of Open Science in Charting Biodiversity</title>
       <link>https://plazi.org/posts/open-science-charting-biodiversity/</link>
       <pubDate>Thu, 05 Mar 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/open-science-charting-biodiversity/</guid>
-      <description>A striking example of the impact of open access on the usage of scientific publications. Around 2000 antbase.org, co-funded by the Atherton-Seidal Foundation at the Smithsonian Institution provided open access to the entire ant taxonomic literature. Within a very short time, this resource has been used world wide. DOI: 10.5281/zenodo.1343376
-Following discussions on Taxacom list server on the value on Open Science, here some points to consider.
-The situation has changed regarding open access and open science.</description>
+      <description>A striking example of the impact of open access on the usage of scientific publications. Around 2000 antbase.org, co-funded by the Atherton-Seidal Foundation at the Smithsonian Institution provided open access to the entire ant taxonomic literature. Within a very short time, this resource has been used world wide. DOI: 10.5281/zenodo.1343376&#xA;Following discussions on Taxacom list server on the value on Open Science, here some points to consider.&#xA;The situation has changed regarding open access and open science.</description>
     </item>
-    
     <item>
       <title>12 new species added to GBIF during the first Plazi training course at the Congresso Brasileiro de Zoologia</title>
       <link>https://plazi.org/posts/first-plazi-training-course/</link>
       <pubDate>Tue, 03 Mar 2020 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/first-plazi-training-course/</guid>
-      <description>Plazi Minicurso at the Congresso Brasileiro de Zoologia, March 1, 2020
-Taxonomic literature is an almost untapped resource of data covering our scholarly knowledge of biodiversity. This includes an estimated 500 Million printed pages and is augmented annually with over 17.000 taxonomic treatments of species new to science. This data represents in fact an incredibly rich citation network, albeit with most of the citations implicit, only understandable by extensive domain expertise, and often with an insurmountable time required to follow up chasing the cited resources.</description>
+      <description>Plazi Minicurso at the Congresso Brasileiro de Zoologia, March 1, 2020&#xA;Taxonomic literature is an almost untapped resource of data covering our scholarly knowledge of biodiversity. This includes an estimated 500 Million printed pages and is augmented annually with over 17.000 taxonomic treatments of species new to science. This data represents in fact an incredibly rich citation network, albeit with most of the citations implicit, only understandable by extensive domain expertise, and often with an insurmountable time required to follow up chasing the cited resources.</description>
     </item>
-    
     <item>
       <title>New Copyright Law in Switzerland Empowers Scientific Research</title>
       <link>https://plazi.org/posts/2019/10/new-copyright-law-in-switzerland/</link>
       <pubDate>Tue, 01 Oct 2019 13:10:49 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2019/10/new-copyright-law-in-switzerland/</guid>
       <description>The Swiss Parliament adopted a new copyright law on 27 September, 2019. Amongst its many new elements, there is a large exception to copyright for the use of protected works for scientific research purposes (Art. 24d1). This exception is compulsory and overrules any subsequent license agreements. It allows copying and reuse of copyrighted works for commercial or non-commercial scientific research, and refers to any work to which the researcher has lawful access.</description>
     </item>
-    
     <item>
       <title>Der geplante Lichtbildschutz Artikel (Art 2 Abs. 3bis) behindert Forschung und IT-Industrie</title>
       <link>https://plazi.org/posts/lichtbildschutz-artikel/</link>
       <pubDate>Fri, 18 Jan 2019 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/lichtbildschutz-artikel/</guid>
       <description>Am kommenden Montag (21.1.2019) berät die Kommission for Wissenschaft, Bildung und Kultur (WBK) des schweizerischen Ständerates die Revision des Urheberrechtsgesetzes. Nach dem jetzigen Revisionsentwurf sollen in Zukunft auch Fotografien, welche keinen individuellen Charakter haben, wie Werke der Kunst und der Literatur geschützt werden. Wir sind der Meinung, dass durch eine solche Bestimmung der wissenschaftlichen Lehre und Forschung, und letztlich unserer IT Industrie und Gesellschaft, erheblicher Schaden zugefügt wird, und zwar aus den folgenden Gründen:</description>
     </item>
-    
     <item>
       <title>Training for building and reusing your corpus of mineable taxonomic literature</title>
       <link>https://plazi.org/posts/mineable-taxonomic-literature/</link>
       <pubDate>Wed, 09 Jan 2019 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/mineable-taxonomic-literature/</guid>
-      <description>Visualization of data liberated from 22 published articles in the journals Zootaxa and PLoS ONE during the training course at Leiden University&amp;rsquo;s Integrative Taxonomy course.
-The taxonomic literature is a rich, high quality, and largely untapped source of biodiversity knowledge. Taxonomy helps us recognize species and map their distributions through text descriptions, images, and records of when and where they have been observed. These are the data we need to answer questions that are relevant to our world today, like setting conservation priorities and anticipating the effects of climate change on biodiversity and ecosystem functions that affect the lives of people.</description>
+      <description>Visualization of data liberated from 22 published articles in the journals Zootaxa and PLoS ONE during the training course at Leiden University&amp;rsquo;s Integrative Taxonomy course.&#xA;The taxonomic literature is a rich, high quality, and largely untapped source of biodiversity knowledge. Taxonomy helps us recognize species and map their distributions through text descriptions, images, and records of when and where they have been observed. These are the data we need to answer questions that are relevant to our world today, like setting conservation priorities and anticipating the effects of climate change on biodiversity and ecosystem functions that affect the lives of people.</description>
     </item>
-    
     <item>
       <title>Why do we need BLR to store scholarly taxonomic articles?</title>
       <link>https://plazi.org/posts/blr-scholarly-taxonomic-articles/</link>
       <pubDate>Fri, 14 Dec 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/blr-scholarly-taxonomic-articles/</guid>
-      <description>When Jérôme Constant published yesterday his taxonomic article on eurybrachid planthopper insects in the European Journal of Taxonomy, its data became immediately accessible as FAIR and open access data in TreatmentBank including taxonomic treatments, and the Biodiversity Literature Repository (BLR) as an article and figures.
-This data is also at the same moment reused by GBIF to describe the dataset aka article, to list all its material citations, provide the taxonomic treatments for the included species, which is especially valuable for those new to the sciences or an individual occurrence.</description>
+      <description>When Jérôme Constant published yesterday his taxonomic article on eurybrachid planthopper insects in the European Journal of Taxonomy, its data became immediately accessible as FAIR and open access data in TreatmentBank including taxonomic treatments, and the Biodiversity Literature Repository (BLR) as an article and figures.&#xA;This data is also at the same moment reused by GBIF to describe the dataset aka article, to list all its material citations, provide the taxonomic treatments for the included species, which is especially valuable for those new to the sciences or an individual occurrence.</description>
     </item>
-    
     <item>
       <title>Schnappschüsse und das Urheberrecht (Snapshots and copyright law)</title>
       <link>https://plazi.org/posts/schnappschuesse-urheberrecht/</link>
       <pubDate>Thu, 29 Nov 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/schnappschuesse-urheberrecht/</guid>
-      <description>The Thursday November 29, 2018 (doi) issue of the Neue Zürcher Zeitung includes a “Gastkommentar” by me (Donat Agosti) arguing that the proposed insertion of an article protecting any kind of photographs of three dimensional objects in the revised copyright law of Switzerland is misguided (Art. 2 al.).
-In the sciences, illustrations, including photographs, play a crucial role. They are one among many types of research data, and are used to visually document and compare results.</description>
+      <description>The Thursday November 29, 2018 (doi) issue of the Neue Zürcher Zeitung includes a “Gastkommentar” by me (Donat Agosti) arguing that the proposed insertion of an article protecting any kind of photographs of three dimensional objects in the revised copyright law of Switzerland is misguided (Art. 2 al.).&#xA;In the sciences, illustrations, including photographs, play a crucial role. They are one among many types of research data, and are used to visually document and compare results.</description>
     </item>
-    
     <item>
       <title>Provenance – another look at taxonomic treatments and names</title>
       <link>https://plazi.org/posts/provenance/</link>
       <pubDate>Mon, 22 Oct 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/provenance/</guid>
-      <description>When an &amp;rsquo;ex banker&amp;rsquo; - Tim Robertson - meets an &amp;rsquo;ex taxonomist&amp;rsquo; - Donat Agosti - this can be very inspiring, especially when they discover that they share rather unexpectedly more than they ever expected. So, what is it?
-Both share data lineages. The banker has bank accounts that are created, mutated and that have at a given time a certain value. The taxonomist has species that are described, mutated and at a given time have a certain name.</description>
+      <description>When an &amp;rsquo;ex banker&amp;rsquo; - Tim Robertson - meets an &amp;rsquo;ex taxonomist&amp;rsquo; - Donat Agosti - this can be very inspiring, especially when they discover that they share rather unexpectedly more than they ever expected. So, what is it?&#xA;Both share data lineages. The banker has bank accounts that are created, mutated and that have at a given time a certain value. The taxonomist has species that are described, mutated and at a given time have a certain name.</description>
     </item>
-    
     <item>
       <title>ZooKeys 10th anniversary</title>
       <link>https://plazi.org/posts/zookeys-10th-anniversary/</link>
       <pubDate>Wed, 04 Jul 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/zookeys-10th-anniversary/</guid>
-      <description>Zookeys at 10
-Happy Birthday Zookeys, and congratulations to Pensoft, its innovator and publisher.
-Today’s 10th anniversary of Zookeys is a great day for biodiversity. The discoveries reported in the press release and celebrated in the 770th issue of the journal are magnificent and open access, unlike the big bulk of taxonomic articles.
-The real and unreported impact of Zookeys, its sister Biodiversity Data Journal and the many other natural history journals hosted by Pensoft is neither reported by Pensoft, widely recognized by the taxonomists nor the wider scientific community: The revolution caused, and enabled by, the technical changes adopted in the publishing of Zookeys and the subsequent journals.</description>
+      <description>Zookeys at 10&#xA;Happy Birthday Zookeys, and congratulations to Pensoft, its innovator and publisher.&#xA;Today’s 10th anniversary of Zookeys is a great day for biodiversity. The discoveries reported in the press release and celebrated in the 770th issue of the journal are magnificent and open access, unlike the big bulk of taxonomic articles.&#xA;The real and unreported impact of Zookeys, its sister Biodiversity Data Journal and the many other natural history journals hosted by Pensoft is neither reported by Pensoft, widely recognized by the taxonomists nor the wider scientific community: The revolution caused, and enabled by, the technical changes adopted in the publishing of Zookeys and the subsequent journals.</description>
     </item>
-    
     <item>
       <title>Plazi and BLR receive €1.1 million from Arcadia to open up new biodiversity data</title>
       <link>https://plazi.org/posts/arcadia-fund/</link>
       <pubDate>Sun, 17 Jun 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/arcadia-fund/</guid>
-      <description>Visual search results from the Biodiversity Literature Repository. Each of the images provides access to the taxonomic treatment of the species or the source article. Only figures from scholarly publications are provided.
-Plazi has received a grant of EUR 1.1 million from Arcadia – the charitable fund of Lisbet Rausing and Peter Baldwin – to liberate data, such as taxonomic treatments and images, trapped in scholarly biodiversity publications.
-The project will expand the existing corpus of the Biodiversity Literature Repository (BLR), a joint venture of Plazi and Pensoft, hosted on Zenodo at CERN.</description>
+      <description>Visual search results from the Biodiversity Literature Repository. Each of the images provides access to the taxonomic treatment of the species or the source article. Only figures from scholarly publications are provided.&#xA;Plazi has received a grant of EUR 1.1 million from Arcadia – the charitable fund of Lisbet Rausing and Peter Baldwin – to liberate data, such as taxonomic treatments and images, trapped in scholarly biodiversity publications.&#xA;The project will expand the existing corpus of the Biodiversity Literature Repository (BLR), a joint venture of Plazi and Pensoft, hosted on Zenodo at CERN.</description>
     </item>
-    
     <item>
       <title>10 years of Plazi. On expedition to discover the known biodiversity</title>
       <link>https://plazi.org/news/beitrag/10-years-of-plazi-on-expedition-to-discover-the-known-biodiversity/2136104073c3aabdebe6c5067d767a52/</link>
       <pubDate>Wed, 14 Mar 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/news/beitrag/10-years-of-plazi-on-expedition-to-discover-the-known-biodiversity/2136104073c3aabdebe6c5067d767a52/</guid>
-      <description>This is the view of Donat Agosti, cofounder of Plazi.
-In 1992, I wrote an article in the followup of the Rio Earth Summit in the Swiss newspaper Neue Zürcher Zeitung titled “Brauchen wir zu wissen, wie viele Arten es gibt?» Now, 2018, we are still discussing this question, and I am still convinced we should. Should, because we still don’t know know the answer. But must, because of the rapidly increasing, unprecendented loss of biodiversity.</description>
+      <description>This is the view of Donat Agosti, cofounder of Plazi.&#xA;In 1992, I wrote an article in the followup of the Rio Earth Summit in the Swiss newspaper Neue Zürcher Zeitung titled “Brauchen wir zu wissen, wie viele Arten es gibt?» Now, 2018, we are still discussing this question, and I am still convinced we should. Should, because we still don’t know know the answer. But must, because of the rapidly increasing, unprecendented loss of biodiversity.</description>
     </item>
-    
     <item>
       <title>10 years of Plazi. On expedition to discover the known biodiversity</title>
       <link>https://plazi.org/posts/10-years-of-plazi/</link>
       <pubDate>Wed, 14 Mar 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/10-years-of-plazi/</guid>
-      <description>This is the view of Donat Agosti, cofounder of Plazi.
-In 1992, I wrote an article in the followup of the Rio Earth Summit in the Swiss newspaper Neue Zürcher Zeitung titled “Brauchen wir zu wissen, wie viele Arten es gibt?» Now, 2018, we are still discussing this question, and I am still convinced we should. Should, because we still don’t know know the answer. But must, because of the rapidly increasing, unprecendented loss of biodiversity.</description>
+      <description>This is the view of Donat Agosti, cofounder of Plazi.&#xA;In 1992, I wrote an article in the followup of the Rio Earth Summit in the Swiss newspaper Neue Zürcher Zeitung titled “Brauchen wir zu wissen, wie viele Arten es gibt?» Now, 2018, we are still discussing this question, and I am still convinced we should. Should, because we still don’t know know the answer. But must, because of the rapidly increasing, unprecendented loss of biodiversity.</description>
     </item>
-    
     <item>
       <title>200.000 deposits at the Biodiversity Literature Repository!</title>
       <link>https://plazi.org/posts/200000-deposits-at-blr/</link>
       <pubDate>Tue, 13 Mar 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/200000-deposits-at-blr/</guid>
-      <description>Ocellus: Search term &amp;ldquo;Perlidae&amp;rdquo;. All the images are provided with a link to the source.
-The wealth of data encapsulated in scientific publications is a well-guarded secret. The recent discussions around Open Access are centered around open access to the articles, and thus little effort is made to build an index, for example, of all the illustrations therein. This is even more astounding in descriptive sciences, such as biological taxonomy, dealing with discovering and describing the world’s biological diversity, where each article includes an average of 7.</description>
+      <description>Ocellus: Search term &amp;ldquo;Perlidae&amp;rdquo;. All the images are provided with a link to the source.&#xA;The wealth of data encapsulated in scientific publications is a well-guarded secret. The recent discussions around Open Access are centered around open access to the articles, and thus little effort is made to build an index, for example, of all the illustrations therein. This is even more astounding in descriptive sciences, such as biological taxonomy, dealing with discovering and describing the world’s biological diversity, where each article includes an average of 7.</description>
     </item>
-    
     <item>
       <title>Pensoft and Plazi join forces to expedite building the OpenBioDiv</title>
       <link>https://plazi.org/posts/building-openbiodiv/</link>
       <pubDate>Wed, 07 Mar 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/building-openbiodiv/</guid>
-      <description>Pensoft - Plazi project to produce semantically enhanced data
-Open Science is based on open data. Data per se is not copyrighted and thus freely accessible. However it is kept in well maintained prisons, such as hard disks on a scientist’s desk to large password protected databases to publications that lost all their semantic structure in transition from a scientists lab to the publishers print shop. To paraphrase, scientist do all to loose structure in their data in publications.</description>
+      <description>Pensoft - Plazi project to produce semantically enhanced data&#xA;Open Science is based on open data. Data per se is not copyrighted and thus freely accessible. However it is kept in well maintained prisons, such as hard disks on a scientist’s desk to large password protected databases to publications that lost all their semantic structure in transition from a scientists lab to the publishers print shop. To paraphrase, scientist do all to loose structure in their data in publications.</description>
     </item>
-    
     <item>
       <title>Happy New Year 2018</title>
       <link>https://plazi.org/posts/happy-new-year-2018/</link>
       <pubDate>Mon, 08 Jan 2018 18:18:13 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/happy-new-year-2018/</guid>
-      <description>2017 has been a productive year at Plazi.
-9,601 articles have been processed from 173 different journals resulting in 82,082 taxonomic treatments, 62,958 scientific figures uploaded to the Biodiversity Literature Repository (BLR), including 314,881 bibliographic references of which 37,120 have a digital object identifier (DOI). The 3,177 articles published in 2017 that we mined for data included one new family, 330 new genera and 5,145 new species, and a total of 30,091 taxonomic treatments.</description>
+      <description>2017 has been a productive year at Plazi.&#xA;9,601 articles have been processed from 173 different journals resulting in 82,082 taxonomic treatments, 62,958 scientific figures uploaded to the Biodiversity Literature Repository (BLR), including 314,881 bibliographic references of which 37,120 have a digital object identifier (DOI). The 3,177 articles published in 2017 that we mined for data included one new family, 330 new genera and 5,145 new species, and a total of 30,091 taxonomic treatments.</description>
     </item>
-    
   </channel>
 </rss>

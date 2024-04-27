@@ -6,134 +6,98 @@
     <description>Recent content in 2022 Post Archives on Plazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jan 2022 11:54:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/2022/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jan 2022 11:54:43 +0000</lastBuildDate>
+    <atom:link href="https://plazi.org/posts/2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TDWG 2022</title>
       <link>https://plazi.org/posts/2022/10/tdwg2022/</link>
       <pubDate>Mon, 10 Oct 2022 12:57:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/10/tdwg2022/</guid>
-      <description>Enabling Published Taxonomic Data to Address the Biodiversity Crisis The use-case of Biodiversity Literature Repository and TreatmentBank
-Date and Time: Oct 17, 2022, 2:00 PM
-Abstract: To understand the loss of species, a benchmark is needed, e.g. the status of biodiversity in 1992 when the Convention on Biological Diversity recognized biodiversity crisis to compare to its status in the successive year. Though we are far from knowning how many species there are on planet Earth, we keep track of their descriptions and number through the information kept in our libraries.</description>
+      <description>Enabling Published Taxonomic Data to Address the Biodiversity Crisis The use-case of Biodiversity Literature Repository and TreatmentBank&#xA;Date and Time: Oct 17, 2022, 2:00 PM&#xA;Abstract: To understand the loss of species, a benchmark is needed, e.g. the status of biodiversity in 1992 when the Convention on Biological Diversity recognized biodiversity crisis to compare to its status in the successive year. Though we are far from knowning how many species there are on planet Earth, we keep track of their descriptions and number through the information kept in our libraries.</description>
     </item>
-    
     <item>
       <title>Workshop Day on Open/FAIR Natural History Data</title>
       <link>https://plazi.org/posts/2022/09/glamhack-2022/</link>
       <pubDate>Mon, 19 Sep 2022 17:54:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/09/glamhack-2022/</guid>
       <description>Abstract: The Workshop Day on Open/FAIR Natural History Data is intended for curators, managers, and users of natural history collections in Switzerland. It serves as a forum to draw up an overview of the current situation regarding data management and digitization in Swiss institutions and sets the collections and their data in the wider context of the emerging ecosystem of open/FAIR natural history data with its various infrastructures, stakeholders, initiatives, usage scenarios, value-added services, and governance structures.</description>
     </item>
-    
     <item>
       <title>Taxonomic Treatments as Open FAIR Digital Objects</title>
       <link>https://plazi.org/posts/2022/08/fair-digital-objects/</link>
       <pubDate>Thu, 18 Aug 2022 13:11:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/08/fair-digital-objects/</guid>
-      <description>Abstract
-Taxonomy is the science of charting and describing the worlds biodiversity. Organisms are grouped into taxa which are given a given rank building the taxonomic hierarchy. The taxa are described in taxonomic treatments, well defined sections of scientific publications (Catapano 2019). They include a nomenclatural section and one or more sections including descriptions, material citations referring to studied specimens, or notes ecology and behavior. In case the treatment does not describe a new discovered taxon, previous treatments are cited in the form of treatment citations.</description>
+      <description>Abstract&#xA;Taxonomy is the science of charting and describing the worlds biodiversity. Organisms are grouped into taxa which are given a given rank building the taxonomic hierarchy. The taxa are described in taxonomic treatments, well defined sections of scientific publications (Catapano 2019). They include a nomenclatural section and one or more sections including descriptions, material citations referring to studied specimens, or notes ecology and behavior. In case the treatment does not describe a new discovered taxon, previous treatments are cited in the form of treatment citations.</description>
     </item>
-    
     <item>
       <title>Publishing Copyright-Free Taxonomic Treatments as New Resources for Biodiversity Research</title>
       <link>https://plazi.org/posts/2022/08/divisive-power/</link>
       <pubDate>Thu, 18 Aug 2022 12:48:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/08/divisive-power/</guid>
-      <description>Abstract
-Divisive Power of Citizenship, one of our Institute’s SNSF-funded project, concludes this year with its closing international conference on 22/23 September 2022 in Basel, Switzerland. This event will offer a broad platform for debate about citizenship in a global context, addressing scholars working in the fields of Global History, Asian Studies, International Law and Digital Humanities, at a time of terrifying topicality.
-The central themes of discussion will be expat communities in Asia, and civil internment camps during the Second World War in Asia, which have been rarely studied until now.</description>
+      <description>Abstract&#xA;Divisive Power of Citizenship, one of our Institute’s SNSF-funded project, concludes this year with its closing international conference on 22/23 September 2022 in Basel, Switzerland. This event will offer a broad platform for debate about citizenship in a global context, addressing scholars working in the fields of Global History, Asian Studies, International Law and Digital Humanities, at a time of terrifying topicality.&#xA;The central themes of discussion will be expat communities in Asia, and civil internment camps during the Second World War in Asia, which have been rarely studied until now.</description>
     </item>
-    
     <item>
       <title>400 Years of Botanical Collections – Implications for Present-Day Research</title>
       <link>https://plazi.org/posts/2022/08/400-years-of-botanical-collections/</link>
       <pubDate>Thu, 18 Aug 2022 12:45:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/08/400-years-of-botanical-collections/</guid>
-      <description>Abstract
-Bauhin’s pioneering Flora of Basel „Catalogus Plantarum circa Basileam sponte nascentium“ exactly 400 years ago is a precursor to the artificially identified beginning of taxonomic publishing with Linnaeus Systema plantarum … 1753. Indeed, botanical publishing existed far before Linnaeus’, however his contribution has not only been the Latin Binomen, but the highly structured way he published the taxonomic treatments for each species, and to cite previous works. In the digital age, this kind of structuring of the information and the existing implicit citation links allows building the biodiversity knowledge graph, opening up the entire corpus of taxonomic treatments imprisoned in publications by providing it in a format that can be found and reused, cited and linked to data referenced in the publications.</description>
+      <description>Abstract&#xA;Bauhin’s pioneering Flora of Basel „Catalogus Plantarum circa Basileam sponte nascentium“ exactly 400 years ago is a precursor to the artificially identified beginning of taxonomic publishing with Linnaeus Systema plantarum … 1753. Indeed, botanical publishing existed far before Linnaeus’, however his contribution has not only been the Latin Binomen, but the highly structured way he published the taxonomic treatments for each species, and to cite previous works. In the digital age, this kind of structuring of the information and the existing implicit citation links allows building the biodiversity knowledge graph, opening up the entire corpus of taxonomic treatments imprisoned in publications by providing it in a format that can be found and reused, cited and linked to data referenced in the publications.</description>
     </item>
-    
     <item>
       <title>What do we not know – quantifying data gaps and biases in knowledge of bat co-roosting</title>
       <link>https://plazi.org/posts/2022/08/what-we-dont-know/</link>
       <pubDate>Fri, 05 Aug 2022 13:48:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/08/what-we-dont-know/</guid>
       <description>Improved understanding of co-habitation of roosts by multiple species of bats is essential for estimating the risks of zoonotic disease transmission. However, ecological data on roosting environments, species richness, bat-bat interactions, viral infections, and other species interactions are scattered throughout the literature, making them difficult to study on a global scale. The research scope for most roost studies has been narrow, focusing on roost type, bat abundance, and locality data while failing to investigate interspecific roosting interactions.</description>
     </item>
-    
     <item>
       <title>The Biodiversity Literature Repository — Open By Design</title>
       <link>https://plazi.org/posts/2022/05/blr-open-by-design/</link>
       <pubDate>Mon, 23 May 2022 20:45:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/05/blr-open-by-design/</guid>
-      <description>The Open Definition version 2.1 prescribes four conditions for openness of a work &amp;ndash;
-it must be published under an open license or be in the public domain, it must be accessible easily and at no more than the cost of reproduction, preferably be downloadable via the internet it must be readily readable by a computer, and it must be available in an open format. It is clear that openness is not just a matter of sticking an open license.</description>
+      <description>The Open Definition version 2.1 prescribes four conditions for openness of a work &amp;ndash;&#xA;it must be published under an open license or be in the public domain, it must be accessible easily and at no more than the cost of reproduction, preferably be downloadable via the internet it must be readily readable by a computer, and it must be available in an open format. It is clear that openness is not just a matter of sticking an open license.</description>
     </item>
-    
     <item>
       <title>Arcadia supports Plazi in its endeavor to rediscover known biodiversity</title>
       <link>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</link>
       <pubDate>Mon, 16 May 2022 13:25:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/05/arcadia-fund-supports-plazi/</guid>
-      <description>The Swiss-based Plazi NGO has received a grant of EUR 1.5 million from Arcadia – a charitable fund of Lisbet Rausing and Peter Baldwin – to further develop its Biodiversity Literature Repository (BLR) established in collaboration with Zenodo, the open science repository hosted and managed by the European Organization for Nuclear Research (CERN), and the open-access scholarly publisher and technology provider Pensoft.
-Source: Eurekalert
-Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
+      <description>The Swiss-based Plazi NGO has received a grant of EUR 1.5 million from Arcadia – a charitable fund of Lisbet Rausing and Peter Baldwin – to further develop its Biodiversity Literature Repository (BLR) established in collaboration with Zenodo, the open science repository hosted and managed by the European Organization for Nuclear Research (CERN), and the open-access scholarly publisher and technology provider Pensoft.&#xA;Source: Eurekalert&#xA;Figure left: A figure extracted from a scholarly article and made accessible via BLR.</description>
     </item>
-    
     <item>
       <title>Einen Einblick und Einstieg in die versteckte Vielfalt der 2021 publizierten Hymenopteren</title>
       <link>https://plazi.org/posts/2022/01/schweizer-hymenopterologen-tagung/</link>
       <pubDate>Thu, 27 Jan 2022 21:55:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/01/schweizer-hymenopterologen-tagung/</guid>
       <description> Program Presentation </description>
     </item>
-    
     <item>
       <title>Liberation of data from taxonomic treatments</title>
       <link>https://plazi.org/posts/2022/01/world-biodiversity-forum/</link>
       <pubDate>Thu, 27 Jan 2022 21:50:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/01/world-biodiversity-forum/</guid>
-      <description>Donat Agosti will present Beyond the Print and PDF Prison: Data About Biodiveristy Want to be Free, showcasing Plazi’s groundbreaking approach to the liberation of data from taxonomic treatments within scholarly publications at the World Biodiversity Forum.
-Abstract: Most of what scientists discovered about biodiversity and published, totaling a corpus of an estimated 500 million printed pages stacked up in our libraries and more recently, in digital format, is not known.</description>
+      <description>Donat Agosti will present Beyond the Print and PDF Prison: Data About Biodiveristy Want to be Free, showcasing Plazi’s groundbreaking approach to the liberation of data from taxonomic treatments within scholarly publications at the World Biodiversity Forum.&#xA;Abstract: Most of what scientists discovered about biodiversity and published, totaling a corpus of an estimated 500 million printed pages stacked up in our libraries and more recently, in digital format, is not known.</description>
     </item>
-    
     <item>
       <title>Nothing in (taxonomic) publishing makes sense</title>
       <link>https://plazi.org/posts/2022/01/spnhc/</link>
       <pubDate>Thu, 27 Jan 2022 21:48:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/01/spnhc/</guid>
-      <description>Donat Agosti will provide the lecture Nothing in (taxonomic) publishing makes sense except in the light of treatments at the conference of the Society for the Preservation of Natural History Collections (SPNHC).
-The goal of taxonomic literature is to describe taxonomic diversity as a result of charting the Earth&amp;rsquo;s biological diversity. As research adds to our knowledge, our understanding of taxa increases with additional published results. This is how it has happened since the standard publications by Linnaeus in 1753 and 1758 in the format of taxonomic treatments, clearly delimited sections of text about a particular taxon.</description>
+      <description>Donat Agosti will provide the lecture Nothing in (taxonomic) publishing makes sense except in the light of treatments at the conference of the Society for the Preservation of Natural History Collections (SPNHC).&#xA;The goal of taxonomic literature is to describe taxonomic diversity as a result of charting the Earth&amp;rsquo;s biological diversity. As research adds to our knowledge, our understanding of taxa increases with additional published results. This is how it has happened since the standard publications by Linnaeus in 1753 and 1758 in the format of taxonomic treatments, clearly delimited sections of text about a particular taxon.</description>
     </item>
-    
     <item>
       <title>Discovering Known Biodiversity</title>
       <link>https://plazi.org/posts/2022/01/empowering-biodiversity/</link>
       <pubDate>Thu, 27 Jan 2022 21:45:04 +0200</pubDate>
-      
       <guid>https://plazi.org/posts/2022/01/empowering-biodiversity/</guid>
       <description>We will take you on a journey into the world of biodiversity data standards and tools and will inform you on the latest developments in the world of Biodiversity Informatics, both internationally and locally. What is the state of the art in initiatives like GBIF, LifeWatch and DiSSCo, etc and how can we let them work for us? We have invited some very interesting international speakers and will inform you on the progress made by these projects in Belgium.</description>
     </item>
-    
     <item>
       <title>Access to taxonomic treatments mentioned in press releases</title>
       <link>https://plazi.org/posts/2022/01/access-to-data-in-press-releases/</link>
       <pubDate>Fri, 14 Jan 2022 12:14:49 +0100</pubDate>
-      
       <guid>https://plazi.org/posts/2022/01/access-to-data-in-press-releases/</guid>
       <description>At year-end, it is common to review the past year’s highlights as we (Plazi) too did, highlighting a few of the almost 9000 species discovered in 2021. A few of the world&amp;rsquo;s leading taxonomic institutions did so as well with their recent discoveries. Since we are interested in not just finding about the species discovered but also learning more in detail about them, we decided to test how easy it was to locate their original taxonomic treatments in the scientific papers that described the species mentioned in the press releases.</description>
     </item>
-    
   </channel>
 </rss>
