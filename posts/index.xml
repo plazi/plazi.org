@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 18:18:43 +0000</lastBuildDate><atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>From Plazi to TaxonWorks</title>
+      <link>https://plazi.org/posts/2024/from-plazi-to-taxonworks/</link>
+      <pubDate>Fri, 26 Apr 2024 09:34:04 +0200</pubDate>
+      
+      <guid>https://plazi.org/posts/2024/from-plazi-to-taxonworks/</guid>
+      <description>Presenter: Julia Giora, Donat Agosti
+We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years. New to Plazi? See this treatment for an example of how Plazi gets data out of publications into a format we can take advantage of for uploading to our database(s) via files or the Plazi API.</description>
+    </item>
+    
+    <item>
       <title>15 years of discovering known biodiversity</title>
       <link>https://plazi.org/posts/2023/12/15-years/</link>
       <pubDate>Wed, 20 Dec 2023 13:00:00 +0200</pubDate>
