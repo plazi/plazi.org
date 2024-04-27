@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>news on Plazi</title>
+    <title>News on Plazi</title>
     <link>https://plazi.org/tags/news/</link>
-    <description>Recent content in news on Plazi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in News on Plazi</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2023 17:34:04 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2023 16:53:05 +0100</lastBuildDate>
     <atom:link href="https://plazi.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Searching by ecoregions and biomes</title>

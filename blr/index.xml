@@ -4,9 +4,9 @@
     <title>Biodiversity Literature Repository (BLR) on Plazi</title>
     <link>https://plazi.org/blr/</link>
     <description>Recent content in Biodiversity Literature Repository (BLR) on Plazi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Aug 2021 19:17:05 +0200</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://plazi.org/blr/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
