@@ -6,7 +6,7 @@
     <description>Recent content in Home on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2024 12:57:14 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 13:45:48 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BiodiversityPMC: The One Health Library (Poster)</title>
@@ -14,6 +14,13 @@
       <pubDate>Sun, 28 Apr 2024 12:48:04 +0200</pubDate>
       <guid>https://plazi.org/posts/2024/biodiversitypmc-the-one-health-library/</guid>
       <description>Time: all day Presenters: Emilie Pasche, Julien Gobeill, Donat Agosti, Lyubomir Penev, Quentin Groom, Teodor Georgiev, Esteban Gaillac, Alexandre Flament, Déborah Caucheteur, Pierre-André Michel, Marie Kolsch, Anaïs Mottaz, Patrick Ruch&#xA;One Health is a comprehensive and unified approach that recognises the close connection between the health of people, animals and whole ecosystems. While life and health sciences are widely represented in digital libraries such as PubMed Central, articles focussing on biodiversity, ecology or environmental sciences are relatively marginal.</description>
+    </item>
+    <item>
+      <title>How do we get there? a 7* scheme of getting open FAIR publications</title>
+      <link>https://plazi.org/posts/2024/a-7-scheme-for-getting-fair-publications/</link>
+      <pubDate>Sun, 28 Apr 2024 12:48:04 +0200</pubDate>
+      <guid>https://plazi.org/posts/2024/a-7-scheme-for-getting-fair-publications/</guid>
+      <description>Time: 2:30PM CEST Presenters: Donat Agosti&#xA;Research results are published as scientific articles. They represent an intricate network of citations and facts, representing the existing knowledge, as billions of statements. In biodiversity, this includes a corpus of an estimated 500 million pages. A small but growing part is published in a semantically enhanced open access format, but the overwhelming part is behind multiple barriers, from being print only to closed access portable document formats (PDFs).</description>
     </item>
     <item>
       <title>TreatmentBank: an automated workflow to convert biodiversity PDFs as input into Biodiversity PMC</title>
