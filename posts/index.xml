@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Apr 2024 11:25:31 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 12:57:14 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BiodiversityPMC: The One Health Library (Poster)</title>
+      <link>https://plazi.org/posts/2024/biodiversitypmc-the-one-health-library/</link>
+      <pubDate>Sun, 28 Apr 2024 12:48:04 +0200</pubDate>
+      <guid>https://plazi.org/posts/2024/biodiversitypmc-the-one-health-library/</guid>
+      <description>Time: all day Presenters: Emilie Pasche, Julien Gobeill, Donat Agosti, Lyubomir Penev, Quentin Groom, Teodor Georgiev, Esteban Gaillac, Alexandre Flament, Déborah Caucheteur, Pierre-André Michel, Marie Kolsch, Anaïs Mottaz, Patrick Ruch&#xA;One Health is a comprehensive and unified approach that recognises the close connection between the health of people, animals and whole ecosystems. While life and health sciences are widely represented in digital libraries such as PubMed Central, articles focussing on biodiversity, ecology or environmental sciences are relatively marginal.</description>
+    </item>
+    <item>
+      <title>TreatmentBank: an automated workflow to convert biodiversity PDFs as input into Biodiversity PMC</title>
+      <link>https://plazi.org/posts/2024/treatmentbank-an-automated-workflow/</link>
+      <pubDate>Sun, 28 Apr 2024 12:48:04 +0200</pubDate>
+      <guid>https://plazi.org/posts/2024/treatmentbank-an-automated-workflow/</guid>
+      <description>Presenter: Donat Agosti&#xA;Several ELIXIR communities are designing text analytic solutions to perform various data curation tasks. The development of pre-trained and large language models is also helping non expert communities developing successful applications (e.g., triage, named-entity recognition, chatbots, search engines). The span of tasks can be relatively heterogeneous, ranging from well-established and common natural language processing tasks (e.g., named entity recognition, automatic text categorization) up to more complex curation support tasks (e.</description>
+    </item>
     <item>
       <title>From Plazi to TaxonWorks</title>
       <link>https://plazi.org/posts/2024/from-plazi-to-taxonworks/</link>
