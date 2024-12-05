@@ -1,6 +1,6 @@
 /* div */
 .search-box {
-    --search-width: 700px;
+    --search-width: 600px;
     box-sizing: unset;
     position: absolute;
     top: 50px;
@@ -29,6 +29,24 @@
   .search-input::placeholder {
     color: var(--plazi-font-color);
   }
+  /* .clear-search-btn {
+    color: #fff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    background: var(--plazi-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s;
+    background-size: 1rem;
+  }
+  .clear-search-btn::after {
+    content: 'x';
+  } */
   /* icon */
   .search-btn {
     color: #fff;
@@ -60,6 +78,7 @@
   .search-input:not(:placeholder-shown) + .search-btn {
     background: #fff url(/img/search.svg) .7rem .7rem no-repeat;
     background-size: 1rem;
+    border: 1px solid grey;
   }
 
 #searchResults { 

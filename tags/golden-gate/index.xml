@@ -13,14 +13,14 @@
       <link>https://plazi.org/data-apis-tools/golden-gate/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/golden-gate/</guid>
-      <description>Golden Gate is a family of software including a server, an editor, a web-based editor, and web-services. Golden Gate uses the Image Markup File (IMF) format for data storage, archival and exchange.</description>
+      <description>&lt;p&gt;Golden Gate is a family of software including a server, an editor, a web-based editor, and web-services. Golden Gate uses the &lt;a href=&#34;image-markup-file/&#34;&gt;Image Markup File (IMF)&lt;/a&gt; format for data storage, archival and exchange.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Image Markup File (IMF)</title>
       <link>https://plazi.org/data-apis-tools/image-markup-file/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/image-markup-file/</guid>
-      <description>Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.&#xA;IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;img/imf.png&#34; alt=&#34;Image Markup File&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.&lt;/p&gt;&#xA;&lt;p&gt;IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

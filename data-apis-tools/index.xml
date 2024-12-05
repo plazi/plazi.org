@@ -13,91 +13,91 @@
       <link>https://plazi.org/data-apis-tools/golden-gate/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/golden-gate/</guid>
-      <description>Golden Gate is a family of software including a server, an editor, a web-based editor, and web-services. Golden Gate uses the Image Markup File (IMF) format for data storage, archival and exchange.</description>
+      <description>&lt;p&gt;Golden Gate is a family of software including a server, an editor, a web-based editor, and web-services. Golden Gate uses the &lt;a href=&#34;image-markup-file/&#34;&gt;Image Markup File (IMF)&lt;/a&gt; format for data storage, archival and exchange.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Image Markup File (IMF)</title>
       <link>https://plazi.org/data-apis-tools/image-markup-file/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/image-markup-file/</guid>
-      <description>Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.&#xA;IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;img/imf.png&#34; alt=&#34;Image Markup File&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Image Markup File (IMF) is a file format used to store and exchange annotations made to a PDF reliably. IMF is an open source format. The file is based on a star schema with a series of CSV, PNG and the source file enclosed in a .ZIP file.&lt;/p&gt;&#xA;&lt;p&gt;IMF can be created, opened with the open source editor GoldenGate, from where the parts can be exported as XML, or Darwin Core Archives or uploaded to TreatmentBank.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ocellus</title>
       <link>https://plazi.org/data-apis-tools/ocellus/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/ocellus/</guid>
-      <description>Ocellus is a frontend to the Biodiversity Literature Repository (BLR) community with images on Zenodo, taxonomic treatments in TreatmentBank, and citations on RefBank. Ocellus depends on Zenodeo, a nodejs API that queries, analyzes and aggregates results from these various repositories via a single, unified interface.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;img/thumb1.png&#34; alt=&#34;thumbnail 1&#34;&gt;&#xA;&lt;img src=&#34;img/thumb2.png&#34; alt=&#34;thumbnail 2&#34;&gt;&#xA;&lt;img src=&#34;img/thumb3.png&#34; alt=&#34;thumbnail 3&#34;&gt;&#xA;&lt;img src=&#34;img/thumb4.jpeg&#34; alt=&#34;thumbnail 4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ocellus.info&#34;&gt;Ocellus&lt;/a&gt; is a frontend to the Biodiversity Literature Repository (BLR) community with images on Zenodo, taxonomic treatments in TreatmentBank, and citations on RefBank. Ocellus depends on &lt;a href=&#34;../zenodeo/&#34;&gt;Zenodeo&lt;/a&gt;, a nodejs API that queries, analyzes and aggregates results from these various repositories via a single, unified interface.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Synospecies</title>
       <link>https://plazi.org/data-apis-tools/synospecies/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/synospecies/</guid>
-      <description>SynoSpecies is a tool developed by FactsMission AG to leverage the RDF data provided by Plazi. The RDF data of all treatments is stored in an AllegroGraph triple store allowing SPARQL queries over the data. Synospecies allows manually writing and submitting such queries in the advanced mode and send such queries in the background when using the easier interface.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://synospecies.plazi.org/&#34;&gt;SynoSpecies&lt;/a&gt; is a tool developed by FactsMission AG to leverage the RDF data provided by Plazi. The RDF data of all treatments is stored in an AllegroGraph triple store allowing SPARQL queries over the data. Synospecies allows manually writing and submitting such queries in the advanced mode and send such queries in the background when using the easier interface.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zenodeo</title>
       <link>https://plazi.org/data-apis-tools/zenodeo/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/zenodeo/</guid>
-      <description>Zenodeo is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://test.zenodeo.org&#34;&gt;Zenodeo&lt;/a&gt; is a nodejs-based REST API to CERN&amp;rsquo;s Zenodo.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;widget-search widget&#34;&gt;&#xA;    &lt;form class=&#34;widget-search__form&#34; role=&#34;search&#34; method=&#34;get&#34; action=&#34;&#34;&gt;&#xA;        &lt;label&gt;&#xA;            &lt;input class=&#34;searchInput&#34; type=&#34;search&#34; placeholder=&#34;query Zenodeo…&#34; value=&#34;&#34; id=&#34;q&#34; name=&#34;q&#34; aria-label=&#34;query Zenodeo…&#34;&gt;&#xA;        &lt;/label&gt;&#xA;        &lt;input id=&#34;searchBtn&#34; class=&#34;searchBtn&#34; type=&#34;submit&#34; value=&#34;Search&#34;&gt;&#xA;    &lt;/form&gt;&#xA;    &lt;div id=&#34;search_results&#34;&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;script&gt;&#xA;    const search = function(e) {&#xA;        const q = document.getElementById(&#39;q&#39;)&#xA;        const search_results = document.getElementById(&#39;search_results&#39;)&#xA;&#xA;        fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`)&#xA;            .then(function(response) {&#xA;                if (!response.ok) {&#xA;                    throw new Error(&#39;HTTP error, status = &#39; + response.status);&#xA;                }&#xA;&#xA;                return response.json();&#xA;            })&#xA;            .then(function(response) {&#xA;                search_results.innerHTML = `&lt;h2&gt;Zenodeo search results&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;${JSON.stringify(response, null, 4)}&lt;/code&gt;&lt;/pre&gt;`&#xA;            })&#xA;&#xA;        e.stopPropagation()&#xA;        e.preventDefault()&#xA;    }&#xA;&#xA;    window.onload = function(e) {&#xA;        const searchBtn = document.getElementById(&#39;searchBtn&#39;)&#xA;        searchBtn.addEventListener(&#39;click&#39;, search)&#xA;    }()&#xA;&lt;/script&gt;</description>
     </item>
     <item>
       <title>Biodiversity Literature Repository</title>
       <link>https://plazi.org/data-apis-tools/biolit-repo/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/biolit-repo/</guid>
-      <description>Biodiversity Literature Repository (BLR) is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, Pensoft and Zenodo at CERN.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation. Its focus is on thematic corpora, such as particular taxonomic groups, eg.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://biolitrepo.org/&#34;&gt;Biodiversity Literature Repository (BLR)&lt;/a&gt; is a Zenodo-community to share publications related to bio-systematics. It has been initiated by Plazi, &lt;a href=&#34;http://pensoft.net/&#34;&gt;Pensoft&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/&#34;&gt;Zenodo&lt;/a&gt; at &lt;a href=&#34;https://home.cern/&#34;&gt;CERN&lt;/a&gt;.Its goal is to provide open access to publications cited in publications or in combination with scientific names and to provide in collaboration with Zenodo a digital object identifier (DOI) to the publications to enable citation of the publications, including direct access to its digital representation. Its focus is on thematic corpora, such as particular taxonomic groups, eg. ants, projects  or research journals. Illustrations or subarticle elements can be uploaded. Plazi provides a service to convert back issues into semantically enhanced documents and to disseminate taxonomic treatments through &lt;a href=&#34;https://plazi.org/resources/treatmentbank/&#34;&gt;TreatmentBank&lt;/a&gt;. BLR offers journals to obtain DOIs for their new issues. Currently, the following journals joined the BLR community and use Zenodo DataCite DOIs:&lt;/p&gt;</description>
     </item>
     <item>
       <title>BioWikiFarm</title>
       <link>https://plazi.org/data-apis-tools/biowikifarm/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/biowikifarm/</guid>
-      <description>Biowikifarm is a shared technical platform supporting a number of mediawiki installations used by a large number projects in biological research for open content publishing. The primary purpose of the shared platform is to be able to maintain the published data and information in a long term sustainable way, to work more efficiently and distribute administrative and maintenance work among several partners. Furthermore, the biowikifarm operates a shared media repository, enabling synergies in re-using media content.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://biowikifarm.net/meta/&#34;&gt;Biowikifarm&lt;/a&gt; is a shared technical platform supporting a number of mediawiki installations used by a large number projects in biological research for open content publishing. The primary purpose of the shared platform is to be able to maintain the published data and information in a long term sustainable way, to work more efficiently and distribute administrative and maintenance work among several partners. Furthermore, the biowikifarm operates a shared media repository, enabling synergies in re-using media content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RefBank</title>
       <link>https://plazi.org/data-apis-tools/refbank/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/refbank/</guid>
-      <description>RefBank is a website where you can search for bibliographic references. No registration is required (everyone can upload and edit). Results can be converted in different styles and formats. It serves as the “dirty bucket” of references and source for “clean buckets” such as the references in the Biodiversity Literature Repository</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://refbank.org&#34;&gt;RefBank&lt;/a&gt; is a website where you can search for bibliographic references. No registration is required (everyone can upload and edit). Results can be converted in different styles and formats. It serves as the “dirty bucket” of references and source for “clean buckets” such as the references in the &lt;a href=&#34;http://biolitrepo.org/&#34;&gt;Biodiversity Literature Repository&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ReFindit</title>
       <link>https://plazi.org/data-apis-tools/refindit/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/refindit/</guid>
-      <description>ReFindit provides an easy search function, based on a simple interface, which also collates and sorts the results from the search engines for presentation to the user to read and with the option to refine the results presented or submit a new search.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://refindit.org/&#34;&gt;ReFindit&lt;/a&gt; provides an easy search function, based on a simple interface, which also collates and sorts the results from the search engines for presentation to the user to read and with the option to refine the results presented or submit a new search.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TreatmentBank</title>
       <link>https://plazi.org/data-apis-tools/treatmentbank/</link>
       <pubDate>Sun, 13 Jun 2021 19:16:15 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/treatmentbank/</guid>
-      <description>TreatmentBank is a resource that stores and provides access to the treatements and data therein.&#xA;Latest Treatments What is a treatment? The Plazi TreatmentBank deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository at Zenodo/CERN.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://treatmentbank.org&#34;&gt;TreatmentBank&lt;/a&gt; is a resource that stores and provides access to the treatements and data therein.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div id=&#34;mapContainer&#34;&gt;&#xA;    &lt;div id=&#34;mapid&#34;&gt;&lt;/div&gt;&#xA;    Latest Treatments&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;widget-search widget&#34;&gt;&#xA;&#x9;&lt;!-- http://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery= --&gt;&#xA;    &lt;form class=&#34;widget-search__form&#34; role=&#34;search&#34; method=&#34;get&#34; action=&#34;&#34;&gt;&#xA;        &lt;label&gt;&#xA;            &lt;input class=&#34;searchInput&#34; type=&#34;search&#34; placeholder=&#34;find treatments…&#34; value=&#34;&#34; id=&#34;q&#34; name=&#34;q&#34; aria-label=&#34;find treatments…&#34;&gt;&#xA;        &lt;/label&gt;&#xA;        &lt;input id=&#34;searchBtn&#34; class=&#34;searchBtn&#34; type=&#34;submit&#34; value=&#34;Search&#34;&gt;&#xA;    &lt;/form&gt;&#xA;    &lt;div id=&#34;search_results&#34;&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;script&gt;&#xA;    const search = function(e) {&#xA;        const q = document.getElementById(&#39;q&#39;)&#xA;        const search_results = document.getElementById(&#39;search_results&#39;)&#xA;        //const tb = &#39;https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&amp;fullText.ftQuery=&#39; + q.value&#xA;&#xA;        fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`)&#xA;            .then(function(response) {&#xA;                if (!response.ok) {&#xA;                    throw new Error(&#39;HTTP error, status = &#39; + response.status);&#xA;                }&#xA;&#xA;                return response.json();&#xA;            })&#xA;            .then(function(response) {&#xA;                let res = &#39;&lt;h2&gt;Treatments search results&lt;/h2&gt;&#39;&#xA;                response.item.records.forEach(r =&gt; {&#xA;                    res += `&lt;details&gt;&#xA;                        &lt;summary&gt;${r.treatmentTitle}&lt;/summary&gt;&#xA;                        &lt;p&gt;${r.articleTitle}, ${r.journalTitle}&lt;/p&gt;</description>
     </item>
     <item>
       <title>Statistics</title>
       <link>https://plazi.org/data-apis-tools/statistics/</link>
       <pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/statistics/</guid>
-      <description>This is an analysis and mining tool for the data contained in TreatmentBank. Access is provided at article and treatment level. Documentation is available.&#xA;The user can select fields and download Plazi treatment data in multiple formats. Selected fields turn from gray to green. Data on all materials (cited specimens) are available through the “Materials Citations Data” domain; these data are summarized by treatment in the “Materials Data” domain. Select the relevant operation (e.</description>
+      <description>&lt;p&gt;This is an analysis and mining tool for the data contained in &lt;a href=&#34;../treatmentbank&#34;&gt;TreatmentBank&lt;/a&gt;. Access is provided at article and treatment level. &lt;a href=&#34;https://docs.google.com/document/d/1PQASI6pYETcwG3dXMu7zJ6iqkHBBKUeUX6pBjZEWIsk/edit#&#34;&gt;Documentation&lt;/a&gt; is available.&lt;/p&gt;&#xA;&lt;p&gt;The user can select fields and download Plazi treatment data in multiple formats. Selected fields turn from gray to green. Data on all materials (cited specimens) are available through the “Materials Citations Data” domain; these data are summarized by treatment in the “Materials Data” domain. Select the relevant operation (e.g., show individual values, count distinct values, count all values, minimum value, maximum value) for each selected field. The “Get Statistics” button runs the selected query. You can save the results using one of the links indicating desired format. It may be useful to choose an appropriate file name and add an extension to the file (e.g., .csv for comma separated values).&lt;/p&gt;</description>
     </item>
     <item>
       <title>TreatmentBank API</title>
       <link>https://plazi.org/data-apis-tools/treatmentbank-api/</link>
       <pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/treatmentbank-api/</guid>
-      <description>What is a treatment? The Plazi TreatmentBank [1] deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository [2] at Zenodo/CERN.&#xA;Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication) [3].</description>
+      <description>&lt;h2 id=&#34;what-is-a-treatment&#34;&gt;What is a treatment?&lt;/h2&gt;&#xA;&lt;p&gt;The Plazi TreatmentBank [1] deals with scientific, published, biosystematic literature. It is the literature documenting and describing all the world’s ca 1.9 Million known species in an estimated corpus of over 500 Million published pages. The cited publications in Plazi are all available at the Biodiversity Literature Repository [2] at Zenodo/CERN.&lt;/p&gt;&#xA;&lt;p&gt;Treatments are well defined parts of articles that define the particular usage of a scientific name by an author at a given time (the publication) [3]. With other words, each scientific name has one to several treatments, depending whether there exists only an original description of a species, or whether there are subsequent re-descriptions. Similar to bibliographic references, treatments can be cited, and subsequent usages of names cite earlier treatments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visualization Tools</title>
       <link>https://plazi.org/data-apis-tools/visualization-tools/</link>
       <pubDate>Sun, 13 Jun 2021 18:54:17 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/visualization-tools/</guid>
-      <description>All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a tool to create a number of Google Charts. Please read the documentation on using the visualization tools and an overview of the available fields.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;img/vis-tools.png&#34; alt=&#34;Visualization Tools&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;All the data extracted from the taxonomic literature is available for visualization. For that Plazi offers a &lt;a href=&#34;http://tb.plazi.org/GgServer/srsStatCharts&#34;&gt;tool to create a  number of Google Charts&lt;/a&gt;. Please read the &lt;a href=&#34;https://docs.google.com/document/d/1_UYDgHCAZbFulo0XQS6z8EP5xIFvhofTELcFuvigaj8/edit#heading=h.gmy9mi4jm2n9&#34;&gt;documentation on using the visualization tools&lt;/a&gt; and an &lt;a href=&#34;https://docs.google.com/document/d/1PQASI6pYETcwG3dXMu7zJ6iqkHBBKUeUX6pBjZEWIsk/edit&#34;&gt;overview of the available fields&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
