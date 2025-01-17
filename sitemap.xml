@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://plazi.org/tags/news/</loc>
+    <lastmod>2025-01-17T16:06:28+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2025/01/plazi-on-twitter/</loc>
+    <lastmod>2025-01-17T16:06:28+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/</loc>
+    <lastmod>2025-01-17T16:06:28+01:00</lastmod>
+  </url><url>
     <loc>https://plazi.org/posts/2024/12/biodiversity-knowledge-in-digital-era/</loc>
     <lastmod>2024-12-06T22:55:32+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2024-12-06T23:01:42+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/</loc>
     <lastmod>2024-12-06T23:01:42+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2024/12/encontro-brasileiro-de-ictiologia/</loc>
@@ -31,9 +37,6 @@
   </url><url>
     <loc>https://plazi.org/posts/2023/12/15-years/</loc>
     <lastmod>2024-01-02T21:33:10+01:00</lastmod>
-  </url><url>
-    <loc>https://plazi.org/tags/news/</loc>
-    <lastmod>2023-12-19T16:53:05+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2023/12/searching-by-ecoregions/</loc>
     <lastmod>2023-12-19T16:53:05+01:00</lastmod>
