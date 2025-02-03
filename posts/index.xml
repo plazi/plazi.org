@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 18:14:20 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 11:39:32 +0100</lastBuildDate>
     <atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EJT and GBIF Unveil New Portal to Enhance Access to Taxonomic Data</title>
+      <link>https://plazi.org/posts/2025/02/ejt-on-gbif/</link>
+      <pubDate>Mon, 03 Feb 2025 11:35:04 +0200</pubDate>
+      <guid>https://plazi.org/posts/2025/02/ejt-on-gbif/</guid>
+      <description>&lt;p&gt;In a significant advancement for scientific research accessibility, the &lt;a href=&#34;https://europeanjournaloftaxonomy.eu/index.php/ejt&#34;&gt;European Journal of Taxonomy (EJT)&lt;/a&gt; has launched a &lt;a href=&#34;https://data.europeanjournaloftaxonomy.eu/&#34;&gt;new portal&lt;/a&gt; hosted by the &lt;a href=&#34;https://www.gbif.org/news/2JHV6IsWcUUrD57I3FgXIQ/_preview&#34;&gt;Global Biodiversity Information Facility&lt;/a&gt;. This pioneering platform allows researchers to delve into taxonomic data directly through the EJT&amp;rsquo;s website, marking a first in the realm of taxonomic journals.&lt;/p&gt;&#xA;&lt;p&gt;The portal facilitates the exploration of detailed taxonomic treatments and the citation of specimens, enhancing the transparency and usability of data cited in the journal&amp;rsquo;s research articles. This development represents a crucial step in transforming data from traditional formats like print and PDF into structures that integrate seamlessly with knowledge graphs, large language models, and other artificial intelligence tools.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Plazi on Twitter</title>
       <link>https://plazi.org/posts/2025/01/plazi-on-twitter/</link>
