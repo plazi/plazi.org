@@ -1,0 +1,104 @@
+#litsearchContainer summary {
+  cursor: pointer;
+  transition: margin 250ms ease-out;
+}
+#litsearchContainer[open] summary {
+  margin-bottom: 10px;
+}
+#litsearch {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
+}
+#litsearch div.inputContainer {
+    margin: 0.5rem;
+}
+#litsearch div.inputContainer p {
+    margin-bottom: 0;
+}
+#litsearch div.inputContainer label {
+    display: block;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+@media screen and (min-width: 600px) { 
+    #litsearch div.inputContainer label {
+        float: left;
+    }
+}
+#litsearch div.inputContainer label:last-of-type {
+    margin-bottom: 1rem;
+}
+#litsearch input[type=text] {
+    width: 100%;
+    border: 1px solid gray;
+}
+#litsearch input[disabled] {
+    border: 1px solid lightgrey;
+}
+#litsearch div.authors {
+    clear: both;
+}
+#litsearch input[name=journal] {
+    width: calc(100% - 118px) !important;
+}
+#litsearch ul.example {
+    list-style: none;
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+}
+#litsearch ul.example li {
+    line-height: 0.8rem;
+    margin-left: -0.5rem;
+}
+#litsearch ul.example li span.key {
+    font-weight: bold;
+}
+#litsearch input[name=volume],
+#litsearch input[name=issue] {
+    width: 55px !important;
+}
+#litsearch button {
+    cursor: pointer;
+}
+#result {
+    margin-top: 2rem;
+}
+#resultsTable th {
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 0.5rem;
+}
+#resultsTable td {
+    font-size: 0.7rem;
+}
+#resultsTable thead tr {
+    background-color: green;
+    color: white;
+}
+#resultsTable thead tr td div {
+    background-color: green;
+    color: white;
+}
+#resultsTable tr {
+    border-bottom: 1px solid black !important;
+}
+#resultsTable td div {
+    border-bottom: 1px solid lightgrey;
+}
+#resultsTable td div:last-of-type {
+    border-bottom: none;
+}
+.searchResultStatus {
+    margin-top: 1rem;
+}
+.hidden {
+    visibility: hidden;
+}
+#litsearch-pager {
+    margin-bottom: 1rem;
+}
+#litsearch-pager a {
+    margin-right: 1rem;
+}

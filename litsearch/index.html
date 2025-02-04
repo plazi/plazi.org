@@ -23,6 +23,9 @@
 
 	<link rel="stylesheet" href="/css/plazi_styles.css">
 	<link rel="stylesheet" href="/css/expanding-search.css">
+
+	<!-- page-specific css -->
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -92,113 +95,6 @@
 		</header><div class="content post__content clearfix">
 				
 
-<style>
-#litsearchContainer summary {
-  cursor: pointer;
-  transition: margin 250ms ease-out;
-}
-#litsearchContainer[open] summary {
-  margin-bottom: 10px;
-}
-#litsearch {
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border: 1px solid grey;
-}
-#litsearch div.inputContainer {
-    margin: 0.5rem;
-}
-#litsearch div.inputContainer p {
-    margin-bottom: 0;
-}
-#litsearch div.inputContainer label {
-    display: block;
-    margin-left: 1rem;
-    cursor: pointer;
-}
-@media screen and (min-width: 600px) { 
-    #litsearch div.inputContainer label {
-        float: left;
-    }
-}
-#litsearch div.inputContainer label:last-of-type {
-    margin-bottom: 1rem;
-}
-#litsearch input[type=text] {
-    width: 100%;
-    border: 1px solid gray;
-}
-#litsearch input[disabled] {
-    border: 1px solid lightgrey;
-}
-#litsearch div.authors {
-    clear: both;
-}
-#litsearch input[name=journal] {
-    width: calc(100% - 118px) !important;
-}
-#litsearch ul.example {
-    list-style: none;
-    padding-top: 0.5rem;
-    font-size: 0.7rem;
-}
-#litsearch ul.example li {
-    line-height: 0.8rem;
-    margin-left: -0.5rem;
-}
-#litsearch ul.example li span.key {
-    font-weight: bold;
-}
-#litsearch input[name=volume],
-#litsearch input[name=issue] {
-    width: 55px !important;
-}
-#litsearch button {
-    cursor: pointer;
-}
-#result {
-    margin-top: 2rem;
-}
-#resultsTable th {
-    font-size: 0.7rem;
-    font-weight: 800;
-    padding: 0.5rem;
-}
-#resultsTable td {
-    font-size: 0.7rem;
-}
-#resultsTable thead tr {
-    background-color: green;
-    color: white;
-}
-#resultsTable thead tr td div {
-    background-color: green;
-    color: white;
-}
-#resultsTable tr {
-    border-bottom: 1px solid black !important;
-}
-#resultsTable td div {
-    border-bottom: 1px solid lightgrey;
-}
-#resultsTable td div:last-of-type {
-    border-bottom: none;
-}
-.searchResultStatus {
-    margin-top: 1rem;
-}
-.hidden {
-    visibility: hidden;
-}
-#litsearch-pager {
-    margin-bottom: 1rem;
-}
-#litsearch-pager a {
-    margin-right: 1rem;
-}
-</style>
-
 <details id="litsearchContainer" open>
     <summary>Search Fields</summary>
     <form id="litsearch">
@@ -265,86 +161,6 @@
     </div>
 </div>
 
-<script type="module">
-    import { getParamsFromUrl, hide, show, getResults } from './js/search.js';
-
-    const litsearchContainer = document.getElementById('litsearchContainer');
-    const loadingGif = document.getElementById('loadingGif');
-    const searchResultStatusTgt = document.getElementById('searchResultStatus');
-    const resultTgt = document.getElementById('result');
-    const resultTableTgt = document.getElementById('resultTable');
-    const pagerLinks = document.getElementById('litsearch-pager');
-    const screen = window.screen.width < 500 ? 'mobile' : 'desktop';
-
-    // Hide the loading gif and the results div right off the bat
-    hide([loadingGif, resultTgt]);
-
-    // Arm the journal field so that the journal meta fields activate 
-    // only when something is entered in the journal field
-    const journalFld = document.querySelector('input[name=journal]');
-    const volumeFld = document.querySelector('input[name=volume]');
-    const issueFld = document.querySelector('input[name=issue]');
-    journalFld.addEventListener('input', function(event) {
-
-        if (journalFld.value) {
-            volumeFld.disabled = false;
-            issueFld.disabled = false;
-        }
-        else {
-            volumeFld.disabled = true;
-            issueFld.disabled = true;
-        }
-
-    })
-
-    const { errorMsg, params } = getParamsFromUrl();
-    
-    if (errorMsg.length) {
-        searchResultStatusTgt.innerHTML = errorMsg.join('; ');
-        show([resultTgt]);
-        hide([resultTableTgt, formLinks]);
-    }
-    else if (Object.keys(params).length) {
-
-        params.resultTgt = resultTgt;
-        params.searchResultStatusTgt = searchResultStatusTgt;
-        params.resultTableTgt = resultTableTgt;
-        params.pagerLinks = pagerLinks;
-        show([loadingGif]);
-        await getResults(params);
-        hide([loadingGif]);
-    }
-    
-    const searchButton = document.querySelector('#litsearch button');
-    searchButton.addEventListener('click', async function(event) {
-        event.stopPropagation();
-        event.preventDefault();
-
-        show([loadingGif]);
-
-        // Conduct search
-        const communitiesFld = document.querySelectorAll('input[name=communities]');
-        const params = {
-            communities: Array.from(communitiesFld).filter(c => c.checked)[0].value,
-            authors: document.querySelector('input[name=authors]').value,
-            year: document.querySelector('input[name=year]').value,
-            title: document.querySelector('input[name=title]').value,
-            journal: journalFld.value,
-            volume: volumeFld.value,
-            issue: issueFld.value,
-            page: document.querySelector('input[name=page]').value,
-            size: document.querySelector('input[name=size]').value,
-            resultTgt,
-            searchResultStatusTgt,
-            resultTableTgt,
-            pagerLinks,
-        }
-        
-        await getResults(params);
-        hide([loadingGif]);
-    });
-</script>
-
 
 		</div>
 		<footer class="post__footer">
@@ -396,6 +212,9 @@
 	
 	<script src="https://cdn.jsdelivr.net/npm/minisearch@6.0.1/dist/umd/index.min.js"></script>
 	<script src="/js/search-mini.js"></script>
+
 	<script async defer src="/js/menu.js"></script>
-	</body>
+
+	<!-- page-specific JS -->
+	<script type="module" src="js/script.js"></script></body>
 </html>
