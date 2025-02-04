@@ -6,13 +6,48 @@
     <description>Recent content in Tags on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2025 16:16:54 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 14:01:10 +0100</lastBuildDate>
     <atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>News</title>
       <link>https://plazi.org/tags/news/</link>
       <pubDate>Mon, 03 Feb 2025 11:35:04 +0200</pubDate>
       <guid>https://plazi.org/tags/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Batlit</title>
+      <link>https://plazi.org/tags/batlit/</link>
+      <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/tags/batlit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BHL Sibils</title>
+      <link>https://plazi.org/tags/bhl-sibils/</link>
+      <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/tags/bhl-sibils/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BLR</title>
+      <link>https://plazi.org/tags/blr/</link>
+      <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/tags/blr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lit Search</title>
+      <link>https://plazi.org/tags/lit-search/</link>
+      <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/tags/lit-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taxodros</title>
+      <link>https://plazi.org/tags/taxodros/</link>
+      <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/tags/taxodros/</guid>
       <description></description>
     </item>
     <item>
@@ -76,13 +111,6 @@
       <link>https://plazi.org/tags/data-quality/</link>
       <pubDate>Sat, 23 Oct 2021 14:29:20 +0200</pubDate>
       <guid>https://plazi.org/tags/data-quality/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>BLR</title>
-      <link>https://plazi.org/tags/blr/</link>
-      <pubDate>Mon, 23 Aug 2021 19:17:05 +0200</pubDate>
-      <guid>https://plazi.org/tags/blr/</guid>
       <description></description>
     </item>
     <item>

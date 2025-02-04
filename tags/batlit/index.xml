@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Batlit on Plazi</title>
+    <link>https://plazi.org/tags/batlit/</link>
+    <description>Recent content in Batlit on Plazi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2025 14:01:10 +0100</lastBuildDate>
+    <atom:link href="https://plazi.org/tags/batlit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literature Search Tool</title>
+      <link>https://plazi.org/litsearch/</link>
+      <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/litsearch/</guid>
+      <description>&lt;style&gt;&#xA;#litsearchContainer summary {&#xA;  cursor: pointer;&#xA;  transition: margin 250ms ease-out;&#xA;}&#xA;#litsearchContainer[open] summary {&#xA;  margin-bottom: 10px;&#xA;}&#xA;#litsearch {&#xA;    width: 100%;&#xA;    margin-bottom: 1rem;&#xA;    padding: 1rem;&#xA;    border: 1px solid grey;&#xA;}&#xA;#litsearch div.inputContainer {&#xA;    margin: 0.5rem;&#xA;}&#xA;#litsearch div.inputContainer p {&#xA;    margin-bottom: 0;&#xA;}&#xA;#litsearch div.inputContainer label {&#xA;    display: block;&#xA;    margin-left: 1rem;&#xA;    cursor: pointer;&#xA;}&#xA;@media screen and (min-width: 600px) { &#xA;    #litsearch div.inputContainer label {&#xA;        float: left;&#xA;    }&#xA;}&#xA;#litsearch div.inputContainer label:last-of-type {&#xA;    margin-bottom: 1rem;&#xA;}&#xA;#litsearch input[type=text] {&#xA;    width: 100%;&#xA;    border: 1px solid gray;&#xA;}&#xA;#litsearch input[disabled] {&#xA;    border: 1px solid lightgrey;&#xA;}&#xA;#litsearch div.authors {&#xA;    clear: both;&#xA;}&#xA;#litsearch input[name=journal] {&#xA;    width: calc(100% - 118px) !important;&#xA;}&#xA;#litsearch ul.example {&#xA;    list-style: none;&#xA;    padding-top: 0.5rem;&#xA;    font-size: 0.7rem;&#xA;}&#xA;#litsearch ul.example li {&#xA;    line-height: 0.8rem;&#xA;    margin-left: -0.5rem;&#xA;}&#xA;#litsearch ul.example li span.key {&#xA;    font-weight: bold;&#xA;}&#xA;#litsearch input[name=volume],&#xA;#litsearch input[name=issue] {&#xA;    width: 55px !important;&#xA;}&#xA;#litsearch button {&#xA;    cursor: pointer;&#xA;}&#xA;#result {&#xA;    margin-top: 2rem;&#xA;}&#xA;#resultsTable th {&#xA;    font-size: 0.7rem;&#xA;    font-weight: 800;&#xA;    padding: 0.5rem;&#xA;}&#xA;#resultsTable td {&#xA;    font-size: 0.7rem;&#xA;}&#xA;#resultsTable thead tr {&#xA;    background-color: green;&#xA;    color: white;&#xA;}&#xA;#resultsTable thead tr td div {&#xA;    background-color: green;&#xA;    color: white;&#xA;}&#xA;#resultsTable tr {&#xA;    border-bottom: 1px solid black !important;&#xA;}&#xA;#resultsTable td div {&#xA;    border-bottom: 1px solid lightgrey;&#xA;}&#xA;#resultsTable td div:last-of-type {&#xA;    border-bottom: none;&#xA;}&#xA;.searchResultStatus {&#xA;    margin-top: 1rem;&#xA;}&#xA;.hidden {&#xA;    visibility: hidden;&#xA;}&#xA;#litsearch-pager {&#xA;    margin-bottom: 1rem;&#xA;}&#xA;#litsearch-pager a {&#xA;    margin-right: 1rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;details id=&#34;litsearchContainer&#34; open&gt;&#xA;    &lt;summary&gt;Search Fields&lt;/summary&gt;&#xA;    &lt;form id=&#34;litsearch&#34;&gt;&#xA;        &lt;input type=&#34;hidden&#34; name=&#34;page&#34; value=1&gt;&#xA;        &lt;input type=&#34;hidden&#34; name=&#34;size&#34; value=30&gt;&#xA;&#xA;        &lt;div class=&#34;inputContainer&#34;&gt;&#xA;            &lt;p&gt;Community:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
