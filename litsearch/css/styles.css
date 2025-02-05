@@ -1,6 +1,14 @@
+#litsearchContainer {
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+    border: 1px solid #f7f7f7;
+    border-radius: 3px;
+}
 #litsearchContainer summary {
   cursor: pointer;
   transition: margin 250ms ease-out;
+    background-color: var(--plazi-green);
+    padding: 0.5rem;
 }
 #litsearchContainer[open] summary {
   margin-bottom: 10px;
@@ -33,6 +41,7 @@
 #litsearch input[type=text] {
     width: 100%;
     border: 1px solid gray;
+    background-color: ivory;
 }
 #litsearch input[disabled] {
     border: 1px solid lightgrey;

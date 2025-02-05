@@ -315,32 +315,35 @@ function json2csv(hits) {
     const data = hits.map(hit => {
         const authors = hit.metadata.creators.map(a => a.name).join(', ');
 
-        //let journal = '';
+        let journal = '';
+        let volume = '';
+        let issue = '';
+        let pages = '';
 
-        // if (hit.metadata.journal) {
-        //     journal = hit.metadata.journal.title;
+        if (hit.metadata.journal) {
+            journal = hit.metadata.journal.title;
 
-        //     if (hit.metadata.journal.volume) {
-        //         journal += `, vol. ${hit.metadata.journal.volume}`;
-        //     }
+            if (hit.metadata.journal.volume) {
+                volume = hit.metadata.journal.volume;
+            }
     
-        //     if (hit.metadata.journal.issue) {
-        //         journal += `, issue ${hit.metadata.journal.issue}`;
-        //     }
+            if (hit.metadata.journal.issue) {
+                issue = hit.metadata.journal.issue;
+            }
     
-        //     if (hit.metadata.journal.pages) {
-        //         journal += `, pp. ${hit.metadata.journal.pages}`;
-        //     }
-        // }
+            if (hit.metadata.journal.pages) {
+                pages = hit.metadata.journal.pages;
+            }
+        }
 
         return [
             authors,
             hit.metadata.publication_date,
             hit.metadata.title,
-            hit.metadata.journal.title,
-            hit.metadata.journal.volume,
-            hit.metadata.journal.issue,
-            hit.metadata.journal.pages
+            journal,
+            volume,
+            issue,
+            pages,
             `https://zenodo.org/records/${hit.id}`,
             hit.doi
         ].map(el => {
