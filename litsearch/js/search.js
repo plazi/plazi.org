@@ -109,18 +109,18 @@ function makeUrl({
         }
     }
     
-    let q;
+    let q = [];
 
     if (metadata.length) {
-        q = `+metadata.${metadata.join(' +metadata.')}`;
+        q.push(`+metadata.${metadata.join(' +metadata.')}`);
     }
     
     if (searchStr.length) {
-        q = `+${searchStr.join('&')}`;
+        q.push(`+${searchStr.join('&')}`);
     }
 
-    if (q) {
-        qs += `&q=${encodeURIComponent(q)}`;
+    if (q.length) {
+        qs += `&q=${encodeURIComponent(q.join('&'))}`;
     }
 
     return { 
@@ -142,28 +142,47 @@ async function getJson(url) {
         })
 }
 
-function armDownloadButton({ button, page, size, hits }) {
+function armDownloadButton({ button, page, size, total, hits, to, from }) {
     let downloadName = '';
+    let downloadValue = '';
 
     if (size === 'all') {
-        downloadName = `rows-${size}.csv`;
+        downloadName = `rows-${total}.csv`;
+        downloadValue = `download all ${niceNum(total)}`;
+    }
+    else if (total === 1) {
+        downloadName = `row.csv`;
+        downloadValue = `download this`;
+    }
+    else if (total <= size) {
+        downloadName = `rows-${from}-${to}.csv`;
+        downloadValue = `download these ${niceNum(total)}`;
     }
     else {
-        const from = ((page - 1) * size) + 1;
-        const to = from + size - 1;
         downloadName = `rows-${from}-${to}.csv`;
+        downloadValue = `download rows ${from}-${to}`;
     }
 
     const csv = json2csv(hits);
+    const createDownloadLink = function(event) {
+        const hiddenDownloadLink = document.createElement('a');
+        hiddenDownloadLink.id = 'tmp';
+        hiddenDownloadLink.target = '_blank';
+        hiddenDownloadLink.href = `data:application/csv;charset=utf-8,${csv}`;
+        hiddenDownloadLink.download = downloadName;
+        hiddenDownloadLink.click();
+        button.removeEventListener('click', createDownloadLink);
+    }
+    
+    const tmp = document.getElementById('tmp');
+    if (tmp) {
+        tmp.remove();
+    }
 
     // https://stackoverflow.com/a/24898081
-    button.addEventListener('click', function(event) {
-        const hiddenElement = document.createElement('a');
-        hiddenElement.href = `data:application/csv;charset=utf-8,${csv}`;
-        hiddenElement.target = '_blank';
-        hiddenElement.download = downloadName;
-        hiddenElement.click();
-    });
+    button.addEventListener('click', createDownloadLink);
+
+    button.textContent = downloadValue;
 }
 
 function niceNum(num) {
@@ -175,17 +194,25 @@ function niceNum(num) {
     return lookup[num]
 }
 
-function makeSearchResultStatus({ 
-    searchResultStatusTgt,
-    total, 
-    page, 
-    size 
-}) {
+function toAndFrom(page, size, total) {
     let from = ((page - 1) * parseInt(size)) + 1;
     if (from > total) from = 1;
 
     let to = from + parseInt(size) - 1;
     if (to > total) to = total;
+
+    return { to, from }
+}
+
+function makeSearchResultStatus({ 
+    searchResultStatusTgt,
+    total, 
+    page, 
+    size,
+    to,
+    from
+}) {
+    //const { to, from } = toAndFrom(page, size, total);
 
     let disp;
 
@@ -285,41 +312,52 @@ function makeTable({ resultTableTgt, hits, total, screen = 'mobile' }) {
 }
 
 function json2csv(hits) {
-    const data = [
-        ['Authors','Year','Title','Journal','Zenodo URL','DOI']
-    ]
+    const data = hits.map(hit => {
+        const authors = hit.metadata.creators.map(a => a.name).join(', ');
 
-    hits.forEach(hit => {
-        const authors = hit.metadata.creators;
+        //let journal = '';
 
-        let journal = '';
+        // if (hit.metadata.journal) {
+        //     journal = hit.metadata.journal.title;
 
-        if (hit.metadata.journal) {
-            journal = hit.metadata.journal.title;
-
-            if (hit.metadata.journal.volume) {
-                journal += `, vol. ${hit.metadata.journal.volume}`;
-            }
+        //     if (hit.metadata.journal.volume) {
+        //         journal += `, vol. ${hit.metadata.journal.volume}`;
+        //     }
     
-            if (hit.metadata.journal.issue) {
-                journal += `, issue ${hit.metadata.journal.issue}`;
-            }
+        //     if (hit.metadata.journal.issue) {
+        //         journal += `, issue ${hit.metadata.journal.issue}`;
+        //     }
     
-            if (hit.metadata.journal.pages) {
-                journal += `, pp. ${hit.metadata.journal.pages}`;
-            }
-        }
+        //     if (hit.metadata.journal.pages) {
+        //         journal += `, pp. ${hit.metadata.journal.pages}`;
+        //     }
+        // }
 
-        data.push([
-            `"${authors.map(a => a.name).join('; ')}"`,
-            `"${hit.metadata.publication_date}"`,
-            `"${hit.metadata.title}"`,
-            `"${journal}"`,
+        return [
+            authors,
+            hit.metadata.publication_date,
+            hit.metadata.title,
+            hit.metadata.journal.title,
+            hit.metadata.journal.volume,
+            hit.metadata.journal.issue,
+            hit.metadata.journal.pages
             `https://zenodo.org/records/${hit.id}`,
             hit.doi
-        ]);
-    });
+        ].map(el => {
+            if (el === null) {
+                return ''
+            }
+            else if (el.indexOf(',') > -1) {
+                return `"${el}"`
+            }
+            else {
+                return el
+            }
+        })
+    })
 
+    const headers = ['Authors','Year','Title','Journal','Vol.','Issue','Pages','Zenodo URL','DOI'];
+    data.unshift(headers);
     return encodeURI(data.map(row => row.join(',')).join('\n'));
 }
 
@@ -443,15 +481,17 @@ async function getResults(params) {
         authors, 
         year, 
         title, 
-        journals, 
+        journal, 
         volume, 
         issue, 
         page, 
         size,
+        litsearchContainer,
         resultTgt,
         searchResultStatusTgt,
         resultTableTgt,
-        pagerLinks,
+        formLinks,
+        screen
     } = params;
 
     const { urlBase, qs, qsPaged } = makeUrl({ 
@@ -459,7 +499,7 @@ async function getResults(params) {
         authors, 
         year, 
         title, 
-        journals, 
+        journal, 
         volume, 
         issue, 
         page, 
@@ -470,24 +510,29 @@ async function getResults(params) {
     const urlAll = `${urlBase}?${qs}&size=${total}`;
 
     // Show results
-    makeSearchResultStatus({ searchResultStatusTgt, total, page, size });
+    const { to, from } = toAndFrom(page, size, total);
+    makeSearchResultStatus({ searchResultStatusTgt, total, page, size, to, from });
     makeTable({ 
         resultTableTgt, 
         hits, 
         total, 
         screen
     });
-    updatePagerLinks(page, urlBase, qs, size, pagerLinks);
+    updatePagerLinks(page, urlBase, qs, size, formLinks);
     armDownloadButton({
-        button: document.getElementById("download-page"),
+        button: formLinks.querySelector("#download-page"),
         page,
         size,
-        hits
+        total,
+        hits,
+        to,
+        from
     });
+    history.pushState({}, '', `?${qs}`);
     show([resultTgt]);
     show([resultTableTgt, formLinks]);
 
-    const linksPager = document.querySelectorAll(".litsearch-pager");
+    const linksPager = formLinks.querySelectorAll(".litsearch-pager");
     linksPager.forEach(link => link.addEventListener('click', async function(event) {
         event.stopPropagation();
         event.preventDefault();
@@ -495,22 +540,27 @@ async function getResults(params) {
         // Conduct search
         const page = event.target.dataset.page;
         const urlPaged = event.target.href;
+        const qs = new URL(urlPaged).search.slice(1);
         const { hits, total } = await getJson(urlPaged);
 
         // Show results
-        makeSearchResultStatus({ searchResultStatusTgt, total, page, size });
+        const { to, from } = toAndFrom(page, size, total);
+        makeSearchResultStatus({ searchResultStatusTgt, total, page, size, to, from });
         makeTable({ resultTableTgt, hits, total, screen });
-        updatePagerLinks(page, urlBase, qs, size, pagerLinks);
+        updatePagerLinks(page, urlBase, qs, size, formLinks);
         armDownloadButton({
-            button: document.getElementById("download-page"),
+            button: formLinks.querySelector("#download-page"),
             page,
             size,
-            hits
+            total,
+            hits,
+            to,
+            from
         });
+        history.pushState({}, '', `?${qs}`);
     }));
     
     litsearchContainer.open = false;
-    history.pushState({}, '', `?${qs}`);
 }
 
 export { getParamsFromUrl, hide, show, getResults }

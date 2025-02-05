@@ -95,6 +95,7 @@
 		</header><div class="content post__content clearfix">
 				
 
+<a href="/litsearch">home</a>
 <details id="litsearchContainer" open>
     <summary>Search Fields</summary>
     <form id="litsearch">
@@ -140,10 +141,15 @@
             <input type="text" name="journal" placeholder="Journal Name"> 
             <input type="text" name="volume" placeholder="Volume" disabled> 
             <input type="text" name="issue" placeholder="Issue" disabled>
+            <ul class='example'>
+                <li><span class="key">word in journal name:</span> ecological</li>
+                <li><span class="key">exact journal name (in quotes):</span> "Ecological Entomology"</li>
+            </ul>
         </div>
 
         <div class="inputContainer">
-            <button>Search</button> 
+            <button type="reset">Reset</button>
+            <button type="submit" id="search">Search</button> 
             <img id="loadingGif" src="img/loading.gif" alt="searching…" width="24" height="24">
         </div>
     </form>

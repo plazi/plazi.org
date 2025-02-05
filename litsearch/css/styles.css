@@ -62,6 +62,9 @@
 #litsearch button {
     cursor: pointer;
 }
+#litsearch button[type=reset] {
+    margin-right: 1rem;
+}
 #result {
     margin-top: 2rem;
 }

@@ -5,7 +5,7 @@ const loadingGif = document.getElementById('loadingGif');
 const searchResultStatusTgt = document.getElementById('searchResultStatus');
 const resultTgt = document.getElementById('result');
 const resultTableTgt = document.getElementById('resultTable');
-const pagerLinks = document.getElementById('litsearch-pager');
+const formLinks = document.getElementById('formLinks');
 const screen = window.screen.width < 500 ? 'mobile' : 'desktop';
 
 // Hide the loading gif and the results div right off the bat
@@ -37,17 +37,18 @@ if (errorMsg.length) {
     hide([resultTableTgt, formLinks]);
 }
 else if (Object.keys(params).length) {
-
+    params.litsearchContainer = litsearchContainer;
     params.resultTgt = resultTgt;
     params.searchResultStatusTgt = searchResultStatusTgt;
     params.resultTableTgt = resultTableTgt;
-    params.pagerLinks = pagerLinks;
+    params.formLinks = formLinks;
+    params.screen = screen;
     show([loadingGif]);
     await getResults(params);
     hide([loadingGif]);
 }
 
-const searchButton = document.querySelector('#litsearch button');
+const searchButton = document.querySelector('#search');
 searchButton.addEventListener('click', async function(event) {
     event.stopPropagation();
     event.preventDefault();
@@ -66,10 +67,12 @@ searchButton.addEventListener('click', async function(event) {
         issue: issueFld.value,
         page: document.querySelector('input[name=page]').value,
         size: document.querySelector('input[name=size]').value,
+        litsearchContainer,
         resultTgt,
         searchResultStatusTgt,
         resultTableTgt,
-        pagerLinks,
+        formLinks,
+        screen
     }
     
     await getResults(params);
