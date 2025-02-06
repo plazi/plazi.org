@@ -375,7 +375,7 @@ function getParamsFromUrl() {
     
     // Valid params and their default values
     const validParams = {
-        communities: ['batlit', 'Taxodros', 'BHL-SIBiLS'],
+        communities: ['biosyslit', 'batlit', 'Taxodros', 'BHL-SIBiLS'],
         authors: '', 
         year: '', 
         title: '', 
