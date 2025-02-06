@@ -27,7 +27,9 @@ journalFld.addEventListener('input', function(event) {
         issueFld.disabled = true;
     }
 
-})
+});
+
+const includeDeprecatedCheckbox = document.querySelector('input[name=include-deprecated]');
 
 const { errorMsg, params } = getParamsFromUrl();
 
@@ -57,6 +59,9 @@ searchButton.addEventListener('click', async function(event) {
 
     // Conduct search
     const communitiesFld = document.querySelectorAll('input[name=communities]');
+    const includeDeprecated = includeDeprecatedCheckbox.checked 
+    ? true 
+    : false;
     const params = {
         communities: Array.from(communitiesFld).filter(c => c.checked)[0].value,
         authors: document.querySelector('input[name=authors]').value,
@@ -65,6 +70,7 @@ searchButton.addEventListener('click', async function(event) {
         journal: journalFld.value,
         volume: volumeFld.value,
         issue: issueFld.value,
+        includeDeprecated,
         page: document.querySelector('input[name=page]').value,
         size: document.querySelector('input[name=size]').value,
         litsearchContainer,

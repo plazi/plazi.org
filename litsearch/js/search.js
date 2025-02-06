@@ -6,6 +6,7 @@ function makeUrl({
     journal,
     volume,
     issue,
+    includeDeprecated,
     page = 1,
     size = 30
 }) {
@@ -60,6 +61,10 @@ function makeUrl({
 
         metadata.push(`creators.person_or_org.name:${creators}`);
 
+    }
+
+    if (!includeDeprecated) {
+        metadata.push(`creators.person_or_org.name:(-DEPRECATED)`);
     }
     
     if (year) {
@@ -487,6 +492,7 @@ async function getResults(params) {
         journal, 
         volume, 
         issue, 
+        includeDeprecated,
         page, 
         size,
         litsearchContainer,
@@ -505,6 +511,7 @@ async function getResults(params) {
         journal, 
         volume, 
         issue, 
+        includeDeprecated,
         page, 
         size 
     });

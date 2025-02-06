@@ -105,7 +105,10 @@
         <div class="inputContainer">
             <p>Community:</p>
             <label>
-                <input type="radio" value="batlit" name="communities" checked> Batlit
+                <input type="radio" value="biosyslit" name="communities" checked> BioSysLit
+            </label> 
+            <label>
+                <input type="radio" value="batlit" name="communities"> Batlit
             </label> 
             <label>
                 <input type="radio" value="Taxodros" name="communities"> Taxodros
@@ -121,7 +124,7 @@
                 <li><span class="key">single author:</span> Montani</li>
                 <li><span class="key">multiple authors (names separated by a space):</span> Montani Saigo</li>
                 <li><span class="key">exclude author:</span> -Montani</li>
-                <li><span class="key">exclude deprecated:</span> -DEPRECATED</li>
+                <!-- <li><span class="key">exclude deprecated:</span> -DEPRECATED</li> -->
             </ul>
         </div>
 
@@ -145,6 +148,10 @@
                 <li><span class="key">word in journal name:</span> ecological</li>
                 <li><span class="key">exact journal name (in quotes):</span> "Ecological Entomology"</li>
             </ul>
+        </div>
+
+        <div class="inputContainer">
+            <input type="checkbox" name="include-deprecated"> Include <i>DEPRECATED</i> records
         </div>
 
         <div class="inputContainer">
