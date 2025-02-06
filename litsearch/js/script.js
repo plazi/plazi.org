@@ -33,8 +33,8 @@ const includeDeprecatedCheckbox = document.querySelector('input[name=include-dep
 
 const { errorMsg, params } = getParamsFromUrl();
 
-if (errorMsg.length) {
-    searchResultStatusTgt.innerHTML = errorMsg.join('; ');
+if (errorMsg) {
+    searchResultStatusTgt.innerHTML = errorMsg;
     show([resultTgt]);
     hide([resultTableTgt, formLinks]);
 }
