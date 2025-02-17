@@ -1,138 +1,362 @@
-function makeUrl({
-    communities,
-    authors,
-    year,
-    title,
-    journal,
-    volume,
-    issue,
-    includeDeprecated,
-    page = 1,
-    size = 30
-}) {
-    if (!communities) {
-        communities = 'batlit';
+/// search.js
+
+const formSchema = {
+    "communities": {
+        "type": "string",
+        "enum": [
+            "biosyslit", "batlit", "Taxodros", "SiBILS"
+        ],
+        "default": "biosyslit"
+    },
+    "authors": {
+        "type": "string"
+    }, 
+    "year": {
+        "type": "string"
+    }, 
+    "title": {
+        "type": "string"
+    }, 
+    "journal": {
+        "type": "string"
+    },
+    "volume": {
+        "type": "string"
+    }, 
+    "issue": {
+        "type": "string"
+    }, 
+    "includeDeprecated": {
+        "type": "boolean",
+        "default": false
+    },
+    "page": {
+        "type": "number",
+        "default": 1
+    }, 
+    "size": {
+        "type": "number",
+        "default": 30
     }
+}
 
-    let urlBase = 'https://zenodo.org/api/records';
-    let qs = `communities=${communities}`;
-    const searchStr = [];
-    const metadata = [];
-    
-    if (authors) {
-        authors = authors.split(/\s+/);
-        let creators = '';
+const urlSchema = {
+    "communities": {
+        "type": "string",
+        "enum": [
+            "biosyslit", "batlit", "Taxodros", "SiBILS"
+        ],
+        "zenodoParam": {
+            "type": "searchStr"
+        },
+        "isRequired": true
+    },
+    "authors": {
+        "type": "string",
+        "zenodoParam": {
+            "type": "q",
+            "key": "metadata.creators.person_or_org.name"
+        }
+    }, 
+    "year": {
+        "type": "range",
+        "zenodoParam": {
+            "type": "q",
+            "key": "metadata.publication_date"
+        }
+    }, 
+    "title": {
+        "type": "string",
+        "zenodoParam": {
+            "type": "q",
+            "key": "metadata.title"
+        }
+    }, 
+    "journal": {
+        "type": "string",
+        "zenodoParam": {
+            "type": "q",
+            "key": "journal.title"
+        }
+    },
+    "volume": {
+        "type": "string",
+        "zenodoParam": {
+            "type": "q",
+            "key": "journal.volume"
+        }
+    }, 
+    "issue": {
+        "type": "string",
+        "zenodoParam": {
+            "type": "q",
+            "key": "journal.issue"
+        }
+    }, 
+    "includeDeprecated": {
+        "type": "boolean",
+        "default": false,
+        "zenodoParam": {
+            "type": "q",
+            "key": "metadata.creators.person_or_org.name",
+            "val": "-DEPRECATED"
+        }
+    },
+    "page": {
+        "type": "number",
+        "default": 1,
+        "zenodoParam": {
+            "type": "searchStr"
+        }
+    }, 
+    "size": {
+        "type": "number",
+        "default": 30,
+        "zenodoParam": {
+            "type": "searchStr"
+        }
+    }
+}
 
-        if (authors.length > 1) {
+function validateFormData(data, schema) {
+    const errorMsg = [];
+    const params = {};
 
-            // Author name starts with Agosti
-            //
-            //      creators.person_or_org.name:/Agosti.*/ 
-            //
-            // or, since Elasticsearch already tokenizes the name into 
-            // individual components, no need for regular expressions
-            //
-            //      creators.person_or_org.name:Agosti
-            //
-            //  exact phrase
-            //
-            //      creators.person_or_org.name:"Agosti, Donat"
-            //
-            // Agosti AND Donat
-            //
-            //      creators.person_or_org.name:(Agosti AND Donat)
-            if (authors.query_mod === 'all') {
-                creators = `(${authors.names.join(' AND ')})`;
+    for (const [sKey, sVal] of Object.entries(schema)) {
+
+        if (sKey in data) {
+            const dVal = data[sKey];
+
+            if (dVal) {
+                const dValType = typeof(dVal);
+                const sValType = sVal.type;
+
+                if (sValType === 'string') {
+
+                    if (dValType === 'string') {
+
+                        if (sVal.enum) {
+                            
+                            if (sVal.enum.includes(dVal)) {
+                                params[sKey] = dVal;
+                            }
+                            else {
+                                const validVals = sVal.enum.join(', ');
+                                errorMsg.push(`"${sKey}" should be one of: ${validVals}`);
+                            }
+
+                        }
+                        else {
+                            params[sKey] = dVal;
+                        }
+                        
+                    }
+                    else {
+                        params[sKey] = String(dVal);
+                    }
+                    
+                }
+                else if (sValType === 'boolean') {
+
+                    if (dVal === "true") {
+                        params[sKey] = true;
+                    }
+                    else if (dVal === "false") {
+                        params[sKey] = false;
+                    }
+                    else {
+                        errorMsg.push(`"${sKey}" should be true or false`);
+                    }
+                    
+                }
+                else if (sValType === 'number') {
+                    const num = Number(dVal);
+
+                    if (!Number.isNaN(num)) {
+                        params[sKey] = num;
+                    }
+                    else {
+                        errorMsg.push(`"${sKey}" should be a number`);
+                    }
+                    
+                }
+
             }
 
-            // Agosti OR Donat
-            //
-            //      creators.name:(Agosti Donat)
-            else if (authors.query_mod === 'any') {
-                creators = `(${authors.names.join(' OR ')})`;
+        }
+        else {
+
+            if (sVal.required) {
+                errorMsg.push(`"${sKey}" is required`);
             }
             else {
-                creators = `(${authors.join(' ')})`;
+                if (sVal.default) {
+                    params[sKey] = sVal.default;
+                }
             }
-        }
-        else {
-            creators = `(${authors[0]})`;
-        }
 
-        metadata.push(`creators.person_or_org.name:${creators}`);
+        }
 
     }
 
-    if (!includeDeprecated) {
-        metadata.push(`creators.person_or_org.name:(-DEPRECATED)`);
+    return {
+        errorMsg: errorMsg.length ? errorMsg.join('; ') : false,
+        params
+    }
+}
+
+// Author name starts with Agosti
+//
+//      creators.person_or_org.name:/Agosti.*/ 
+//
+// or, since Elasticsearch already tokenizes the name into 
+// individual components, no need for regular expressions
+//
+//      creators.person_or_org.name:Agosti
+//
+//  exact phrase
+//
+//      creators.person_or_org.name:"Agosti, Donat"
+//
+// Agosti AND Donat
+//
+//      creators.person_or_org.name:(Agosti AND Donat)
+
+// Publication date is a full date, so you need a range query.
+// all uploads with published from year1 to year2, entire years
+// included (note the square brackets on either side)
+//
+//      publication_date:[1990 TO 1991]
+//
+// all uploads with published from year1-01-01 to year2-01-01, 
+// first date included, last date excluded (note the curly bracket)
+//
+//      publication_date:[1990 TO 1991}
+function data2Url(data, schema) {
+    const litsearch = {
+        tmp: '',
+        srchParams: new URLSearchParams
+    }
+
+    const zenodo = {
+        tmp: '',
+        metadata: [],
+        searchStr: [],
+        srchParams: []
+    }
+
+    const pager = {
+        page: 0,
+        size: 0
+    }
+
+    function makeParams(zenodoParam, dKey, zenodo) {
+        const key = zenodoParam.key ?? dKey;
+        const val = zenodoParam.val ?? zenodo.tmp;
+        const sep = zenodoParam.type === 'q' ? ':' : '=';
+        const paramType = zenodoParam.type === 'q' ? 'metadata' : 'searchStr';
+        zenodo[paramType].push(`${key}${sep}${val}`);
+    }
+
+    for (const [sKey, sVal] of Object.entries(schema)) {
+        const dVal = data[sKey];
+        const zenodoParam = sVal.zenodoParam;
+
+        if (dVal) {
+            const dKey = sKey;
+            const sValType = sVal.type;
+
+            if (sValType === 'string') {
+                
+                // split on space *not* contained within double quotes
+                // https://stackoverflow.com/a/16261693
+                // 
+                // regex explained
+                //
+                // (?:         # non-capturing group
+                //   [^\s"]+   # anything that's not a space or a double-quote
+                //   |         #   or…
+                //   "         # opening double-quote
+                //     [^"]*   # …followed by 0 or more chars not a double-quote
+                //   "         # …closing double-quote
+                // )+          # one or more of the above described group
+                const arr = dVal.match(/(?:[^\s"]+|"[^"]*")+/g);
+                
+                if (arr.length > 1) {
+                    zenodo.tmp = `(${arr.join(' AND ')})`;
+                    litsearch.tmp = arr.join(' AND ');
+                }
+                else {
+                    zenodo.tmp = arr[0];
+                    litsearch.tmp = arr[0];
+                }
+
+                litsearch.srchParams.set(sKey, litsearch.tmp);
+                makeParams(zenodoParam, dKey, zenodo);
+                
+            }
+            else if (sValType === 'range') {
+                let from;
+                let to;
+
+                if (dVal.indexOf('-') > -1) {
+                    [ from, to ] = dVal.split(/\s*-\s*/);
+                    litsearch.tmp = `${from} TO ${to}`;
+                }
+                else {
+                    from = dVal;
+                    to = +from + 1;
+                    litsearch.tmp = from;
+                }
+
+                litsearch.srchParams.set(sKey, litsearch.tmp);
+                zenodo.tmp = `[${from}-01-01 TO ${to}-01-01}`;
+                makeParams(zenodoParam, dKey, zenodo);
+ 
+            }
+            else if (sValType === 'number') {
+
+                if (dKey === 'page') {
+                    pager.page = Number(dVal);
+                }
+                else if (dKey === 'size') {
+                    pager.size = Number(dVal);
+                }
+  
+            }
+            else if (sValType === 'boolean') {
+  
+                if (dVal) {
+                    litsearch.srchParams.set(sKey, dVal);
+                    makeParams(zenodoParam, dKey, zenodo);
+                }
+
+            }
+
+        }
+    }
+
+    if (zenodo.metadata.length) {
+        const params = `+${zenodo.metadata.join(' +')}`;
+        const encodedParams = encodeURIComponent(params);
+        zenodo.srchParams.push(`q=${encodedParams}`);
     }
     
-    if (year) {
-        let publication_date = '';
-
-        //Publication date is a full date, so you need a range query.
-        let from;
-        let to;
-
-        if (year.indexOf('-') > -1) {
-
-            // all uploads with published from year1 to year2, entire years
-            // included (note the square brackets on either side)
-            //
-            //      publication_date:[1990 TO 1991]
-            [from, to] = year.split(/\s*-\s*/);
-            to = `${to}-12-31`;
-            publication_date = `[${from} TO ${to}]`;
-        } 
-        else {
-
-            // all uploads with published from year1-01-01 to year2-01-01, 
-            // first date included, last date excluded (note the curly bracket)
-            //
-            //      publication_date:[1990 TO 1991}
-            from = year;
-            to = +year + 1;
-            publication_date = `[${from} TO ${to}}`;
-        }
-
-        metadata.push(`publication_date:${publication_date}`);
-    }
-    
-    if (title) {
-        metadata.push(`title:(${title})`);
+    if (zenodo.searchStr.length) {
+        zenodo.srchParams.push(`${zenodo.searchStr.join('&')}`);
     }
 
-    if (journal) {
-        searchStr.push(`journal.title:(${journal})`);
-
-        if (volume) {
-            searchStr.push(`journal.volume:(${volume})`);
-        }
-
-        if (issue) {
-            searchStr.push(`journal.issue:(${issue})`);
-        }
+    return {
+        litsearch: {
+            base: '',
+            qs: litsearch.srchParams.toString()
+        },
+        zenodo: {
+            base: 'https://zenodo.org/api/records',
+            qs: zenodo.srchParams.join('&')
+        },
+        pager
     }
-    
-    let q = [];
-
-    if (metadata.length) {
-        q.push(`+metadata.${metadata.join(' +metadata.')}`);
-    }
-    
-    if (searchStr.length) {
-        q.push(`+${searchStr.join('&')}`);
-    }
-
-    if (q.length) {
-        qs += `&q=${encodeURIComponent(q.join('&'))}`;
-    }
-
-    return { 
-        urlBase, 
-        qs,
-        qsPaged: `${qs}&page=${page}&size=${size}` 
-    };
 }
 
 async function getJson(url) {
@@ -186,7 +410,6 @@ function armDownloadButton({ button, page, size, total, hits, to, from }) {
 
     // https://stackoverflow.com/a/24898081
     button.addEventListener('click', createDownloadLink);
-
     button.textContent = downloadValue;
 }
 
@@ -369,66 +592,56 @@ function json2csv(hits) {
     return encodeURI(data.map(row => row.join(',')).join('\n'));
 }
 
-function getParamsFromUrl() {
-    const loc = window.location;
-    const qs = new URLSearchParams(loc.search);
-    
-    // Valid params and their default values
-    const validParams = {
-        communities: ['biosyslit', 'batlit', 'Taxodros', 'BHL-SIBiLS'],
-        authors: '', 
-        year: '', 
-        title: '', 
-        journals: '', 
-        volume: '', 
-        issue: '', 
-        page: 1, 
-        size: 30
-    }
-
-    let errorMsg = [];
+function getParamsFromUrl(searchParams, schema) {    
+    const errorMsg = [];
     const params = {};
 
-    if (qs) {
-        for (const [key, value] of qs) {
-            if (key in validParams) {
-                if (Array.isArray(validParams[key])) {
-                    if (validParams[key].includes(value)) {
-                        params[key] = value;
-                    }
-                }
-                else if (typeof(validParams[key]) === 'number') {
-                    if (value) {
-                        if (!isNaN(value)) {
-                            params[key] = value;
-                        }
-                        else {
-                            errorMsg.push(`"${key}" should be a number`);
-                        }
-                    }
-                    else {
-                        params[key] = validParams[key];
-                    }
+    for (const [key, val] of Object.entries(schema)) {
+        
+        if (searchParams.has(key)) {
+            let spVal = searchParams.get(key);
+
+            if (val.enum) {
+
+                if (val.enum.includes(spVal)) {
+                    params[key] = spVal;
                 }
                 else {
-                    params[key] = value;
+                    errorMsg.push(`"${key}" should be one of "${val.enum.join('", "')}")`);
                 }
+                
             }
-        }
-    }
+            else if (val.type === 'number') {
+                spVal = Number(spVal);
 
-    if (Object.keys(params).length) {
-        if (!('communities' in params)) {
-            errorMsg.push('a valid "community" is required');
+                if (typeof(spVal) === 'number' && !isNaN(spVal)) {
+                    params[key] = spVal;
+                }
+                else {
+                    errorMsg.push(`"${key}" should be a number`);
+                }
+
+            }
+            else if (val.type === 'boolean') {
+                spVal = Boolean(spVal);
+                params[key] = spVal;
+            }
+            else {
+                params[key] = spVal;
+            }
+
+        }
+        else {
+            
+            if (val.isRequired) {
+                errorMsg.push(`"${key}" is required`);
+            }
+            else if ('default' in val) {
+                params[key] = val.default;
+            }
+
         }
 
-        if (!('page' in params)) {
-            params.page = validParams.page;
-        }
-
-        if (!('size' in params)) {
-            params.size = validParams.size;
-        }
     }
     
     return { errorMsg: errorMsg.join('; '), params }
@@ -483,41 +696,25 @@ function updatePagerLinks(page, urlBase, qs, size, pagerLinks) {
     next.dataset.page = nextPage;
 }
 
-async function getResults(params) {
-    const { 
-        communities, 
-        authors, 
-        year, 
-        title, 
-        journal, 
-        volume, 
-        issue, 
-        includeDeprecated,
-        page, 
-        size,
-        litsearchContainer,
-        resultTgt,
-        searchResultStatusTgt,
-        resultTableTgt,
-        formLinks,
-        screen
-    } = params;
+async function getResults({ 
+    params,
+    litsearchContainer,
+    resultTgt,
+    searchResultStatusTgt,
+    resultTableTgt,
+    formLinks,
+    screen
+}) {
+    //const { errorMsg, validatedParams } = validateFormData(params, formSchema);
 
-    const { urlBase, qs, qsPaged } = makeUrl({ 
-        communities, 
-        authors, 
-        year, 
-        title, 
-        journal, 
-        volume, 
-        issue, 
-        includeDeprecated,
-        page, 
-        size 
-    });
-    const urlPaged = `${urlBase}?${qsPaged}`;
-    const { hits, total } = await getJson(urlPaged);
-    const urlAll = `${urlBase}?${qs}&size=${total}`;
+    const urls = data2Url(params, urlSchema);
+    const page = urls.pager.page;
+    const size = urls.pager.size;
+    const pagerQs = `page=${page}&size=${size}`;
+    const zenodoUrlPaged = `${urls.zenodo.base}?${urls.zenodo.qs}&${pagerQs}`;
+    const litsearchQsPaged = `${urls.litsearch.qs}&${pagerQs}`;
+    const { hits, total } = await getJson(zenodoUrlPaged);
+    const zenodoUrlAll = `${urls.zenodo.base}?${urls.zenodo.qs}&size=${total}`;
 
     // Show results
     const { to, from } = toAndFrom(page, size, total);
@@ -528,7 +725,7 @@ async function getResults(params) {
         total, 
         screen
     });
-    updatePagerLinks(page, urlBase, qs, size, formLinks);
+    updatePagerLinks(page, urls.litsearch.base, urls.litsearch.qs, size, formLinks);
     armDownloadButton({
         button: formLinks.querySelector("#download-page"),
         page,
@@ -538,7 +735,7 @@ async function getResults(params) {
         to,
         from
     });
-    history.pushState({}, '', `?${qs}`);
+    history.pushState({}, '', `?${litsearchQsPaged}`);
     show([resultTgt]);
     show([resultTableTgt, formLinks]);
 
@@ -548,29 +745,76 @@ async function getResults(params) {
         event.preventDefault();
 
         // Conduct search
-        const page = event.target.dataset.page;
-        const urlPaged = event.target.href;
-        const qs = new URL(urlPaged).search.slice(1);
-        const { hits, total } = await getJson(urlPaged);
+        const link = new URL(event.target.href);
+        const urlParams = link.searchParams;
+        const { errorMsg, params } = getParamsFromUrl(urlParams, urlSchema);
 
-        // Show results
-        const { to, from } = toAndFrom(page, size, total);
-        makeSearchResultStatus({ searchResultStatusTgt, total, page, size, to, from });
-        makeTable({ resultTableTgt, hits, total, screen });
-        updatePagerLinks(page, urlBase, qs, size, formLinks);
-        armDownloadButton({
-            button: formLinks.querySelector("#download-page"),
-            page,
-            size,
-            total,
-            hits,
-            to,
-            from
-        });
-        history.pushState({}, '', `?${qs}`);
+        if (errorMsg) {
+            searchResultStatusTgt.innerHTML = errorMsg;
+            show([resultTgt]);
+            hide([resultTableTgt, formLinks]);
+        }
+        else {
+            const urls = data2Url(params, urlSchema);
+            const page = urls.pager.page;
+            const size = urls.pager.size;
+            const pagerQs = `page=${page}&size=${size}`;
+            const zenodoUrlPaged = `${urls.zenodo.base}?${urls.zenodo.qs}&${pagerQs}`;
+            const litsearchQsPaged = `${urls.litsearch.qs}&${pagerQs}`;
+            const { hits, total } = await getJson(zenodoUrlPaged);
+            const zenodoUrlAll = `${urls.zenodo.base}?${urls.zenodo.qs}&size=${total}`;
+
+            // Show results
+            const { to, from } = toAndFrom(page, size, total);
+            makeSearchResultStatus({ searchResultStatusTgt, total, page, size, to, from });
+            makeTable({ resultTableTgt, hits, total, screen });
+            updatePagerLinks(page, urls.litsearch.base, urls.litsearch.qs, size, formLinks);
+            armDownloadButton({
+                button: formLinks.querySelector("#download-page"),
+                page,
+                size,
+                total,
+                hits,
+                to,
+                from
+            });
+            history.pushState({}, '', `?${litsearchQsPaged}`);
+        }
+
     }));
     
     litsearchContainer.open = false;
 }
 
-export { getParamsFromUrl, hide, show, getResults }
+function testData2Url() {
+    const formData = {
+        communities: 'batlit',
+        authors: 'Montani',
+        year: '2000-2002',
+        title: 'article title',
+        journal: '"Check List"',
+        volume: '1',
+        issue: '2b',
+        includeDeprecated: "true",
+        page: 1,
+        size: 30
+    }
+
+    const { errorMsg, validatedParams } = validateFormData(formData, formSchema);
+
+    if (!errorMsg) {
+        console.log(validatedParams);
+        const urls = data2Url(validatedParams, urlSchema);
+        console.log(urls);
+    }
+}
+
+function testGetParamsFromUrl() {
+    const search = '?communities=foo&authors=Montani&size=30';
+    const { errorMsg, params } = getParamsFromUrl(search, urlSchema);
+    console.log(errorMsg);
+    console.log(params);
+}
+
+//testGetParamsFromUrl();
+export { getParamsFromUrl, validateFormData, hide, show, getResults, formSchema, urlSchema }

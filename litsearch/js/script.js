@@ -1,4 +1,6 @@
-import { getParamsFromUrl, hide, show, getResults } from './search.js';
+/// script.js
+
+import { getParamsFromUrl, validateFormData, hide, show, getResults, formSchema, urlSchema } from './search.js';
 
 const litsearchContainer = document.getElementById('litsearchContainer');
 const loadingGif = document.getElementById('loadingGif');
@@ -29,25 +31,30 @@ journalFld.addEventListener('input', function(event) {
 
 });
 
-const includeDeprecatedCheckbox = document.querySelector('input[name=include-deprecated]');
+if (window.location.search) {
 
-const { errorMsg, params } = getParamsFromUrl();
+    const urlParams = new URLSearchParams(window.location.search);
+    const { errorMsg, params } = getParamsFromUrl(urlParams, urlSchema);
 
-if (errorMsg) {
-    searchResultStatusTgt.innerHTML = errorMsg;
-    show([resultTgt]);
-    hide([resultTableTgt, formLinks]);
-}
-else if (Object.keys(params).length) {
-    params.litsearchContainer = litsearchContainer;
-    params.resultTgt = resultTgt;
-    params.searchResultStatusTgt = searchResultStatusTgt;
-    params.resultTableTgt = resultTableTgt;
-    params.formLinks = formLinks;
-    params.screen = screen;
-    show([loadingGif]);
-    await getResults(params);
-    hide([loadingGif]);
+    if (errorMsg) {
+        searchResultStatusTgt.innerHTML = errorMsg;
+        show([resultTgt]);
+        hide([resultTableTgt, formLinks]);
+    }
+    else {
+        show([loadingGif]);
+        await getResults({
+            params,
+            litsearchContainer,
+            resultTgt,
+            searchResultStatusTgt,
+            resultTableTgt,
+            formLinks,
+            screen
+        });
+        hide([loadingGif]);
+    }
+
 }
 
 const searchButton = document.querySelector('#search');
@@ -58,29 +65,46 @@ searchButton.addEventListener('click', async function(event) {
     show([loadingGif]);
 
     // Conduct search
-    const communitiesFld = document.querySelectorAll('input[name=communities]');
-    const includeDeprecated = includeDeprecatedCheckbox.checked 
-    ? true 
-    : false;
-    const params = {
-        communities: Array.from(communitiesFld).filter(c => c.checked)[0].value,
-        authors: document.querySelector('input[name=authors]').value,
-        year: document.querySelector('input[name=year]').value,
-        title: document.querySelector('input[name=title]').value,
-        journal: journalFld.value,
-        volume: volumeFld.value,
-        issue: issueFld.value,
-        includeDeprecated,
-        page: document.querySelector('input[name=page]').value,
-        size: document.querySelector('input[name=size]').value,
-        litsearchContainer,
-        resultTgt,
-        searchResultStatusTgt,
-        resultTableTgt,
-        formLinks,
-        screen
-    }
+    const inputs = document.getElementById('litsearch').querySelectorAll('input');
+    const formParams = {};
+    inputs.forEach(input => {
+
+        if (input.name === 'communities') {
+
+            if (input.checked) {
+                formParams[input.name] = input.value;
+            }
+
+        }
+        else if (input.name === 'include-deprecated') {
+            formParams[input.name] = input.checked ? true : false
+        }
+        else {
+            formParams[input.name] = input.value;
+        }
+        
+    });
     
-    await getResults(params);
-    hide([loadingGif]);
+    const { errorMsg, params } = validateFormData(formParams, formSchema);
+    
+    if (errorMsg) {
+        searchResultStatusTgt.innerHTML = errorMsg;
+        show([resultTgt]);
+        hide([resultTableTgt, formLinks]);
+    }
+    else {
+        show([loadingGif]);
+
+        await getResults({
+            params,
+            litsearchContainer,
+            resultTgt,
+            searchResultStatusTgt,
+            resultTableTgt,
+            formLinks,
+            screen
+        });
+
+        hide([loadingGif]);
+    }
 });
