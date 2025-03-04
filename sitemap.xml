@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://plazi.org/posts/2025/02/ejt-on-gbif/</loc>
-    <lastmod>2025-02-03T16:16:54+01:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/tags/news/</loc>
-    <lastmod>2025-02-03T16:16:54+01:00</lastmod>
+    <lastmod>2025-03-04T17:44:50+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/</loc>
-    <lastmod>2025-02-12T22:44:18+01:00</lastmod>
+    <lastmod>2025-03-04T17:44:50+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2025/03/the-disentis-roadmap/</loc>
+    <lastmod>2025-03-04T17:44:50+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2025/02/ejt-on-gbif/</loc>
+    <lastmod>2025-02-03T16:16:54+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/batlit/</loc>
     <lastmod>2025-02-12T22:44:18+01:00</lastmod>
@@ -260,10 +263,10 @@
     <loc>https://plazi.org/treatmentbank/desktop-data-mining/</loc>
     <lastmod>2022-01-17T18:15:30+01:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/golden-gate/</loc>
+    <loc>https://plazi.org/data-apis-tools/golden-gate/</loc>
     <lastmod>2021-07-14T17:23:46+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/data-apis-tools/golden-gate/</loc>
+    <loc>https://plazi.org/tags/golden-gate/</loc>
     <lastmod>2021-07-14T17:23:46+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/data-apis-tools/image-markup-file/</loc>
@@ -278,16 +281,16 @@
     <loc>https://plazi.org/treatmentbank/schemas-and-ontologies/</loc>
     <lastmod>2022-08-31T10:28:46+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/services/</loc>
-    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/services/</loc>
     <lastmod>2021-12-14T21:10:55+01:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/source-code/</loc>
-    <lastmod>2022-10-16T10:33:46+02:00</lastmod>
+    <loc>https://plazi.org/tags/services/</loc>
+    <lastmod>2021-12-14T21:10:55+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/source-code/</loc>
+    <lastmod>2022-10-16T10:33:46+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/source-code/</loc>
     <lastmod>2022-10-16T10:33:46+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/data-apis-tools/synospecies/</loc>
@@ -350,10 +353,10 @@
     <loc>https://plazi.org/data-apis-tools/visualization-tools/</loc>
     <lastmod>2021-07-14T17:23:46+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/publications/</loc>
+    <loc>https://plazi.org/about/publications/</loc>
     <lastmod>2024-04-28T12:46:43+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/about/publications/</loc>
+    <loc>https://plazi.org/tags/publications/</loc>
     <lastmod>2024-04-28T12:46:43+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/not-knowing-what-we-know/</loc>
@@ -377,16 +380,16 @@
     <loc>https://plazi.org/posts/materialcitation-submitted-as-a-new-term/</loc>
     <lastmod>2021-10-19T17:28:53+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/legal-issues/</loc>
-    <lastmod>2024-02-27T21:33:28+01:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/services/legal-issues-menu/</loc>
     <lastmod>2021-09-09T17:42:07+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/partners/</loc>
-    <lastmod>2022-04-26T10:54:22+02:00</lastmod>
+    <loc>https://plazi.org/tags/legal-issues/</loc>
+    <lastmod>2024-02-27T21:33:28+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/about/partners/</loc>
+    <lastmod>2022-04-26T10:54:22+02:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/tags/partners/</loc>
     <lastmod>2022-04-26T10:54:22+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/services/bouchout-declaration/</loc>
@@ -407,10 +410,10 @@
     <loc>https://plazi.org/services/the-blue-list/</loc>
     <lastmod>2022-05-15T19:05:52+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/tags/lectures/</loc>
+    <loc>https://plazi.org/about/lectures/</loc>
     <lastmod>2024-05-02T21:03:01+02:00</lastmod>
   </url><url>
-    <loc>https://plazi.org/about/lectures/</loc>
+    <loc>https://plazi.org/tags/lectures/</loc>
     <lastmod>2024-05-02T21:03:01+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/services/uses-of-data/</loc>

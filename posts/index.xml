@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2025 16:16:54 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 17:44:50 +0100</lastBuildDate>
     <atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Disentis Roadmap</title>
+      <link>https://plazi.org/posts/2025/03/the-disentis-roadmap/</link>
+      <pubDate>Tue, 04 Mar 2025 17:20:04 +0200</pubDate>
+      <guid>https://plazi.org/posts/2025/03/the-disentis-roadmap/</guid>
+      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;img/data-flow.png&#34; alt=&#34;data flow&#34;&gt;&lt;/a&gt;&#xA;    &lt;figcaption&gt;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Today’s &lt;a href=&#34;https://www.alphagalileo.org/en-gb/Item-Display/ItemId/255780?returnurl=https://www.alphagalileo.org/en-gb/Item-Display/ItemId/255780&#34;&gt;official launch&lt;/a&gt; of the &lt;a href=&#34;https://www.bouchoutdeclaration.org/roadmap-2024/&#34;&gt;Disentis Roadmap&lt;/a&gt; is another significant step toward providing access to the data imprisoned in scientific publications. The data are imprisoned in the sense that only a human can understand the content, and only if access to the publication is granted. A machine can’t ingest and use the data because of lack of access, standardization, or other hurdles. With a corpus of over 500 million printed pages, a daily flood of new publications, and increasingly more powerful artificial intelligence-based tools, machine access is crucial for research, biodiversity conservation and an informed society.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>EJT and GBIF Unveil New Portal to Enhance Access to Taxonomic Data</title>
       <link>https://plazi.org/posts/2025/02/ejt-on-gbif/</link>
@@ -34,7 +41,7 @@
       <link>https://plazi.org/posts/2024/12/encontro-brasileiro-de-ictiologia/</link>
       <pubDate>Thu, 05 Dec 2024 17:52:00 +0200</pubDate>
       <guid>https://plazi.org/posts/2024/12/encontro-brasileiro-de-ictiologia/</guid>
-      <description>&lt;h2 id=&#34;_neotropical-ichthyology-e-zootaxa-análise-de-dados-liberados-e-disponibilizados-em-repositórios-online_&#34;&gt;&lt;em&gt;Neotropical Ichthyology e Zootaxa: Análise de Dados Liberados e Disponibilizados em Repositórios Online&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;(Neotropical Ichthyology and Zootaxa: Analysis of Data Released and Made Available in Online Repositories — Poster)&lt;/p&gt;&#xA;&lt;h2 id=&#34;_espécies-ameaçadas-de-peixes-do-bioma-pampa-livre-acesso-às-descrições-originais-em-repositórios-de-dados-online_&#34;&gt;&lt;em&gt;Espécies Ameaçadas de Peixes do Bioma Pampa: Livre Acesso às Descrições Originais em Repositórios de Dados Online&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;(Endangered Fish Species of the Pampa Biome: Open Access to Original Descriptions in Online Data Repositories — Oral Communication)&lt;/p&gt;&#xA;&lt;h2 id=&#34;_a-taxonomia-integrada-aos-meios-digitais-como-facilitar-o-acesso-e-a-reutilização-de-dados-taxonômicos-pela-comunidade-científica_&#34;&gt;&lt;em&gt;A Taxonomia Integrada aos Meios Digitais: como facilitar o acesso e a reutilização de dados taxonômicos pela comunidade científica&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;(Integrating Taxonomy to Digital Media: how to facilitate access and reuse of taxonomic data by the scientific community — Course)&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;neotropical-ichthyology-e-zootaxa-análise-de-dados-liberados-e-disponibilizados-em-repositórios-online&#34;&gt;&lt;em&gt;Neotropical Ichthyology e Zootaxa: Análise de Dados Liberados e Disponibilizados em Repositórios Online&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;(Neotropical Ichthyology and Zootaxa: Analysis of Data Released and Made Available in Online Repositories — Poster)&lt;/p&gt;&#xA;&lt;h2 id=&#34;espécies-ameaçadas-de-peixes-do-bioma-pampa-livre-acesso-às-descrições-originais-em-repositórios-de-dados-online&#34;&gt;&lt;em&gt;Espécies Ameaçadas de Peixes do Bioma Pampa: Livre Acesso às Descrições Originais em Repositórios de Dados Online&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;(Endangered Fish Species of the Pampa Biome: Open Access to Original Descriptions in Online Data Repositories — Oral Communication)&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-taxonomia-integrada-aos-meios-digitais-como-facilitar-o-acesso-e-a-reutilização-de-dados-taxonômicos-pela-comunidade-científica&#34;&gt;&lt;em&gt;A Taxonomia Integrada aos Meios Digitais: como facilitar o acesso e a reutilização de dados taxonômicos pela comunidade científica&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;(Integrating Taxonomy to Digital Media: how to facilitate access and reuse of taxonomic data by the scientific community — Course)&lt;/p&gt;</description>
     </item>
     <item>
       <title>BiodiversityPMC: The One Health Library (Poster)</title>
