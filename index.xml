@@ -6,7 +6,7 @@
     <description>Recent content in Home on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Mar 2025 18:11:42 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 18:47:40 +0100</lastBuildDate>
     <atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>International Women&#39;s Day</title>
@@ -20,7 +20,7 @@
       <link>https://plazi.org/posts/2025/03/the-disentis-roadmap/</link>
       <pubDate>Tue, 04 Mar 2025 17:20:04 +0200</pubDate>
       <guid>https://plazi.org/posts/2025/03/the-disentis-roadmap/</guid>
-      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;img/data-flow.png&#34; alt=&#34;data flow&#34;&gt;&lt;/a&gt;&#xA;    &lt;figcaption&gt;From &#34;publication prison&#34; to the re-use of the liberated data by GBIF, the European Journal of Taxonomy and the Biodiversity Data Journal, the pipeline includes over 160 different journals, and has liberated over 1 million taxonomic treatments and 710,000 figures.&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Today’s &lt;a href=&#34;https://www.alphagalileo.org/en-gb/Item-Display/ItemId/255780?returnurl=https://www.alphagalileo.org/en-gb/Item-Display/ItemId/255780&#34;&gt;official launch&lt;/a&gt; of the &lt;a href=&#34;https://www.bouchoutdeclaration.org/roadmap-2024/&#34;&gt;Disentis Roadmap&lt;/a&gt; is another significant step toward providing access to the data imprisoned in scientific publications. The data are imprisoned in the sense that only a human can understand the content, and only if access to the publication is granted. A machine can’t ingest and use the data because of lack of access, standardization, or other hurdles. With a corpus of over 500 million printed pages, a daily flood of new publications, and increasingly more powerful artificial intelligence-based tools, machine access is crucial for research, biodiversity conservation and an informed society.&lt;/p&gt;</description>
+      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;img/data-flow.png&#34; alt=&#34;data flow&#34;&gt;&lt;/a&gt;&#xA;    &lt;figcaption&gt;From publication prison to the re-use of the liberated data by the Global Biodiversity Information Facility (GBIF), exemplified by the European Journal of Taxonomy and the Biodiversity Data Journal. This pipeline includes over 160 different journals, and it results in over 1 million taxonomic treatments and 710,000 figures.&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Today’s &lt;a href=&#34;https://www.alphagalileo.org/en-gb/Item-Display/ItemId/255780?returnurl=https://www.alphagalileo.org/en-gb/Item-Display/ItemId/255780&#34;&gt;official launch&lt;/a&gt; of the &lt;a href=&#34;https://www.bouchoutdeclaration.org/roadmap-2024/&#34;&gt;Disentis Roadmap&lt;/a&gt; is another significant step toward providing access to the data imprisoned in scientific publications. The data are imprisoned in the sense that only a human can understand the content, and only if access to the publication is granted. A machine can’t ingest and use the data because of lack of access, standardization, or other hurdles. With a corpus of over 500 million printed pages, a daily flood of new publications, and increasingly more powerful artificial intelligence-based tools, machine access is crucial for research, biodiversity conservation and an informed society.&lt;/p&gt;</description>
     </item>
     <item>
       <title>EJT and GBIF Unveil New Portal to Enhance Access to Taxonomic Data</title>
