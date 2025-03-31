@@ -6,7 +6,7 @@
     <description>Recent content in Home on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Mar 2025 16:06:38 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 15:46:38 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>International Women&#39;s Day</title>
@@ -90,6 +90,13 @@
       <link>https://plazi.org/15-years/</link>
       <pubDate>Wed, 20 Dec 2023 13:00:00 +0200</pubDate>
       <guid>https://plazi.org/15-years/</guid>
+      <description>&lt;script src=&#34;script.js&#34; defer&gt;&lt;/script&gt;&#xA;&lt;style&gt;&#xA;/* Section: Plazi’s Mission */&#xA;.plazis-mission-container {&#xA;  flex-direction: column-reverse;&#xA;}&#xA;/* md */&#xA;@media (min-width: 768px) {&#xA;  .plazis-mission-container {&#xA;    flex-direction: row;&#xA;  }&#xA;}&#xA;/* Chart: Taxonomic Treatments */&#xA;.taxonomic-treatments-chart-container {&#xA;  padding: 0 1rem;&#xA;  margin-bottom: 2rem;&#xA;  width: 100%;&#xA;  display: flex;&#xA;  justify-content: center;&#xA;}&#xA;.taxonomic-treatments-chart {&#xA;  aspect-ratio: 1/1;&#xA;  height: fit-content;&#xA;  width: 60%;&#xA;  background-color: #f2f2f2;&#xA;  border-radius: 9999px;&#xA;  display: flex;&#xA;  flex-direction: column;&#xA;  justify-content: center;&#xA;}&#xA;.taxonomic-treatments-chart-inner {&#xA;  padding: 1rem;&#xA;  display: flex;&#xA;  flex-direction: column;&#xA;  justify-content: center;&#xA;}&#xA;.taxonomic-treatments-chart-inner span {&#xA;  color: var(--plazi-green);&#xA;  font-size: 60px;&#xA;  text-align: center;&#xA;  line-height: 1.25;&#xA;}&#xA;.taxonomic-treatments-chart-inner p {&#xA;  color: #2c3036;&#xA;  font-size: 18px;&#xA;  text-align: center;&#xA;  margin-bottom: 0;&#xA;}&#xA;/* md */&#xA;@media (min-width: 768px) {&#xA;  .taxonomic-treatments-chart-container {&#xA;    max-width: 40%;&#xA;    margin-bottom: 0rem;&#xA;  }&#xA;  .taxonomic-treatments-chart {&#xA;    width: 100%;&#xA;  }&#xA;}&#xA;/* lg */&#xA;@media (min-width: 1024px) {&#xA;  .taxonomic-treatments-chart-container {&#xA;    max-width: 25%;&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;img/image003.png&#34; width=&#34;960&#34;&gt;&#xA;    &lt;figcaption&gt;&#xA;    &lt;p&gt;Plazi production on 23. December 2023 &lt;a href=&#34;https://app.powerbi.com/view?r=eyJrIjoiMzA4ZmUwZjQtZTNmNi00YWRiLTlhZGItYTk3NzQ3NmQ4NWQ4IiwidCI6ImQ0OTJhOGMwLWVkMzEtNGY1Yy04YmI4LTdiZjYwYmJiZTU0MiJ9&amp;pageName=ReportSection05b0704a2c051485f73c&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>15 years of discovering known biodiversity</title>
+      <link>https://plazi.org/about/15-years/</link>
+      <pubDate>Wed, 20 Dec 2023 13:00:00 +0200</pubDate>
+      <guid>https://plazi.org/about/15-years/</guid>
       <description>&lt;script src=&#34;script.js&#34; defer&gt;&lt;/script&gt;&#xA;&lt;style&gt;&#xA;/* Section: Plazi’s Mission */&#xA;.plazis-mission-container {&#xA;  flex-direction: column-reverse;&#xA;}&#xA;/* md */&#xA;@media (min-width: 768px) {&#xA;  .plazis-mission-container {&#xA;    flex-direction: row;&#xA;  }&#xA;}&#xA;/* Chart: Taxonomic Treatments */&#xA;.taxonomic-treatments-chart-container {&#xA;  padding: 0 1rem;&#xA;  margin-bottom: 2rem;&#xA;  width: 100%;&#xA;  display: flex;&#xA;  justify-content: center;&#xA;}&#xA;.taxonomic-treatments-chart {&#xA;  aspect-ratio: 1/1;&#xA;  height: fit-content;&#xA;  width: 60%;&#xA;  background-color: #f2f2f2;&#xA;  border-radius: 9999px;&#xA;  display: flex;&#xA;  flex-direction: column;&#xA;  justify-content: center;&#xA;}&#xA;.taxonomic-treatments-chart-inner {&#xA;  padding: 1rem;&#xA;  display: flex;&#xA;  flex-direction: column;&#xA;  justify-content: center;&#xA;}&#xA;.taxonomic-treatments-chart-inner span {&#xA;  color: var(--plazi-green);&#xA;  font-size: 60px;&#xA;  text-align: center;&#xA;  line-height: 1.25;&#xA;}&#xA;.taxonomic-treatments-chart-inner p {&#xA;  color: #2c3036;&#xA;  font-size: 18px;&#xA;  text-align: center;&#xA;  margin-bottom: 0;&#xA;}&#xA;/* md */&#xA;@media (min-width: 768px) {&#xA;  .taxonomic-treatments-chart-container {&#xA;    max-width: 40%;&#xA;    margin-bottom: 0rem;&#xA;  }&#xA;  .taxonomic-treatments-chart {&#xA;    width: 100%;&#xA;  }&#xA;}&#xA;/* lg */&#xA;@media (min-width: 1024px) {&#xA;  .taxonomic-treatments-chart-container {&#xA;    max-width: 25%;&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;img src=&#34;img/image003.png&#34; width=&#34;960&#34;&gt;&#xA;    &lt;figcaption&gt;&#xA;    &lt;p&gt;Plazi production on 23. December 2023 &lt;a href=&#34;https://app.powerbi.com/view?r=eyJrIjoiMzA4ZmUwZjQtZTNmNi00YWRiLTlhZGItYTk3NzQ3NmQ4NWQ4IiwidCI6ImQ0OTJhOGMwLWVkMzEtNGY1Yy04YmI4LTdiZjYwYmJiZTU0MiJ9&amp;pageName=ReportSection05b0704a2c051485f73c&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -426,6 +433,13 @@
       <link>https://plazi.org/data-apis-tools/ocellus/</link>
       <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/data-apis-tools/ocellus/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/thumb1.png&#34; alt=&#34;thumbnail 1&#34;&gt;&#xA;&lt;img src=&#34;img/thumb2.png&#34; alt=&#34;thumbnail 2&#34;&gt;&#xA;&lt;img src=&#34;img/thumb3.png&#34; alt=&#34;thumbnail 3&#34;&gt;&#xA;&lt;img src=&#34;img/thumb4.jpeg&#34; alt=&#34;thumbnail 4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ocellus.info&#34;&gt;Ocellus&lt;/a&gt; is a frontend to the Biodiversity Literature Repository (BLR) community with images on Zenodo, taxonomic treatments in TreatmentBank, and citations on RefBank. Ocellus depends on &lt;a href=&#34;../zenodeo/&#34;&gt;Zenodeo&lt;/a&gt;, a nodejs API that queries, analyzes and aggregates results from these various repositories via a single, unified interface.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ocellus</title>
+      <link>https://plazi.org/ocellus/</link>
+      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+      <guid>https://plazi.org/ocellus/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;img/thumb1.png&#34; alt=&#34;thumbnail 1&#34;&gt;&#xA;&lt;img src=&#34;img/thumb2.png&#34; alt=&#34;thumbnail 2&#34;&gt;&#xA;&lt;img src=&#34;img/thumb3.png&#34; alt=&#34;thumbnail 3&#34;&gt;&#xA;&lt;img src=&#34;img/thumb4.jpeg&#34; alt=&#34;thumbnail 4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ocellus.info&#34;&gt;Ocellus&lt;/a&gt; is a frontend to the Biodiversity Literature Repository (BLR) community with images on Zenodo, taxonomic treatments in TreatmentBank, and citations on RefBank. Ocellus depends on &lt;a href=&#34;../zenodeo/&#34;&gt;Zenodeo&lt;/a&gt;, a nodejs API that queries, analyzes and aggregates results from these various repositories via a single, unified interface.&lt;/p&gt;</description>
     </item>
     <item>
