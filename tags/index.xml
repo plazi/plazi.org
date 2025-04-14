@@ -6,12 +6,19 @@
     <description>Recent content in Tags on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2025 15:46:38 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Apr 2025 12:29:58 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Events</title>
+      <link>https://plazi.org/tags/events/</link>
+      <pubDate>Sun, 13 Apr 2025 17:20:04 +0200</pubDate>
+      <guid>https://plazi.org/tags/events/</guid>
+      <description></description>
+    </item>
     <item>
       <title>News</title>
       <link>https://plazi.org/tags/news/</link>
-      <pubDate>Sat, 08 Mar 2025 17:20:04 +0200</pubDate>
+      <pubDate>Sun, 13 Apr 2025 17:20:04 +0200</pubDate>
       <guid>https://plazi.org/tags/news/</guid>
       <description></description>
     </item>
@@ -48,13 +55,6 @@
       <link>https://plazi.org/tags/taxodros/</link>
       <pubDate>Wed, 29 Jan 2025 19:17:05 +0200</pubDate>
       <guid>https://plazi.org/tags/taxodros/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Events</title>
-      <link>https://plazi.org/tags/events/</link>
-      <pubDate>Thu, 05 Dec 2024 17:55:00 +0200</pubDate>
-      <guid>https://plazi.org/tags/events/</guid>
       <description></description>
     </item>
     <item>
