@@ -6,7 +6,7 @@
     <description>Recent content in Events on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Oct 2025 12:24:12 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 10:39:19 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/tags/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disentis Roadmap: A decadal roadmap for liberating global biodiversity knowledge from literature (introduction)</title>
@@ -35,6 +35,20 @@
       <pubDate>Sat, 11 Oct 2025 10:47:00 +0200</pubDate>
       <guid>https://plazi.org/posts/2025/10/a-collaborative-workflow-to-expand-taxonomic-coverage/</guid>
       <description>&lt;p&gt;time: 4:55 pm (Bogotá)&lt;br&gt;&#xA;Presenter: Camila Plata (COL)&lt;br&gt;&#xA;Authors: Donat Agosti (Plazi), Markus Döring (COL), Diana Hernández-Robles (COL), Guido Sautter (Plazi), Felipe Lorenz Simões (Plazi), Olaf Bánki (COL)&lt;/p&gt;&#xA;&lt;p&gt;The Catalogue of Life (COL) compiles species names across all taxonomic groups in collaboration with taxonomic communities. Keeping up to date with newly described taxa remains a challenge for both COL and its network. To address this and help close long-standing taxonomic gaps, an enhanced assembly process has been developed over the past two years. As a result, the recently launched Catalogue of Life eXtended Release integrates data from over 27,000 sources. Here, we detail Plazi’s contribution and the collaboration between the two initiatives.Approximately 26,000 papers processed by Plazi, originating from journals such as the EJT, Zootaxa, and PhytoKeys among other 190, are integrated. This has been critical for addressing gaps, particularly in the highly diverse insect groups, which is not fully covered by dedicated taxonomic communities. Plazi mediated data contributes around 90,000 unique names from which over 60% represent insect names, and 5% of names of species described in the last 5 years.Plazi and COL have worked together for the past two years to create a workflow to maximize gap coverage. This collaboration includes the use of the Catalogue of Life Data Package (ColDP) standard, data quality checks, adding treatment citations, improved classification accuracy, enhanced completeness, reduced inaccuracies in treated data and ChecklistBank enhancements. Currently, checklists derived from the journals cited above are integrated into Catalogue of Life in under two weeks, significantly improving data availability for COL’s usage.As vetted catalogues continue to contribute species, Plazi’s relative share decreases, and priority shifts to those authoritative sources. We are testing a feedback loop in which COL’s constituent checklists evaluate Plazi’s mediated data. This helps taxonomists integrate newly described species into their checklist and uncover recurring issues, which are promptly addressed to ensure higher-quality releases and better workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liberation of Data training session: How to liberate data from publications and how to reuse it</title>
+      <link>https://plazi.org/posts/2025/10/how-to-liberate-data-from-publications/</link>
+      <pubDate>Sat, 11 Oct 2025 10:43:00 +0200</pubDate>
+      <guid>https://plazi.org/posts/2025/10/how-to-liberate-data-from-publications/</guid>
+      <description>&lt;p&gt;Presenters: Donat Agosti (Plazi), Laurence Bénichou (MNHN), Chris le Coquet (MNHN), Markus Döring (GBIF/COL), Julia Giora (Plazi), Emilie Pasche (SIBiLS/HESGE)&lt;/p&gt;&#xA;&lt;p&gt;This course offers a deep dive into the processes of annotating, structuring, and sharing biodiversity data extracted from scientific literature. The session will begin with an online theoretical introduction, providing an overview of the current state of biodiversity literature, the move towards the liberation of taxonomic data and the new opportunities this offers. This will be followed by two days of hands-on, in-person training focused on practical workflows for structuring, annotating, and circulating biodiversity data from scientific publications. Participants will explore how to annotate biodiversity datasets, ensuring they are properly formatted for reuse, and how to facilitate the sharing and circulation of these datasets within the scientific community. Trainees will also learn how to access and reuse data for their own research needs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liberating and re-use of data imprisoned in scientific literature</title>
+      <link>https://plazi.org/posts/2025/10/liberating-and-reuse-of-data/</link>
+      <pubDate>Sat, 11 Oct 2025 10:40:00 +0200</pubDate>
+      <guid>https://plazi.org/posts/2025/10/liberating-and-reuse-of-data/</guid>
+      <description>&lt;p&gt;time: 2 pm Bogotá&#xA;Presenter: Donat Agosti (Plazi), Laurence Bénichou (MNHN)&lt;/p&gt;&#xA;&lt;p&gt;Biodiversity research results are contained in the ever-growing corpus of scientific publications, traditionally stored in, or provided through, academic libraries. Access to this literature can be difficult in terms of both findability and accessibility. In the digital age, this barrier can and should be lifted by opening publications to machine access, ensuring the data they contain adheres to the FAIR principles. This workshop provides a hands-on demonstration of the existing workflows to liberate data from legacy publications, as well as to publish in a semantically-enhanced way and to reuse the data. It will also highlight the benefits and opportunities provided by accessible, semantically-enhanced literature in the biodiversity domain.&#xA;The workshop will have three parts:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data infrastructures Panel</title>
