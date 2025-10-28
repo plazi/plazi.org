@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://plazi.org/posts/2025/10/disentis-roadmap/</loc>
-    <lastmod>2025-10-22T16:28:05+02:00</lastmod>
-  </url><url>
     <loc>https://plazi.org/tags/events/</loc>
-    <lastmod>2025-10-22T16:28:05+02:00</lastmod>
+    <lastmod>2025-10-28T21:47:15+01:00</lastmod>
   </url><url>
     <loc>https://plazi.org/tags/</loc>
+    <lastmod>2025-10-28T21:47:15+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2025/10/tools-to-understand-fish-diversity/</loc>
+    <lastmod>2025-10-28T21:47:15+01:00</lastmod>
+  </url><url>
+    <loc>https://plazi.org/posts/2025/10/disentis-roadmap/</loc>
     <lastmod>2025-10-22T16:28:05+02:00</lastmod>
   </url><url>
     <loc>https://plazi.org/posts/2025/10/accelerating-biodiversity-discovery/</loc>
