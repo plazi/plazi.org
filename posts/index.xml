@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2025 21:47:15 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 18:26:22 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plazi, CODATA &amp; Semantic Climate Training Course on FAIR Biodiversity Data</title>
+      <link>https://plazi.org/posts/2026/from-literature-to-living-knowledge/</link>
+      <pubDate>Fri, 17 Apr 2026 18:20:00 +0200</pubDate>
+      <guid>https://plazi.org/posts/2026/from-literature-to-living-knowledge/</guid>
+      <description>&lt;p&gt;From literature to living knowledge: transforming biodiversity data into global impact.&lt;/p&gt;&#xA;&lt;p&gt;From March 24th to 27th, Plazi had the privilege of contributing to the CODATA India Hands-On Workshop on “Liberation, Extraction &amp;amp; FAIR Reuse of Data” — an inspiring journey shared with SemanticClimate, bringing together researchers, educators, and data practitioners committed to advancing open science and biodiversity informatics.&lt;/p&gt;&#xA;&lt;p&gt;During the workshop, our team contributed by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Demonstrating how biodiversity data can be liberated from publications and converted into interoperable formats&lt;/li&gt;&#xA;&lt;li&gt;Exploring global repositories and strategies for data integration and reuse&lt;/li&gt;&#xA;&lt;li&gt;Showcasing manual and automated workflows that transform fragmented and inaccessible information into connected knowledge systems&lt;/li&gt;&#xA;&lt;li&gt;Leading discussions on data validation, annotation, and quality as foundations for trustworthy science&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What made this experience especially meaningful was not only the technical exchange — but the people.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Use of integrative tools to understand and conserve Peruvian fish diversity</title>
       <link>https://plazi.org/posts/2025/10/tools-to-understand-fish-diversity/</link>
