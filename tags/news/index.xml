@@ -6,13 +6,20 @@
     <description>Recent content in News on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2026 13:24:27 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 17:33:25 +0200</lastBuildDate>
     <atom:link href="https://plazi.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Digitally native species are a necessary shift in taxonomic practice</title>
+      <link>https://plazi.org/posts/2026/04/digitally-native-species/</link>
+      <pubDate>Sat, 18 Apr 2026 15:08:04 +0200</pubDate>
+      <guid>https://plazi.org/posts/2026/04/digitally-native-species/</guid>
+      <description>&lt;p&gt;At Plazi, together with our collaborators Rudolf Meier and Amrita Srivathsan from the Center for Biodiversity Disovery at the Museum für Naturkunde Berlin, we are calling for a fundamental shift in how species are described and documented. In our &lt;a href=&#34;https://www.nature.com/articles/s44358-026-00156-y.epdf?sharing_token=cuOzpkET0mfF7tyQqmehOdRgN0jAjWel9jnR3ZoTv0MGoRJa7T3byRvtmN9BoorV0IEe5XMsy1COOyHsvCshCBSuQJPcWk-h8AN3d7SxHa1YUnNkqckHYZ30LyBbezQp3exnbWUY2hLVW6OzGLJKTVgJ6iAjfnAC8vY0N9EH0c8%3D&#34;&gt;latest article&lt;/a&gt;, we introduce the concept of “digitally native species,” a model that embeds taxonomic knowledge directly into structured, machine-actionable data systems from the very beginning.&lt;/p&gt;&#xA;&lt;p&gt;Biodiversity science has long faced a paradox. While roughly 2.5 million accepted species have been described, we still know only a fraction of life on Earth. At the same time, much of the valuable data generated during species discovery is routinely lost. Observations from specimens—images, measurements, genetic data—often remain on personal devices or are reduced to minimal summaries in publications. These publications are typically locked in static formats such as PDFs, limiting their reuse in digital infrastructures.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Plazi, CODATA &amp; Semantic Climate Training Course on FAIR Biodiversity Data</title>
-      <link>https://plazi.org/posts/2026/from-literature-to-living-knowledge/</link>
+      <link>https://plazi.org/posts/2026/04/from-literature-to-living-knowledge/</link>
       <pubDate>Fri, 17 Apr 2026 18:20:00 +0200</pubDate>
-      <guid>https://plazi.org/posts/2026/from-literature-to-living-knowledge/</guid>
+      <guid>https://plazi.org/posts/2026/04/from-literature-to-living-knowledge/</guid>
       <description>&lt;p&gt;&lt;em&gt;From literature to living knowledge: transforming biodiversity data into global impact.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;From March 24th to 27th, Plazi had the privilege of contributing to the CODATA India Hands-On Workshop on “Liberation, Extraction &amp;amp; FAIR Reuse of Data” — an inspiring journey shared with SemanticClimate, bringing together researchers, educators, and data practitioners committed to advancing open science and biodiversity informatics.&lt;/p&gt;&#xA;&lt;p&gt;During the workshop, our team contributed by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Demonstrating how biodiversity data can be liberated from publications and converted into interoperable formats&lt;/li&gt;&#xA;&lt;li&gt;Exploring global repositories and strategies for data integration and reuse&lt;/li&gt;&#xA;&lt;li&gt;Showcasing manual and automated workflows that transform fragmented and inaccessible information into connected knowledge systems&lt;/li&gt;&#xA;&lt;li&gt;Leading discussions on data validation, annotation, and quality as foundations for trustworthy science&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;What made this experience especially meaningful was not only the technical exchange — but the people.&lt;/p&gt;</description>
     </item>
     <item>
