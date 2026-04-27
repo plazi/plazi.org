@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TreatmentBank on Plazi</title>
+    <title>Plazi</title>
     <link>https://plazi.org/treatmentbank/</link>
-    <description>Recent content in TreatmentBank on Plazi</description>
+    <description>Recent content on Plazi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Apr 2023 08:37:03 +0200</lastBuildDate>

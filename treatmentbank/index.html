@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>TreatmentBank - Plazi</title>
+	<title> - Plazi</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="TreatmentBank is a service to liberate data from scholarly publications and disseminate it as FAIR data">
 
@@ -97,7 +97,7 @@
 
     
     <li class="active">
-        <a href="https://plazi.org/treatmentbank/">TreatmentBank</a>
+        <a href="https://plazi.org/treatmentbank/"></a>
     </li>
 
 </ol>
@@ -105,61 +105,221 @@
 
 <!-- start: list.html -->
 <main class="main list" role="main">
-	<header class="main__header">
-		<h1 class="main__title">TreatmentBank</h1>
-	</header>
 	<div class="content main__content clearfix">
-		<p><img src="img/tb-logo.png" alt="Treatment Bank"></p>
+		
 
-
+<img src="img/tb-logo.jpg" alt="Treatment Bank" class="tb-logo">
 <div class="widget-search widget">
 	<!-- http://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&fullText.ftQuery= -->
-    <form class="widget-search__form" role="search" target="_blank" method="get" action="https://tb.plazi.org/GgServer/search">
-        <label>
-            <!-- <input class="searchInput" type="search" placeholder="find treatments…" value="" id="q" name="q" aria-label="find treatments…"> -->
-            <input class="searchInput" type="search" placeholder="find treatments…" id="fullText.ftQuery" name="fullText.ftQuery" aria-label="find treatments…">
-        </label>
-        <input id="searchBtn" class="searchBtn" type="submit" value="Search">
-    </form>
+    <h2>Find treatments</h2>
+    <form id="tb" role="search" target="_blank" 
+        method="get" action="https://tb.plazi.org/GgServer/search">
+        <details open>
+            <summary>By Full Text Search</summary>
+            <input class="form-control" type="search" 
+                placeholder="enter anything" id="fullText.ftQuery" 
+                name="fullText.ftQuery" aria-label="find treatments">
+        </details>
     <div id="search_results"></div>
+        <details>
+            <summary>By Taxonomic Names</summary>
+            <div>
+                <input class="form-control" 
+                    name="taxonomicName.taxonomicName" 
+                    placeholder="taxon name" 
+                    title="Taxonomic name as a whole" type="search">
+                <input class="form-control-2" 
+                    name="taxonomicName.order" placeholder="order" 
+                    title="Search for Superorder, Order, Suborder, Infraorder (might not all be given for each taxon)" 
+                    type="search">
+                <input class="form-control-2" 
+                    name="taxonomicName.family" placeholder="family" 
+                    title="Search for Superfamily, Family, Subfamily, Infrafamily, Supertribe, Tribe, Subtribe, Infratribe (might not all be given for each taxon)" 
+                    type="search">
+                <input class="form-control-2" placeholder="genus" 
+                    name="taxonomicName.genus" 
+                    title="Search for Genus, Subgenus, Infragenus, Section, Subsection, Series, Subseries (might not all be given for each taxon)" 
+                    type="search">
+                <input class="form-control-2" placeholder="species" 
+                    name="taxonomicName.species" 
+                    title="Search for Species aggregate, Species, Subspecies, Infraspecies, Variety, Subvariety, Form, Subform (might not all be given for each taxon)" 
+                    type="search">
+                <label>Taxa Only <input checked="checked" 
+                    name="taxonomicName.isNomenclature" 
+                    title="Restrict search to treatment taxa" 
+                    type="checkbox" value="true"></label>
+                <label>Exact Match <input checked="checked" 
+                    name="taxonomicName.exactMatch" 
+                    title="Match all rank group specific epithets given below" 
+                    type="checkbox" value="true"></label>
+                <label>Synonyms <input name="taxonomicName.includeSynonyms" 
+                    title="Include synonyms in search result (for whole-name search only, implies exact match)?" 
+                    type="checkbox" value="true"></label>
+            </div>
+        </details>
+        <details>
+            <summary>By Bibliographic Data</summary>
+            <div>
+                <input class="form-control" name="BibMetaData.docAuthor" 
+                    placeholder="author" 
+                    title="Document Author" type="search">
+                <input class="form-control-2" name="BibMetaData.docDate" 
+                    placeholder="year" 
+                    title="Year of Publication" type="search">
+                <input class="form-control-2" name="BibMetaData.docTitle" 
+                    placeholder="title" 
+                    title="Document Title" type="search">
+                <input class="form-control-2" name="BibMetaData.docOrigin" 
+                    placeholder="journal/publisher" 
+                    title="Name of Journal for Articles, Name of Publisher for Books and Book Chapters" 
+                    type="search">
+                <input class="form-control-2" name="BibMetaData.part" 
+                    placeholder="volume/issue" 
+                    title="Volume or Issue Number of Journals" type="search">
+                <input class="form-control-2" name="BibMetaData.pageNumber" 
+                    placeholder="page" 
+                    title="Page Number" type="search">
+                <input class="form-control-2" name="BibMetaData.extId" 
+                    placeholder="identifier (DOI/ISBN/Handle)"
+                    title="External Identifier (DOI, Handle, ISBN, etc.)" 
+                    type="search">
+            </div>
+        </details>
+        <details>
+            <summary>By Material Citations</summary>
+            <div>
+                <input class="form-control" name="materialsCitation.location" 
+                    placeholder="location text" 
+                    title="General location description, to match against all respective fields, i.e., Country, State / Province, and Location Name" 
+                    type="search">
+                <input class="form-control-2" placeholder="country"
+                    name="materialsCitation.country" 
+                    title="Name of country where specimens where collected" 
+                    type="search">
+                <input class="form-control-2" placeholder="state/province"
+                    name="materialsCitation.stateProvince" 
+                    title="Name of administrative sub division of country" 
+                    type="search">
+            </div>
+            <div>
+                <label>Type Status
+                    <select class="form-control" 
+                        name="materialsCitation.typeStatus" 
+                        title="Type status of specimen as indicated in publication">
+                        <option>All Types</option>
+                        <option>Androtype</option>
+                        <option>Gynotype</option>
+                        <option>Holotype</option>
+                        <option>Lectotype</option>
+                        <option>Neotype</option>
+                        <option>Nidotype</option>
+                        <option>Paralectotype</option>
+                        <option>Paratype</option>
+                        <option>Syntype</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <input class="form-control-2" 
+                    placeholder="collection code" 
+                    name="materialsCitation.collectionCode" 
+                    title="Letter code of collection where specimens are stored" 
+                    type="search">
+                <input class="form-control-2" 
+                    placeholder="specimen code"
+                    name="materialsCitation.specimenCode" 
+                    title="Code of specimen within collection" type="search">
+                <input class="form-control" name="materialsCitation.LSID" 
+                    placeholder="LSID" 
+                    title="Specimen LSID" type="search">
+                <input class="form-control-2" name="materialsCitation.longitude" 
+                    placeholder="longitude"
+                    title="Geographic longitude, in signed decimal degrees (positive: east, negative: west)" 
+                    type="search">
+                <input class="form-control-2" name="materialsCitation.latitude" 
+                    placeholder="latitude"
+                    title="Geographic latitude, in signed decimal degrees (positive: north, negative: south)" 
+                    type="search">
+            </div>
+            <div>
+                <label>Lon/Lat +/-
+                    <select class="form-control" 
+                        name="materialsCitation.degreeCircle" 
+                        title="Maximum devition from logitude and latitude given in respective fields, in degrees">
+                        <option value="0">Exact</option>
+                        <option value="1" selected>1°</option>
+                        <option value="2">2°</option>
+                        <option value="3">3°</option>
+                        <option value="5">5°</option>
+                        <option value="10">10°</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <input class="form-control" name="materialsCitation.elevation" 
+                    placeholder="elevation" 
+                    title="Elevation above see level (negative: depth below see level)" 
+                    type="text">
+            </div>
+            <div>
+                <label>Elevation +/-
+                    <select class="form-control" 
+                        name="materialsCitation.elevationCircle" 
+                        title="Maximum devition from elevation given in respective field, in meters">
+                        <option value="0">Exact</option>
+                        <option value="10">10 m</option>
+                        <option value="20">20 m</option>
+                        <option value="30">30 m</option>
+                        <option value="50">50 m</option>
+                        <option value="100" selected>100 m</option>
+                        <option value="200">200 m</option>
+                        <option value="300">300 m</option>
+                        <option value="500">500 m</option>
+                        <option value="1000">1000 m</option>
+                    </select>
+                </label>
+            </div>
+        </details>
+        <input id="searchBtn2" class="searchBtn" type="submit" value="Search">
+    </form>
 </div>
 
 <script>
-    const search = function(e) {
-        const q = document.getElementById('q')
-        const search_results = document.getElementById('search_results')
-        //const tb = 'https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&fullText.ftQuery=' + q.value
+    // const search = function(e) {
+    //     const q = document.getElementById('q')
+    //     const search_results = document.getElementById('search_results')
+    //     //const tb = 'https://tb.plazi.org/GgServer/search?fullText.matchMode=prefix&fullText.ftQuery=' + q.value
 
-        fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`)
-            .then(function(response) {
-                if (!response.ok) {
-                    throw new Error('HTTP error, status = ' + response.status);
-                }
+    //     fetch(`https://test.zenodeo.org/v3/treatments?q=${q.value}`)
+    //         .then(function(response) {
+    //             if (!response.ok) {
+    //                 throw new Error('HTTP error, status = ' + response.status);
+    //             }
 
-                return response.json();
-            })
-            .then(function(response) {
-                let res = '<h2>Treatments search results</h2>'
-                response.item.records.forEach(r => {
-                    res += `<details>
-                        <summary>${r.treatmentTitle}</summary>
-                        <p>${r.articleTitle}, ${r.journalTitle}</p>
-                    </details>`
-                })
+    //             return response.json();
+    //         })
+    //         .then(function(response) {
+    //             let res = '<h2>Treatments search results</h2>'
+    //             response.item.records.forEach(r => {
+    //                 res += `<details>
+    //                     <summary>${r.treatmentTitle}</summary>
+    //                     <p>${r.articleTitle}, ${r.journalTitle}</p>
+    //                 </details>`
+    //             })
 
-                search_results.innerHTML = res
-            })
+    //             search_results.innerHTML = res
+    //         })
 
-        e.stopPropagation()
-        e.preventDefault()
-    }
+    //     e.stopPropagation()
+    //     e.preventDefault()
+    // }
 
     
 
-    window.onload = function(e) {
-        // const searchBtn = document.getElementById('searchBtn')
-        // searchBtn.addEventListener('click', search)
-    }()
+    // window.onload = function(e) {
+    //     // const searchBtn = document.getElementById('searchBtn')
+    //     // searchBtn.addEventListener('click', search)
+    // }()
 </script>
 
 <ul>
@@ -169,46 +329,48 @@
 </ul>
 
 
-<p><a href="https://tb.plazi.org/GgServer/search">TreatmentBank (TB)</a> is a service provided by the Swiss Plazi GmbH to liberate data from  scholarly publications, and convert, enhance, link, store, and disseminate it as <a href="https://www.force11.org/group/fairgroup/fairprinciples">Findable, Accessible, Interoperable and Reusable (FAIR)</a> data. These data  include <a href="what-treatment/">taxonomic treatments</a>, treatment citations, figures, tables, material citations and bibliographic reference. The data extraction processes can be highly automated to process entire journal back-issues as well as current publications. A quality control (QC) process as well as manual checks produce data fit to become reference deposits of treatments in <a href="http://biolitrepo.org/">Biodiversity Literature Repository (BLR)</a>, as well as daily uploads of treatment articles data sets to the <a href="https://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a>, with persistent identifiers minted in BLR. Input formats can be printed to born-digital publications. All data are openly accessible in various formats and are searchable. Currently, BLR contains more than 650,000 treatments extracted from 66,000 articles, 400,000 figures and 1,040,000 material citations.</p>
+<p><a href="https://tb.plazi.org/GgServer/search">TreatmentBank (TB)</a> is a service provided by the Swiss Plazi GmbH to liberate data from  scholarly publications, and convert, enhance, link, store, and disseminate it as <a href="https://www.force11.org/group/fairgroup/fairprinciples">Findable, Accessible, Interoperable and Reusable (FAIR)</a> data. These data  include <a href="what-treatment/">taxonomic treatments</a>, treatment citations, figures, tables, material citations and bibliographic reference. The data extraction processes can be highly automated to process entire journal back-issues as well as current publications. A quality control (QC) process as well as manual checks produce data fit to become reference deposits of treatments in <a href="http://biolitrepo.org/">Biodiversity Literature Repository (BLR)</a>, as well as daily uploads of treatment articles data sets to the <a href="https://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a>, with persistent identifiers minted in BLR. Input formats can be printed to born-digital publications. All data are openly accessible in various formats and are searchable. Currently, TreatmentBank contains <a href="https://tb.plazi.org/GgServer/dioStats/stats?outputFields=annots.annotType+annots.annotCount&amp;groupingFields=annots.annotType&amp;format=HTML">254 Million annotations</a>, 1.2 Million treatments and 2.1M material citations extracted from 90,600 articles, and BLR includes 691,000 treatments that passed quality control, and 782,000 figures.</p>
 <p><strong>Role in <a href="https://bicikl-project.eu/">BiCIKL</a></strong>: TB is providing a service for Transnational Access, developing and improving conversion of PDF publications, and serving as the access point for bidirectional linking to data liberated from literature. TB will provide a search portal to find specimens cited in literature as well as a service to link material citations to other research infrastructures (RIs) covering taxonomic names, genomics and specimen data.</p>
 
 
 
-<div class='featured'>
-    <a href="https://tb.plazi.org/GgServer/search">Fulltext Search</a>
-    <p class="summary"><a href="https://tb.plazi.org/GgServer/search">The TreatmentBank can be searched using a fulltext search. </a></p>
-</div>
-<div class='featured'>
-    <a href="https://tb.plazi.org/GgServer/search">Extended Search</a>
-    <p class="summary"><a href="https://tb.plazi.org/GgServer/search">The extended search allows more precise searches related to taxonomic names, bibliographic records or observation records. </a></p>
-</div>
-<div class='featured'>
-    <a href="desktop-data-mining">Desktop data mining and extraction</a>
-    <p class="summary"><a href="desktop-data-mining">The GoldenGATE Document Editor is a visual editor for marking up documents in XML. It is designed to do most of the markup automatically. </a></p>
-</div>
-<div class='featured'>
-    <a href="data-and-statistics">Data and Statistics</a>
-    <p class="summary"><a href="data-and-statistics">Treatment Stats, Article Stats, RefBank</a></p>
-</div>
-<div class='featured'>
-    <a href="treatment-data-access">Treatment Data Access</a>
-    <p class="summary"><a href="treatment-data-access">API, RSS-Feed</a></p>
-</div>
-<div class='featured'>
-    <a href="schemas-and-ontologies">Schemas and ontologies</a>
-    <p class="summary"><a href="schemas-and-ontologies">TaxPub, TaxonX, Treatment Ontology</a></p>
-</div>
-<div class='featured'>
-    <a href="/source-code/">Source Code</a>
-    <p class="summary"><a href="/source-code/">Source code for all our programs</a></p>
-</div>
-<div class='featured'>
-    <a href="/data-apis-tools/visualization-tools/">Visualization Tools</a>
-    <p class="summary"><a href="/data-apis-tools/visualization-tools/">Plazi offers tools for visualizing the data extracted from the taxonomic literature.</a></p>
-</div>
-<div class='featured'>
-    <a href="https://github.com/plazi/community/blob/master/learningModules.md" target="_blank">Learning modules</a>
-    <p class="summary"><a href="https://github.com/plazi/community/blob/master/learningModules.md" target="_blank">Explanations and courses to learn about and contribute to and use TreatmentBank.</a></p>
+<div class='feature-container'>
+    <div class='featured'>
+        <a href="https://tb.plazi.org/GgServer/search">Fulltext Search</a>
+        <p class="summary"><a href="https://tb.plazi.org/GgServer/search">The TreatmentBank can be searched using a fulltext search. </a></p>
+    </div>
+    <div class='featured'>
+        <a href="https://tb.plazi.org/GgServer/search">Extended Search</a>
+        <p class="summary"><a href="https://tb.plazi.org/GgServer/search">The extended search allows more precise searches related to taxonomic names, bibliographic records or observation records. </a></p>
+    </div>
+    <div class='featured'>
+        <a href="desktop-data-mining">Desktop data mining and extraction</a>
+        <p class="summary"><a href="desktop-data-mining">The GoldenGATE Document Editor is a visual editor for marking up documents in XML. It is designed to do most of the markup automatically. </a></p>
+    </div>
+    <div class='featured'>
+        <a href="data-and-statistics">Data and Statistics</a>
+        <p class="summary"><a href="data-and-statistics">Treatment Stats, Article Stats, RefBank</a></p>
+    </div>
+    <div class='featured'>
+        <a href="treatment-data-access">Treatment Data Access</a>
+        <p class="summary"><a href="treatment-data-access">API, RSS-Feed</a></p>
+    </div>
+    <div class='featured'>
+        <a href="schemas-and-ontologies">Schemas and ontologies</a>
+        <p class="summary"><a href="schemas-and-ontologies">TaxPub, TaxonX, Treatment Ontology</a></p>
+    </div>
+    <div class='featured'>
+        <a href="/source-code/">Source Code</a>
+        <p class="summary"><a href="/source-code/">Source code for all our programs</a></p>
+    </div>
+    <div class='featured'>
+        <a href="/data-apis-tools/visualization-tools/">Visualization Tools</a>
+        <p class="summary"><a href="/data-apis-tools/visualization-tools/">Plazi offers tools for visualizing the data extracted from the taxonomic literature.</a></p>
+    </div>
+    <div class='featured'>
+        <a href="https://github.com/plazi/community/blob/master/learningModules.md" target="_blank">Learning modules</a>
+        <p class="summary"><a href="https://github.com/plazi/community/blob/master/learningModules.md" target="_blank">Explanations and courses to learn about and contribute to and use TreatmentBank.</a></p>
+    </div>
 </div>
 
 

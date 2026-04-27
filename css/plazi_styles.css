@@ -5,6 +5,10 @@
 	--plazi-green: #9BC134;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
 	color: var(--plazi-font-color)
 }
@@ -12,35 +16,43 @@ body {
 a { color: var(--plazi-font-color) }
 
 /* custom plazi styles */
+img.tb-logo {
+	margin-bottom: 0.5rem;
+	width: 50%;
+}
 #mapContainer {
 	border: 1px solid black;
 	padding: 5px;
-	/* margin-bottom: 20px; */
 }
-
 #mapid { height: 180px; }
-#searchBtn {
-	font-weight: 700;
-	/* font-size: 18px; */
-	text-transform: uppercase;
+.feature-container {
+	column-count: 3;
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 10px;
+    -moz-column-gap: 10px;
+    -webkit-column-gap: 10px;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    column-fill: balance;
+    padding-top: 0;
+    margin-top: 0;
 }
 div.featured { 
-	float: left; 
-	padding: 20px; 
+/* 	float: left;  */
+	padding: 10px; 
 	border: 1px solid; 
 	border-radius: 10px; 
 	margin: 10px; 
 	width: 200px; 
-	max-width: 200px; 
-	height: 200px;
+/* 	max-width: 200px;  */
+/* 	height: 200px; */
 	cursor: pointer; 
-	font-weight: 800;
 	font-size: 15px;
+	break-inside: avoid;
+	display: inline-block; /* this is the key fix */
 }
-
 div.featured p.summary { 
-	/* visibility: hidden; 
-	display: none;  */
 	font-weight: 200;
 	font-size: small;
 	color: var(--plazi-font-color);
@@ -52,27 +64,128 @@ div.featured:hover a {
 	color: var(--plazi-font-color);
 }
 div.featured:hover { background-color: var(--plazi-green); }
-p.summary a { 
-	/* visibility: visible; 
-	display: block;  */
+p.summary a {
 	color: #444; 
 	font-weight: 200;
 }
 div.featured:hover p.summary a { 
-	/* visibility: visible; 
-	display: block;  */
 	color: #fff; 
 	text-decoration: none;
 }
 
 /* search form styles */
-form.widget-search__form label { 
-	float: left; 
-	width: calc(100% - 150px); 
+.widget-search {
+	border: 1px solid var(--plazi-green);
 }
-input.searchInput { width: 100%; padding: 10px; margin: none; background-color: white; }
-input.searchBtn { display: block; width: 150px; }
+.widget-search h2 {
+	margin: 5px 0 5px 15px;
+	font-size: 1.25rem;
+}
+#tb input[type="text"] {
+	all: unset;
+}
+#tb input.form-control { 
+	width: calc(100% - 5px); 
+	padding: 7px 0 7px 7px; 
+	margin: 0.15rem; 
+	background-color: white;
+	border: 1px solid lightgrey;
+	font-size: 0.75rem;
+}
+#tb input.form-control-2 { 
+	width: calc(50% - 7px); 
+	padding: 7px 0 7px 7px; 
+	margin: 0.15rem; 
+	background-color: white;
+	border: 1px solid lightgrey;
+	font-size: 0.75rem;
+}
+#tb input::placeholder {
+	color: #444;
+}
+#tb input:focus::placeholder {
+	color: lightgrey;
+}
+#tb input:focus {
+	outline: 2px solid var(--plazi-green);
+}
+
+/* https://dev.to/ilham-bouktir/creative-ways-to-style-the-html-details-tag-3c5k */
+#tb details {
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+#tb details summary::-webkit-details-marker {
+  display: none;
+}
+#tb details summary {
+	list-style: none;
+	padding: 15px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0.5rem;
+	border-radius: 5px 5px 0 0;
+	background-color: lightgrey;
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+	margin-bottom: 0.5rem;
+	position: relative;
+}
+#tb details summary::before, 
+#tb details  summary::after {
+  content: "";
+  position: absolute;
+  border-top: 3px solid;
+  width: 16px;
+  height: 0;
+  right: 20px;
+  top: 50%;
+}
+#tb details  summary::after {
+  transform: rotate(90deg);
+}
+#tb details[open] summary::after {
+  display: none;
+}
+#tb details label {
+	font-size: 12px;
+	margin: 5px 5px 0 5px;
+}
+#searchBtn2 { 
+	margin: 0.5rem;
+	border-radius: 5px;
+}
 details p { margin-left: 1rem; color: var(--plazi-font-color); }
+
+/* .panel-title {
+	color: var(--plazi-green);
+} */
+
+/* .col-sm-2 {
+	text-align: left;
+	border: 0px solid red;
+	margin: 1rem 2rem 1rem 0;
+}
+.col-sm-2 div {
+	display: inline-block;
+	border: 0px solid red;
+	width: 20%;
+	margin-right: 1rem;
+}
+
+.col-sm-3 {
+	float: left;
+	border: 0px solid red;
+	width: 25%;
+	margin-bottom: 1rem;
+}
+
+.col-sm-3 input {
+	width: 95%;
+} */
 
 /* tag customization */
 .btn {
@@ -138,11 +251,9 @@ li.project {
 }
 li.project img {
 	width: 200px;
-/* 	float: left; */
 	margin-right: 1rem;
 	margin-bottom: 2rem;
 	padding: 15px;
-/* 	border: 1px solid silver; */
 }
 li.project h3 {
 	font-size: 18px;
@@ -213,12 +324,6 @@ table.event td {
 	flex: 1;
 }
 
-@media (min-width: 768px) {
-	.row {
-		flex-direction: row;
-	}
-}
-
 /* styles for 'searching-by-biomes' */
 div.fig-container {
 	text-align: center; 
@@ -239,9 +344,12 @@ cite {
 }
 
 /* Larger than tablet */
-@media (min-width: 800px) {
-    ul.members {
+@media (min-width: 768px) {
+	ul.members {
 		column-count: 3;
+	}
+	.row {
+		flex-direction: row;
 	}
 }
 
@@ -255,5 +363,4 @@ cite {
 }
 
 @media screen and (max-width: 767px) {}
-
 @media screen and (max-width: 620px) {}
