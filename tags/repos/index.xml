@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Repos on Plazi</title>
-    <link>https://plazi.org/tags/repos/</link>
-    <description>Recent content in Repos on Plazi</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 16 Oct 2022 10:33:46 +0200</lastBuildDate>
-    <atom:link href="https://plazi.org/tags/repos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Source Code</title>
-      <link>https://plazi.org/source-code/</link>
-      <pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
-      <guid>https://plazi.org/source-code/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/plazi/treatmentBank&#34;&gt;TreatmentBank&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/gsautter?tab=repositories&#34;&gt;GoldenGATE and related software&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/plazi/TaxPub&#34;&gt;TaxPub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/punkish/ocellus&#34;&gt;Ocellus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/punkish/zenodeo&#34;&gt;Zenodeo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/factsmission/synospecies&#34;&gt;Synospecies&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/plazi/synolib&#34;&gt;Synolib&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Repos on Plazi</title>
+		<link>https://plazi.org/tags/repos/</link>
+		<description>Recent content in Repos on Plazi</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 16 Oct 2022 10:33:46 +0200</lastBuildDate>
+		
+			<atom:link href="https://plazi.org/tags/repos/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Source Code</title>
+				<link>https://plazi.org/source-code/</link>
+				<pubDate>Sun, 13 Jun 2021 19:17:05 +0200</pubDate>
+				<guid>https://plazi.org/source-code/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/plazi/treatmentBank&#34;&gt;TreatmentBank&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/gsautter?tab=repositories&#34;&gt;GoldenGATE and related software&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/plazi/TaxPub&#34;&gt;TaxPub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/punkish/ocellus&#34;&gt;Ocellus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/punkish/zenodeo&#34;&gt;Zenodeo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/factsmission/synospecies&#34;&gt;Synospecies&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/plazi/synolib&#34;&gt;Synolib&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

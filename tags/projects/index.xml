@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Plazi</title>
-    <link>https://plazi.org/tags/projects/</link>
-    <description>Recent content in Projects on Plazi</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 07 Mar 2023 16:04:10 +0100</lastBuildDate>
-    <atom:link href="https://plazi.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ongoing and past projects</title>
-      <link>https://plazi.org/about/projects/</link>
-      <pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
-      <guid>https://plazi.org/about/projects/</guid>
-      <description>&lt;h2&gt;Current Projects&lt;/h2&gt;&#xA;&#xA;&lt;ul class=&#34;projects&#34;&gt;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;Arcadia 2022-2025&lt;/h3&gt;&#xA;        &lt;img src=&#34;arcadia/img/arcadia-logo.jpg&#34;&gt; &lt;p&gt;The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;BiCIKL (EU)&lt;/h3&gt;&#xA;        &lt;img src=&#34;bicikl/img/bicikl.png&#34;&gt; &lt;p&gt;Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). &lt;a href=&#34;https://bicikl-project.eu&#34;&gt;more&lt;/a&gt;&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;NIH-R21 Viral Spillover (NIH)&lt;/h3&gt;&#xA;        &lt;p&gt;The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk. &lt;a href=&#34;https://reporter.nih.gov/search/hyEtr1WcE0au6loZK0TnyA/project-details/10289637&#34;&gt;more&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Projects on Plazi</title>
+		<link>https://plazi.org/tags/projects/</link>
+		<description>Recent content in Projects on Plazi</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 07 Mar 2023 16:04:10 +0100</lastBuildDate>
+		
+			<atom:link href="https://plazi.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ongoing and past projects</title>
+				<link>https://plazi.org/about/projects/</link>
+				<pubDate>Mon, 01 Mar 2021 19:16:15 +0200</pubDate>
+				<guid>https://plazi.org/about/projects/</guid>
+				<description>&lt;h2&gt;Current Projects&lt;/h2&gt;&#xA;&#xA;&lt;ul class=&#34;projects&#34;&gt;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;Arcadia 2022-2025&lt;/h3&gt;&#xA;        &lt;img src=&#34;arcadia/img/arcadia-logo.jpg&#34;&gt; &lt;p&gt;The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;BiCIKL (EU)&lt;/h3&gt;&#xA;        &lt;img src=&#34;bicikl/img/bicikl.png&#34;&gt; &lt;p&gt;Biodiversity Community Integrated Knowledge Library (BiCIKL) is building the Biodiversity Knowledge Hub (BKH). &lt;a href=&#34;https://bicikl-project.eu&#34;&gt;more&lt;/a&gt;&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;NIH-R21 Viral Spillover (NIH)&lt;/h3&gt;&#xA;        &lt;p&gt;The goal of this proposed project is to harness the collective power of bioinformatics, artificial intelligence (AI), and ecology to transform our understanding of taxon-specific zoonotic risk. &lt;a href=&#34;https://reporter.nih.gov/search/hyEtr1WcE0au6loZK0TnyA/project-details/10289637&#34;&gt;more&lt;/a&gt;&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;eBioDiv (Swissuniversities)&lt;/h3&gt;&#xA;        &lt;img src=&#34;ebiodiv/img/ebiodiv.png&#34;&gt; &lt;p&gt;e-BiodDiv will provide a service for Swiss biodiversity scientists to access and disseminate their research data about species in legacy and prospective publications, and provide access to data about their collections, scientists and specimens. &lt;a href=&#34;https://ebiodiv.org&#34;&gt;more&lt;/a&gt;&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&#xA;    &lt;li class=&#34;project&#34;&gt;&#xA;        &lt;h3&gt;MétoTaxa (Fondation Nationale de Science Ouverte, France)&lt;/h3&gt;&#xA;        &lt;p&gt;Le projet déposé ici vise à mettre en relation les différents partenaires pour adapter la chaîne de production Métopes (partenaire 1) aux besoins spécifiques de la discipline taxonomique.&lt;/p&gt;&#xA;    &lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>
