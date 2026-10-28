@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Synospecies: the whole story behind a species name - Plazi</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Follow a name through its synonyms to the treatments, type specimens, figures and DNA sequences behind it.">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/img/favicon_io/favicon.ico">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin=""/>
+
+	<!-- the Leaflet js should be AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="/css/plazi_styles.css">
+	<link rel="stylesheet" href="/css/expanding-search.css">
+
+	
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		
+			<div class="logo__item logo__imagebox">
+					<a class="logo__link" href="/" title="Plazi" rel="home">
+						<img class="logo__img" src="/img/logo-main.png" alt="Plazi">
+					</a>
+				</div>
+		
+
+		
+		<div class="search-box">
+			<input id="searchInput" type="text" class="search-input" placeholder="search…">
+			
+			<a class="search-btn" href="#"></a>
+			<ul id="searchResults"></ul>
+		</div>
+	</div>
+		
+<!-- start: layouts/partials/menu.html -->
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+			<li class="menu__item">
+				<a class="menu__link" href="/treatmentbank/"><span class="menu__text">treatmentbank</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/blr/"><span class="menu__text">BLR</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/services/"><span class="menu__text">Services</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/how-to-participate/"><span class="menu__text">Participate</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/ocellus/"><span class="menu__text">Image Search</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/litsearch/"><span class="menu__text">Lit Search</span></a>
+			</li>
+			<li class="menu__item">
+				<a class="menu__link" href="/about/"><span class="menu__text">About</span></a>
+			</li>
+	</ul>
+</nav>
+<!-- end: layouts/partials/menu.html -->
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Synospecies: the whole story behind a species name</h1>
+            <div class="meta__item-datetime">
+                <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2026-10-27T17:45:04&#43;01:00">October 27, 2026</time>
+            </div>
+
+			
+		</header><div class="content post__content clearfix">
+				<p>Which names has a species carried, who changed them, and on what evidence? <a href="https://synospecies.plazi.org">Synospecies</a> answers this from the taxonomic literature itself. Its new version, now online, brings together every treatment Plazi has liberated from publications, the Catalogue of Life and the specimen data behind them, and shows the history of a name at a glance.</p>
+<p>Take a small black fungus gnat that is a pest in greenhouses and mushroom farms worldwide. Typing its original name, <em>Sciara hartii</em>, is all it takes.</p>
+
+
+<figure>
+    <img src="img/search.png" alt="Synospecies search form with the name Sciara hartii">
+    <figcaption><b>Search.</b> A name, current or historical, is the only input.</figcaption>
+</figure>
+
+<p>Synospecies finds 13 names and five treatments published between 2013 and 2023. Johannsen described the species in 1912 as <em>Sciara hartii</em>; today it is <em>Cosmosciara hartii</em>. On the way it was known as <em>Plastosciara perniciosa</em> and <em>Cosmosciara perniciosa</em>, among others, and in 2019 two species Hardy had described from Hawaiʻi in 1956, <em>Plastosciara latipons</em> and <em>P. brevicalcarata</em>, turned out to be the same animal. Names coined in 1912, 1922, 1956 and 1999 all refer to one cosmopolitan pest — knowledge that matters for biosecurity, and that is easy to miss when it is scattered across a century of literature.</p>
+<p>Every one of these synonymies comes with its evidence: the treatment that established it. Synospecies does not simply assert that two names are the same; it shows who said so, when and where.</p>
+
+
+<figure>
+    <img src="img/timeline.png" alt="Synospecies timeline for Cosmosciara hartii and its synonyms">
+    <figcaption><b>Timeline.</b> Each row is a name, each column a year. A treatment defines (+), augments (●) or deprecates (×) a name; dotted outlines mark original descriptions not yet available in Plazi. The first column shows the status in the Catalogue of Life.</figcaption>
+</figure>
+
+<p>From the name, Synospecies leads on to the original description, to the type specimens and to the data behind them. Opening a treatment shows its figures, deposited in the Biodiversity Literature Repository, and the material it cites, each specimen linked to its GBIF occurrence. The 2019 revision cites the holotypes of the Hawaiian names, kept in the Bishop Museum in Honolulu; the 2018 study of Australian pest species cites a specimen whose DNA barcode, a short standardised gene sequence, is deposited in GenBank (MG647953); the material citation now links to that sequence as well.</p>
+
+
+<figure>
+    <img src="img/treatment.png" alt="An expanded treatment in Synospecies with figures and cited material">
+    <figcaption><b>Treatment.</b> Broadley, Kauschke &amp; Mohrig (2018) with its figures and cited material, linked to TreatmentBank, GBIF and the RDF.</figcaption>
+</figure>
+
+<p>The Catalogue of Life completes the picture. Synospecies shows which names CoL accepts and adds the synonyms CoL knows of, even where no treatment has been liberated yet.</p>
+<p>The data stays current. A new or corrected treatment in TreatmentBank is converted to RDF shortly after and reaches the LINDAS and Plazi endpoints almost at once; the QLever endpoint picks it up with its nightly rebuild. New Catalogue of Life releases, published monthly, are detected automatically and added as they appear. Errors spotted by users are fed back to Plazi and are usually corrected within a day.</p>
+<p>All of this rests on open linked data. The treatments, the Catalogue of Life and the links between them are published as RDF on public SPARQL endpoints, among them LINDAS, the linked-data service of the Swiss Federal Administration. For questions beyond the name search, Synospecies offers a SPARQL mode: any query can be run directly against the endpoint chosen in its settings.</p>
+<p>On LINDAS, Plazi&rsquo;s treatments sit next to datasets from many federal offices, not only from the environment sector, and can be queried together. The example below joins them with the plant protection products register of the Federal Food Safety and Veterinary Office. For pests such as the spotted-wing drosophila <em>Drosophila suzukii</em> or the tomato leafminer <em>Tuta absoluta</em>, it returns the number of products authorised against them in Switzerland, the number of Plazi treatments describing them, and their entry in the Catalogue of Life — in under a second.</p>
+
+
+<figure>
+    <img src="img/sparql.png" alt="Synospecies SPARQL mode with a query joining Plazi treatments and the Swiss plant protection products register">
+    <figcaption><b>SPARQL mode.</b> One query across two federal datasets on LINDAS: Plazi's treatments and the FSVO register of plant protection products.</figcaption>
+</figure>
+
+<p>Try it with your favourite species at <a href="https://synospecies.plazi.org">synospecies.plazi.org</a>.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/news/" rel="tag">News</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="https://www.eurekalert.org/news-releases/952793">Supported in part by Arcadia (2018-2025)</a> | <a class="footer__link" href="/privacy/">Privacy</a> | <a class="footer__link" href="/disclaimer/">Legal Disclaimer</a>
+</div>
+		<div class="footer__copyright">
+			<span class="footer__copyright-credits">&copy; 2026 Plazi. Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 Public Domain Dedication</a></span>
+			
+		</div>
+	</div>
+</footer>
+	</div>
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/minisearch@6.0.1/dist/umd/index.min.js"></script>
+	<script src="/js/search-mini.js"></script>
+
+	<script async defer src="/js/menu.js"></script>
+
+	</body>
+</html>
